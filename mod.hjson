@@ -1,0 +1,8 @@
+name: "Cookmod"
+author: "arc"
+displayName: "cookmod"
+description: "cookmod"
+version: "2.0"
+minGameVersion: 145.1
+hidden: false
+
