@@ -13,7 +13,8 @@ recoil: 0.1
 squareSprites:false
 
 ammoTypes:{
- potato:{
+ //potato:{
+	cooper:{
   type:BasicBlletType
   damage:30
   speed:10
@@ -24,8 +25,9 @@ ammoTypes:{
 
   ammoMultiplier:1
   }
- callot:{
-  type:lihtningBullettype
+ //callot:{
+  lead:{
+	type:lihtningBullettype
   damage:50
   speed:17
   lifetime:15
