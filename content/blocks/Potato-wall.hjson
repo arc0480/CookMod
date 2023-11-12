@@ -5,9 +5,8 @@ type: "Wall",
 health: 4000,
 size: 2,
 requirements: [
-	{ "item": "Potato", "amount": 10 }
+	"item": "Potato/10
 ],
-
 category: "defense",
 buildVisibillity:"shown",
 alwaysUnlocked:true
