@@ -14,7 +14,7 @@ squareSprites:false
 
 ammoTypes:{
  //potato:{
-	cooper:{
+	titanium:{
   type:BasicBlletType
   damage:30
   speed:10
