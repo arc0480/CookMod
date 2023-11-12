@@ -1,4 +1,4 @@
-name": "VegetableCanon"
+name: "VegetableCanon"
 description: "It shoots vegitable,sach as potatos and carrots."
 type:"item tarret"
 category:"tarret"
@@ -42,7 +42,7 @@ requirements:[
 ]
 
 research:{
- perent;"salvo"
+ perent:salvo
  requirements:[
   //potato/20
   lead/15
