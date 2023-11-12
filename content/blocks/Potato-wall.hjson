@@ -4,7 +4,7 @@ type: Wall
 health: 4000
 size: 2
 requirements: [
-	"Potato/10"
+	copper/10
 ]
 category: defense
 buildVisibillity:shown
