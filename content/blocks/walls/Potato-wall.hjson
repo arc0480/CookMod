@@ -1,0 +1,11 @@
+name: Potato-wall
+description: "super Potato."
+type: Wall
+health: 4000
+size: 2
+requirements: [
+	copper/10
+]
+category: defense
+buildVisibillity:shown
+alwaysUnlocked:true
