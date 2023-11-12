@@ -1,6 +1,6 @@
 name: "VegetableCanon"
 description: "It shoots vegitable,sach as potatos and carrots."
-type: item turret
+type: ItemTurret
 category: turret
 size:2
 health:600
