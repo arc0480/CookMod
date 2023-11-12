@@ -1,0 +1,52 @@
+name": "VegetableCanon"
+description: "It shoots vegitable,sach as potatos and carrots."
+type:"item tarret"
+category:"tarret"
+size:2
+health:600
+
+reload:10
+range:80
+recoil:o.1
+
+squareSprites:false
+
+ammoTypes:{
+ potato:{
+  type:BasicBlletType
+  damage:30
+  speed:10
+  lifetime:20
+
+  width:5
+  height:10
+
+  ammoMultiplier:1
+  }
+ callot:{
+  type:lihtningBullettype
+  damage:50
+  speed:17
+  lifetime:15
+
+  wisth:9
+  height:20
+
+  ammoMultiplier:2
+ }
+}
+
+requirements:[
+{"copper/90"}
+{"lead/50"}
+]
+
+research:{
+ perent;"salvo"
+ requirements:[
+  {"potato/20"}
+  {"lead/15"}
+  {"copper/10"}
+ ]
+}
+buildVisibillity:"shown"
