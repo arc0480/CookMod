@@ -5,7 +5,7 @@ type: "Wall",
 health: 4000,
 size: 2,
 requirements: [
-	"item": "Potato/10
+	Potato/10
 ],
 category: "defense",
 buildVisibillity:"shown",
