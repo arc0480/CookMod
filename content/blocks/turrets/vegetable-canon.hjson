@@ -1,1 +1,11 @@
-
+name": "vegetable-canon"
+description: "super Potato."
+type:"tarret"
+health:600
+size:2
+requirements:
+{"item":"copper","amount": 90}
+{"itam":"lead","amount":50}
+category:"tarret"
+buildVisibillity:"shown"
+alwaysUnlocked":true
