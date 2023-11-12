@@ -37,16 +37,16 @@ ammoTypes:{
 }
 
 requirements:[
-{"copper/90"}
-{"lead/50"}
+	copper/90
+	lead/50
 ]
 
 research:{
  perent;"salvo"
  requirements:[
-  {"potato/20"}
-  {"lead/15"}
-  {"copper/10"}
+  //potato/20
+  lead/15
+  copper/10
  ]
 }
 buildVisibillity:"shown"
