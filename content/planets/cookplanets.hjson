@@ -1,5 +1,5 @@
 
-name: cookplanet
+name: cookplanets
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 400000
