@@ -10,22 +10,15 @@ shoot: {
 }
 inaccuracy: 25
 shootSound: fire
-ammoUseEffect: none
 ammoTypes: {
   sand: {
-    type: BulletType
-    ammoMultiplier: 1
-    speed: 8
-    pierce: true 
-    pierceBuilding: true 
-    lifetime: 20 
-    hittable: false
-    knockback: 1.2
-    status: allure-sandblasted
-    statusDuration: 10
-    collidesAir: false 
-    hitEffect: none
-    despawnEffect: none
+    type:BasicBlletType
+	  damage:30
+	  speed:10
+	  lifetime:20
+	  width:5
+	  height:10
+	  ammoMultiplier:1
   }
 }
 category: turret
