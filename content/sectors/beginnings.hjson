@@ -1,6 +1,6 @@
-sector: 0
-planet: "cookplanets"
-difficulty: 5
+sector: 0,
+planet: "cookplanets",
+difficulty: 5,
 overrideLaunchDefaults: true
 addStartingItems: true
 captureWave: 10
