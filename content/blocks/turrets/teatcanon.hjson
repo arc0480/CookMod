@@ -1,0 +1,35 @@
+type: ItemTurret
+size: 3
+targetAir: false 
+health: 1200
+range: 160
+reload: 5
+recoil: 0.5
+shoot: {
+  shots: 3
+}
+inaccuracy: 25
+shootSound: fire
+ammoUseEffect: none
+ammoTypes: {
+  sand: {
+    type: BulletType
+    ammoMultiplier: 1
+    speed: 8
+    pierce: true 
+    pierceBuilding: true 
+    lifetime: 20 
+    hittable: false
+    knockback: 1.2
+    status: allure-sandblasted
+    statusDuration: 10
+    collidesAir: false 
+    hitEffect: none
+    despawnEffect: none
+  }
+}
+category: turret
+research: twin 
+requirements: [
+  copper/125
+]
