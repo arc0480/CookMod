@@ -1,3 +1,4 @@
+name: testcanon
 type: ItemTurret
 size: 3
 targetAir: false 
