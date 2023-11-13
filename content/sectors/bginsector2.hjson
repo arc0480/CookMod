@@ -1,6 +1,6 @@
 name: bginsector2
 sector: 3
-planet: "cookplanets"
+planet: cookplanets
 difficulty: 5
 overrideLaunchDefaults: true
 addStartingItems: true
