@@ -1,7 +1,7 @@
 name: bginsector2
-sector: 3,
-planet: "cookplanets",
-difficulty: 5,
+sector: 3
+planet: "cookplanets"
+difficulty: 5
 overrideLaunchDefaults: true
 addStartingItems: true
 captureWave: 20
