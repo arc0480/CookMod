@@ -1,0 +1,8 @@
+name: bginsector2
+sector: 0
+planet: cookplanets
+difficulty: 5
+overrideLaunchDefaults: true
+addStartingItems: true
+captureWave: 20
+alwaysUnlocked: true
