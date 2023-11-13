@@ -44,12 +44,21 @@ requirements:[
 	lead/50
 ]
 
-research:{
- perent:salvo
- requirements:[
+//research:{
+// perent:salvo
+// requirements:[
   //potato/20
-  lead/15
+//  lead/15
+//  copper/10
+// ]
+//}
+
+reserch: salvo
+requirements: [
+  //potato/20
+	lead/15
   copper/10
- ]
-}
+]
+
+
 buildVisibillity:"shown"
