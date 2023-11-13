@@ -1,4 +1,4 @@
-sector: 5,
+sector: 3,
 planet: "cookplanets",
 difficulty: 5,
 overrideLaunchDefaults: true
