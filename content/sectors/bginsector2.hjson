@@ -1,5 +1,5 @@
 sector: 3,
-planet: "",
+planet: "cookplanets",
 difficulty: 5,
 overrideLaunchDefaults: true
 addStartingItems: true
