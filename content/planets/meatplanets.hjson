@@ -1,7 +1,7 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 400000
-orbitRadius: 35
+orbitRadius: 10
 hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0
