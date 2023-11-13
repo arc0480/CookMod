@@ -1,4 +1,4 @@
-name: "VegetableCanon"
+name: VegetableCanon
 description: "It shoots vegitable,sach as potatos and carrots."
 type: ItemTurret
 category: turret
@@ -56,4 +56,4 @@ requirements: [
 	lead/15
   copper/10
 ]
-buildVisibillity:"shown"
+buildVisibillity: shown
