@@ -12,7 +12,7 @@ shoot: {
 inaccuracy: 25
 shootSound: fire
 ammoTypes: {
-  seed: {
+  Seed: {
     type:BasicBlletType
 	  damage:30
 	  speed:10
