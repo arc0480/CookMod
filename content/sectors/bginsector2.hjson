@@ -3,5 +3,5 @@ planet: "cookplanets",
 difficulty: 5,
 overrideLaunchDefaults: true
 addStartingItems: true
-captureWave: 300
+captureWave:50
 alwaysUnlocked: true
