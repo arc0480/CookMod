@@ -53,12 +53,11 @@ requirements:[
 // ]
 //}
 
-reserch: salvo
+//reserch: salvo
+reserch: arc
 requirements: [
   //potato/20
 	lead/15
   copper/10
 ]
-
-
 buildVisibillity:"shown"
