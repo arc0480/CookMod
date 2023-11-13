@@ -1,0 +1,7 @@
+sector: 3,
+planet: "",
+difficulty: 5,
+overrideLaunchDefaults: true
+addStartingItems: true
+captureWave: 999
+alwaysUnlocked: true
