@@ -13,8 +13,8 @@ recoil: 0.1
 squareSprites:false
 
 ammoTypes:{
- //potato:{
-	titanium:{
+	potato:{
+	//titanium:{
 	  type:BasicBlletType
 	  damage:30
 	  speed:10
@@ -52,7 +52,7 @@ requirements:[
 //reserch: salvo
 reserch: arc
 requirements: [
-  //potato/20
+  potato/20
 	lead/15
 	copper/10
 ]
