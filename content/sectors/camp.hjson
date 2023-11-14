@@ -1,4 +1,4 @@
-name: "camp"
+name: "camp",
 sector: 1,
 planet: "cookplanets",
 difficulty: 5,
