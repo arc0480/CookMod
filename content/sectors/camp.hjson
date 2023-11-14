@@ -1,1 +1,8 @@
-//
+sector: 1,
+planet: "cookplanets",
+difficulty: 5,
+overrideLaunchDefaults: true
+addStartingItems: true
+captureWave: 10
+alwaysUnlocked: true
+ 
