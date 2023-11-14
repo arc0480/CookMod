@@ -52,7 +52,7 @@ requirements:[
 //reserch: salvo
 reserch: arc
 requirements: [
-  potato/20
+	Potato/20
 	lead/15
 	copper/10
 ]
