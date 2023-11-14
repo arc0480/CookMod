@@ -13,7 +13,7 @@ recoil: 0.1
 squareSprites:false
 
 ammoTypes:{
-	potato:{
+	Potato:{
 	//titanium:{
 	  type:BasicBlletType
 	  damage:30
