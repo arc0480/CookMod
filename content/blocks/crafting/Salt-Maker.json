@@ -12,12 +12,13 @@
 	craftTime: 60
 	updateEffect: smeltsmoke
 	consumes: {
-		power: 0.7
-		liquid: [ 
+	 power: 0.7
+	 liquid: 
+		[ 
 			{
-			"liquid": "water",
-			"amount": 1.0
-		}
+				"liquid": "water",
+				"amount": 1.0
+			}
 		]
 	}
 	requirements: [
@@ -25,8 +26,7 @@
 		titanium/80 
 		silicon/50 
 		copper/80 
-	
 	]
-	category": crafting
-	research": "Salt-Maker
+	category: crafting
+	research: "Salt-Maker
 	alwaysUnlocked:true
