@@ -1,31 +1,32 @@
 
-	type: "GenericSmelter"
-	name: "Salt Maker" 
-	description: "Making a Salt."
-	liquidCapacity: 50
-	outputItems: [ 
-		Salt/1 
-	]
-	size: 3
-	hasPower: true
-	hasLiquids: true
-	craftTime: 60
-	updateEffect: smeltsmoke
-	consumes: 
-	{
-		power: 0.7
-	 liquid: 
-		{
-			liquid: water
-			amount: 0.1
-		}
-	}
-	requirements: [
-		lead/30 
-		titanium/80 
-		silicon/50 
-		copper/80 
-	]
-	category: crafting
-	research: Salt-Maker
-	alwaysUnlocked:true
+type: GenericSmelter
+name: Salt Maker
+description: Making a Salt.
+liquidCapacity: 50
+outputItems: 
+[ 
+	Salt/1 
+]
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: 
+{
+power: 0.7
+liquid: 
+{
+liquid: water
+amount: 0.1
+}
+}
+requirements: [
+lead/30 
+titanium/80 
+silicon/50 
+copper/80 
+]
+category: crafting
+research: Salt-Maker
+alwaysUnlocked: true
