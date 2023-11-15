@@ -11,7 +11,7 @@ liquidCapacity: 50
 
 hasPower: true
 hasLiquids: true
-
+hasItems: true
 //搬入
 consumes: {
 	power: 0.7,
