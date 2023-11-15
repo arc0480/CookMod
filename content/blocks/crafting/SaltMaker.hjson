@@ -22,10 +22,10 @@ consumes: {
 }
 
 //搬出
-	outputItems: {
-		item: Seed
+outputItem: {
+		item: lead
 		amount: 1
-	}
+}
 
 //建築コスト
 requirements: [
