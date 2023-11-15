@@ -15,12 +15,10 @@
 	{
 		power: 0.7
 	 liquid: 
-		[ 
-			{
-				"liquid": "water",
-				"amount": 1.0
-			}
-		]
+		{
+			liquid: water
+			amount: 0.1
+		}
 	}
 	requirements: [
 		lead/30 
