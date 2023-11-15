@@ -23,7 +23,7 @@ consumes: {
 
 //搬出
 outputItems: [
-	lead/30
+	Salt/30
 ]
 //建築コスト
 requirements: [
