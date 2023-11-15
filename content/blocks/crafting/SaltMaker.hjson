@@ -19,7 +19,7 @@ consumes: {
 	}
 }
 //搬出
-outputItem: Salt/1
+outputItems: Salt/1
 //建築コスト
 requirements: [
 	lead/30 
