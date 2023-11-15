@@ -1,7 +1,9 @@
 //基準となる工場
 type: GenericSmelter
+
 //名前
 name: SaltMaker
+
 //サイズ
 size: 2
 description: Making a Salt
@@ -18,8 +20,10 @@ consumes: {
 		amount: 0.1
 	}
 }
+
 //搬出
-outputItem: "Salt/1"
+outputItems: "Salt/1"
+
 //建築コスト
 requirements: [
 	lead/30 
@@ -31,5 +35,6 @@ requirements: [
 
 //カテゴリ：工場類
 category: crafting
+
 //常にアンロック
 alwaysUnlocked: true
