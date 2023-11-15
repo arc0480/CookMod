@@ -21,6 +21,8 @@ sectorSize: 1
 clearSectorOnLose: true
 allowSectorInvasion: true
 allowLaunchToNumbered: true
+
+prebuildBase: true
 	
 cloudMesh: {
     type: HexSkyMesh
