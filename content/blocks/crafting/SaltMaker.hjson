@@ -22,7 +22,7 @@ consumes: {
 }
 
 //搬出
-outputItem: “lead/30”
+outputItems: “lead/30”
 
 //建築コスト
 requirements: [
