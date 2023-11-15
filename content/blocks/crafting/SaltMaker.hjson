@@ -1,5 +1,5 @@
 //基準となる工場
-type: GenericSmelter
+type: GenericCrafter
 
 //名前
 name: SaltMaker
