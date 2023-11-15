@@ -11,6 +11,8 @@ atmosphereRadOut: 0.3
 atmosphereColor: 96514d
 drawOrbit: true
 
+onlyDepositCore: false
+
 accessible: true
 alwaysUnlocked: true
 
