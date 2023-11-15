@@ -18,14 +18,13 @@
 			"amount": 1.0
 		}
 		]
-	},
-	"requirements": [
-		{
+	}
+	requirements: [
 		lead/30 
 		titanium/80 
 		silicon/50 
 		copper/80 
-	}
+	
 	]
 	category": crafting
 	research": "Salt-Maker
