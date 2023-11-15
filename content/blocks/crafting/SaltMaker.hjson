@@ -2,8 +2,8 @@ type: GenericSmelter
 name: Salt Maker
 description: Making a Salt
 liquidCapacity: 50
-outputItem: "Salt/1"
-size: 3
+outputItem: Salt/1
+size: 2
 hasPower: true
 hasLiquids: true
 craftTime: 60
