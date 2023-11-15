@@ -1,7 +1,6 @@
-
 type: GenericSmelter
 name: Salt Maker
-description: Making a Salt.
+description: Making a Salt
 liquidCapacity: 50
 outputItems: 
 [ 
@@ -14,18 +13,19 @@ craftTime: 60
 updateEffect: smeltsmoke
 consumes: 
 {
-power: 0.7
-liquid: 
-{
-liquid: water
-amount: 0.1
+	power: 0.7
+	liquid: 
+	{
+		liquid: water
+		amount: 0.1
+	}
 }
-}
-requirements: [
-lead/30 
-titanium/80 
-silicon/50 
-copper/80 
+requirements: 
+[
+	lead/30 
+	titanium/80 
+	silicon/50 
+	copper/80 
 ]
 category: crafting
 research: Salt-Maker
