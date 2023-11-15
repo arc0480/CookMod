@@ -1,13 +1,12 @@
+//基準となる工場
 type: GenericSmelter
+//名前
 name: Salt Maker
+//サイズ
+size: 2
 description: Making a Salt
 liquidCapacity: 50
-outputItem: Salt/1
-size: 2
-hasPower: true
-hasLiquids: true
-craftTime: 60
-updateEffect: smeltsmoke
+//搬入
 consumes: {
 	power: 0.7
 	liquid: {
@@ -15,11 +14,6 @@ consumes: {
 		amount: 0.1
 	}
 }
-requirements: [
-	lead/30 
-	titanium/80 
-	silicon/50 
-	copper/80 
-]
-category: crafting
-alwaysUnlocked: true
+
+//搬出
+outputItem: Salt/1
