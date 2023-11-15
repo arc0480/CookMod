@@ -11,7 +11,7 @@ atmosphereRadOut: 0.3
 atmosphereColor: 96514d
 drawOrbit: true
 
-accessible: false
+accessible: true
 alwaysUnlocked: true
 
 sectorSeed: 0
