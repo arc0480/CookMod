@@ -14,6 +14,14 @@ consumes: {
 		amount: 0.1
 	}
 }
+//建築コスト
+requirements: [
+	lead/30 
+	titanium/80 
+	silicon/50 
+	copper/80 
+]
+
 //搬出
 outputItem: Salt/1
 //カテゴリ：工場類
