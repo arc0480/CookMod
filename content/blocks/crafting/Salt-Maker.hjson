@@ -3,7 +3,7 @@
 	name: "Salt Maker" 
 	description: "Making a Salt."
 	liquidCapacity: 50
-	outputItem: [ 
+	outputItems: [ 
 		Salt/1 
 	]
 	size: 3
