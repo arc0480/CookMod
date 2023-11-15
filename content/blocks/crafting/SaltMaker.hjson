@@ -1,7 +1,7 @@
 //基準となる工場
 type: GenericSmelter
 //名前
-name: Salt Maker
+name: SaltMaker
 //サイズ
 size: 2
 description: Making a Salt
