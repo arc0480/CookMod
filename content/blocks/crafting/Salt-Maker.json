@@ -12,8 +12,9 @@
 	craftTime: 60
 	updateEffect: smeltsmoke
 	consumes: {
-		power: 0.7,
-		liquid: [ {
+		power: 0.7
+		liquid: [ 
+			{
 			"liquid": "water",
 			"amount": 1.0
 		}
