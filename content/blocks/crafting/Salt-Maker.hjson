@@ -13,7 +13,7 @@
 	updateEffect: smeltsmoke
 	consumes: 
 	{
-		power: 0.7,
+		power: 0.7
 	 liquid: 
 		[ 
 			{
