@@ -11,8 +11,8 @@ updateEffect: smeltsmoke
 consumes: {
 	power: 0.7
 	liquid: {
-	 liquid: water
-	 amount: 0.1
+		liquid: water
+		amount: 0.1
 	}
 }
 requirements: [
