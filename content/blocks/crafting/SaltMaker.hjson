@@ -6,6 +6,10 @@ name: SaltMaker
 size: 2
 description: Making a Salt
 liquidCapacity: 50
+
+hasPower: true
+hasLiquids: true
+
 //搬入
 consumes: {
 	power: 0.7
