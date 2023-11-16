@@ -8,7 +8,7 @@ name: SaltMaker
 size: 2
 description: Making a Salt
 liquidCapacity: 50
-ItemCapacity: 50
+itemCapacity: 50
 
 hasPower: true
 hasLiquids: true
