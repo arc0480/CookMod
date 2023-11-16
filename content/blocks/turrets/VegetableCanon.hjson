@@ -22,7 +22,7 @@ ammoTypes:{
 	  height:10
 	  ammoMultiplier:1
   }
-	carrot:{
+	Carrot: {
           type:lihtningBullettype
 	  damage:60
 	  speed:17
