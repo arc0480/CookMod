@@ -55,4 +55,4 @@ requirements: [
 	copper/10
 ]
 buildVisibillity: shown
-alwaysUnlocked:false
+alwaysUnlocked:true
