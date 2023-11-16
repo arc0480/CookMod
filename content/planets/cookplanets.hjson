@@ -1,7 +1,7 @@
 
 #name: cookplanets
 generator: SerpuloPlanetGenerator
-parent: sun
+parent: Serpulo
 iconColor: 400000
 orbitRadius: 35
 hasAtmosphere: true
