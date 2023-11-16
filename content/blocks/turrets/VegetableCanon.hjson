@@ -7,8 +7,8 @@ health:600
 
 reload:10
 range:80
-//recoil:o.1
 recoil: 0.1
+inaccuracy:15
 
 squareSprites:false
 
