@@ -22,13 +22,12 @@ ammoTypes:{
 	  height:10
 	  ammoMultiplier:1
   }
-	//carrot:{
-  lead:{
+	carrot:{
           type:lihtningBullettype
-	  damage:50
+	  damage:60
 	  speed:17
 	  lifetime:15
-	  wisth:9
+	  width:10
 	  height:20
 	  ammoMultiplier:2
 	 }
