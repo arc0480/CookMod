@@ -10,14 +10,14 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 60,
+	"craftTime": 5,
 	"updateEffect": "smeltsmoke",
 
 	"consumes": {
 		"items": {
 			"items": [{
 				"item": "Seed",
-				"amount": 10
+				"amount": 2
 			}]
 		}
 	},
