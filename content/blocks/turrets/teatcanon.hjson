@@ -9,7 +9,7 @@ recoil: 0.5
 shoot: {
   shots: 3
 }
-//inaccuracy=精度(不正確さ)
+//inaccuracy=精度(不正確さ)角度｢°｣表記です
 inaccuracy: 25
 shootSound: fire
 ammoTypes: {
