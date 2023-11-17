@@ -5,8 +5,8 @@ category: turret
 size:2
 health:600
 
-reload:10
-range:110
+reload:8
+range:280
 recoil: 0.1
 inaccuracy:15
 
@@ -38,16 +38,13 @@ requirements:[
 	lead/50
 ]
 
-//research:{
-// perent:salvo
+//reserch:salvo
 // requirements:[
 //potato/20
 //  lead/15
 //  copper/10
 // ]
-//}
 
-//reserch: salvo
 reserch: arc
 requirements: [
 	Potato/20
