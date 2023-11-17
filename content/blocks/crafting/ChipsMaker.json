@@ -1,6 +1,6 @@
 {
 	"type": "GenericCrafter",
-	"name": "Chips-Maker",
+	"name": "ChipsMaker",
 	"description": "Making a Seed of potateChips.",
 	"itemCapacity": 50,
 	"outputItem": {
