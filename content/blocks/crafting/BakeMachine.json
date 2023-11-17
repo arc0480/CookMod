@@ -3,10 +3,10 @@
 	"name": "Bake-Machine",
 	"description": "Making a Seed of potate.",
 	"itemCapacity": 50,
-	"outputItem": {
+	"outputItem": [{
 		"item": “PotatoChips",
 		"amount": 1
-	},
+	]},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
