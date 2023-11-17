@@ -1,0 +1,22 @@
+name: HyperBallista
+type: Itemturret
+size: 7
+targetAir: true
+targetGround: true
+health: 2500
+range: 1240
+reload: 1800
+recoil: 1.0
+shoot: 1
+
+inaccuracy: 0
+ammoTypes:{ 
+  GoldCarrot:{ 
+    type: LigtningBulletType
+    damage: 1500
+    speed: 10
+    lifetime: 1240
+    width: 10
+    height:100
+    ammountPlier: 0.1
+    
