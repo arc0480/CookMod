@@ -4,7 +4,7 @@
 	"description": "Making a Seed of potate.",
 	"itemCapacity": 50,
 	"outputItem": {
-		"item": "Sweet-Potato",
+		"item": “PotatoChips",
 		"amount": 1
 	},
 	"size": 2,
