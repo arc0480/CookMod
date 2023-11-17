@@ -16,7 +16,12 @@ ammoTypes:{
     damage: 1500
     speed: 10
     lifetime: 1240
-    width: 10
+    width: 70
     height:100
     ammountPlier: 0.1
-    
+    pierce: true
+    pierceBuilding: true
+    pierceDamageFactor: 0.1
+//pierce=ユニットを貫通するかどうか
+//pierceBuilding=ブロックを貫通するかどうか
+//pierceDamageFactor=貫通時のダメージ減衰
