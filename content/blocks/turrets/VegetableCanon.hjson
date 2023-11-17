@@ -17,7 +17,7 @@ ammoTypes:{
 	  type:BasicBlletType
 	  damage:30
 	  speed:10
-	  lifetime:20
+	  lifetime:25
 	  width:7
 	  height:10
 	  ammoMultiplier:1
@@ -26,7 +26,7 @@ ammoTypes:{
           type:lihtningBullettype
 	  damage:60
 	  speed:17
-	  lifetime:15
+	  lifetime:18
 	  width:10
 	  height:20
 	  ammoMultiplier:2
