@@ -6,7 +6,7 @@
 	"outputItem": [{
 		"item": “PotatoChips",
 		"amount": 1
-	]},
+	}],
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
