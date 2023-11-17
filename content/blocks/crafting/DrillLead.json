@@ -1,0 +1,14 @@
+{
+	"name": "Drill-Lead",
+	"description": "A very strange drill.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 2,
+	"drillTime": 450,
+	"requirements": [
+		{ "item": "lead", "amount":100 }
+	],
+	"category": "production",
+	"research": "laser-drill",
+	"alwaysUnlocked":true
+}
