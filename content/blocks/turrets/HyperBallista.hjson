@@ -8,6 +8,9 @@ range: 1240
 reload: 1800
 recoil: 1.0
 shoot: 1
+powerUse: 800
+liquidUse: 60
+ammoUse: 10
 
 inaccuracy: 0
 ammoTypes:{ 
@@ -22,8 +25,9 @@ ammoTypes:{
     pierce: true
     pierceBuilding: true
     pierceDamageFactor: 0.1
-	}
+    }
 }
-//pierce=ユニットを貫通するかどうか
-//pierceBuilding=ブロックを貫通するかどうか
-//pierceDamageFactor=貫通時のダメージ減衰
+
+  itemCapacity: 1000
+  liequidCapacity: 200
+  
