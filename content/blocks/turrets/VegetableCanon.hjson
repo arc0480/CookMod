@@ -30,6 +30,7 @@ ammoTypes:{
 	  damage:60
 	  speed:12
 	  lifetime:23
+          shots: 4
 	  width:10
 	  height:20
 	  ammoMultiplier:2
