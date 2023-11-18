@@ -26,11 +26,11 @@ ammoTypes:{
           fragOnHit: true
           fragBallets: 10
           fragSpread: 4.5
-          fragAngle: 45
+          fragAngle: 5
             fragBullet: {
               bulletType: basicBUlletType
               speed: 5
-              lifeTyme: 2
+              lifeTyme: 0.5
               damage: 5
             }
   }
