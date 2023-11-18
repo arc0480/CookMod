@@ -1,5 +1,3 @@
-'''
-惑星の追加
-'''
+
 generator: SerpuloPlanetGenerator
 parent: serpulo
