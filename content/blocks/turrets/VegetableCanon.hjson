@@ -9,6 +9,9 @@ reload:8
 range:280
 recoil: 0.1
 inaccuracy:10
+shoot: {
+  shot: 2
+}
 
 squareSprites:false
 
