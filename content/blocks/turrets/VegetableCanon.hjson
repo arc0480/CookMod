@@ -9,9 +9,6 @@ reload:8
 range:280
 recoil: 0.1
 inaccuracy:10
-shoot: {
-  shots: 2
-}
 
 squareSprites:false
 
@@ -21,6 +18,9 @@ ammoTypes:{
 	  damage:30
 	  speed:10
 	  lifetime:28
+          shoot: {
+            shots: 2
+          }
 	  width:7
 	  height:10
 	  ammoMultiplier:1
@@ -30,7 +30,9 @@ ammoTypes:{
 	  damage:60
 	  speed:12
 	  lifetime:23
-          shots: 4
+          shoot: {
+            shots: 1
+          }
 	  width:10
 	  height:20
 	  ammoMultiplier:2
