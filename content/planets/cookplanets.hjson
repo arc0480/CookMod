@@ -2,6 +2,9 @@
 #name: cookplanets
 generator: SerpuloPlanetGenerator
 parent: serpulo
+
+allowSectorInvasion: true
+
 iconColor: 400000
 orbitRadius: 35
 hasAtmosphere: true
@@ -12,7 +15,7 @@ atmosphereColor: 96514d
 drawOrbit: true
 
 //指定された手続き部門への着陸を許可するかどうか
-allowLanding: true
+//allowLanding: true
 
 onlyDepositCore: false
 
@@ -24,7 +27,7 @@ startSector: 3
 sectorSize: 1
 
 clearSectorOnLose: true
-allowSectorInvasion: true
+
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 
