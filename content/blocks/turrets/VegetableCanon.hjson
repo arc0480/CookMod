@@ -14,7 +14,7 @@ squareSprites:false
 
 ammoTypes:{
 	Potato:{
-	  type:BasicBlletType
+	  type:FragBllet
             fragBallets: 10
             fragRandomSpread: 80
             fragVerocity: 1
