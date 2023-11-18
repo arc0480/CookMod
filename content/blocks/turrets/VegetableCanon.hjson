@@ -15,27 +15,28 @@ squareSprites:false
 ammoTypes:{
 	Potato:{
 	  type:BasicBlletType
+            fragBallets: 10
+            fragRandomSpread: 80
+            fragVerocity: 1
+            fragLife: 100
+          rerloadMutiplier: 5.0
 	  damage:30
 	  speed:10
 	  lifetime:28
-          shoot: {
-            shots: 2
-          }
 	  width:7
+          absorbable: false
 	  height:10
-	  ammoMultiplier:1
+	  ammoMultiplier:2
   }
 	Carrot: {
           type:lihtningBullettype
 	  damage:60
 	  speed:12
 	  lifetime:23
-          shoot: {
-            shots: 1
-          }
 	  width:10
+          absorbable: false
 	  height:20
-	  ammoMultiplier:2
+	  ammoMultiplier:1
 	 }
 }
 
