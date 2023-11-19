@@ -1,0 +1,31 @@
+
+	type: GenericCrafter
+	name: transmutation
+	description: きんのにんじんさいこう！！！
+	itemCapacity: 50
+	outputItems:GoldCarrot/1
+	size: 2
+	hasPower: true
+	hasItems: true
+	craftTime: 120
+	updateEffect: smeltsmoke
+
+consumes: {
+  power: 105
+  items: {
+    items: [
+      carrot/1
+      surge-alloy/5
+    ]
+  }
+}
+requirements: [
+copper/2300
+silicon/275
+metaglass/750
+]
+
+	category: crafting,
+	research: Salt-Maker,
+	alwaysUnlocked: true
+}
