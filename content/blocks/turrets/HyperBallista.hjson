@@ -15,7 +15,7 @@ shoot: 1
 powerUse: 1600
 liquidUse: 100
 ammoUse: 10
-itemCapacity: 1000
+itemCapacity: 100
 liequidCapacity: 200
 
 squareSprites: fales
