@@ -34,5 +34,5 @@ ammoType:{
     }
 }
 requirements: [
-  seed/1
+  Seed/1
 ]
