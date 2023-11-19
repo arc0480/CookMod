@@ -5,26 +5,28 @@ targetAir: true
 targetGround: true
 health: 2500
 range: 1240
-reload: 1800
+reloadTime: 1800
+coolDown: 3600
 recoil: 1.0
 shoot: 1
-powerUse: 800
-liquidUse: 60
+powerUse: 1600
+liquidUse: 100
 ammoUse: 10
 
 inaccuracy: 0
 ammoTypes:{ 
-  GoldCarrot:{ 
+  goldCarrot:{ 
     type: LigtningBulletType
     damage: 1500
     speed: 10
     lifetime: 1240
-    width: 70
-    height:100
+    hitSize: 28
+    drawSize: 280.0
+    height: 100
+    
     ammountPlier: 0.1
     pierce: true
     pierceBuilding: true
-    pierceDamageFactor: 0.1
     }
 }
 
