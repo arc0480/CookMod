@@ -4,6 +4,7 @@ generator: SerpuloPlanetGenerator
 parent: serpulo
 
 allowSectorInvasion: true
+//他セクターへ同時侵攻の設定
 allowWaveSimulation: true
 iconColor: 400000
 orbitRadius: 35
