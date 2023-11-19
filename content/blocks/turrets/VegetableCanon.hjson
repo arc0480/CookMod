@@ -24,11 +24,11 @@ ammoTypes:{
 	  height: 10
 	  ammoMultiplier: 2
           fragOnHit: true
-          fragBallets: 10
+          fragBullets: 10
           fragSpread: 4.5
           fragAngle: 5
             fragBullet: {
-              bulletType: basicBUlletType
+              bulletType: BasicBulletType
               speed: 5
               lifeTyme: 0.5
               damage: 5
