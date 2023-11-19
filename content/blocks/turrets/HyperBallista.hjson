@@ -1,38 +1,42 @@
 name: HyperBallista
 description: "りぃさるぅえぽん"
-type: itemturret
+type: ItemTurret
 category: turret
 size: 4
 targetAir: true
 targetGround: true
 health: 2500
+
 range: 80
 reload: 1800
 //coolDown: 360
 recoil: 1.0
-shoot: 1
-//powerUse: 1600
+//shoot: 1
+powerUse: 1600
 liquidUse: 100
-ammoUse: 10
-itemCapacity: 1000
+//ammoUse: 10
+//itemCapacity: 1000
 liequidCapacity: 200
 
+squareSprites: fales
+
 inaccuracy: 0.0
-ammoType:{ 
+ammoTypes:{ 
   goldCarrot:{ 
-    type: LigtningBulletType
+    type: ligtningBulletType
     damage: 1500
     speed: 10
     lifetime: 1240
     width: 5
-    hitSize: 28
-    drawSize: 280.0
+    //hitSize: 28
+    //drawSize: 280.0
     height: 100
-    ammountPlier: 0.1
+    //ammountPlier: 0.1
     pierce: true
     pierceBuilding: true
     }
 }
+
 requirements: [
   Seed/1
 ]
