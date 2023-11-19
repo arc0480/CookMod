@@ -4,7 +4,7 @@ generator: SerpuloPlanetGenerator
 parent: serpulo
 
 allowSectorInvasion: true
-
+allowWaveSimulation: true
 iconColor: 400000
 orbitRadius: 35
 hasAtmosphere: true
