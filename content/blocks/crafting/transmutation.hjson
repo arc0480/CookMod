@@ -14,7 +14,7 @@ consumes: {
 	power: 105
 	items: {
 		items: [
-			carrot/1
+			Carrot/1
 			surge-alloy/5
 		]
 }
