@@ -26,7 +26,7 @@ ammoTypes:{
     type: ligtningBulletType
     damage: 12018
     speed: 10
-    lifetime: 120
+    lifetime: 500
     width: 5
     hitSize: 28
     drawSize: 280.0
