@@ -12,6 +12,9 @@ shoot: 1
 powerUse: 1600
 liquidUse: 100
 ammoUse: 10
+itemCapacity: 1000
+liequidCapacity: 200
+
 
 inaccuracy: 0
 ammoTypes:{ 
@@ -29,7 +32,3 @@ ammoTypes:{
     pierceBuilding: true
     }
 }
-
-  itemCapacity: 1000
-  liequidCapacity: 200
-  
