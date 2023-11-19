@@ -33,6 +33,6 @@ ammoType:{
     pierceBuilding: true
     }
 }
-requirements: {
+requirements: [
   seed/1
-}
+]
