@@ -2,7 +2,7 @@ name: HyperBallista
 description: "りぃさるぅえぽん"
 type: Itemturret
 category: turret
-size: 7
+size: 4
 targetAir: true
 targetGround: true
 health: 2500
@@ -24,12 +24,12 @@ ammoType:{
     damage: 1500
     speed: 10
     lifetime: 1240
-    hitSize: 28
-    drawSize: 280.0
+    width: 5
+    //hitSize: 28
+    //drawSize: 280.0
     height: 100
-    ammountPlier: 0.1
-    pierce: true
-    pierceBuilding: true
-    
+    //ammountPlier: 0.1
+    //pierce: true
+    //pierceBuilding: true
     }
 }
