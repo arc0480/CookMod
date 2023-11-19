@@ -1,6 +1,7 @@
 name: HyperBallista
-description: ”りぃさるぅえぽん”
+description: "りぃさるぅえぽん"
 type: Itemturret
+category: turret
 size: 7
 targetAir: true
 targetGround: true
@@ -17,7 +18,7 @@ itemCapacity: 1000
 liequidCapacity: 200
 
 inaccuracy: 0.0
-ammoTypes:{ 
+ammoType:{ 
   goldCarrot:{ 
     type: LigtningBulletType
     damage: 1500
@@ -26,9 +27,9 @@ ammoTypes:{
     hitSize: 28
     drawSize: 280.0
     height: 100
-    
     ammountPlier: 0.1
     pierce: true
     pierceBuilding: true
+    
     }
 }
