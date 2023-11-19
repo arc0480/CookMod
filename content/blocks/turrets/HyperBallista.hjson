@@ -38,6 +38,12 @@ ammoTypes:{
 }
 
 requirements: [
-  Seed/1
+Seed/1
+/*Surge-alloy/
+  Plastsnium/
+  Titanium/
+  Copper/
+  Silicon/
+*/
 ]
 BuildVisibillity: shown
