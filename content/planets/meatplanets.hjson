@@ -19,7 +19,10 @@ sectorSize: 1
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-	
+
+//他セクターへ同時侵攻の設定
+allowWaveSimulation: true
+
 cloudMesh: {
     type: HexSkyMesh
     planet: AsPlanet
