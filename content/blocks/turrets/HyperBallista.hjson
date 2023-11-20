@@ -21,7 +21,7 @@ squareSprites: fales
 
 inaccuracy: 0.0
 ammoTypes:[
-  Blast-compound:{
+//Blast-compound:{
   GoldCarrot:{ 
     type: ligtningBulletType
     damage: 12018
