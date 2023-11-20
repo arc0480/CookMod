@@ -28,11 +28,11 @@ ammoTypes:{
     type: ligtningBulletType
     damage: 12018
     speed: 8
-    lifetime: 120
-    width: 50
-    hitSize: 100
-    drawSize: 1000.0
-    height: 500
+    lifetime: 250
+    width: 30
+    hitSize: 50
+    drawSize: 500.0
+    height: 100
     ammoUse: 10
     ammoMultiplier: 1
     pierce: true
