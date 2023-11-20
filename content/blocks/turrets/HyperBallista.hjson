@@ -10,7 +10,7 @@ health: 2500
 range: 1080
 reload: 1800
 coolDown: 360
-recoil: 1.0
+recoil: 10
 shoot: 1
 ammoUse: 10
 powerUse: 1600
@@ -20,7 +20,8 @@ maxAmmo: 100
 squareSprites: fales
 
 inaccuracy: 0.0
-ammoTypes:{ 
+ammoTypes:[
+  Blast-compound:{
   GoldCarrot:{ 
     type: ligtningBulletType
     damage: 12018
@@ -34,7 +35,8 @@ ammoTypes:{
     pierce: true
     pierceBuilding: true
     }
-}
+    }
+]
 
 requirements: [
 Seed/1
