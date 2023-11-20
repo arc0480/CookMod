@@ -40,7 +40,7 @@ ammoTypes:{
     makeFire: true
     lightning: 5
     lightningRengh: 5
-    lightningDamage: -50
+    lightningDamage: -500
     }
 }
 
