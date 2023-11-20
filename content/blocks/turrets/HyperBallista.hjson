@@ -28,8 +28,8 @@ ammoTypes:{
     speed: 10
     lifetime: 500
     width: 5
-    hitSize: 28
-    drawSize: 280.0
+    hitSize: 50
+    drawSize: 500.0
     height: 100
     ammountPlier: 0.1
     pierce: true
