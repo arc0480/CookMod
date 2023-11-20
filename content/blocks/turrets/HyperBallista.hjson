@@ -12,6 +12,7 @@ reload: 1800
 coolDown: 360
 recoil: 1.0
 shoot: 1
+ammoUse: 10
 powerUse: 1600
 liquidUse: 100
 itemCapacity: 100
@@ -30,7 +31,7 @@ ammoTypes:{
     hitSize: 50
     drawSize: 500.0
     height: 100
-    ammoMultiPlier: 0.1
+    ammoMultiPlier: 1
     pierce: true
     pierceBuilding: true
     }
