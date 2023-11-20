@@ -14,7 +14,6 @@ recoil: 1.0
 shoot: 1
 powerUse: 1600
 liquidUse: 100
-ammoUse: 10
 itemCapacity: 100
 liequidCapacity: 200
 
@@ -31,7 +30,7 @@ ammoTypes:{
     hitSize: 50
     drawSize: 500.0
     height: 100
-    multiPlier: 0.1
+    multiPlier: 1
     pierce: true
     pierceBuilding: true
     }
