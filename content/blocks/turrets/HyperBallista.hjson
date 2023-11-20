@@ -6,6 +6,7 @@ size: 7
 targetAir: true
 targetGround: true
 health: 2500
+buildTime: 3600
 
 range: 1080
 reload: 1800
@@ -13,8 +14,10 @@ coolDown: 360
 recoil: 10
 shoot: 1
 powerUse: 1600
+
 liquidUse: 100
-maxAmmo: 100
+liquidCapacity: 1000
+itemCapacity: 100
 
 squareSprites: fales
 
@@ -24,12 +27,12 @@ ammoTypes:{
   GoldCarrot:{ 
     type: ligtningBulletType
     damage: 12018
-    speed: 10
-    lifetime: 500
-    width: 20
-    hitSize: 50
-    drawSize: 500.0
-    height: 100
+    speed: 8
+    lifetime: 120
+    width: 50
+    hitSize: 100
+    drawSize: 1000.0
+    height: 500
     ammoUse: 10
     ammoMultiplier: 1
     pierce: true
