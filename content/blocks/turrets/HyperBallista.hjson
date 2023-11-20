@@ -20,7 +20,7 @@ maxAmmo: 100
 squareSprites: fales
 
 inaccuracy: 0.0
-ammoTypes:[
+ammoTypes:{
 //Blast-compound:{
   GoldCarrot:{ 
     type: ligtningBulletType
@@ -35,7 +35,7 @@ ammoTypes:[
     pierce: true
     pierceBuilding: true
     }
-]
+}
 
 requirements: [
 Seed/1
