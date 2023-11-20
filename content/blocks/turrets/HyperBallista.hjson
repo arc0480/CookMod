@@ -30,7 +30,7 @@ ammoTypes:{
     hitSize: 50
     drawSize: 500.0
     height: 100
-    multiPlier: 1
+    ammoMultiPlier: 0.1
     pierce: true
     pierceBuilding: true
     }
