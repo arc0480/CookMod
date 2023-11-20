@@ -7,16 +7,15 @@ targetAir: true
 targetGround: true
 health: 2500
 //buildTime: 3600
-buildTime: 1
 
 range: 1080
 reload: 1800
 coolDown: 360
 recoil: 10
 shoot: 1
-powerUse: 1600
+power: 160
 
-liquidUse: 100
+liquid: 100
 liquidCapacity: 1000
 itemCapacity: 100
 
@@ -34,10 +33,14 @@ ammoTypes:{
     hitSize: 50
     drawSize: 500.0
     height: 100
-    ammoUse: 10
+    itemUse: 10
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
+    makeFire: true
+    lightning: 5
+    lightningRengh: 5
+    lightningDamage: -50
     }
 }
 
