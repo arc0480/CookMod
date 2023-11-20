@@ -6,7 +6,8 @@ size: 7
 targetAir: true
 targetGround: true
 health: 2500
-buildTime: 3600
+//buildTime: 3600
+buildTime: 1
 
 range: 1080
 reload: 1800
