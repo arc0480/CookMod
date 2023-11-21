@@ -43,6 +43,7 @@ ammoTypes:{
     lightningRengh: 5
     lightningDamage: -500
     }
+    }
 }
 
 requirements: [
