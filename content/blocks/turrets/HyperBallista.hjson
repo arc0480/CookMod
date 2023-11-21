@@ -45,14 +45,14 @@ ammoTypes:{
   //}
 }
 
-consumes:{
+/*consumes:{
      power/1500
      items:{
         items:[
-           Blast-compound/6
+           Blast-Compound/6
         ]
      }
-}
+}*/
 
 requirements: [
 Seed/1
