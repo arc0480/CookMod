@@ -24,7 +24,7 @@ squareSprites: fales
 inaccuracy: 0.0
 ammoTypes:{
   GoldCarrot:{ 
-  Blast-Compound:{ 
+//Blast-Compound:{ 
     type: ligtningBulletType
     damage: 12018
     speed: 8
@@ -42,7 +42,7 @@ ammoTypes:{
     lightningRengh: 5
     lightningDamage: -500
     }
-    }
+  //}
 }
 
 requirements: [
