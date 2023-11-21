@@ -23,9 +23,8 @@ squareSprites: fales
 
 inaccuracy: 0.0
 ammoTypes:{
-//Blast-compound:{
   GoldCarrot:{ 
-  BlastCompound:{ 
+  Blast-Compound:{ 
     type: ligtningBulletType
     damage: 12018
     speed: 8
