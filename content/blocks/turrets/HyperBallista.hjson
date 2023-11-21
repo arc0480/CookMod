@@ -45,6 +45,15 @@ ammoTypes:{
   //}
 }
 
+consumes:{
+     power/1500
+     items:{
+        items:[
+           Blast-compound/6
+        ]
+     }
+}
+
 requirements: [
 Seed/1
 /*Surge-alloy/
