@@ -22,12 +22,8 @@ itemCapacity: 100
 squareSprites: fales
 
 inaccuracy: 0.0
-ammoTypes:[
-GoldCarrot
-sand
-]
-
-  //GoldCarrot:{ 
+ammoTypes:{
+	GoldCarrot:{ 
 //Blast-Compound:{ 
     type: ligtningBulletType
     damage: 12018
