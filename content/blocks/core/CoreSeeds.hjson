@@ -24,7 +24,7 @@ research: {
     name: cookplanets
 
 　　//テックツリーと対応する惑星
-　　　planet: cookplanets
+    planet: CookPlanets
 }
 
 alwaysUnlocked: true
