@@ -17,7 +17,7 @@ requirements: [
 //テックツリーを追加
 research: {
 
-    //一番最初の基準ブロックにする(true)
+    //一番最初の基準ブロックにする:true
     root: true
 
     //テックツリーの名前
