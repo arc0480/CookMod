@@ -54,3 +54,10 @@ Seed/1
 */
 ]
 BuildVisibillity: shown
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
