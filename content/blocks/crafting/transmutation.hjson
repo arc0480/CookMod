@@ -31,6 +31,6 @@ alwaysUnlocked: true
 research: {
     parent: saltmaker
     requirements: [
-        cooper/30
+        copper/30
     ]
 }
