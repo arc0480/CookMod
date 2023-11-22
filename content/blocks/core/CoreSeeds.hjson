@@ -13,17 +13,13 @@ squareSprite: false
 requirements: [
     Seed/600
 ]
-
 //テックツリーを追加
 research: {
-
     //一番最初の基準ブロックにする:true
     root: true
-
     //テックツリーの名前
     name: @cookplanets
-
-　　//テックツリーと対応する惑星
+    //テックツリーと対応する惑星
     planet:CookPlanets
 }
 alwaysUnlocked: true
