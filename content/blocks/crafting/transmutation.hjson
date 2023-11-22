@@ -27,3 +27,10 @@ requirements: [
 category: crafting
 research: Salt-Maker
 alwaysUnlocked: true
+
+research: {
+    parent: saltmaker
+    requirements: [
+        cooper/30
+    ]
+}
