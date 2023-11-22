@@ -34,6 +34,13 @@ requirements: [
 	copper/80 
 ]
 
+//テックツリー設定
+research: {
+    root: true
+    name: cookplanets
+	  planet: cookplanets
+}
+
 
 //カテゴリ：工場類
 category: crafting
