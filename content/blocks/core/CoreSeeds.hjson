@@ -5,7 +5,7 @@ size: 2
 
 itemCapacity: 2000
 unitCapModifier: 10
-unitType: "unite"
+unitType: mono
 incinerateNonBuildable: true
 isFirstTier: true
 squareSprite: false
