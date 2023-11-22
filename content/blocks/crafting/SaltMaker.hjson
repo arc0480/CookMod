@@ -36,9 +36,10 @@ requirements: [
 
 //テックツリー設定
 research: {
-    root: true
-    name: cookplanets
-	  planet: cookplanets
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
 }
 
 
