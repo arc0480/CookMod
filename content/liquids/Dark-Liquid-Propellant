@@ -10,3 +10,5 @@ temperature: 0.45
 heatCapacity: 0.5
 viscocity: 0.75
 explosiveness: 0.8
+
+alwaysUnlocked: true
