@@ -11,7 +11,7 @@ isFirstTier: true
 squareSprite: false
 
 requirements: [
-    "Seed/600"
+    Seed/600
 ]
 
 //テックツリーを追加
@@ -26,5 +26,4 @@ research: {
 　　//テックツリーと対応する惑星
     planet: CookPlanets
 }
-
 alwaysUnlocked: true
