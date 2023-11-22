@@ -14,10 +14,17 @@ requirements: [
     "Seed/600"
 ]
 
+//テックツリーを追加
 research: {
+
+    //一番最初の基準ブロックにする(true)
     root: true
+
+    //テックツリーの名前
     name: cookplanets
-	planet: cookplanets
+
+　　//テックツリーと対応する惑星
+　　　planet: cookplanets
 }
 
 alwaysUnlocked: true
