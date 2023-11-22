@@ -3,6 +3,9 @@
 generator: SerpuloPlanetGenerator
 parent: serpulo
 
+defaultCore: "CoreSeeds"
+
+
 allowSectorInvasion: true
 
 //他セクターへ同時侵攻の設定
