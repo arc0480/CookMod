@@ -7,18 +7,18 @@ size: 7
 ammoPerShot: 10
 ammoEjectBack: 1
 range: 1080	
-reload: 1800
+reload: 3600
 inaccuracy: 0.0
 shots: 1
 spread: 4	
 recoil: 0.5
 restitution: 1.0
 cooldown: 900
-rotatespeed: 3
+rotatespeed: 1
 shootCone: 10
 shootShake: 0.5
 xRand: 0.0	
-targetAir: trure
+targetAir: true
 targetGround: true
 
 ammoTypes:{
