@@ -1,0 +1,11 @@
+
+	type: material
+	name: Seed
+	description: A rare Seed.
+	research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
+allwaysunlocked :true
