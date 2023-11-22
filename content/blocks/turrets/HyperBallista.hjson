@@ -2,6 +2,7 @@ name: HyperBallista
 description: "りぃさるぅえぽん"
 type: itemTurret
 category: turret
+size: 7
 
 ammoPerShot: 10
 ammoEjectBack: 1
