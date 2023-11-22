@@ -3,11 +3,6 @@ description: "りぃさるぅえぽん"
 type: itemTurret
 category: turret
 
-//heatColor: "fff00"
-shootEffect: shootBig2
-smokeEffect: fireSmoke
-ammoUseEffect: fireBollSmoke
-shootSound: shootBig
 ammoPerShot: 10
 ammoEjectBack: 1
 range: 1080	
@@ -26,8 +21,7 @@ targetAir: trure
 targetGround: true
 
 ammoTypes:{
-	GoldCarrot:{ 
-//Blast-Compound:{ 
+  GoldCarrot:{ 
     type: ligtningBulletType
     damage: 12018
     speed: 8
@@ -40,6 +34,11 @@ ammoTypes:{
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
+    
+    shootEffect: shootBig2
+    smokeEffect: fireSmoke
+    ammoUseEffect: fireBollSmoke
+    shootSound: shootBig
     }
   //}
 }
