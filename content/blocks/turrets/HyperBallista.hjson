@@ -3,7 +3,7 @@ description: "りぃさるぅえぽん"
 type: itemTurret
 category: turret
 
-heatColor: "fff00"
+//heatColor: "fff00"
 shootEffect: shootBig2
 smokeEffect: fireSmoke
 ammoUseEffect: fireBollSmoke
