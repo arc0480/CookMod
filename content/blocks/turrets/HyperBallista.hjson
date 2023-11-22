@@ -1,27 +1,27 @@
 name: HyperBallista
 description: "りぃさるぅえぽん"
-type: ItemTurret
-category: turret
-size: 7
-targetAir: true
-targetGround: true
-health: 2500
-//buildTime: 3600
-
-range: 1080
+heatColor: fff00
+shootEffect: shootBig2
+smokeEffect: fireSmoke
+ammoUseEffect: fireBollSmoke
+shootSound: shootBig
+ammoPerShot: 10
+ammoEjectBack: 1
+range: 1080	
 reload: 1800
-coolDown: 360
-recoil: 10
-shoot: 1
-power: 160
-
-liquid: 100
-liquidCapacity: 1000
-itemCapacity: 100
-
-squareSprites: fales
-
 inaccuracy: 0.0
+shots: 1
+spread: 4	
+recoil: 0.5
+restitution: 1.0
+cooldown: 900
+rotatespeed: 3
+shootCone: 10
+shootShake: 0.5
+xRand: 0.0	
+targetAir: trure
+targetGround: true
+
 ammoTypes:{
 	GoldCarrot:{ 
 //Blast-Compound:{ 
@@ -30,29 +30,16 @@ ammoTypes:{
     speed: 8
     lifetime: 250
     width: 30
+    ammoPaerShot: 10
     hitSize: 50
     drawSize: 500.0
     height: 100
-    itemUse: 10
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
-    makeFire: true
-    lightning: 5
-    lightningRengh: 5
-    lightningDamage: -500
     }
   //}
 }
-
-/*consumes:{
-     power/1500
-     items:{
-        items:[
-           Blast-Compound/6
-        ]
-     }
-}*/
 
 requirements: [
 Seed/1
