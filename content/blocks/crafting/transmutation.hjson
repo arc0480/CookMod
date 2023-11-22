@@ -29,7 +29,7 @@ research: Salt-Maker
 alwaysUnlocked: true
 
 research: {
-    parent: saltmaker
+    parent: SaltMaker
     requirements: [
         copper/30
     ]
