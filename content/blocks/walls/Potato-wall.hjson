@@ -9,3 +9,10 @@ requirements: [
 category: defense
 buildVisibillity:shown
 alwaysUnlocked:true
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
