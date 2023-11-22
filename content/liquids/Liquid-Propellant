@@ -1,6 +1,6 @@
 type: liquid
 name: Dark-Liquid-Propellant
-description: "液体火薬を煮詰めて濃度を上げ､発火性を抑えたもの｡どろっとしていて少し緑がかった液体です｡HyperBallistaの装薬として使うと弾速が向上します｡炸裂弾の材料にもなります｡"
+description: "液体火薬を煮詰めて濃度を上げ､発火性を抑えたもの｡どろっとしていて少し緑がかった液体です｡HyperBallistaの装薬として使うと弾速が向上します｡ホローポイント弾の材料にもなります｡"
 
 color: 206030
 berColor: 006000
