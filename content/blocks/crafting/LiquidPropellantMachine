@@ -1,0 +1,41 @@
+type: GenaricCrsfter
+name: LiquidPropellantMachine
+desription: それはロマンで出来ていた...
+liquidCapacity: 600
+itemCapacity: 600
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 180
+
+consume: {
+  power: 6
+  items:{
+    Blast-Compound: 3
+    Pyratite: 1
+    Plastanium: 2
+  }
+}
+
+outputLiquids: [
+  LiquidPropellant/60
+]
+
+research: {
+  parent: transmutation
+  requirements: [
+    copper/ 50
+    lead/ 30
+    titanium/ 10
+  ]
+}
+
+requirements: [
+  copper/ 30
+  lead/ 20
+  titanium/ 10
+]
+
+buidVisibillity: shown
+alwaysUnlocked: true
