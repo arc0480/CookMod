@@ -33,7 +33,7 @@ requirements: [
 category: effect
 
 research: {
-    parent: SaltMaker
+    parent: CoreSeeds
     requirements: [
         copper/30
     ]
