@@ -1,8 +1,7 @@
-
-	type: material
-	name: Seed
-	description: A rare Seed.
-	research: {
+type: material
+name: 種
+description: A rare Seed.
+research: {
     parent: SaltMaker
     requirements: [
         copper/30
