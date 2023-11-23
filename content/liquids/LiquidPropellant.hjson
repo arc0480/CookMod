@@ -1,0 +1,15 @@
+name: LiquidPrppellant
+description: 
+'''
+液体火薬です。煮詰めることで､燃焼性を抑えつつ爆発性を向上させることができます。
+'''
+color: 106075
+barColor: 007570
+lightColor: 006075
+framAbillity: 0.6
+temperature: 0.45
+heatCapacity: 0.0
+viscosity: 0.45
+exprosiveness: 0.6
+
+alwaysUnlocked: true
