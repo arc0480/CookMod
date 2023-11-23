@@ -8,10 +8,10 @@ description:
 color: 206030
 berColor: 006000
 lightColor: 00B000
-flammability: 0.0
+flammability: 0.2
 temperature: 0.45
-heatCapacity: 0.01
+heatCapacity: 0.0
 viscosity: 0.75
-explosiveness: 0.8
+explosiveness: 1.0
 
 alwaysUnlocked: true
