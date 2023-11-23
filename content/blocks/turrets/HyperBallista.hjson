@@ -25,6 +25,9 @@ targetGround: true
 
 #必要なアイテム
 consumes:{
+power: {
+    amount:500
+  }
 liquid: {
     liquid: DarkLiquidPropellant
     amount: 0.108333333333
