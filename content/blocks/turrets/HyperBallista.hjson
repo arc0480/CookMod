@@ -14,9 +14,9 @@ spread: 4
 recoil: 0.25
 restitution: 1.0
 cooldown: 1350
-rotatespeed: 0.25
+rotatespeed: 0.15
 shootCone: 10
-shootShake: 0.75
+shootShake: 0.1
 xRand: 0.0	
 
 #対象ユニットタイプ
@@ -25,10 +25,10 @@ targetGround: true
 
 #必要なアイテム
 consumes:{
-power: 500
+power: 50
 liquid: {
     liquid: DarkLiquidPropellant
-    amount: 0.108333333333
+    amount: 1.000000000
   }
 }
 ammoTypes:{
@@ -45,8 +45,10 @@ ammoTypes:{
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
+
     
-    shootEffect: shootBig2
+    
+    shootEffect: shootBigSmoke2
     smokeEffect: fireSmoke
     ammoUseEffect: fireBollSmoke
     shootSound: shootBig
@@ -56,11 +58,12 @@ ammoTypes:{
 
 requirements: [
 Seed/1
-/*Surge-alloy/
-  Plastsnium/
-  Titanium/
-  Copper/
-  Silicon/
+/*Surge-alloy/ 2000
+  Phase-Fabric/ 900
+  Plastsnium/ 4000
+  Titanium/ 1000
+  Copper/ 800
+  Silicon/ 1500
 */
 ]
 BuildVisibillity: shown
