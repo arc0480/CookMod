@@ -15,7 +15,7 @@ consumes: {
 	power: 105
 	items: {
 		items: [
-			Sand/1
+			sand/1
 　　　　Seed/1
 		]
 	}
