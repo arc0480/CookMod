@@ -27,5 +27,5 @@ requirements: [
 	copper/50
 ]
 category: crafting
-research: Salt-Makera
+research: Salt-Maker
 alwaysUnlocked: true
