@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: ベイクマシン
+description:
+'''
+土壌つくるやーつ
+'''
+outputItem: PotatoChips/1
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 105
+	items: {
+		items: [
+			Sand/1
+　　　　Seed/1
+		]
+	}
+}
+requirements: [
+	lead/50
+	metaglass/80
+	silicon/60
+	copper/50
+]
+category: crafting
+research: Salt-Makera
+alwaysUnlocked: true
