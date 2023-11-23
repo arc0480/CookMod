@@ -2,7 +2,7 @@ name :sprinkler
 description:
 '''
 水をばら撒いて成長を促す
-機械にも高価があるらしい
+機械にも効果があるらしい?
 '''
 
 type: OverdriveProjector
