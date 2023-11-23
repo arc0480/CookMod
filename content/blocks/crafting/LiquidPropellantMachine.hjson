@@ -9,6 +9,8 @@ hasLiquids: true
 hasItems: true
 craftTime: 180
 
+outputLiquid: LiquidPropellant/60
+
 consume: {
   power: 6
   items:{
@@ -17,10 +19,6 @@ consume: {
     Plastanium: 2
   }
 }
-
-outputLiquids: [
-  LiquidPropellant/60
-]
 
 research: {
   parent: transmutation
