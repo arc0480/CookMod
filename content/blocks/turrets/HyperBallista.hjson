@@ -22,7 +22,7 @@ targetAir: true
 targetGround: true
 consumes:{
 liquid: {
-    liquid: slag
+    liquid: DarkLiquidPropellant
     amount: 0.108333333333
   }
 }
