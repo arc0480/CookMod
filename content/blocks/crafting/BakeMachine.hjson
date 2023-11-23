@@ -1,4 +1,3 @@
-
 type: GenericCrafter
 name: ベイクマシン
 description:
@@ -18,16 +17,14 @@ consumes: {
 		items: [
 			Potato/1
 		]
+	}
 }
-
-
 requirements: [
 	lead/50
 	metaglass/80
 	silicon/60
 	copper/50
 ]
-
 category: crafting
 research: Salt-Makera
 alwaysUnlocked: true
