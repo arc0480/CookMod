@@ -31,3 +31,10 @@ requirements: [
   plastanium/750
 ]
 category: effect
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
