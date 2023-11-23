@@ -20,7 +20,12 @@ shootShake: 0.75
 xRand: 0.0	
 targetAir: true
 targetGround: true
-
+consumes:{
+liquid: {
+    liquid: slag
+    amount: 0.108333333333
+  }
+}
 ammoTypes:{
   GoldCarrot:{ 
     type: ligtningBulletType
