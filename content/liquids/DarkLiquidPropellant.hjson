@@ -1,15 +1,14 @@
 name: DarkLiquidPropellant
 description: 
 '''
-液体火薬を煮詰めて濃度を上げ､発火性を抑えたもの｡
+液体火薬を煮詰めて濃度を上げ､燃焼性を抑えたもの｡
 どろっとしていて少し緑がかった液体です｡
-HyperBallistaの装薬として使うと弾速が向上します｡
 ホローポイント弾の材料にもなります｡
 '''
 color: 206030
 berColor: 006000
 lightColor: 00B000
-flammability: -1.0
+flammability: 0.0
 temperature: 0.45
 heatCapacity: 0.5
 viscosity: 0.75
