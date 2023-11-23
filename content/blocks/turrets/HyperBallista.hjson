@@ -3,6 +3,8 @@ description: "りぃさるぅえぽん"
 type: itemTurret
 category: turret
 size: 7
+liquidCapacity: 60
+itemCapacity: 10
 
 ammoPerShot: 10
 ammoEjectBack: 1
