@@ -11,7 +11,7 @@ lightColor: 00B000
 flammability: 0.2
 temperature: 0.45
 heatCapacity: 0.0
-viscosity: 0.75
+viscosity: 0.9
 explosiveness: 1.0
 
 alwaysUnlocked: true
