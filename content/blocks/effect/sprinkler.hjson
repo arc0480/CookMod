@@ -14,7 +14,7 @@ baseColor: 82e4e988
 phaseColor: 00ffff
 speedBoost: 2
 speedBoostPhase: 2
-range: 60
+range: 100
 phaseRangeBoost: 240
 useTime: 120
 consumes: {
