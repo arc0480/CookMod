@@ -1,1 +1,33 @@
 name :sprinkler
+description:
+'''
+水をばら撒いて成長を促す
+機械にも高価があるらしい
+'''
+
+type: OverdriveProjector
+health: 3200
+size: 4
+buildCostMultiplier: 0.75
+hasPower: true
+baseColor: 82e4e988
+phaseColor: 00ffff
+speedBoost: 2
+speedBoostPhase: 2
+range: 240
+phaseRangeBoost: 240
+useTime: 120
+consumes: {
+  power: 25
+  items: {
+    items: [
+      Seed/10
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  plastanium/750
+]
+category: effect
