@@ -23,8 +23,6 @@ consumes: {
     liquids: [
       water/10
     ]
-    booster: true
-	optional: true
   }
 }
 requirements: [
