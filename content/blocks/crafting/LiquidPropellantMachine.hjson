@@ -1,6 +1,9 @@
 type: GenaricCrafter
 name: 液体火薬を作るやーつ
-desription: それはロマンで出来ていた...
+description:
+'''
+それはロマンで出来ていた...
+'''
 size: 2
 hasPower: true
 hasLiquids: true
