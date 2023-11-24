@@ -37,7 +37,7 @@ clearSectorOnLose: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 
-prebuildBase: true
+#prebuildBase: true
 	
 cloudMesh: {
     type: HexSkyMesh
