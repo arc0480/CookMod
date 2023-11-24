@@ -2,7 +2,7 @@ name: camp
 sector: 1
 planet: cookplanets
 difficulty: 5
-overrideLaunchDefaults: true
+overrideLaunchDefaults: false
 addStartingItems: true
 captureWave: 100
 alwaysUnlocked: true
