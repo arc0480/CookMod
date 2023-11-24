@@ -1,6 +1,6 @@
 
 name: cookplanets
-#generator: SerpuloPlanetGenerator
+generator: SerpuloPlanetGenerator
 parent: serpulo
 
 defaultCore: CoreSeeds
