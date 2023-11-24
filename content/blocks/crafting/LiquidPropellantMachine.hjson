@@ -14,7 +14,7 @@ craftTime: 120
 
 outputsLiquid: true
 outputLiquids: [
-	LiquidPropellant/0.1
+	LiquidPropellant/1
 ]
 consumes: {
   power: 6
