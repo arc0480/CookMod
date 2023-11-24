@@ -19,9 +19,9 @@ phaseRangeBoost: 240
 useTime: 120
 consumes: {
   power: 25
-  items: {
-    items: [
-      Seed/10
+  liquids: {
+    liquids: [
+      water/10
     ]
     booster: true
 	optional: true
