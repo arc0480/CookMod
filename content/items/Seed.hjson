@@ -2,7 +2,7 @@ type: material
 name: 種
 description: A rare Seed.
 research: {
-    parent: SaltMaker
+    parent: CoreSeeds
     requirements: [
         copper/30
     ]
