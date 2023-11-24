@@ -3,7 +3,7 @@ name: cookplanets
 generator: SerpuloPlanetGenerator
 parent: serpulo
 
-defaultCore: "CoreSeeds"
+defaultCore: CoreSeeds
 
 
 allowSectorInvasion: true
