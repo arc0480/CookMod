@@ -6,4 +6,9 @@ overrideLaunchDefaults: true
 addStartingItems: true
 captureWave: 100
 alwaysUnlocked: true
- 
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
