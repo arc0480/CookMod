@@ -1,4 +1,4 @@
-type: HeatCrafter
+type: GenericCrafter
 name: 液体火薬を作るやーつ
 description:
 '''
@@ -14,7 +14,7 @@ craftTime: 180
 
 outputsLiquid: true
 outputLiquids: [
-	LiquidPropellant/60
+	water/60
 ]
 consumes: {
   power: 6
