@@ -10,11 +10,11 @@ hasLiquids: true
 hasItems: true
 liquidCapacity: 600
 itemCapacity: 500
-craftTime: 180
+craftTime: 120
 
 outputsLiquid: true
 outputLiquids: [
-	water/60
+	LiquidPropellant/0.1
 ]
 consumes: {
   power: 6
