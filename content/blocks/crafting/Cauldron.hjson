@@ -1,0 +1,33 @@
+name: Cauldron
+  type: genericCrafter
+  category: crfter
+  size: 4
+  description:
+  '''
+  何かを煮込むのに使えそうな大きな釜。
+  電気の力で熱を生み出し､液体ならなんでも煮込めるすごい窯
+  
+  --あのさ。このカレー、少し火薬の味がするんだけどなんで？
+  '''
+  hasPower: true
+  hasLiquids: true
+  liwuidCapacity: 1200
+  craftTime: 120
+
+  outputLiquids: true
+  outputLiquids: [
+    darkLiquidPropellant: 2
+  ]
+  consumes: {
+    power: 200
+    liquids:[
+      liquids: liquidPropellant/ 2
+    ]
+  }
+
+requirements: [
+  copper/30
+  titanium/50
+]
+research: LiquidPropellantMachine
+      alwaysunlocked: true
