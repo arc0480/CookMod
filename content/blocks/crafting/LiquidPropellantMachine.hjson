@@ -12,14 +12,14 @@ liquidCapacity: 600
 itemCapacity: 600
 craftTime: 180
 
-outputLiquid: LiquidPropellant/60
+outputLiquid: LiquidPropellant/ 60
 
-consume: {
+consumes: {
   power: 6
   items:{
-    Blast-Compound: 3
-    Pyratite: 1
-    Plastanium: 2
+    Blast-Compound/ 3
+    Pyratite/ 1
+    Plastanium/ 2
   }
 }
 
