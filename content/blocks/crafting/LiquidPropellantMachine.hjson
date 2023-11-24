@@ -12,6 +12,7 @@ liquidCapacity: 600
 itemCapacity: 500
 craftTime: 180
 
+outputsLiquid: true
 outputLiquid: LiquidPropellant/60
 
 consumes: {
