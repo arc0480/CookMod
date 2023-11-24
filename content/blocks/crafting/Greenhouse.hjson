@@ -13,10 +13,11 @@ craftTime: 10
 updateEffect: smeltsmoke
 
 consumes: {
-	liquid: {
-		liquid: water
-		amount: 0.1
-	}
+	items: {
+    items: [
+      soil/10
+      Seed/1
+    ]
 }
 requirements: [
 	titanium/80 
@@ -30,6 +31,5 @@ alwaysUnlocked: true
 
 //搬出アイテム？
 results: [
-    copper/30
-    titanium/10
+    Callot
 ]
