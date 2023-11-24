@@ -20,8 +20,10 @@ name: Cauldron
   ]
   consumes: {
     power: 200
-    liquid:{
-      liquid: LiquidPropellant/ 2
+    liquids:{
+      liquids:[
+       liquidPropellant/ 2
+      ]
     }
   }
 
