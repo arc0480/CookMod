@@ -26,7 +26,8 @@ consumes: {
   }
 }
 requirements: [
-  plastanium/750
+  silicon/100
+  titanium/100
 ]
 category: effect
 
