@@ -12,6 +12,6 @@ flammability: 0.3
 temperature: 0.9
 heatCapacity: 0.0
 viscosity: 0.9
-explosiveness: 1.2
+explosiveness: 1.5
 
 alwaysUnlocked: true
