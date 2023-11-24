@@ -2,7 +2,6 @@ name:温室
 
 //type: GenericCrafter
 type: Separator
-name: WaterFilter
 description: "土壌と種から農作物を作成する"
 itemCapacity: 50
 
@@ -33,4 +32,5 @@ alwaysUnlocked: true
 //搬出アイテム？
 results: [
     Carrot/10
+    Potato/10
 ]
