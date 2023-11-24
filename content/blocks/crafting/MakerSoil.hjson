@@ -13,6 +13,11 @@ updateEffect: smeltsmoke
 
 consumes: {
 	power: 105
+        liquids: {
+                  liquids: [
+                            water/2
+                  ]
+        }
 	items: {
 		items: [
 			sand/1
