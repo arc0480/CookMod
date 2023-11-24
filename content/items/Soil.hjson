@@ -1,0 +1,10 @@
+type: material
+name: 土壌
+description: 種と砂からできているが、これは誰が言おうと土壌だ。.
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
+allwaysunlocked :true
