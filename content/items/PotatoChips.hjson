@@ -1,3 +1,9 @@
 type:material
 name:PotatoChips
 description:It's very hard and thin.
+research: {
+    parent: Potato
+    requirements: [
+        copper/30
+    ]
+}
