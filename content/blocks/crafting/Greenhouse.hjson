@@ -15,7 +15,7 @@ updateEffect: smeltsmoke
 consumes: {
 	items: {
     items: [
-      soil/10
+      Soil/10
       Seed/1
     ]
 }
