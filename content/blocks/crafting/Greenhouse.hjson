@@ -1,1 +1,35 @@
 name:温室
+
+//type: GenericCrafter
+type: Separator
+name: WaterFilter
+description: "土壌と種から農作物を作成する"
+itemCapacity: 50
+
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+
+consumes: {
+	liquid: {
+		liquid: water
+		amount: 0.1
+	}
+}
+requirements: [
+	titanium/80 
+	silicon/50 
+	copper/50
+]
+
+category: crafting
+research: Salt-Maker
+alwaysUnlocked: true
+
+//搬出アイテム？
+results: [
+    copper/30
+    titanium/10
+]
