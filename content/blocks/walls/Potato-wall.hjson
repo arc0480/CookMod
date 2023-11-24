@@ -11,7 +11,7 @@ buildVisibillity:shown
 alwaysUnlocked:true
 
 research: {
-    parent: SaltMaker
+    parent: CoreSeeds
     requirements: [
         copper/30
     ]
