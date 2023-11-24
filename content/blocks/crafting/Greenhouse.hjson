@@ -19,6 +19,7 @@ consumes: {
       Seed/1
     ]
 }
+}
 requirements: [
 	titanium/80 
 	silicon/50 
