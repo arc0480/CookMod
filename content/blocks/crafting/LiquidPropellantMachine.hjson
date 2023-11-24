@@ -17,9 +17,11 @@ outputLiquid: LiquidPropellant/ 60
 consumes: {
   power: 6
   items:{
-    Blast-Compound/ 3
-    Pyratite/ 1
-    Plastanium/ 2
+    items:[
+      Blast-Compound/ 3
+      Pyratite/ 1
+      Plastanium/ 2
+    ]
   }
 }
 
