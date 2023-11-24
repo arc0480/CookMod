@@ -1,3 +1,9 @@
 type: material
-name: carrot
+name: 人参
 description: delicious carrots!!!
+research: {
+    parent: Seed
+    requirements: [
+        copper/30
+    ]
+}
