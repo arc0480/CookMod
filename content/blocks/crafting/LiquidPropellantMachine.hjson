@@ -1,12 +1,12 @@
 type: GenaricCrsfter
-name: LiquidPropellantMachine
+name: 液体火薬を作るやーつ
 desription: それはロマンで出来ていた...
-liquidCapacity: 600
-itemCapacity: 600
 size: 2
 hasPower: true
 hasLiquids: true
 hasItems: true
+liquidCapacity: 600
+itemCapacity: 600
 craftTime: 180
 
 outputLiquid: LiquidPropellant/60
