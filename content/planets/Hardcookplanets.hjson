@@ -66,8 +66,3 @@ mesh: {
     scl: 0.75
     mag: 1.2
 }
-
-whitelist:{
-potato
-
-}
