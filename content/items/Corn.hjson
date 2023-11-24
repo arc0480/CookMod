@@ -1,3 +1,9 @@
 type: material
 name: corn
 description: delicious Corn!!!
+research: {
+    parent: Seed
+    requirements: [
+        copper/30
+    ]
+}
