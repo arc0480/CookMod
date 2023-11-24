@@ -70,7 +70,7 @@ Seed/1
 BuildVisibillity: shown
 
 research: {
-    parent: SaltMaker
+    parent: CoreSeeds
     requirements: [
         copper/30
     ]
