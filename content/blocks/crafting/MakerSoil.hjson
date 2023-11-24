@@ -4,7 +4,7 @@ description:
 '''
 土壌つくるやーつ
 '''
-outputItem: PotatoChips/1
+outputItem: Soil/1
 size: 2
 hasPower: true
 hasItems: true
@@ -17,7 +17,7 @@ consumes: {
 	power: 105
         liquids: {
                   liquids: [
-                            water/2
+                            water/0.2
                   ]
         }
 	items: {
