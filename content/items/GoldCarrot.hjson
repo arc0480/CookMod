@@ -2,7 +2,7 @@ type: material
 name: GoldCarrot
 description: delicious carrots!!!
 research: {
-    parent: Seed
+    parent: Carrot
     requirements: [
         copper/30
     ]
