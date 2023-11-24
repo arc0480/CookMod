@@ -9,18 +9,17 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 liquidCapacity: 600
-itemCapacity: 600
+itemCapacity: 500
 craftTime: 180
 
-outputLiquid: LiquidPropellant/ 60
+outputLiquid: LiquidPropellant/60
 
 consumes: {
   power: 6
   items:{
     items:[
-      Blast-Compound/ 3
-      Pyratite/ 1
-      Plastanium/ 2
+      blast-compound/3
+      plastanium/2
     ]
   }
 }
