@@ -26,7 +26,6 @@ requirements: [
 ]
 
 category: crafting
-research: Salt-Maker
 alwaysUnlocked: true
 
 //搬出アイテム？
@@ -35,3 +34,10 @@ results: [
     Potato/10
     Corn/10
 ]
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
