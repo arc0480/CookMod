@@ -1,4 +1,10 @@
-	type: material
-	name: Potato
-	description: A rare Potato
+type: material
+name: Potato
+description: A rare Potato
+research: {
+    parent: Seed
+    requirements: [
+        copper/30
+    ]
+}
  
