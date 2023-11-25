@@ -32,7 +32,7 @@ targetGround: true
 consumes:{
 power: 50
 liquid: {
-    liquid: DarkLiquidPropellant
+    liquid: DarkLiquidGunPowder
     amount: 1.000000000
   }
 }
@@ -50,8 +50,6 @@ ammoTypes:{
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
-
-    
     
     shootEffect: shootBigSmoke2
     smokeEffect: fireSmoke
