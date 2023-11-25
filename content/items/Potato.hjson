@@ -1,6 +1,6 @@
 type: material
 name: Potato
-color: FFCF40
+color: 9AE21B
 description: A rare Potato
 research: {
     parent: Seed
