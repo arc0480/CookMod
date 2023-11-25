@@ -25,9 +25,8 @@ ammoTypes:{
 	  ammoMultiplier: 2
           fragOnHit: true
           fragBullets: 10
-          fragSpread: 4.5
-          fragAngle: 5
-          fragSpead: 180
+          fragAngle: 45
+          fragSpead: 90
             fragBullet: {
               bulletType: BasicBulletType
               speed: 3
