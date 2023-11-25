@@ -16,7 +16,7 @@ name: Cauldron
 
   outputLiquids: true
   outputLiquids: [
-    DarkLiquidPropellant/2
+    DarkLiquidGunPowder/2
   ]
   consumes: {
     power: 200
