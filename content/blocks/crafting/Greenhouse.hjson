@@ -10,7 +10,7 @@ hasPower: true
 hasItems: true
 hasLiquids: true
 liquidCapacity: 300
-craftTime: 10
+craftTime: 60
 updateEffect: smeltsmoke
 
 consumes: {
@@ -21,7 +21,7 @@ consumes: {
 }
 	items: {
     items: [
-      Soil/10
+      Soil/5
       Seed/1
     ]
 }
