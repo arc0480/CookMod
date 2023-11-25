@@ -1,9 +1,10 @@
+/*
+#name: cookplanets
 
-name: cookplanets
 generator: SerpuloPlanetGenerator
 parent: serpulo
 
-defaultCore: CoreSeeds
+defaultCore: "CoreSeeds"
 
 
 allowSectorInvasion: true
@@ -38,7 +39,34 @@ allowLaunchToNumbered: true
 allowLaunchLoadout: true
 
 #prebuildBase: true
-	
+*/	
+
+
+generator: SerpuloPlanetGenerator
+parent: sun
+iconColor: 30d5c8
+orbitRadius: 35
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: cc4e5c
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "CoreSeeds"
+sectorSeed: 0
+startSector: 3
+sectorSize: 2
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+//他セクターへ同時侵攻の設定
+allowWaveSimulation: true
+
 cloudMesh: {
     type: HexSkyMesh
     planet: cookplanets
