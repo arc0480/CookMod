@@ -1,6 +1,7 @@
 type: material
 name: 人参
 description: delicious carrots!!!
+color: FFB500
 research: {
     parent: Seed
     requirements: [
