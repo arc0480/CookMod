@@ -22,7 +22,7 @@ name: Cauldron
     power: 200
     liquids:{
       liquids:[
-       LiquidPropellant/ 2
+       LiquidGunPowder/ 2
       ]
     }
   }
