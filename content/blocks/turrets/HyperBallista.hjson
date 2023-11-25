@@ -59,14 +59,13 @@ ammoTypes:{
 }
 
 requirements: [
-Seed/1
-/*Surge-alloy/ 2000
+//Seed/1
+  Surge-alloy/ 2000
   Phase-Fabric/ 900
   Plastsnium/ 4000
   Titanium/ 1000
   Copper/ 800
   Silicon/ 1500
-*/
 ]
 BuildVisibillity: shown
 
