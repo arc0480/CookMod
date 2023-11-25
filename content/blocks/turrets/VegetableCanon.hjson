@@ -15,7 +15,7 @@ squareSprites:false
 ammoTypes:{
 	Potato:{
 	  bulletType: BasicBulletType
-          rerloadMutiplier: 5.0
+          reloadMutiplier: 5.0
 	  damage: 30
 	  speed: 10
 	  lifetime:  28
@@ -23,12 +23,15 @@ ammoTypes:{
           absorbable: false
 	  height: 10
 	  ammoMultiplier: 2
+          
           fragOnHit: true
           fragBullets: 10
           fragAngle: 90
           fragSpead: 180
+          fragRandumSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
+              inaccuraly: 10
               speed: 3
               lifeTyme: 0.5
               damage: 10
@@ -53,12 +56,6 @@ requirements:[
 ]
 
 //reserch:salvo
-// requirements:[
-//potato/20
-//  lead/15
-//  copper/10
-// ]
-
 reserch: arc
 requirements: [
 	Potato/20
