@@ -7,7 +7,7 @@ color: 106075
 barColor: 007570
 lightColor: 006075
 
-flammabillity: 0.9
+flammability: 0.9
 temperature: 0.45
 heatCapacity: 0.0
 viscosity: 0.45
