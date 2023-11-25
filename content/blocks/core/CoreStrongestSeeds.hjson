@@ -1,1 +1,17 @@
-#
+type: CoreBlock
+category: effect
+health: 900
+size: 4
+
+itemCapacity: 10000
+unitCapModifier: 10
+unitType: alpha
+incinerateNonBuildable: true
+#isFirstTier: true
+squareSprite: false
+
+requirements: [
+    Seed/600
+]
+
+alwaysUnlocked: true
