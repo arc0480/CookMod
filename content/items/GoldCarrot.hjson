@@ -1,6 +1,7 @@
 type: material
 name: GoldCarrot
 description: delicious carrots!!!
+color: FFDA00
 research: {
     parent: Carrot
     requirements: [
