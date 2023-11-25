@@ -1,6 +1,7 @@
 type: material
 name: 土壌
 description: 種と砂からできているが、これは誰が言おうと土壌だ。.
+color: 9AE21B
 research: {
     parent: CoreSeeds
     requirements: [
