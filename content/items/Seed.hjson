@@ -1,6 +1,6 @@
 type: material
 name: 種
-color: 9AE200
+color: 9AE21B
 description: A rare Seed.
 research: {
     parent: CoreSeeds
