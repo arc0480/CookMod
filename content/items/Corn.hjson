@@ -1,7 +1,7 @@
 type: material
 name: corn
 description: delicious Corn!!!
-color: DAED00
+color: 9AE21B
 research: {
     parent: Seed
     requirements: [
