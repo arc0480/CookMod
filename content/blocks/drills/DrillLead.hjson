@@ -1,0 +1,16 @@
+name: Drill-Lead
+description:
+'''
+鉛で作るドリル
+古代文明のおかげか、性能がとてもいい。
+'''
+type:Drill
+size: 3
+tier: 2
+drillTime: 450
+requirements[
+	lead/100 
+]
+category: production
+alwaysUnlocked:true
+
