@@ -17,7 +17,7 @@ consumes: {
 	power: 105
         liquids: {
                   liquids: [
-                            water/0.2
+                            water/0.1
                   ]
         }
 	items: {
