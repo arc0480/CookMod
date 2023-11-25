@@ -16,7 +16,7 @@ updateEffect: smeltsmoke
 consumes: {
         liquids: {
     liquids: [
-      water/0.21666666667
+      water/0.1
     ]
 }
 	items: {
