@@ -14,4 +14,11 @@ requirements: [
     Seed/600
 ]
 
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
+
 alwaysUnlocked: true
