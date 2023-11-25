@@ -8,6 +8,7 @@ description:
 color: 206030
 berColor: 006000
 lightColor: 00B000
+
 flammability: 0.3
 temperature: 0.9
 heatCapacity: 0.0
