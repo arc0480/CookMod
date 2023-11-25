@@ -6,10 +6,11 @@ description:
 color: 106075
 barColor: 007570
 lightColor: 006075
-flammAbillity: 0.9
+
+flammabillity: 0.9
 temperature: 0.45
 heatCapacity: 0.0
 viscosity: 0.45
-exprosiveness: 0.9
+explosiveness: 0.9
 
 alwaysUnlocked: true
