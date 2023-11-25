@@ -1,6 +1,7 @@
 type:material
 name:PotatoChips
 description:It's very hard and thin.
+color: 9AE21B
 research: {
     parent: Potato
     requirements: [
