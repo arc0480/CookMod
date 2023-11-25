@@ -1,5 +1,9 @@
 name: "Cookmod"
-author: "arc　,　hikaritake"
+author: 
+'''
+ [orange[]]arc
+ [blue[]]hikaritake
+'''
 displayName: "cookmod"
 description: "cookmod"
 version: "2.0"
