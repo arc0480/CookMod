@@ -23,14 +23,16 @@ ammoTypes:{
           absorbable: false
 	  height: 10
 	  ammoMultiplier: 2
+          fragOnHit: true
+          fragBullets: 10
+          fragSpread: 4.5
+          fragAngle: 5
+          fragSpead: 180
             fragBullet: {
               bulletType: BasicBulletType
               speed: 3
               lifeTyme: 0.5
-              damage: 5
-              fragOnHit: true
-              fragBullets: 10
-              fragAngle: 5
+              damage: 10
             }
   }
 	Carrot: {
