@@ -13,4 +13,10 @@ requirements: [
 ]
 category: production
 alwaysUnlocked:true
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
 
