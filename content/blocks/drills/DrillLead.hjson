@@ -8,7 +8,7 @@ type:Drill
 size: 3
 tier: 2
 drillTime: 450
-requirements[
+requirements: [
 	lead/100 
 ]
 category: production
