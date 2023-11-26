@@ -31,9 +31,11 @@ ammoTypes:{
           fragRandumSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
-              keepVerovity: true
+              speed: 5
+              width: 1
               lifeTyme: 0.5
               damage: 10
+              absorbable: false
               pierce: true
               pierceArmor: true
               pierceCap: 2
