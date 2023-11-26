@@ -17,11 +17,12 @@ speedBoostPhase: 2
 range: 100
 phaseRangeBoost: 240
 useTime: 120
+liquidCapavity: 120
 consumes: {
   power: 25
   liquids: {
     liquids: [
-      water/10
+      water/1
     ]
   }
 }
