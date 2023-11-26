@@ -61,7 +61,7 @@ ammoTypes:{
           pierce: true
           homingPower: 100
           homingRange: 50
-          reloadMultiplier: 0.01
+          reloadMultiplier: 10
 	 }
 }
 
