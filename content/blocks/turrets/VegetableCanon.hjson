@@ -35,7 +35,7 @@ ammoTypes:{
           fragRandumSpread: 0
             fragBullet: {
               bulletType: BombsBulletType
-              speed: 3
+              speed: 5
               width: 1
               lifeTyme: 0.5
               damage: 10
