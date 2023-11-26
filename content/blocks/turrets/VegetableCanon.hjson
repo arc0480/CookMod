@@ -31,7 +31,6 @@ ammoTypes:{
           fragRandumSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
-              inaccuraly: 10
               speed: 3
               lifeTyme: 0.5
               damage: 10
