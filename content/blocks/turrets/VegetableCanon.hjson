@@ -50,7 +50,7 @@ ammoTypes:{
           type: BasicBullettype
 	  damage: 40
 	  speed: 8
-	  lifetime: 100
+	  lifetime: 50
           hitSize: 15
           drawSize: 150
           width: 15
