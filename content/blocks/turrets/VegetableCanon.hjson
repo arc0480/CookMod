@@ -23,15 +23,19 @@ ammoTypes:{
           absorbable: false
 	  height: 10
 	  ammoMultiplier: 2
+          absorbable: true
+          pierce: false 
+          pierceArmor: false
           
           fragOnHit: true
+          fragOnAbsorbable: true
           fragBullets: 10
           fragAngle: 90
           fragSpead: 180
           fragRandumSpread: 0
             fragBullet: {
-              bulletType: BasicBulletType
-              speed: 5
+              bulletType: BombsBulletType
+              speed: 3
               width: 1
               lifeTyme: 0.5
               damage: 10
