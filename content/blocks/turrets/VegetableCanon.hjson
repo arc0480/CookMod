@@ -71,7 +71,7 @@ requirements:[
 ]
 
 research: {
-    parent: CoreSeeds
+    parent: HyperBallista
     requirements: [
         copper/30
     ]
