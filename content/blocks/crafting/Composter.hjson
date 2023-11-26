@@ -14,7 +14,7 @@ updateEffect: smeltsmoke
 liquidCapacity:30
 
 consumes: {
-	power: 105
+	power: 10
         liquids: {
                   liquids: [
                             water/0.1
