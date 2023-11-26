@@ -31,9 +31,13 @@ ammoTypes:{
           fragRandumSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
-              speed: 3
+              keepVerovity: true
               lifeTyme: 0.5
               damage: 10
+              pierce: true
+              pierceArmor: true
+              pierceCap: 2
+              pierceDamageFactor: 0.5
             }
   }
 	Carrot: {
