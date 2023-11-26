@@ -49,7 +49,7 @@ ammoTypes:{
 	Carrot: {
           type: BasicBullettype
 	  damage: 40
-	  speed: 2
+	  speed: 8
 	  lifetime: 100
           hitSize: 15
           drawSize: 150
