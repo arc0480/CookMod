@@ -34,16 +34,16 @@ ammoTypes:{
           fragSpead: 180
           fragRandumSpread: 0
             fragBullet: {
-              bulletType: BombsBulletType
+              bulletType: BasicBulletType
               speed: 5
               width: 1
               lifeTyme: 0.5
               damage: 10
               absorbable: false
               pierce: true
-              pierceArmor: true
               pierceCap: 2
-              pierceDamageFactor: 0.5
+              pierceArmor: true
+              pierceDamageFactor: 0.0
             }
   }
 	Carrot: {
