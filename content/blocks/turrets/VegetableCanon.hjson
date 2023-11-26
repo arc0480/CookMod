@@ -70,12 +70,11 @@ requirements:[
 	lead/50
 ]
 
-//reserch:salvo
-reserch: arc
-requirements: [
-	Potato/20
-	lead/15
-	copper/10
-]
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
 buildVisibillity: shown
 alwaysUnlocked:true
