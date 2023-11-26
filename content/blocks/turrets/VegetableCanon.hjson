@@ -59,8 +59,9 @@ ammoTypes:{
 	  height: 20
 	  ammoMultiplier: 1
           pierce: true
-          homingpower: 10
-          relordMultiplier: 0.01
+          homingPower: 100
+          homingRange: 50
+          reloadMultiplier: 0.01
 	 }
 }
 
