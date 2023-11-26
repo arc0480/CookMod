@@ -9,6 +9,7 @@ reload:8
 range:280
 recoil: 0.1
 inaccuracy:10
+xRand:2
 
 squareSprites:false
 
@@ -34,7 +35,7 @@ ammoTypes:{
           fragSpead: 180
           fragRandumSpread: 0
             fragBullet: {
-              bulletType: BombsBulletType
+              bulletType: BasicBulletType
               speed: 5
               width: 1
               lifeTyme: 0.5
