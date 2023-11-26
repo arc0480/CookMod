@@ -3,7 +3,7 @@ name:温室
 //type: GenericCrafter
 type: Separator
 description: "土壌と種から農作物を作成する"
-itemCapacity: 50
+itemCapacity: 100
 
 size: 2
 hasPower: true
