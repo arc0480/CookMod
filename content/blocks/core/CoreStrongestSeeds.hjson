@@ -1,7 +1,7 @@
 type: CoreBlock
 category: effect
 health: 900
-size: 4
+size: 5
 
 itemCapacity: 10000
 unitCapModifier: 10
