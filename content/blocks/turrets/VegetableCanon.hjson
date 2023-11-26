@@ -50,7 +50,7 @@ ammoTypes:{
           type: BasicBullettype
 	  damage: 40
 	  speed: 9
-	  lifetime: 30
+	  lifetime: 60
           hitSize: 15
           drawSize: 150
           width: 15
@@ -60,7 +60,7 @@ ammoTypes:{
 	  ammoMultiplier: 1
           pierce: true
           homingPower: 100
-          homingRange: 50
+          homingRange: 5
           reloadMultiplier: 2
 	 }
 }
