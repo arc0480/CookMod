@@ -19,7 +19,7 @@ ammoTypes:{
 	  damage: 30
 	  speed: 10
 	  lifetime:  28
-	  width:7
+	  width: 7
           absorbable: false
 	  height: 10
 	  ammoMultiplier: 2
@@ -47,16 +47,16 @@ ammoTypes:{
             }
   }
 	Carrot: {
-          type:lihtningBullettype
-          shots: 2
-	  damage:80
-	  speed:12
-	  lifetime:23
-	  width:15
+          type: BasicBullettype
+	  damage: 80
+	  speed: 12
+	  lifetime: 23
+          hitSize: 15
+	  width: 15
           absorbable: false
           pierceArmor: true
-	  height:20
-	  ammoMultiplier:1
+	  height: 20
+	  ammoMultiplier: 1
           pierce: true
 	 }
 }
