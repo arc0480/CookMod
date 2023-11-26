@@ -60,7 +60,7 @@ ammoTypes:{
 	  ammoMultiplier: 1
           pierce: true
           homingPower: 100
-          homingRange: 5
+          homingRange: 50
           reloadMultiplier: 2
 	 }
 }
