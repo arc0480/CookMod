@@ -6,7 +6,7 @@ description:
 '''
 outputItem: Soil/1
 size: 2
-hasPower: false
+#hasPower: true
 hasItems: true
 hasLiquid: true
 craftTime: 120
