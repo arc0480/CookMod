@@ -1,1 +1,30 @@
 name :井戸
+description:
+'''
+地下水を汲み上げる井戸
+ウォーターポンプより性能がいい。
+'''
+type:Pump
+size: 3
+ hasPower: true
+  hasLiquids: true
+  liquidCapacity: 500
+
+
+ consumes: {
+    power: 1.6 
+  }
+  pumpAmount: 0.25
+  
+
+requirements: [
+	lead/100 
+]
+category: production
+alwaysUnlocked:true
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
