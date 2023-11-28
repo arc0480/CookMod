@@ -5,7 +5,7 @@ size: 5
 
 itemCapacity: 10000
 unitCapModifier: 10
-unitType: alpha
+unitType: gamma
 incinerateNonBuildable: true
 #isFirstTier: true
 squareSprite: false
