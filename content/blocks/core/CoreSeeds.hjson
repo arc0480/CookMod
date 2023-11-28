@@ -4,7 +4,7 @@ category: effect
 health: 900
 size: 3
 
-buildable: true
+incinerateNonBuildable: true
 
 itemCapacity: 2000
 unitCapModifier: 10
