@@ -67,13 +67,13 @@ ammoTypes:{
         GoldCarrot: {
           type: BasicBullettype
           damage: 100
-          speed: 10
-          lifeTime: 28
+          speed: 5
+          lifeTime: 56
           width: 10
           height: 100
           ammoMultiplier: 1
-          reloadMultiPlier: 0.25
-          absobable: true
+          reloadMultiPlier: 0.1
+          absobable: false
           pierceArmor: false
           pierce: true
           
@@ -83,20 +83,18 @@ ammoTypes:{
           fragAngle: 45
           fragSpread: 360
             fragBullet: {
-              type: BombBulletType
-              damage: 75
-              splashDamage: 100
+              type: BasicBulletType
+              damage: 20 
+              splashDamage: 75
               speed: 2
               lifetime: 50
               homingPower: 1
               homigRange: 5
               
               collidesTiles: false
-              collides: false
-              bulletShrink: 0.7
+              bulletShrink: 1.0
               drag: 5.0
               keepVelocity: false
-              collidesAir: true
               hitSound: explosion
             }
           }
