@@ -69,11 +69,12 @@ ammoTypes:{
           damage: 100
           speed: 10
           lifeTime: 28
-          width: 30
-          absobable: true
-          pierceArmor: false
+          width: 10
           height: 100
           ammoMultiplier: 1
+          reloadMultiPlier: 0.25
+          absobable: true
+          pierceArmor: false
           pierce: true
           
           fragOnHit: true
@@ -94,7 +95,7 @@ ammoTypes:{
               collides: false
               bulletShrink: 0.7
               drag: 5.0
-              keepVelocity: true
+              keepVelocity: false
               collidesAir: true
               hitSound: explosion
             }
