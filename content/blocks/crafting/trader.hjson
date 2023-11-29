@@ -1,2 +1,8 @@
 type: GenericCrafter
 canProduce: true
+category: crafting
+  size: 4
+  description:
+  '''
+  trader
+  '''
