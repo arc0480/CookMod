@@ -8,7 +8,7 @@ incinerateNonBuildable: true
 itemCapacity: 4000
 unitCapModifier: 10
 unitType: beta
-incinerateNonBuildable: true
+incinerateNonBuildable: false
 #isFirstTier: true
 squareSprite: false
 
