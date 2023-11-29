@@ -63,7 +63,7 @@ ammoTypes:{
           homingPower: 10
           homingRange: 5
           reloadMultiplier: 2
-　　　　  }
+
         GoldCarrot: {
           type: BasicBullettype
           damage: 100
