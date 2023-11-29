@@ -46,12 +46,12 @@ ammoTypes:{
               pierceArmor: true
               pierceDamageFactor: 0.0
             }
-  }
+        }
 	Carrot: {
-          type: BasicBullettype
+          type: BasicBulletType
 	  damage: 40
 	  speed: 9
-	  lifetime: 60
+	  lifetime: 62.2
           hitSize: 15
           drawSize: 150
           width: 15
@@ -60,10 +60,44 @@ ammoTypes:{
 	  height: 20
 	  ammoMultiplier: 1
           pierce: true
-          homingPower: 100
-          homingRange: 50
+          homingPower: 10
+          homingRange: 5
           reloadMultiplier: 2
-	 }
+　　　　  }
+        GoldCarrot: {
+          type: BasicBullettype
+          damage: 100
+          speed: 10
+          lifeTime: 28
+          width: 30
+          absobable: true
+          pierceArmor: false
+          height: 100
+          ammoMultiplier: 1
+          pierce: true
+          
+          fragOnHit: true
+          fragOnAbsobable: false
+          fragBullets: 10
+          fragAngle: 45
+          fragSpread: 360
+            fragBullet: {
+              type: BombBulletType
+              damage: 75
+              speed: 2
+              lifetime: 70
+              homingPower: 5
+              ho,imgRange: 5
+              
+              collidesTiles: true
+              collides: true
+              bulletShrink: 0.7
+              drag: 0.1
+              keepVelocity: true
+              collidesAir: true
+              hitSound: explosion
+            }
+          }
 }
           
 
