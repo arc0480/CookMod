@@ -3,6 +3,8 @@ category: effect
 health: 900
 size: 4
 
+incinerateNonBuildable: true
+
 itemCapacity: 4000
 unitCapModifier: 10
 unitType: beta
