@@ -65,18 +65,6 @@ ammoTypes:{
           reloadMultiplier: 2
 	 }
 }
-        GoldCrrot: {
-          type: ContinuousLaserBulletType
-          damage: 118
-          speed: 10
-          lifetime: 28
-          hitsize: 5
-          width: 5
-          absobable: true
-          pierceArmor: false
-          pierce: true
-          ammoMultiplier: 2
-}
           
 
 requirements:[
