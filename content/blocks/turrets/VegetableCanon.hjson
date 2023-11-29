@@ -87,7 +87,7 @@ ammoTypes:{
               speed: 2
               lifetime: 70
               homingPower: 5
-              hoimgRange: 5
+              homigRange: 5
               
               collidesTiles: true
               collides: true
