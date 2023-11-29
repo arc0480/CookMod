@@ -27,6 +27,7 @@ ammoTypes:{
           absorbable: true
           pierce: false 
           pierceArmor: false
+          
           fragOnHit: true
           fragOnAbsorbable: true
           fragBullets: 10
@@ -74,6 +75,7 @@ ammoTypes:{
           height: 100
           ammoMultiplier: 1
           pierce: true
+          
           fragOnHit: true
           fragOnAbsobable: false
           fragBullets: 10
@@ -82,14 +84,16 @@ ammoTypes:{
             fragBullet: {
               type: BombBulletType
               damage: 75
+              splashDamage: 100
               speed: 2
-              lifetime: 70
-              homingPower: 5
+              lifetime: 50
+              homingPower: 1
               homigRange: 5
-              collidesTiles: true
-              collides: true
+              
+              collidesTiles: false
+              collides: false
               bulletShrink: 0.7
-              drag: 0.1
+              drag: 5.0
               keepVelocity: true
               collidesAir: true
               hitSound: explosion
