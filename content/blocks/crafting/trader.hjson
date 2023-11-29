@@ -1,9 +1,31 @@
 type: GenericCrafter
 canProduce: true
+name: trader
+description: make a scrap.
+liquidCapacity: 50
+itemCapacity: 50
+size: 2
+hasPower : true
+hasLiquids : true
+hasItems : true
+craftTime : 60
+updateEffect: smeltsmoke
+consumes : {
+  power: 0.7
+  liquid: {
+     liquid: water
+     amount: 5.0
+  }
+}
+outputItem: scrap/4
+requirements: [
+	lead/50
+	metaglass/80
+	silicon/60
+	copper/50
+]
 category: crafting
-  size: 4
-  description:
-  '''
-  trader
-  '''
-alwaysunlocked: true
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+alwaysUnlocked: true
