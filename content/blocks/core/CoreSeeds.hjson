@@ -4,6 +4,7 @@ category: effect
 health: 900
 size: 3
 
+//砂や石炭の搬入を許可
 incinerateNonBuildable: true
 
 itemCapacity: 2000
