@@ -27,7 +27,6 @@ ammoTypes:{
           absorbable: true
           pierce: false 
           pierceArmor: false
-          
           fragOnHit: true
           fragOnAbsorbable: true
           fragBullets: 10
@@ -63,7 +62,7 @@ ammoTypes:{
           homingPower: 10
           homingRange: 5
           reloadMultiplier: 2
-
+        }
         GoldCarrot: {
           type: BasicBullettype
           damage: 100
@@ -75,7 +74,6 @@ ammoTypes:{
           height: 100
           ammoMultiplier: 1
           pierce: true
-          
           fragOnHit: true
           fragOnAbsobable: false
           fragBullets: 10
@@ -88,7 +86,6 @@ ammoTypes:{
               lifetime: 70
               homingPower: 5
               homigRange: 5
-              
               collidesTiles: true
               collides: true
               bulletShrink: 0.7
