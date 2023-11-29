@@ -68,7 +68,7 @@ ammoTypes:{
           type: BasicBullettype
           damage: 100
           speed: 5
-          lifeTime: 56
+          lifeTime: 60
           width: 10
           height: 100
           ammoMultiplier: 1
@@ -82,6 +82,7 @@ ammoTypes:{
           fragBullets: 10
           fragAngle: 45
           fragSpread: 360
+          fragRandumSpread: 0
             fragBullet: {
               type: BasicBulletType
               damage: 20 
