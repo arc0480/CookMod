@@ -11,7 +11,7 @@ unitCapModifier: 10
 unitType: alpha
 incinerateNonBuildable: true
 
-#isFirstTier: true
+isFirstTier: false
 
 squareSprite: false
 
