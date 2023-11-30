@@ -5,9 +5,9 @@ category: turret
 size:2
 health:600
 
-reload:0.1
+reload:30
 range:280
-recoil: 0.1
+recoil:0.1
 inaccuracy:10
 xRand:5
 
