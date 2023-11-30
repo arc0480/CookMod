@@ -4,6 +4,7 @@ type: GenericCrafter
 canProduce: true
 acceptPayload: true
 configurable: true
+allowConfigInventory: true
 #トレード設定:e
 
 
