@@ -2,7 +2,7 @@ type: Separator
 
 #トレード設定:s
 #canProduce: true
-acceptPayload: true
+#acceptPayload: true
 configurable: true
 allowConfigInventory: true
 
