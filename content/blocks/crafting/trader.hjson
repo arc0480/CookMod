@@ -7,6 +7,7 @@ configurable: true
 allowConfigInventory: true
 
 outputsPayload:true
+result
 #トレード設定:e
 
 
