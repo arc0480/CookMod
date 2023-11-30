@@ -23,7 +23,8 @@ ammoTypes:{
 	  width: 7
           absorbable: false
 	  height: 10
-	  ammoMultiplier: 2
+  ammoMultiplier: 2
+  reloadMultipler: 2
           absorbable: true
           pierce: false 
           pierceArmor: false
