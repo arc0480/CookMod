@@ -1,4 +1,7 @@
-type: constructor
+#建築物をコンフィグで設定可能
+#type: constructor
+
+type: Unloader
 
 #トレード設定:s
 #canProduce: true
