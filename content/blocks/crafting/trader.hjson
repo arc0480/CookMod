@@ -18,5 +18,9 @@ hasLiquids : true
         canOverdrive : false
 category: crafting
 
+requirements: [
+  copper/30
+  titanium/50
+]
 
 
