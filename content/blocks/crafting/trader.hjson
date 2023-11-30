@@ -1,21 +1,21 @@
 #建築物をコンフィグで設定可能
 #type: constructor
-
+name: trader
 #搬出機
 #type: Unloader
 
 type: PayloadLoader
 
-hasItems = true;
-        hasLiquids = true;
-        hasPower = true;
-        itemCapacity = 100;
-        liquidCapacity = 100f;
-        update = true;
-        outputsPayload = true;
-        size = 3;
-        rotate = true;
-        canOverdrive = false;
+hasItems = true
+        hasLiquids = true
+        hasPower = true
+        itemCapacity = 100
+        liquidCapacity = 100f
+        update = true
+        outputsPayload = true
+        size = 3
+        rotate = true
+        canOverdrive = false
 
 
 
