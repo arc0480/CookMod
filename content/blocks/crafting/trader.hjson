@@ -1,4 +1,4 @@
-type: ItemAssembler
+type: Separator
 
 #トレード設定:s
 canProduce: true
