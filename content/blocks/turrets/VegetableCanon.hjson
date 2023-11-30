@@ -16,7 +16,6 @@ squareSprites:false
 ammoTypes:{
 	Potato:{
 	  bulletType: BasicBulletType
-          reloadMutiplier: 5.0
 	  damage: 30
 	  speed: 10
 	  lifetime:  28
@@ -24,7 +23,7 @@ ammoTypes:{
           absorbable: false
 	  height: 10
   ammoMultiplier: 2
-  reloadMultipler: 3
+  reloadMultipler: 5
           absorbable: true
           pierce: false 
           pierceArmor: false
