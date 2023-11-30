@@ -16,6 +16,7 @@ hasLiquids : true
         size : 3
         rotate : true
         canOverdrive : false
+category: crafting
 
 
 
