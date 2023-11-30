@@ -10,10 +10,25 @@ name: trader
 #type: PayloadUnloader
 #type: BlockProducer
 
+update = true;
+        solid = true;
+        health = 70;
+        hasItems = true;
+        configurable = true;
+        saveConfig = true;
+        itemCapacity = 0;
+        noUpdateDisabled = true;
+        clearOnDoubleTap = true;
+        unloadable = false;
 
+
+
+
+
+'''
 hasItems : true
 hasLiquids : true
-        hasPower : true
+hasPower : true
         itemCapacity : 100
         liquidCapacity : 100f
         update : true
@@ -21,6 +36,9 @@ hasLiquids : true
         size : 3
         rotate : true
         canOverdrive : false
+
+'''
+
 category: crafting
 
 requirements: [
