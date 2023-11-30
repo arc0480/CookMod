@@ -7,7 +7,12 @@ configurable: true
 allowConfigInventory: true
 
 outputsPayload:true
-result
+results: [
+    Carrot/10
+    Potato/10
+    Corn/10
+    #Seed/3
+]
 #トレード設定:e
 
 
