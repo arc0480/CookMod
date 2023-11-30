@@ -5,7 +5,7 @@ category: turret
 size:2
 health:600
 
-reload:8
+reload:1
 range:280
 recoil: 0.1
 inaccuracy:10
@@ -57,8 +57,8 @@ ammoTypes:{
           width: 15
           absorbable: false
           pierceArmor: true
-	  height: 20
-	  ammoMultiplier: 1
+          height: 20
+          ammoMultiplier: 1
           pierce: true
           homingPower: 10
           homingRange: 5
