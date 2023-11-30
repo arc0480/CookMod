@@ -6,16 +6,16 @@ name: trader
 
 type: PayloadLoader
 
-hasItems = true
-        hasLiquids = true
-        hasPower = true
-        itemCapacity = 100
-        liquidCapacity = 100f
-        update = true
-        outputsPayload = true
-        size = 3
-        rotate = true
-        canOverdrive = false
+hasItems : true
+hasLiquids : true
+        hasPower : true
+        itemCapacity : 100
+        liquidCapacity : 100f
+        update : true
+        outputsPayload : true
+        size : 3
+        rotate : true
+        canOverdrive : false
 
 
 
