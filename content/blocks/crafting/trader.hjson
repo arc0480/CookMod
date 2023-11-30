@@ -1,5 +1,5 @@
 #建築物をコンフィグで設定可能
-#type: constructor
+type: constructor
 
 name: trader
 #搬出機
@@ -8,7 +8,7 @@ name: trader
 #type: PayloadLoader
 #type:contentloder
 #type: PayloadUnloader
-type: BlockProducer
+#type: BlockProducer
 
 
 hasItems : true
