@@ -6,7 +6,7 @@ name: trader
 #type: Unloader
 
 #type: PayloadLoader
-#type:contentloder
+type:contentloder
 
 hasItems : true
 hasLiquids : true
