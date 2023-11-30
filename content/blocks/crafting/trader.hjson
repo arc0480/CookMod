@@ -4,7 +4,7 @@ type: Separator
 #canProduce: true
 #acceptPayload: true
 configurable: true
-allowConfigInventory: true
+#allowConfigInventory: true
 
 outputsPayload:true
 results: [
