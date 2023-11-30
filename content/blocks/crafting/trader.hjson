@@ -5,10 +5,10 @@ type: constructor
 #type: Unloader
 
 #トレード設定:s
-#canProduce: true
-#acceptPayload: true
+canProduce: true
+acceptPayload: true
 configurable: true
-#allowConfigInventory: true
+allowConfigInventory: true
 
 outputsPayload:true
 results: [
