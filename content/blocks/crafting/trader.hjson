@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: ItemAssembler
 
 #トレード設定:s
 canProduce: true
