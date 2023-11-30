@@ -8,7 +8,7 @@ name: trader
 #type: PayloadLoader
 #type:contentloder
 #type: PayloadUnloader
-type: PayloadSource
+type: deconstructor
 
 
 hasItems : true
