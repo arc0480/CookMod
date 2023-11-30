@@ -1,7 +1,8 @@
 #建築物をコンフィグで設定可能
-#type: constructor
+type: constructor
 
-type: Unloader
+#搬出機
+#type: Unloader
 
 #トレード設定:s
 #canProduce: true
