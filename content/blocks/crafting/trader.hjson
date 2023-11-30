@@ -13,6 +13,16 @@ results: [
     Corn/10
     #Seed/3
 ]
+plans : [
+    {
+      item: Carrot
+      requirements: [
+      Potato/1
+      ]
+      time: 2400
+}
+]
+
 #トレード設定:e
 
 
