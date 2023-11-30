@@ -1,10 +1,12 @@
 #建築物をコンフィグで設定可能
 #type: constructor
+
 name: trader
 #搬出機
 #type: Unloader
 
-type: PayloadLoader
+#type: PayloadLoader
+#type:contentloder
 
 hasItems : true
 hasLiquids : true
