@@ -88,11 +88,12 @@ ammoTypes:{
               type: BasicBulletType
               damage: 20 
               splashDamage: 75
-              splashDamageRadius:30
+#splashDamageRadius=範囲ダメージ半径(n×0.1マス)
+              splashDamageRadius:300
               speed: 2
               lifetime: 50
-              homingPower: 1
-              homigRange: 5
+              homingPower: 10
+              homigRange: 10
               
               hitSound: explosion
               hitEffect:plasticExplosion
