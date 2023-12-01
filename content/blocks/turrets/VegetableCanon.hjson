@@ -61,8 +61,8 @@ ammoTypes:{
           ammoMultiplier: 1
           reloadMultipler:4
           pierce: true
-          homingPower: 10
-          homingRange: 1
+          homingPower: 1
+          homingRange: 8
           reloadMultiplier: 2
         }
         GoldCarrot: {
