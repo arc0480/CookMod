@@ -62,7 +62,7 @@ ammoTypes:{
           reloadMultipler:4
           pierce: true
           homingPower: 10
-          homingRange: 5
+          homingRange: 1
           reloadMultiplier: 2
         }
         GoldCarrot: {
