@@ -88,7 +88,7 @@ ammoTypes:{
               type: BasicBulletType
               damage: 20 
               splashDamage: 75
-#splashDamageRadius=範囲ダメージ半径(n×0.1マス)
+#splashDamageRadius=範囲ダメージ半径(n×0.1+1.2)マス
               splashDamageRadius:50
               speed: 2
               lifetime: 50
