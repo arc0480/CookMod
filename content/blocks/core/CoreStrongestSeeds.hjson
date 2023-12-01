@@ -7,7 +7,7 @@ solid: true
 squareSprite: false
 
 itemCapacity: 10000
-unitCapModifier: 10
+unitCapModifier: 30
 unitType: gamma
 
 #建築資材でない資源(砂、石炭)は焼却するか
