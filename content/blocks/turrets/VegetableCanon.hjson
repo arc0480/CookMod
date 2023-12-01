@@ -89,7 +89,7 @@ ammoTypes:{
               damage: 20 
               splashDamage: 75
 #splashDamageRadius=範囲ダメージ半径(n×0.1マス)
-              splashDamageRadius:300
+              splashDamageRadius:50
               speed: 2
               lifetime: 50
               homingPower: 10
