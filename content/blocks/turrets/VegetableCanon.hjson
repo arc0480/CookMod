@@ -88,6 +88,7 @@ ammoTypes:{
               type: BasicBulletType
               damage: 20 
               splashDamage: 75
+              splashDamageRadius:30
               speed: 2
               lifetime: 50
               homingPower: 1
