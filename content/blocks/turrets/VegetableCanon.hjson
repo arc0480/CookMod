@@ -8,7 +8,7 @@ health:600
 reload:15
 range:280
 recoil:0.1
-inaccuracy:10
+inaccuracy:20
 xRand:5
 
 squareSprites:false
@@ -62,7 +62,7 @@ ammoTypes:{
           reloadMultipler:4
           pierce: true
           homingPower: 1
-          homingRange: 3
+          homingRange: 1
         }
         GoldCarrot: {
           type: BasicBullettype
@@ -76,6 +76,7 @@ ammoTypes:{
           absobable: false
           pierceArmor: false
           pierce: true
+          hitEffect:blastExplosion
           
           fragOnHit: true
           fragOnAbsobable: false
