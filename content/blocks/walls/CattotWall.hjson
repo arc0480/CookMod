@@ -1,0 +1,18 @@
+name: 人参の壁
+description: "壁は人参で出来ている…"
+type: Wall
+health: 4000
+size: 2
+requirements: [
+	carrot/100
+]
+category: defense
+buildVisibillity:shown
+alwaysUnlocked:true
+
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
