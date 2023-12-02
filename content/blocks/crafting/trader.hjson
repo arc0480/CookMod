@@ -1,36 +1,44 @@
-#建築物をコンフィグで設定可能
-type: constructor
+name:ガチャ
 
-name: trader
-#搬出機
-#type: Unloader
+//type: GenericCrafter
+type: Separator
+description: "野菜を錬成"
+itemCapacity: 100
 
-#type: PayloadLoader
-#type:contentloder
-#type: PayloadUnloader
-#type: BlockProducer
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 300
+craftTime: 60
+updateEffect: smeltsmoke
 
-update : true
-        solid : true
-        health : 70
-        hasItems : true
-        configurable : true
-        saveConfig : true
-        itemCapacity : 0
-        noUpdateDisabled : true
-        clearOnDoubleTap : true
-        unloadable : false
-
-
-
-
-
-
-category: crafting
-
+consumes: {
+	items: {
+    items: [
+      GoldCarrot/1
+    ]
+	}
+}
 requirements: [
-  copper/30
-  titanium/50
+	titanium/80 
+	silicon/50 
+	copper/50
 ]
 
+category: crafting
+alwaysUnlocked: true
 
+//搬出アイテム？
+results: [
+    Carrot/1
+    Potato/1
+    Corn/1
+]
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
