@@ -107,7 +107,7 @@ ammoTypes:{
             width: 10
             healPercent: 20
             inaccuracyMutiPlier: 2
-            reloaMultiPlier: 5.0
+            reloadMultiplier: 2
             shotEffect: shootHeal
             smokeEffect: hitLaser
             despownEffect: hitLaser
