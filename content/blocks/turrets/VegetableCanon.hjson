@@ -101,16 +101,16 @@ ammoTypes:{
           }
           Corn: {
             type: healBulletType
-            speed: 20
+            speed: 5
             width: 10
             hitsize: 10
-            drawsize: 100
             healPercent: 20
+            inaccuracyMultiplier: 0
             relordMultiPlier: 2.0
             shotEffect: shootHeal
             smokeEffect: hitLaser
             despownEffect: hitLaser
-            collideTeam: true
+            collidesTeam: true
           }
 }
           
