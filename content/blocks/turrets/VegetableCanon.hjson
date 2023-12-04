@@ -111,6 +111,7 @@ ammoTypes:{
             smokeEffect: hitLaser
             despownEffect: hitLaser
             collideTeam: true
+          }
 }
           
 
