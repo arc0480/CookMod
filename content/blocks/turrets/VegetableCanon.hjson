@@ -106,13 +106,14 @@ ammoTypes:{
             damage: 5
             width: 10
             healPercent: 20
-            relordMultiPlier: 5.0
+            inaccuracyMutiPlier: 2
+            reloaMultiPlier: 5.0
             shotEffect: shootHeal
             smokeEffect: hitLaser
             despownEffect: hitLaser
             collidesTeam: true
             pierce: true
-            pierceMultiPlier: 3
+            pierceCap: 3
           }
 }
           
