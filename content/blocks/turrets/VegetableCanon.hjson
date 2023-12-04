@@ -102,17 +102,19 @@ ammoTypes:{
           Corn: {
             type: healBulletType
             speed: 5
-            lifeTime: 56
-            damage: 20
+            lifeTime: 70
+            damage: 5
             width: 10
             hitsize: 10
             healPercent: 20
-            inaccuracyMultiplier: 0
-            relordMultiPlier: 2.0
+            inaccuracyMultiplier: 0.1
+            relordMultiPlier: 5.0
             shotEffect: shootHeal
             smokeEffect: hitLaser
             despownEffect: hitLaser
             collidesTeam: true
+            pierce: true
+            pierceMultiPlier: 3
           }
 }
           
