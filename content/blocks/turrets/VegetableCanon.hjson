@@ -102,7 +102,7 @@ ammoTypes:{
           Corn: {
             type: healBulletType
             speed: 5
-            lifeTime: 70
+            lifeTime: 100
             damage: 5
             width: 10
             hitsize: 10
