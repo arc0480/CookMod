@@ -22,8 +22,8 @@ ammoTypes:{
 	  width: 7
           absorbable: false
 	  height: 10
-  ammoMultiplier: 2
-  reloadMultipler: 5
+          ammoMultiplier: 2
+          reloadMultipler: 5.0
           absorbable: true
           pierce: false 
           pierceArmor: false
@@ -59,13 +59,13 @@ ammoTypes:{
           pierceArmor: true
           height: 20
           ammoMultiplier: 1
-          reloadMultipler:4
+          reloadMultipler: 4.0
           pierce: true
           homingPower: 10
           homingRange: 10
         }
         GoldCarrot: {
-          type: BasicBullettype
+          type: BasicBulletType
           damage: 100
           speed: 5
           lifeTime: 60
@@ -76,7 +76,7 @@ ammoTypes:{
           absobable: false
           pierceArmor: false
           pierce: true
-          hitEffect:blastExplosion
+          hitEffect: blastExplosion
           
           fragOnHit: true
           fragOnAbsobable: false
@@ -99,6 +99,18 @@ ammoTypes:{
               hitEffect:plasticExplosion
             }
           }
+          Corn: {
+            type: healBulletType
+            speed: 20
+            width: 10
+            hitsize: 10
+            drawsize: 100
+            healPercent: 20
+            relordMultiPlier: 2.0
+            shotEffect: shootHeal
+            smokeEffect: hitLaser
+            despownEffect: hitLaser
+            collideTeam: true
 }
           
 
