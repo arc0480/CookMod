@@ -68,7 +68,7 @@ ammoTypes:{
           type: BasicBulletType
           damage: 100
           speed: 5
-          lifeTime: 60
+          lifetime: 56
           width: 5
           height: 10
           ammoMultiplier: 1
@@ -102,12 +102,10 @@ ammoTypes:{
           Corn: {
             type: healBulletType
             speed: 5
-            lifeTime: 600
+            lifetime: 56
             damage: 5
             width: 10
-            hitsize: 10
             healPercent: 20
-            inaccuracyMultiplier: 0.1
             relordMultiPlier: 5.0
             shotEffect: shootHeal
             smokeEffect: hitLaser
