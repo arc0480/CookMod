@@ -1,9 +1,40 @@
+name:
+		ゲーム内での名前
 
-type:Separator
+description:
+		ゲーム内での説明文
+　　'''(シングルクォーテーションx3)で
+		改行を挟んだ説明文を作成可能
+
+outputItem:
+		搬出されるアイテム
+
+size:
+		工場のサイズ
+
+category:
+		所属するグループ
+		右下から選べるグループ分けのアレ
+
+research:
+		テックツリーで親になるオブジェクト
+
+alwaysUnlocked:
+		テックツリー解放必要の有無
+
+type:
+	Separator
 		ランダムで排出　ディスアセンブラ等
 		排出はresultで指定
 
-type:GenericCrafter
+	GenericCrafter
 		決め打ちで排出　シリコン等
 		排出はアウトプットアイテムで指定
+
+consumes:
+		生産に必要な資材
+		水系　アイテム系　電力系を指定可能
+
+
+
 		
