@@ -114,6 +114,9 @@ ammoTypes:{
             collidesTeam: true
             pierce: true
             pierceCap: 3
+
+           frontColor: bulletGreen
+           backColor: bulletGreenBack
           }
 }
           
