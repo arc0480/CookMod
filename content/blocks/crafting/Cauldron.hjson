@@ -1,7 +1,7 @@
 name: Cauldron
   type: genericCrafter
   category: crafting
-  size: 4
+  size: 2
   description:
   '''
   何かを煮込むのに使えそうな大きな釜。
@@ -19,7 +19,7 @@ name: Cauldron
     DarkLiquidGunPowder/2
   ]
   consumes: {
-    power: 20
+    power: 6
     liquids:{
       liquids:[
        LiquidGunPowder/ 2
