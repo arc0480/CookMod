@@ -1,0 +1,13 @@
+name: いい感じキャノン
+description: "いい感じにしたいね"
+type: PwertTurret
+cattegory: turret
+size: 4
+healce: 1000
+
+reload: 7
+range: 350
+recoil: 0.5
+inaccuracy: 2.0
+
+squareSprites: false
