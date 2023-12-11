@@ -37,3 +37,11 @@ consumes:{
 ammoTypes:{
   WhiteRadish:{
     type: 
+    speed: 
+    lifetime: 
+    damage: 0
+    
+    collideAir: false
+    collideGround: false
+    collideTiles: false
+    
