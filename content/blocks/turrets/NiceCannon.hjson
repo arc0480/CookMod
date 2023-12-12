@@ -1,12 +1,11 @@
 name: いい感じキャノン
 description: "いい感じにしたいね"
-type: BurstTurret
+type: burstTurret
 category: turret
 size: 4
 healce: 1000
 recoil: 0.5
 inaccuracy: 2.0
-
 hasPowre: true
 hasItems: true
 itemCapacuty: 30
@@ -31,10 +30,10 @@ targetAire: true
 targetGround: true
 
 consumes:{
-  power: 50
+  power: 1
 }
 
-ammoTypes:{
+ammo:{
   WhiteRadish:{
     type: basicBulletType
     speed: 5
@@ -64,8 +63,7 @@ ammoTypes:{
         damage: 20
         hitSize: 5
         drawSize: 50
-      }
-*/
+      } */
   }
 }
 
