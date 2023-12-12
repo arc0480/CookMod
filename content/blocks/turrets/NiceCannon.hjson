@@ -71,5 +71,5 @@ ammoTypes:{
 requirements: [
   seed/1
 ]
-buildVisibillity: true
+buildVisibillity: shown
 alwaysUnlocked: true
