@@ -66,6 +66,7 @@ ammoTypes:{
         drawSize: 50
       }
 */
+  }
 }
 
 requirements: [
