@@ -13,11 +13,11 @@ itemCapacuty: 30
 
 ammoPerShot: 3
 ammoEjectBack: 1
-range: 350
+range: 320
 reload: 3
 recoil: 0.25
-inaccuracy: 10
-shots: 3
+inaccuracy: 5
+shots: 5
 burstSpacing: 5
 spread: 4
 restitution: 0.1
@@ -36,12 +36,38 @@ consumes:{
 
 ammoTypes:{
   WhiteRadish:{
-    type: 
-    speed: 
-    lifetime: 
-    damage: 0
-    
-    collideAir: false
+    type: basicBulletType
+    speed: 5
+    lifetime: 70
+    damage: 30
+    hitSize: 5
+    drawSize: 50
+    homingPower: 0.01
+    homingRange: 25
+
+/*  collideAir: false
     collideGround: false
     collideTiles: false
-    
+    hitEffect: none
+    despownEffect: none
+
+
+    fragBullets: 1
+    fragVelocityMin: 10
+    fragVelocityMax: 10
+    fragLifeMin: 30
+    fragLifeMax: 30
+      fragBullet:{
+        bulletType: basicBulletType
+        speed: 10
+        lifeTime: 30
+        damage: 20
+        hitSize: 5
+        drawSize: 50
+      }
+*/
+}
+
+requirements: [
+  seed/1
+]
