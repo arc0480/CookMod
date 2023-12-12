@@ -1,7 +1,7 @@
 name: いい感じキャノン
 description: "いい感じにしたいね"
 type: BurstTurret
-cattegory: turret
+category: turret
 size: 4
 healce: 1000
 recoil: 0.5
