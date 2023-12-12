@@ -1,6 +1,6 @@
 name: いい感じキャノン
 description: "いい感じにしたいね"
-type: burstTurret
+type: itemTurret
 category: turret
 size: 4
 healce: 1000
