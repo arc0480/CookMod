@@ -33,7 +33,7 @@ consumes:{
   power: 1
 }
 
-ammotype:{
+ammotypes:{
   WhiteRadish:{
     type: basicBulletType
     speed: 5
