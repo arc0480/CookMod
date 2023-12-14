@@ -10,13 +10,15 @@ hasPowre: true
 hasItems: true
 itemCapacuty: 30
 
-ammoPerShot: 3
+ammoPerShot: 5
 ammoEjectBack: 1
 range: 320
 reload: 3
 recoil: 0.25
 inaccuracy: 5
-shots: 5
+shoot: {
+  shots: 5
+}
 burstSpacing: 5
 spread: 4
 restitution: 0.1
