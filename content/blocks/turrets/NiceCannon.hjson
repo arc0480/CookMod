@@ -20,7 +20,7 @@ shots: 5
 burstSpacing: 5
 spread: 4
 restitution: 0.1
-cooldown: o.1
+cooldown: 0.1
 rotatespeed: 5
 shootCone: 8
 shootShake: 0
@@ -43,6 +43,15 @@ ammotypes:{
     drawSize: 50
     homingPower: 0.01
     homingRange: 25
+  }
+}
+
+requirements: [
+  Seed/1
+]
+buildVisibillity: shown
+alwaysUnlocked: true
+
 
 /*  collideAir: false
     collideGround: false
@@ -64,11 +73,3 @@ ammotypes:{
         hitSize: 5
         drawSize: 50
       } */
-  }
-}
-
-requirements: [
-  Seed/1
-]
-buildVisibillity: shown
-alwaysUnlocked: true
