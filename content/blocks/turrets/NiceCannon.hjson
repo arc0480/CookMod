@@ -34,7 +34,7 @@ consumes:{
 }
 
 ammoTypes:{
-  WhiteRadish:{
+  大根:{
     type: basicBulletType
     speed: 5
     lifetime: 70
