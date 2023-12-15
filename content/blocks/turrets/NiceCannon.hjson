@@ -6,7 +6,7 @@ size: 4
 healce: 1000
 recoil: 0.5
 inaccuracy: 15
-hasPowre: true
+hasPowre: false
 hasItems: true
 itemCapacuty: 30
 
@@ -31,10 +31,6 @@ xRand: 0
 
 targetAire: true
 targetGround: true
-
-consumes:{
-  power: 1
-}
 
 ammoTypes:{
   WhiteRadish:{
