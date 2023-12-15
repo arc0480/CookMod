@@ -35,11 +35,11 @@ ammoTypes:{
     type: basicBulletType
     speed: 5
     lifetime: 70
-    inaccuracy: 
+    inaccuracy: 22.5
     damage: 30
-    hitSize: 10
-    drawSize: 100
-    width: 10
+    hitSize: 75
+    drawSize: 500
+    width: 50
     homingPower: 0.0500
     homingRange: 1
     ammoMultiPlier: 1
