@@ -18,6 +18,7 @@ recoil: 0.25
 inaccuracy: 5
 shoot: {
   shots: 5
+shotDelay: 4
 }
 burstSpacing: 5
 spread: 4
