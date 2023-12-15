@@ -42,7 +42,7 @@ ammoTypes:{
     drawSize: 100
     width: 10
     homingPower: 0.0500
-    homingRange: 5
+    homingRange: 1
     ammoMultiPlier: 1
   }
 }
