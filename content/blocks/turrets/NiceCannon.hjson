@@ -15,7 +15,7 @@ ammoEjectBack: 1
 range: 320
 reload: 30
 recoil: 0.25
-inaccuracy: 5
+inaccuracy: 22.5
 shoot: {
   shots: 5
 shotDelay: 4
