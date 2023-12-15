@@ -38,10 +38,11 @@ ammoTypes:{
     speed: 5
     lifetime: 70
     damage: 30
-    hitSize: 5
-    drawSize: 50
-    homingPower: 0.0010
-    homingRange: 25
+    hitSize: 10
+    drawSize: 100
+    homingPower: 0.0500
+    homingRange: 50
+    ammoMultiPlier: 1
   }
 }
 
