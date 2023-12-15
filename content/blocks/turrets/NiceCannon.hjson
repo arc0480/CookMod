@@ -5,17 +5,15 @@ category: turret
 size: 4
 healce: 1000
 recoil: 0.5
-inaccuracy: 15
+reload: 30
+range: 320
+inaccuracy: 22.5
 hasPowre: false
 hasItems: true
 itemCapacuty: 30
-
 ammoPerShot: 5
 ammoEjectBack: 1
-range: 320
-reload: 30
-recoil: 0.25
-inaccuracy: 22.5
+
 shoot: {
   shots: 5
 shotDelay: 4
@@ -37,6 +35,7 @@ ammoTypes:{
     type: basicBulletType
     speed: 5
     lifetime: 70
+    inaccuracy: 
     damage: 30
     hitSize: 10
     drawSize: 100
@@ -52,25 +51,3 @@ requirements: [
 ]
 buildVisibillity: shown
 alwaysUnlocked: true
-
-
-/*  collideAir: false
-    collideGround: false
-    collideTiles: false
-    hitEffect: none
-    despownEffect: none
-
-
-    fragBullets: 1
-    fragVelocityMin: 10
-    fragVelocityMax: 10
-    fragLifeMin: 30
-    fragLifeMax: 30
-      fragBullet:{
-        bulletType: basicBulletType
-        speed: 10
-        lifeTime: 30
-        damage: 20
-        hitSize: 5
-        drawSize: 50
-      } */
