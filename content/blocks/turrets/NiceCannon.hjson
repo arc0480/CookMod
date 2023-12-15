@@ -40,7 +40,7 @@ ammoTypes:{
     damage: 30
     hitSize: 5
     drawSize: 50
-    homingPower: 0.0005
+    homingPower: 0.0001
     homingRange: 25
   }
 }
