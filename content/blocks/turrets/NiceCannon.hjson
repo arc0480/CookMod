@@ -4,10 +4,10 @@ type: ItemTurret
 category: turret
 size: 4
 healce: 1000
-recoil: 0.5
-reload: 30
+recoil: 1.0
+reload: 50
 range: 320
-inaccuracy: 22.5
+inaccuracy: 0
 hasPowre: false
 hasItems: true
 itemCapacuty: 30
@@ -15,8 +15,8 @@ ammoPerShot: 5
 ammoEjectBack: 1
 
 shoot: {
-  shots: 5
-shotDelay: 4
+  shots: 10
+shotDelay: 9
 }
 burstSpacing: 5
 spread: 4
@@ -34,15 +34,16 @@ ammoTypes:{
   WhiteRadish:{
     type: basicBulletType
     speed: 5
-    lifetime: 70
+    lifetime: 1400
     inaccuracy: 90
     damage: 30
     hitSize: 50
     drawSize: 500
-    width: 10
+    width: 100
     homingPower: 0.0500
     homingRange: 1
     ammoMultiplier:1
+    
   }
 }
 
