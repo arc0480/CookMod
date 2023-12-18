@@ -1,5 +1,8 @@
 name:test
-type: Constructor
+#ブロックを構築するコンフィグ表示
+#type: Constructor
+
+type:ItemSourceBuild
 description:
 '''
 てーすと
