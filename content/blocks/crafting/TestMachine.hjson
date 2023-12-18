@@ -11,7 +11,7 @@ configurable:true
 acceptPayload:true
 
 
-outputItem: PotatoChips/1
+#outputItem: PotatoChips/1
 size: 2
 hasPower: true
 hasItems: true
