@@ -5,7 +5,7 @@ category: turret
 size: 4
 healce: 1000
 recoil: 1.0
-reload: 50
+reload: 100
 range: 320
 inaccuracy: 0
 hasPowre: false
