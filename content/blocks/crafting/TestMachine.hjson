@@ -5,6 +5,7 @@ description:
 てーすと
 '''
 configurable:true
+acceptPayload:true
 
 
 outputItem: PotatoChips/1
