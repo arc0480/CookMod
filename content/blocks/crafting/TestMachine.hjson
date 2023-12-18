@@ -1,3 +1,9 @@
 name:test
-
+type: GenericCrafter
+description:
+'''
+てーすと
+'''
 configurable:true
+outputItem: PotatoChips/1
+size: 2
