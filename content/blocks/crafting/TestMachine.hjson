@@ -1,5 +1,5 @@
 name:test
-type: BlockProducer
+type: Constructor
 description:
 '''
 てーすと
