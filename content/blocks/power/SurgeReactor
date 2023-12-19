@@ -1,0 +1,11 @@
+type: burnerReactor
+name: サージ衝撃発電器
+description: "サージ合金同士を衝突させ、発生する電撃を電力に変換します。
+              数秒で最高効率に達します"
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 100
+outputPower: true
+plasmas: 4
+wormupSpeed: 0.10
