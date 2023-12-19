@@ -43,6 +43,7 @@ ammoTypes:{
     homingPower: 0.0500
     homingRange: 1
     absorbable: false
+    peirce: true
     ammoMultiplier: 1
   }
 }
