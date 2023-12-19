@@ -37,13 +37,13 @@ ammoTypes:{
     lifetime: 1400
     inaccuracy: 90
     damage: 30
-    hitSize: 50
+    hitSize: 25
     drawSize: 500
     width: 25
     homingPower: 0.0500
     homingRange: 1
     absorbable: false
-    peirce: true
+    pierce: true
     ammoMultiplier: 1
   }
 }
