@@ -2,7 +2,8 @@ name:test
 #ブロックを構築するコンフィグ表示
 #type: Constructor
 
-type:ItemSource
+#type:ItemSource
+type: ItemSourceBuild
 description:
 '''
 てーすと
