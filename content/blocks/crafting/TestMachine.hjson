@@ -3,7 +3,7 @@ name:test
 #type: Constructor
 
 #type:ItemSource
-type: ItemSourceBuild
+#type: ItemSourceBuild
 description:
 '''
 てーすと
