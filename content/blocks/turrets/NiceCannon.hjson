@@ -1,5 +1,5 @@
-name: ネタレット
-description: "｢ゴママヨ｣キャンセル"
+name: いい感じキャノン
+description: "いい感じ"
 type: ItemTurret
 category: turret
 size: 4
@@ -39,11 +39,11 @@ ammoTypes:{
     damage: 30
     hitSize: 50
     drawSize: 500
-    width: 100
+    width: 25
     homingPower: 0.0500
     homingRange: 1
-    ammoMultiplier:1
-    
+    absorbable: false
+    ammoMultiplier: 1
   }
 }
 
