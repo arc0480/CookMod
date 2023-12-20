@@ -18,7 +18,6 @@ outputPower: true
 consumesPower: true
 plasmas: 5
 
-wormupSpeed: 1.5
 powerProduction: 3.0
 itemDuration: 600
 lightColor: 7f19ea	 
