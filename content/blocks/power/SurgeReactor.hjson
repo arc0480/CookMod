@@ -1,4 +1,4 @@
-type: ImpactReactor
+type: NuclearReactor
 name: サージ衝撃発電機
 description: 
 '''
@@ -20,19 +20,19 @@ plasmas: 5
 
 wormupSpeed: 1.5
 powerProduction: 3.0
-itemDuration: 60
+itemDuration: 600
 lightColor: 7f19ea	 
 coolColor: ffffff00	 
 hotColor: ff9575a3
 heating: 0.08
-coolantPower: 0.8
+coolantPower: 0.16
+flushThreshold: 0.50
 
 explosionRadius: 50
 explosionDamage: 700
 explodeEffect: lightning
 
 consumes: {
-  power: 0.1
   items:{
     items:[
       surge-alloy/ 5
@@ -44,7 +44,7 @@ consumes: {
     ]
   }
 }
-powerProduction: 25
+powerProduction: 25.1
 
 requirements:[
   Seed/1
