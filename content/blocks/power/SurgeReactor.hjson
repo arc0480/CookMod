@@ -20,15 +20,15 @@ plasmas: 5
 
 wormupSpeed: 0.5
 powerProduction: 3.0
-itemDuration: 10
+itemDuration: 60
 lightColor: 7f19ea	 
 coolColor: ffffff00	 
 hotColor: ff9575a3
 heating: 0.05
 coolantPower: 0.75
 
-explosionRadius: 25
-explosionDamage: 500
+explosionRadius: 50
+explosionDamage: 700
 explodeEffect: lightning
 
 consumes: {
@@ -44,7 +44,7 @@ consumes: {
     ]
   }
 }
-powerProduction: 18
+powerProduction: 25
 
 requirements:[
   Seed/1
