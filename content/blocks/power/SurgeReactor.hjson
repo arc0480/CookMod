@@ -1,0 +1,41 @@
+type: ImpactReactor
+name: サージ衝撃発電機
+description: 
+'''
+サージ合金同士を衝突させ発電します。
+発生する電撃は回収され電力に変換されます。
+発生する熱が蒸気タービンを回します。
+電撃の一部は回収されず、周囲のサージ合金との反応に使用されるため
+反応炉内の反応効率は指数関数的に増加していき、数秒で最高効率に達します。
+'''
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 50
+liquidCapacity: 100
+
+outputPower: true
+consumesPower: true
+plasmas: 3
+wormupSpeed: 0.125
+powerProduction: 3.0
+itemDuration: 40
+explosionRadius: 50
+explosionDamage: 500
+explodeEffect: lightning
+
+consumes: {
+  power: 2.0
+  liquid: {
+    water/ 75.000000
+  }
+}
+powerProduction: 200
+
+requirements:[
+  seed/1
+]
+alwaysUnlocked: true
+buildVisibillity: shown
+category: power
