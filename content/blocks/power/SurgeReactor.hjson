@@ -40,7 +40,7 @@ consumes: {
   }
   liquids:{
     liquids:[
-      water/ 50.000000
+      water/ 0.2000000
     ]
   }
 }
