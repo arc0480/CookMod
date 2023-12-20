@@ -11,28 +11,28 @@ size: 3
 hasPower: true
 hasItems: true
 hasLiquids: true
-itemCapacity: 50
-liquidCapacity: 100
+itemCapacity: 30
+liquidCapacity: 36
 
 outputPower: true
 consumesPower: true
 plasmas: 5
 
-wormupSpeed: 0.5
+wormupSpeed: 1.5
 powerProduction: 3.0
 itemDuration: 60
 lightColor: 7f19ea	 
 coolColor: ffffff00	 
 hotColor: ff9575a3
-heating: 0.05
-coolantPower: 0.75
+heating: 0.08
+coolantPower: 0.8
 
 explosionRadius: 50
 explosionDamage: 700
 explodeEffect: lightning
 
 consumes: {
-  power: 1.0
+  power: 0.1
   items:{
     items:[
       surge-alloy/ 5
@@ -40,7 +40,7 @@ consumes: {
   }
   liquids:{
     liquids:[
-      water/ 0.2000000
+      water/ 0.1000000
     ]
   }
 }
