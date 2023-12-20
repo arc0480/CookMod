@@ -41,7 +41,7 @@ consumes: {
 powerProduction: 200
 
 requirements:[
-  seed/1
+  Seed/1
 ]
 alwaysUnlocked: true
 buildVisibillity: shown
