@@ -18,7 +18,7 @@ liquidCapacity: 100
 outputPower: true
 consumesPower: true
 plasmas: 3
-wormupSpeed: 0.125
+wormupSpeed: 0.5
 powerProduction: 3.0
 itemDuration: 40
 explosionRadius: 50
