@@ -1,9 +1,9 @@
-type: NuclearReactor
+type: impactReactor
 name: サージ衝撃発電機
 description: 
 '''
 サージ合金同士を衝突させ発電します。
-発生する電撃は回収し電力に変換され、発生する熱で蒸気タービンを回します。
+発生する電撃は回収し電力に変換され、発生する熱と冷却水との温度差で2次発電を行います｡
 電撃の一部は回収されず、周囲のサージ合金との反応に使用されるため反応炉内の反応効率は指数関数的に増加していきます。
 '''
 size: 3
@@ -12,27 +12,21 @@ rebuildable: true
 hasItems: true
 hasLiquids: true
 itemCapacity: 30
-liquidCapacity: 36
+liquidCapacity: 180
 
 outputPower: true
 consumesPower: true
 plasmas: 5
-
+warmupSpeed: 1.25
 powerProduction: 3.0
 itemDuration: 600
-lightColor: 7f19ea	 
-coolColor: ffffff00	 
-hotColor: ff9575a3
-heating: 0.08
-smokeThreshold: 0.4
-flushThreshold: 0.64
-coolantPower: 0.8
 
 explosionRadius: 50
 explosionDamage: 700
 explodeEffect: lightning
 
 consumes: {
+  power: 0.1
   items:{
     items:[
       surge-alloy/ 5
@@ -40,11 +34,11 @@ consumes: {
   }
   liquids:{
     liquids:[
-      water/ 0.1000000
+      cryofluid/ 0.5000000
     ]
   }
 }
-powerProduction: 25.1
+powerProduction: 50.1
 
 requirements:[
   Seed/1
