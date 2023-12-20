@@ -4,7 +4,7 @@ description:
 '''
 サージ合金同士を衝突させ発電します。
 発生する電撃は回収し電力に変換され、発生する熱と冷却水との温度差で2次発電を行います｡
-電撃の一部は回収されず、周囲のサージ合金との反応に使用されるため反応炉内の反応効率は指数関数的に増加していきます。
+電撃の一部は回収されず、周囲のサージ合金との反応に使用されるため反応炉内の反応効率は指数関数的に増加し､数秒で自立発電に移行します
 '''
 size: 3
 hasPower: true
@@ -17,7 +17,7 @@ liquidCapacity: 180
 outputPower: true
 consumesPower: true
 plasmas: 5
-warmupSpeed: 1.25
+warmupSpeed: 0.75
 powerProduction: 3.0
 itemDuration: 600
 
