@@ -17,7 +17,7 @@ liquidCapacity: 180
 outputPower: true
 consumesPower: true
 plasmas: 5
-warmupSpeed: 0.2
+warmupSpeed: 0.075
 powerProduction: 3.0
 itemDuration: 600
 
