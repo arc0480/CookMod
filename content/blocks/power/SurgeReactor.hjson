@@ -44,7 +44,7 @@ consumes: {
     ]
   }
 }
-powerProduction: 20
+powerProduction: 18
 
 requirements:[
   Seed/1
