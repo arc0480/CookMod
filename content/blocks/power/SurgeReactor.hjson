@@ -4,11 +4,11 @@ description:
 '''
 サージ合金同士を衝突させ発電します。
 発生する電撃は回収し電力に変換され、発生する熱で蒸気タービンを回します。
-電撃の一部は回収されず、周囲のサージ合金との反応に使用されるため反応炉内の反応効率は指数関数的に増加していき、
-数秒で自立発電に移行します。
+電撃の一部は回収されず、周囲のサージ合金との反応に使用されるため反応炉内の反応効率は指数関数的に増加していきます。
 '''
 size: 3
 hasPower: true
+rebuildable: true
 hasItems: true
 hasLiquids: true
 itemCapacity: 30
@@ -24,8 +24,9 @@ lightColor: 7f19ea
 coolColor: ffffff00	 
 hotColor: ff9575a3
 heating: 0.08
-coolantPower: 0.16
-flushThreshold: 0.50
+smokeThreshold: 0.4
+flushThreshold: 0.64
+coolantPower: 0.8
 
 explosionRadius: 50
 explosionDamage: 700
