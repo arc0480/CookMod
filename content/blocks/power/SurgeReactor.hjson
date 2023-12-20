@@ -27,8 +27,15 @@ explodeEffect: lightning
 
 consumes: {
   power: 2.0
-  liquid: {
-    water/ 75.000000
+  items:{
+    items:[
+      surge-alloy/ 10
+    ]
+  }
+  liquids:{
+    liquids:[
+      water/ 50.000000
+    ]
   }
 }
 powerProduction: 200
