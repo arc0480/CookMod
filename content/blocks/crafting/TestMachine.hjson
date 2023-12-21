@@ -9,6 +9,9 @@ description:
 てーすと
 '''
 configurable:true
+allowConfigInventory :true
+
+
 #acceptPayload:true
 
 config:{
