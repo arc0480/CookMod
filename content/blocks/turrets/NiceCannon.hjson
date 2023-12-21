@@ -46,7 +46,7 @@ ammoTypes:{
     pierce: true
     ammoMultiplier: 1
   }
-  items:{
+/*items:{
     items:[
       Onion/ 1
       Salt/ 1
@@ -61,7 +61,7 @@ ammoTypes:{
   drawSize: 250
   ammoMultiPlire: 2
   reloadMultiPlier: -2
-  }
+  }*/
 }
 
 requirements: [
