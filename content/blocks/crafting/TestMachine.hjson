@@ -17,7 +17,7 @@ allowConfigInventory :true
 config:{
 	ItemSourceBuild:[
 		outputitems: [
-			titanium
+			titanium/1
 		]
   ]
 }
