@@ -20,7 +20,6 @@ ammoTypes:{
 	  speed: 10
 	  lifetime: 28
 	  width: 7
-          absorbable: false
 	  height: 10
           ammoMultiplier: 2
           reloadMultipler: 5.0
