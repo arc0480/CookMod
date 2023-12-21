@@ -61,7 +61,7 @@ ammoTypes:{
   drawSize: 250
   ammoMultiPlire: 2
   reloadMultiPlier: -2
-  
+  }
 }
 
 requirements: [
