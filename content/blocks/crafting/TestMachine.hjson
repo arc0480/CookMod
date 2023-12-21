@@ -11,9 +11,8 @@ description:
 configurable:true
 acceptPayload:true
 
-
-config{
-	ItemSourceBuild
+config:{
+	ItemSourceBuild:
 　{
 		outputitems: titanium
   }
