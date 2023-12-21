@@ -13,10 +13,10 @@ acceptPayload:true
 
 
 config{
-   ItemSourceBuild
+	ItemSourceBuild
 　{
-      outputitems: titanium
-   }
+		outputitems: titanium
+  }
 }
 
 
