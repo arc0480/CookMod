@@ -46,6 +46,22 @@ ammoTypes:{
     pierce: true
     ammoMultiplier: 1
   }
+  items:{
+    items:[
+      Onion/ 1
+      Salt/ 1
+    ]
+  type: basicBulletType
+  speed: 4
+  lifetime: 80
+  inaccuracy: 45
+  damage: 50
+  hitSize: 25
+  width: 10
+  drawSize: 250
+  ammoMultiPlire: 2
+  reloadMultiPlier: -2
+  
 }
 
 requirements: [
