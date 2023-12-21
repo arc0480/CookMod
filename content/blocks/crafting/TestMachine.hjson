@@ -2,7 +2,7 @@ name:test
 #ブロックを構築するコンフィグ表示
 #type: Constructor
 type:genericCrafter
-#type:ItemSource
+type:ItemSource
 #type: ItemSourceBuild
 description:
 '''
