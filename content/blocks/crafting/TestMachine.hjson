@@ -9,11 +9,11 @@ description:
 てーすと
 '''
 configurable:true
-acceptPayload:true
+#acceptPayload:true
 
 config:{
 	ItemSourceBuild:[
-		outputitems: titanium
+		outputitem: titanium
   ]
 }
 
