@@ -12,6 +12,15 @@ configurable:true
 acceptPayload:true
 
 
+config{
+   ItemSourceBuild
+　{
+      outputitems: titanium
+   }
+}
+
+
+
 #outputItem: PotatoChips/1
 size: 2
 hasPower: true
