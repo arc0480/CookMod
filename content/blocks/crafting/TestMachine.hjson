@@ -15,11 +15,11 @@ allowConfigInventory :true
 #acceptPayload:true
 
 config:{
-	ItemSourceBuild:[
+	ItemSourceBuild:{
 		outputitems: [
 			titanium/1
 		]
-  ]
+  }
 }
 
 
