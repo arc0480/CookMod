@@ -16,7 +16,9 @@ allowConfigInventory :true
 
 config:{
 	ItemSourceBuild:[
-		outputitem: titanium
+		outputitems: [
+titanium
+]
   ]
 }
 
@@ -39,7 +41,7 @@ consumes: {
 }
 
 /*outPutItems:[
-           config
+config
 ]*/
 requirements: [
 	lead/50
