@@ -2,4 +2,4 @@ name: スノウドーム
 description: 周囲の気温を下げ､雪を降らし､敵の動きを鈍らせる
              敵に狙われない
 size: 3
-
+targetable: false
