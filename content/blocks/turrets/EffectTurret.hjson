@@ -1,0 +1,32 @@
+name: DebufferTurret
+  description: "周囲の敵性物体に継続的にデバフを与えるタレット。敵に狙われにくい"
+  type: lieuidTurret
+  category: turret
+  size: 3
+  health: 1000
+  
+  hasPower: true
+  hasLiquids: true
+  liquidcapacity: 360
+  
+  reload: 60
+  range: 500
+  recoil: 0.0
+  inaccuracy: 360
+
+  shoot:{
+    shots: 6
+  }
+  consumes: {
+    power: 10
+  }
+  ammoTypes: {
+    Cryofluid:{
+      type: basicBulletType
+      speed: 5
+      liftime: 1
+      damage: 0
+      collides: false
+      status: freezing
+      
+      fragBullest: 6
