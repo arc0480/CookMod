@@ -1,6 +1,6 @@
 name: DebufferTurret
   description: "周囲の敵性物体に継続的にデバフを与えるタレット。敵に狙われにくい"
-  type: lieuidTurret
+  type: turret
   category: turret
   size: 3
   health: 1000
@@ -23,10 +23,35 @@ name: DebufferTurret
   ammoTypes: {
     Cryofluid:{
       type: basicBulletType
-      speed: 5
-      liftime: 1
+      width: 1
+      drawsize: 10
+      
+      speed: 2
+      liftime: 5
       damage: 0
       collides: false
+      splashDamage: 0
+      splashDamageRadius: 50
       status: freezing
-      
-      fragBullest: 6
+
+      fragBullest: 12
+        fragBullet: {
+          type: basicBulletType
+          width: 1
+          drawsize: 10
+          speed: 2
+          lifetime: 5
+          damage: 0
+          collides: false
+          splashDamage: 0
+          splashDamegeRadius: 100
+          inaccuracy: 90
+          fragAngle: 90
+        }
+      }
+    }
+recuirement:[
+  Seed/ 1
+]
+buildVisibillity: shown
+alwaysUnlocked: true
