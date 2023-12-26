@@ -1,4 +1,4 @@
-name: DebufferTurret
+	name: debufferTurret
   description: "周囲の敵性物体に継続的にデバフを与えるタレット。敵に狙われにくい"
   type: LiquidTurret
   category: turret
