@@ -4,6 +4,7 @@ name: DebufferTurret
   category: turret
   size: 3
   health: 1000
+  targetable: false
   
   hasPower: true
   hasLiquids: true
