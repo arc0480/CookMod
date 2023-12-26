@@ -20,7 +20,8 @@ name: DebufferTurret
   consumes: {
     power: 10
   }
-  ammoTypes: {
+  
+  ammo:{
     cryofluid:{
       type: basicBulletType
       width: 1
