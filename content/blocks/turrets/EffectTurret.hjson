@@ -13,7 +13,7 @@ name: DebufferTurret
   range: 500
   recoil: 0.0
   inaccuracy: 360
-
+  ammoParShot: 10
   shoot:{
     shots: 6
   }
@@ -21,7 +21,7 @@ name: DebufferTurret
     power: 10
   }
   ammoTypes: {
-    Cryofluid:{
+    cryofluid:{
       type: basicBulletType
       width: 1
       drawsize: 10
