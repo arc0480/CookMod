@@ -5,6 +5,7 @@ name: DebufferTurret
   size: 3
   health: 1000
   targetable: false
+  squareSprites: false
   
   hasPower: true
   hasLiquids: true
