@@ -1,5 +1,6 @@
 name: DebufferTurret2
-type: ItemTurret
+#type: ItemTurret
+type: LiquidTurret
 category: turret
 size: 3
 health: 1000
