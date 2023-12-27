@@ -9,7 +9,7 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 ammoTypes:{
-	Potato:{
+	Water:{
 		bulletType: LiquidBulletType
 	  damage: 30
 	  speed: 10
