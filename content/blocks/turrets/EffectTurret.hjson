@@ -26,6 +26,7 @@
   ammo:{
     cryofluid:{
       type: liquidBulletType
+			liquid: slag
       width: 1
       drawsize: 10
       
