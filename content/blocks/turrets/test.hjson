@@ -11,3 +11,15 @@ ammoTypes:{
 	Potato:{
 	}
 }
+
+requirements:[
+	copper/90
+	lead/50
+]
+
+research: {
+    parent: HyperBallista
+    requirements: [
+        copper/30
+    ]
+}
