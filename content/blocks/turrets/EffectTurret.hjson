@@ -41,6 +41,7 @@
       fragBullest: 12
         fragBullet: {
           type: liquidBulletType
+					liquid: slag
           width: 1
           drawsize: 10
           speed: 2
