@@ -1,1 +1,7 @@
-#
+name: DebufferTurret2
+type: LiquidTurret
+category: turret
+size: 3
+health: 1000
+targetable: false
+squareSprites: false
