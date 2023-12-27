@@ -5,3 +5,5 @@ size: 3
 health: 1000
 targetable: false
 squareSprites: false
+buildVisibillity: shown
+alwaysUnlocked: true
