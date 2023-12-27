@@ -23,7 +23,7 @@
     power: 10
   }
   
-  ammo:{
+  ammoTypes:{
     cryofluid:{
       type: liquidBulletType
 			liquid: slag
