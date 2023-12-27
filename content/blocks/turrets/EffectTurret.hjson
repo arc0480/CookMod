@@ -27,7 +27,8 @@
     cryofluid:{
       type: liquidBulletType
 			liquid: slag
-      width: 1
+      /*
+			width: 1
       drawsize: 10
       
       speed: 2
@@ -37,6 +38,7 @@
       splashDamage: 0
       splashDamageRadius: 50
       status: freezing
+			*/
 
       fragBullest: 12
         fragBullet: {
