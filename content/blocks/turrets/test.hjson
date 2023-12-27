@@ -9,6 +9,24 @@ buildVisibillity: shown
 alwaysUnlocked: true
 ammoTypes:{
 	Potato:{
+bulletType: BasicBulletType
+	  damage: 30
+	  speed: 10
+	  lifetime: 28
+	  width: 7
+	  height: 10
+    ammoMultiplier: 2
+          reloadMultipler: 5.0
+          absorbable: true
+          pierce: false 
+          pierceArmor: false
+          
+          fragOnHit: true
+          fragOnAbsorbable: true
+          fragBullets: 10
+          fragAngle: 90
+          fragSpead: 180
+          fragRandumSpread: 0
 	}
 }
 
