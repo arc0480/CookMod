@@ -25,27 +25,27 @@
   
   ammo:{
     cryofluid:{
-      type: basicBulletType
+      type: liquidBulletType
       width: 1
       drawsize: 10
       
       speed: 2
       liftime: 5
       damage: 0
-      collides: false
+      pierce: true
       splashDamage: 0
       splashDamageRadius: 50
       status: freezing
 
       /*fragBullest: 12
         fragBullet: {
-          type: basicBulletType
+          type: liquidBulletType
           width: 1
           drawsize: 10
           speed: 2
           lifetime: 5
           damage: 0
-          collides: false
+          pierce: true
           splashDamage: 0
           splashDamegeRadius: 100
           inaccuracy: 90
