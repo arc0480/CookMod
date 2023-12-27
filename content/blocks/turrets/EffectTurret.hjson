@@ -25,11 +25,11 @@
   
   ammoTypes:{
     cryofluid:{
-      type: liquidBulletType
+			type: liquidBulletType
 			liquid: slag
       
 			width: 1
-      drawsize: 10
+	    drawsize: 10
       
       speed: 2
       liftime: 5
