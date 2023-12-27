@@ -9,7 +9,7 @@ buildVisibillity: shown
 alwaysUnlocked: true
 ammoTypes:{
 	Potato:{
-bulletType: BasicBulletType
+		bulletType: LiquidBulletType
 	  damage: 30
 	  speed: 10
 	  lifetime: 28
