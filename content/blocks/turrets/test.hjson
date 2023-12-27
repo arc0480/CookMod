@@ -9,9 +9,12 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 ammoTypes:{
-	Water:{
+	slag:{
 		bulletType: LiquidBulletType
-	  damage: 30
+	   liquid: slag,
+
+
+damage: 30
 	  speed: 10
 	  lifetime: 28
 	  width: 7
