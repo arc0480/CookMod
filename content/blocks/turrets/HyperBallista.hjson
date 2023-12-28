@@ -32,8 +32,8 @@ targetGround: true
 consumes:{
 power: 50
 liquid: {
-    liquid: DarkLiquidGunPowder
-    amount: 1.000000000
+    liquid: LiquidGunPowder
+    amount: 10.000000000
   }
 }
 ammoTypes:{
@@ -54,6 +54,7 @@ ammoTypes:{
     shootEffect: shootBigSmoke2
     smokeEffect: fireSmoke
     hitEffect: plasticExplosion
+    despawnEffect: blastExplosion
     ammoUseEffect: fireBollSmoke
     shootSound: shootBig
     }
