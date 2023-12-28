@@ -44,7 +44,7 @@ ammoTypes:{
     lifetime: 250
     width: 30
     ammoPaerShot: 10
-    hitSize: 50
+    hitSize: 1000
     drawSize: 500.0
     height: 100
     ammoMultiplier: 1
@@ -53,6 +53,7 @@ ammoTypes:{
     
     shootEffect: shootBigSmoke2
     smokeEffect: fireSmoke
+    hitEffect: 
     ammoUseEffect: fireBollSmoke
     shootSound: shootBig
     }
