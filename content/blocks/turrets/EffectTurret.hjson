@@ -12,12 +12,12 @@
   liquidcapacity: 360
   
   reload: 60
-  range: 500
+  range: 100
   recoil: 0.0
   inaccuracy: 360
   ammoPerShot: 10
   shoot:{
-    shots: 6
+    shots: 12
   }
   consumes: {
     power: 10
@@ -25,35 +25,34 @@
   
   ammoTypes:{
     cryofluid:{
-			type: liquidBulletType
-			liquid: slag
-      
-			width: 1
-	    drawsize: 10
-      
+      type: liquidBulletType
+      liquid: cryofluid
+      width: 1
+      drawsize: 10
       speed: 2
-      liftime: 5
+      liftime: 10
       damage: 0
       pierce: true
+      absorbable: false
       splashDamage: 0
       splashDamageRadius: 50
       status: freezing
-			
-
-      fragBullest: 12
+  
+      fragBullets: 12
         fragBullet: {
           type: liquidBulletType
-					liquid: slag
+          liquid: cryofluid
           width: 1
           drawsize: 10
           speed: 2
-          lifetime: 5
+          lifetime: 10
           damage: 0
           pierce: true
           splashDamage: 0
           splashDamegeRadius: 100
           inaccuracy: 90
           fragAngle: 90
+          status: freezing
         }
       }
     }
