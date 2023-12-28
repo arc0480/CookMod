@@ -53,7 +53,7 @@ ammoTypes:{
     
     shootEffect: shootBigSmoke2
     smokeEffect: fireSmoke
-    hitEffect: 
+    hitEffect: plasticExplosion
     ammoUseEffect: fireBollSmoke
     shootSound: shootBig
     }
