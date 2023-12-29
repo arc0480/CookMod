@@ -8,6 +8,28 @@ targetable: false
 squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
+
+shootType: {
+  type: BulletType
+  damage: 1400
+  lifetime: 5
+  hitSize: 26
+  hittable: false
+  absorbable: false
+  speed: 0.001
+  homingPower: 360
+  homingRange: 180
+  status: {
+    name: SKJDFhksahdgkshdkjshgd
+    speedMultiplier: 0.01
+    dragMultiplier: 0.01
+  }
+  statusDuration: 30
+  knockback: 200
+}
+
+
+
 ammoTypes:{
 	slag:{
 		bulletType: LiquidBulletType
