@@ -12,7 +12,7 @@ buildCostMultiplier: 0.75
 hasPower: true
 baseColor: 82e4e988
 phaseColor: 00ffff
-#speedBoost: 2
+speedBoost: 0.1
 
 status: freezing
 
