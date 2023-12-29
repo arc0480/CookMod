@@ -1,6 +1,6 @@
 name: PowerTurret
 #type: ItemTurret
-type: LiquidTurret
+type: PowerTurret
 category: turret
 size: 3
 health: 1000
