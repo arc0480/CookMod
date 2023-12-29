@@ -1,0 +1,43 @@
+name : スプリンクラー
+description:
+'''
+水をばら撒いて成長を促す
+機械にも効果があるらしい?
+'''
+
+type: OverdriveProjector
+health: 3200
+size: 2
+buildCostMultiplier: 0.75
+hasPower: true
+baseColor: 82e4e988
+phaseColor: 00ffff
+#speedBoost: 2
+
+status: freezing
+
+speedBoostPhase: 2
+range: 100
+phaseRangeBoost: 240
+useTime: 120
+liquidCapavity: 120
+consumes: {
+  power: 25
+  liquids: {
+    liquids: [
+      water/1
+    ]
+  }
+}
+requirements: [
+  silicon/100
+  titanium/100
+]
+category: effect
+
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
