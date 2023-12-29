@@ -1,4 +1,4 @@
-name: DebufferTurret2
+name: PowerTurret
 #type: ItemTurret
 type: LiquidTurret
 category: turret
@@ -29,11 +29,11 @@ shootType: {
 }
 
 
-
+/*
 ammoTypes:{
 	slag:{
 		bulletType: LiquidBulletType
-	   liquid: slag,
+	   liquid: slag
 
 
 damage: 30
@@ -55,6 +55,7 @@ damage: 30
           fragRandumSpread: 0
 	}
 }
+*/
 
 requirements:[
 	copper/90
