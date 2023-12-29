@@ -27,7 +27,6 @@ shootType: {
   homingPower: 360
   homingRange: 180
   status: {
-    name: SKJDFhksahdgkshdkjshgd
     speedMultiplier: 0.01
     dragMultiplier: 0.01
   }
@@ -36,7 +35,7 @@ shootType: {
 }
 
 
-/*
+
 ammoTypes:{
 	slag:{
 		bulletType: LiquidBulletType
@@ -62,7 +61,7 @@ damage: 30
           fragRandumSpread: 0
 	}
 }
-*/
+
 
 requirements:[
 	copper/90
