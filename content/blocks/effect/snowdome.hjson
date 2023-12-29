@@ -5,7 +5,7 @@ description:
 機械にも効果があるらしい?
 '''
 
-type: OverdriveProjector
+type: Floor
 health: 3200
 size: 2
 buildCostMultiplier: 0.75
