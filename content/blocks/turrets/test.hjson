@@ -1,6 +1,6 @@
-name: PowerTurret
+name: ItemTurret
 #type: ItemTurret
-type: PowerTurret
+type: ItemTurret
 category: turret
 size: 3
 health: 1000
@@ -36,7 +36,7 @@ shootType: {
 }
 
 
-/*
+
 ammoTypes:{
 	slag:{
 		bulletType: LiquidBulletType
@@ -62,7 +62,7 @@ damage: 30
           fragRandumSpread: 0
 	}
 }
-*/
+
 
 requirements:[
 	copper/90
