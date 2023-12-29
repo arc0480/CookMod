@@ -38,9 +38,9 @@ shootType: {
 
 
 ammoTypes:{
-	slag:{
+	water:{
 		bulletType: LiquidBulletType
-	   liquid: slag
+	   liquid: water
 
 
 damage: 30
