@@ -4,7 +4,7 @@ description:
 水をばら撒いて成長を促す
 機械にも効果があるらしい?
 '''
-
+variants: 0
 type: Floor
 health: 3200
 size: 2
