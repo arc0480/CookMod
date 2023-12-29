@@ -27,6 +27,7 @@ shootType: {
   homingPower: 360
   homingRange: 180
   status: {
+		name: freeze
     status: freeze
     speedMultiplier: 0.01
     dragMultiplier: 0.01
