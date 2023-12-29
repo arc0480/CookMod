@@ -9,6 +9,13 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
+consumes: {
+  power: 4
+  liquids: [
+    water/0.25
+  ]
+}
+
 shootType: {
   type: BulletType
   damage: 1400
