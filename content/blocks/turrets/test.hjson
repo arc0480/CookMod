@@ -35,7 +35,7 @@ shootType: {
 }
 
 
-
+/*
 ammoTypes:{
 	slag:{
 		bulletType: LiquidBulletType
@@ -61,7 +61,7 @@ damage: 30
           fragRandumSpread: 0
 	}
 }
-
+*/
 
 requirements:[
 	copper/90
