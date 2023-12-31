@@ -11,7 +11,7 @@ name: Cauldron
   '''
   hasPower: true
   hasLiquids: true
-  liwuidCapacity: 1200
+  liquidCapacity: 1200
   craftTime: 120
 
   outputLiquids: true
