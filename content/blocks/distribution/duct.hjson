@@ -1,4 +1,5 @@
 type: DuctBridge
+name:duct
 squareSprite: false
 range: 2
 requirements: [
