@@ -8,7 +8,8 @@ requirements: [
 ]
 category: distribution
 speed: 7.5
-research: 0b02-00-tube
+#research: 0b02-00-tube
+/*
 breakEffect: {
   type: WaveEffect
   rotation: 44
@@ -21,6 +22,7 @@ breakEffect: {
   colorFrom: 7382f0
   colorTo: 7382f0
 }
+*/
 destroyBullet: {
   type: BulletType
   speed: 0
@@ -36,6 +38,7 @@ destroyBullet: {
   lightningColor: 7382f0
   lightningDamage: 25
 }
+/*
 destroyEffect: {
   particles: 1
   length: 0
@@ -45,3 +48,4 @@ destroyEffect: {
   sizeTo: 0
   colorTo: 7382f0
 }
+*/
