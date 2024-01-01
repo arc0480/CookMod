@@ -3,8 +3,7 @@ name:duct
 squareSprite: false
 range: 2
 requirements: [
-  dantrales/6
-  territe-alloy/12
+  sand/6
 ]
 category: distribution
 speed: 7.5
