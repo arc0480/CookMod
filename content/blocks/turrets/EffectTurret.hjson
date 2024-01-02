@@ -11,7 +11,7 @@
   hasLiquids: true
   liquidcapacity: 360
   
-  reload: 90
+  reload: 30
   range: 240
   recoil: 0.0
   inaccuracy: 360
@@ -35,7 +35,7 @@
       lifetime: 250
       speed: 1
       weaveMag: 4
-      weaveScale: 4
+      weaveScale: 8
 
       damage: 0
       status: freezing
