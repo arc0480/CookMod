@@ -30,9 +30,8 @@ ammoTypes:{
           fragOnHit: true
           fragOnAbsorbable: true
           fragBullets: 10
-          fragAngle: 90
-          fragSpead: 180
-          fragRandumSpread: 0
+          fragAngle: 9
+          fragRandumSpread: 90
             fragBullet: {
               bulletType: BasicBulletType
               speed: 5
@@ -40,10 +39,8 @@ ammoTypes:{
               lifeTyme: 0.5
               damage: 10
               absorbable: false
-              pierce: true
-              pierceCap: 2
+              pierce: false
               pierceArmor: true
-              pierceDamageFactor: 0.0
             }
         }
 	Carrot: {
