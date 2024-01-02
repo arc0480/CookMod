@@ -40,7 +40,7 @@
       damage: 0
       status: freezing
       statusDuration: 6000
-      hitEffect: hitBulletSmale
+      hitEffect: hitBulletSmall
       absorbable: true
       pierce: true
       pierceArmer: true
