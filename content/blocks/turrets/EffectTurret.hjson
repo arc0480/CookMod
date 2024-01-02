@@ -18,7 +18,7 @@
   ammoPerShot: 10
   shoot:{
     shots: 30
-    shotDelay: 31
+    shotDelay: 15
   }
   consumes: {
     power: 10
