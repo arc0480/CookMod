@@ -11,7 +11,7 @@
   hasLiquids: true
   liquidcapacity: 360
   
-  reload: 30
+  reload: 67
   range: 240
   recoil: 0.0
   inaccuracy: 360
@@ -55,6 +55,7 @@
             width: 1
             drawsize: 10
             hitsize: 1
+            color: white
 
             speed: 10
             lifetime: 1
