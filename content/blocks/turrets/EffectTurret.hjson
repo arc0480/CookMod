@@ -48,7 +48,7 @@
         
         fragOnHit: true
         fragOnAbsobable: true
-        fragBullets: 1
+        fragBullets: 2
         fragRandumSpread: 1
           fragBullet: {
             type: basicBulletType
@@ -60,7 +60,7 @@
 
             speed: 30
             lifetime: 1.5
-            homingRange: 50
+            homingRange: 45
             homingPower: 1
 
             damage: 0
