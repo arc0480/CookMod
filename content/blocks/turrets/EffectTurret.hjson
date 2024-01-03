@@ -1,5 +1,5 @@
 	name: DebufferTurret
-  description: "周囲の敵性物体に継続的にデバフを与えるタレット。敵に狙われにくい"
+  description: "弾丸がヒットした敵性物体にデバフを与えるタレット。敵に狙われにくい"
   type: LiquidTurret
   category: turret
   size: 3
@@ -33,7 +33,7 @@
       bulletSprite: shell
       color: white
 
-      lifetime: 250
+      lifetime: 500
       speed: 0.5
       weaveMag: 4
       weaveScale: 8
@@ -59,7 +59,7 @@
             color: white
 
             speed: 30
-            lifetime: 1
+            lifetime: 1.5
             homingRange: 50
             homingPower: 1
 
