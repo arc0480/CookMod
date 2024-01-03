@@ -31,12 +31,12 @@
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
-      color: white
+      color: ffffff
 
       lifetime: 500
       speed: 0.5
-      weaveMag: 4
-      weaveScale: 8
+      weaveMag: 5
+      weaveScale: 10
 
       damage: 0
       status: freezing
@@ -56,18 +56,18 @@
             drawsize: 10
             hitsize: 1
             bulletSprite: shell
-            color: white
+            color: ffffff
 
             speed: 300
-            lifetime: 1
+            lifetime: 2
             homingRange: 50
             homingPower: 1
 
             damage: 0
             status: blasted
-            absorbabe: false
+            absorbable: false
             pierce: false
-            pierceAmer: true
+            pierceArmer: true
         }
       }
     }
