@@ -58,9 +58,9 @@
             bulletSprite: shell
             color: white
 
-            speed: 30
-            lifetime: 1.5
-            homingRange: 45
+            speed: 300
+            lifetime: 1
+            homingRange: 50
             homingPower: 1
 
             damage: 0
