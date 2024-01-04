@@ -42,7 +42,7 @@ ammoTypes:{
     damage: 12018
     speed: 8
     lifetime: 250
-    width: 30
+    width: 20
     ammoPaerShot: 10
     hitSize: 1000
     drawSize: 500.0
