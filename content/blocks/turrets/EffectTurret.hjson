@@ -15,7 +15,7 @@
   range: 240
   recoil: 1.0
   restitution: 0.5
-  rotatsspeed: 2.5
+  rotatesspeed: 2.5
   inaccuracy: 360
   ammoPerShot: 10
   shoot:{
@@ -33,9 +33,9 @@
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
-      topColor: ffffff
-      color: ffffff
-      botomColor: ffffff
+      topColor: FFFFFF
+      color: FFFFFF
+      botomColor: FFFFFF
 
       lifetime: 500
       speed: 0.5
@@ -60,19 +60,20 @@
             drawsize: 10
             hitsize: 1
             bulletSprite: shell
-　　　　　　　　topColor: ffffff
-            color: ffffff
-            botomColor: ffffff
+　　　　　　　　topColor: FF1E1E
+            color: FF1E1E
+            botomColor: FF1E1E
 
             speed: 300
+            keepVelocity: true
             lifetime: 2
             homingRange: 50
             homingPower: 1
 
-            damage: 0
+            damage: 18
             status: blasted
             absorbable: false
-            pierce: false
+            pierce: true
             pierceArmer: true
         }
       }
