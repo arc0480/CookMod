@@ -13,7 +13,9 @@
   
   reload: 67
   range: 240
-  recoil: 0.0
+  recoil: 1.0
+  restitution: 0.5
+  rotatsspeed: 2.5
   inaccuracy: 360
   ammoPerShot: 10
   shoot:{
@@ -58,7 +60,9 @@
             drawsize: 10
             hitsize: 1
             bulletSprite: shell
+　　　　　　　　topColor: ffffff
             color: ffffff
+            botomColor: ffffff
 
             speed: 300
             lifetime: 2
