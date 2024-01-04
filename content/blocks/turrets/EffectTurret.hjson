@@ -31,7 +31,9 @@
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
+      topColor: ffffff
       color: ffffff
+      botomColor: ffffff
 
       lifetime: 500
       speed: 0.5
