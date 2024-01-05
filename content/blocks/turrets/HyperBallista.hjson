@@ -55,8 +55,8 @@ ammoTypes:{
     pierceBuilding: true
     bulletshrink: 0.1
     trailEffect: artilleryTrail
-    hitEffect: explosion
-    despawnEffect: impactShockwave
+    hitEffect: blastExplosion
+    despawnEffect: bigShockwave
     shootSound: shootBig
     }
 }
