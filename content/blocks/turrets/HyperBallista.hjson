@@ -45,15 +45,15 @@ ammoTypes:{
     damage: 12018
     speed: 8
     lifetime: 250
-    width: 20
     ammoPaerShot: 10
     hitSize: 50
     drawSize: 500.0
+    bulletWidth: 25
     height: 100
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
-    bulletshrink: 0.1
+    bulletshrink: 1
     trailEffect: artilleryTrail
     hitEffect: blastExplosion
     despawnEffect: bigShockwave
