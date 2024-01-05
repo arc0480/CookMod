@@ -13,8 +13,8 @@
   
   reload: 67
   range: 240
-  recoil: 1.0
-  restitution: 0.5
+  recoil: 0
+  restitution: 0
   rotatesspeed: 2.5
   inaccuracy: 360
   ammoPerShot: 10
@@ -34,12 +34,14 @@
       hitsize: 5
       bulletSprite: shell
       topColor: FFFFFF
-      color: FFFFFF
       botomColor: FFFFFF
+
+      ammoMultiPlier: 1
+      reloadMultiprier: 2
 
       lifetime: 500
       speed: 0.5
-      weaveMag: 5
+      weaveMag: 2.5
       weaveScale: 10
 
       damage: 0
@@ -60,9 +62,8 @@
             drawsize: 10
             hitsize: 1
             bulletSprite: shell
-　　　　　　　　topColor: FF1E1E
-            color: FF1E1E
-            botomColor: FF1E1E
+　　　　　　　　frontColor: FF1E1E
+            backColor: FF1E1E
 
             speed: 300
             keepVelocity: true
@@ -77,6 +78,29 @@
             pierceArmer: true
         }
       }
+    /*slag: {
+      type: basicBulletType
+      width: 10
+      drawsize: 100
+      hitsize: 5
+      bulletSprite: shell
+      topColor: 
+      color: 
+      botomColor: 
+
+      lifetime: 500
+      speed: 2
+      weaveMag: 5
+      weaveScale: 5
+
+      damage: 0
+      status: melting
+      statusDuration: 6000
+      hitEffect: hitBulletSmall
+      absorbable: true
+      pierce: true
+      pierceArmer: true
+      */
     }
 requirements:[
   Seed/ 1
