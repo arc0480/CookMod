@@ -1,4 +1,4 @@
-name: HyperBallista
+のname: HyperBallista
 description: "りぃさるぅえぽん"
 type: itemTurret
 category: turret
@@ -20,6 +20,9 @@ recoil: 0.25
 restitution: 1.0
 cooldown: 1350
 rotatespeed: 10
+shootEffect: shootEjectBig
+ammoUseEffect: bigShockwave
+smokeEffect: shootBigSmoke2
 shootCone: 10
 shootShake: 0.1
 xRand: 0.0	
@@ -50,13 +53,10 @@ ammoTypes:{
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
-
     bulletshrink: 0.1
-    shootEffect: lightningShoot
-    smokeEffect: fireSmoke
-    hitEffect: dynamicExplosion
-    despawnEffect: bigShockwave
-    ammoUseEffect: fireBollSmoke
+    trailEffect: artilleryTrail
+    hitEffect: explosion
+    despawnEffect: impactShockwave
     shootSound: shootBig
     }
 }
