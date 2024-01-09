@@ -1,4 +1,4 @@
-	name: DebufferTurret
+name: DebufferTurret
   description: "弾丸がヒットした敵性物体にデバフを与えるタレット。敵に狙われにくい"
   type: LiquidTurret
   category: turret
@@ -50,7 +50,7 @@
       hitEffect: hitBulletSmall
       absorbable: true
       pierce: true
-      pierceArmer: true
+      pierceArmor: true
         
         fragOnHit: true
         fragOnAbsobable: true
@@ -75,9 +75,9 @@
             status: blasted
             absorbable: false
             pierce: true
-            pierceArmer: true
-        }
-      }
+            pierceArmor: true
+          }
+    }
     slag: {
       type: bombBulletType
       width: 10
@@ -103,8 +103,9 @@
       collidesGround: true
       absorbable: true
       pierce: false
-      pierceArmer: true
+      pierceArmor: true
     }
+  }
 requirements:[
   Seed/ 1
 ]
