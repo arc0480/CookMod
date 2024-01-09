@@ -93,7 +93,7 @@ name: DebufferTurret
       reloadMultiplier: -0.5
       ammoMultiplier: 1
 
-      damage: 0
+      damage: 2
       splashDamage: 10
       splashDamageRadius: 5
       status: melting
