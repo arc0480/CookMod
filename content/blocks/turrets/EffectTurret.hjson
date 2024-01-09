@@ -90,7 +90,7 @@ name: DebufferTurret
       speed: 3
       keepVelocity: false
       bulletShlink: 0.7
-      reloadMultiplier: -3.0
+      reloadMultiplier: -0.5
       ammoMultiplier: 1
 
       damage: 0
