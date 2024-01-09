@@ -1,0 +1,7 @@
+name: 重症
+  speedMultiplier: 0.3
+  reloadMultiplier: 0
+  helthMultiplier: 0
+  armerMultilier: 0.5
+  damage: -5
+  permanent: true
