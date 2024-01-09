@@ -29,7 +29,6 @@ name: DebufferTurret
   ammoTypes: {
     cryofluid: {
       type: basicBulletType
-      width: 10
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
@@ -46,7 +45,7 @@ name: DebufferTurret
 
       damage: 0
       status: freezing
-      statusDuration: 6000
+      statusDuration: 600
       hitEffect: hitBulletSmall
       absorbable: true
       pierce: true
@@ -80,7 +79,6 @@ name: DebufferTurret
     }
     slag: {
       type: bombBulletType
-      width: 10
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
@@ -88,17 +86,21 @@ name: DebufferTurret
       color: 
       botomColor: 
 
-      lifetime: 120
-      speed: 2
+      lifetime: 80
+      speed: 3
+      keepVelocity: false
       bulletShlink: 0.7
-      relosdMultiplier: -3.0
+      reloadMultiplier: -3.0
+      ammoMultiplier: 1
 
       damage: 0
+      splashDamage: 10
+      splashDamageRadius: 5
       status: melting
       statusDuration: 300
       hitEffect: hitLiquid
       collides: false
-      collidesTiles: true
+      collidesTiles: false
       collidesAir: false
       collidesGround: true
       absorbable: true
