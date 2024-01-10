@@ -29,6 +29,7 @@ name: DebufferTurret
   ammoTypes: {
     cryofluid: {
       type: basicBulletType
+      width: 10
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
@@ -79,6 +80,7 @@ name: DebufferTurret
     }
     slag: {
       type: bombBulletType
+      width: 30
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
@@ -90,7 +92,7 @@ name: DebufferTurret
       speed: 3
       keepVelocity: false
       bulletShlink: 0.7
-      reloadMultiplier: -0.5
+      reloadMultiplier: 0.1
       ammoMultiplier: 1
 
       damage: 2
