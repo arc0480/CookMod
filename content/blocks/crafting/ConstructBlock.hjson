@@ -1,4 +1,4 @@
-type:genericCrafter
+type:BlockProducer
 name:ConstructBlock
 category: crafting
 size: 2
