@@ -1,4 +1,4 @@
-type:ConstructBlock
+type:genericCrafter
 name:ConstructBlock
 category: crafting
   size: 2
@@ -6,3 +6,4 @@ category: crafting
   '''
 		ConstructBlock
 	'''
+config:true
