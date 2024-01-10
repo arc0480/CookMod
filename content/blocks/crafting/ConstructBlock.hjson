@@ -15,6 +15,6 @@ requirements: [
 alwaysunlocked: true
 
 acceptItem:true
-group : BlockGroup.transportation
+#group : BlockGroup.transportation
 configurable : true
 clearOnDoubleTap : true
