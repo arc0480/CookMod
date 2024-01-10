@@ -1,2 +1,8 @@
 type:ConstructBlock
 name:ConstructBlock
+category: crafting
+  size: 2
+  description:
+  '''
+		ConstructBlock
+	'''
