@@ -1,9 +1,10 @@
 type:genericCrafter
 name:ConstructBlock
 category: crafting
-  size: 2
-  description:
+size: 2
+description:
   '''
 		ConstructBlock
 	'''
 config:true
+alwaysunlocked: true
