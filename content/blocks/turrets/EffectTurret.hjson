@@ -45,17 +45,14 @@ name: DebufferTurret
       weaveScale: 10
 
       damage: 0
-      status: [
-        freezing
-        blasted
-      ]
+      status: freezing
       statusDuration: 600
       hitEffect: hitBulletSmall
       absorbable: true
       pierce: true
       pierceArmor: true
         
-      /*fragOnHit: true
+      fragOnHit: true
         fragOnAbsobable: true
         fragBullets: 2
         fragRandumSpread: 1
@@ -79,7 +76,7 @@ name: DebufferTurret
             absorbable: false
             pierce: true
             pierceArmor: true
-          }*/
+          }
     }
     slag: {
       type: bombBulletType
