@@ -33,8 +33,8 @@ name: DebufferTurret
       drawsize: 100
       hitsize: 5
       bulletSprite: shell
-      topColor: FFFFFF
-      botomColor: FFFFFF
+      frontColor: FFFFFF
+      backColor: FFFFFF
 
       ammoMultiPlier: 1
       reloadMultiprier: 2
@@ -71,7 +71,7 @@ name: DebufferTurret
             homingRange: 50
             homingPower: 1
 
-            damage: 18
+            damage: 0
             status: blasted
             absorbable: false
             pierce: true
@@ -83,10 +83,9 @@ name: DebufferTurret
       width: 30
       drawsize: 100
       hitsize: 5
-      bulletSprite: shell
-      topColor: 
-      color: 
-      botomColor: 
+      bulletSprite: 
+      frontColor: 
+      backColor: 
 
       lifetime: 80
       speed: 3
