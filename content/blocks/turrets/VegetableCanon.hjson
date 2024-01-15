@@ -108,7 +108,7 @@ ammoTypes:{
           pierce: true
           pierceCap: 3
 
-          bulletSprite: 
+          bulletSprite: laser
           frontColor: 
           backColor: 
           shotEffect: shootHeal
