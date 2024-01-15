@@ -78,36 +78,6 @@ name: DebufferTurret
             pierceArmor: true
           }
     }
-    slag: {
-      type: bombBulletType
-      width: 30
-      drawsize: 100
-      hitsize: 5
-      bulletSprite: 
-      frontColor: 
-      backColor: 
-
-      lifetime: 80
-      speed: 3
-      keepVelocity: false
-      bulletShlink: 0.7
-      reloadMultiplier: 0.75
-      ammoMultiplier: 1
-
-      damage: 2
-      splashDamage: 10
-      splashDamageRadius: 5
-      status: melting
-      statusDuration: 300
-      hitEffect: hitLiquid
-      collides: false
-      collidesTiles: false
-      collidesAir: false
-      collidesGround: true
-      absorbable: true
-      pierce: false
-      pierceArmor: true
-    }
   }
 requirements:[
   Seed/ 1
