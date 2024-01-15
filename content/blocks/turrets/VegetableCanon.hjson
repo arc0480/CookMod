@@ -112,8 +112,8 @@ ammoTypes:{
             smokeEffect: hitLaser
             despownEffect: hitLaser
             sprite: shell
-            /*frontColor: 50E030
-            backColor: 50E030*/
+            frontColor: 
+            backColor: 
           }
 }
 
