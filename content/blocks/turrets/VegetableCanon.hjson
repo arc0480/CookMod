@@ -112,6 +112,7 @@ ammoTypes:{
             smokeEffect: hitLaser
             despownEffect: hitLaser
             sprite: shell
+            bulletSprite: 
             frontColor: 
             backColor: 
           }
