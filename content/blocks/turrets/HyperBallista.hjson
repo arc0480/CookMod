@@ -1,4 +1,4 @@
-のname: HyperBallista
+name: HyperBallista
 description: "りぃさるぅえぽん"
 type: itemTurret
 category: turret
@@ -55,9 +55,13 @@ ammoTypes:{
     pierceBuilding: true
     bulletshrink: 1
     trailEffect: artilleryTrail
+    trailColor: ff9900
     hitEffect: blastExplosion
     despawnEffect: bigShockwave
-    shootSound: shootBig
+    shootEffect: lightningShoot
+    smokeEffect: impactSmoke
+    lightning: 4
+    lightningLength: 10
     }
 }
 
