@@ -59,7 +59,7 @@ ammoTypes:{
     hitEffect: blastExplosion
     despawnEffect: bigShockwave
     shootEffect: lightningShoot
-    smokeEffect: impactSmoke
+    smokeEffect: blastSmoke
     lightning: 4
     lightningLength: 10
     }
