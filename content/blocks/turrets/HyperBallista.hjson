@@ -42,26 +42,26 @@ liquid: {
 ammoTypes:{
   GoldCarrot:{ 
     type: ligtningBulletType
-    damage: 12018
+    damage: 6018
     speed: 8
     lifetime: 250
     ammoPaerShot: 10
     hitSize: 50
     drawSize: 500.0
     bulletWidth: 25
-    height: 100
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
     bulletshrink: 1
-    trailEffect: artilleryTrail
-    trailColor: ff9900
+    trailEffect: missileTrail
+    trailColor: fbd367
     hitEffect: blastExplosion
     despawnEffect: bigShockwave
     shootEffect: lightningShoot
     smokeEffect: shootBigSmoke
     lightning: 4
     lightningLength: 10
+    lightningColor: fbd367
     }
 }
 
