@@ -61,6 +61,7 @@ ammoTypes:{
     shootEffect: lightningShoot
     smokeEffect: shootBigSmoke
     lightning: 4
+    lightningDamage: 20
     lightningLength: 10
     lightningColor: fbd367
     }
@@ -76,7 +77,7 @@ requirements: [
   silicon/ 1500
 ]
 BuildVisibillity: shown
-buildTime: 17650
+buildTime: 1800
 
 research: {
     parent: CoreSeeds
