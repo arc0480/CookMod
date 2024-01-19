@@ -49,6 +49,7 @@ ammoTypes:{
     hitSize: 50
     drawSize: 500.0
     bulletWidth: 25
+    height: 100
     ammoMultiplier: 1
     pierce: true
     pierceBuilding: true
