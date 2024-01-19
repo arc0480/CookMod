@@ -75,6 +75,7 @@ requirements: [
   silicon/ 1500
 ]
 BuildVisibillity: shown
+buildTime: 17650
 
 research: {
     parent: CoreSeeds
