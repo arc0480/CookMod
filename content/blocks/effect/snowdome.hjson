@@ -1,21 +1,19 @@
 name : スノードーム
 description:
 '''
-水をばら撒いて成長を促す
-機械にも効果があるらしい?
+範囲内の敵性物体にデバフを与え続ける
 '''
 variants: 0
-type: Floor
+type: ForceProjector
 health: 3200
 size: 2
 buildCostMultiplier: 0.75
 hasPower: true
 baseColor: 82e4e988
 phaseColor: 00ffff
-speedBoost: 0.1
+radius: 100
 
 status: freezing
-speedMultiplier :0.1
 
 speedBoostPhase: 2
 range: 100
