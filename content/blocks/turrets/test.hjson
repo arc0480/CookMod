@@ -75,6 +75,7 @@ damage: 30
     shots: 9
     shotDelay: 4
   }
+ xRand: 5
   consumes: {
     power: 10
   }
@@ -134,9 +135,11 @@ damage: 30
             damage: 0
             status: {
             sapped
+            electrified
+            melting
               }
             statusDuration: 300
-            knockback: -50
+            knockback: -100
             absorbable: false
             pierce: false
             pierceArmor: true
