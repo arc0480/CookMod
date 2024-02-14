@@ -1,6 +1,6 @@
 name: ItemTurret
-#type: ItemTurret
-type: powerTurret
+type: ItemTurret
+#type: powerTurret
 category: turret
 size: 3
 health: 10000000
@@ -133,11 +133,11 @@ damage: 30
             collidesAir: 
 
             damage: 0
-            status: {
+            status: [
             sapped
             electrified
             melting
-              }
+            ]
             statusDuration: 300
             knockback: -100
             absorbable: false
