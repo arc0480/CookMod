@@ -76,7 +76,7 @@ damage: 30
     shots: 9
     shotDelay: 4
   }
- xRand: 5
+ xRand: 3
   consumes: {
     power: 10
   }
