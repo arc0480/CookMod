@@ -1,5 +1,5 @@
-name: ItemTurret
-description: "アイテムタレットと言ったな...アレは嘘だ！！！！"
+name: LiquidTurret
+description: "リキッドタレットと言ったな...アレは嘘だ！！！！"
 type: liquidTurret
 #type: powerTurret
 category: turret
@@ -9,64 +9,9 @@ targetable: false
 squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
-/*
-consumes: {
-  power: 4
-  liquids: [
-    water/0.25
-  ]
-}
 
-shootType: {
-  type: BulletType
-  damage: 0
-  lifetime: 5
-  hitSize: 26
-  hittable: false
-  absorbable: false
-  speed: 0.001
-  homingPower: 360
-  homingRange: 180
-  status: {
-    name:雪だるま
-		status: yukidaruma
-    speedMultiplier: 0.01
-    dragMultiplier: 0.01
-  }
-  statusDuration: 30
-  knockback: 200
-}
-
-
-
-ammoTypes:{
-	water:{
-		bulletType: LiquidBulletType
-	   liquid: water
-
-
-damage: 30
-	  speed: 10
-	  lifetime: 28
-	  width: 7
-	  height: 10
-    ammoMultiplier: 2
-          reloadMultipler: 5.0
-          absorbable: true
-          pierce: false 
-          pierceArmor: false
-          
-          fragOnHit: true
-          fragOnAbsorbable: true
-          fragBullets: 10
-          fragAngle: 90
-          fragSpead: 180
-          fragRandumSpread: 0
-	}
-}
-*/
   reload: 30
-  range: 500
+  range: 960
   recoil: 10
   restitution: 0
   rotatesspeed: 5
@@ -82,7 +27,7 @@ damage: 30
   }
   
   ammoTypes: {
-    cryofluid: {
+    spore-pod: {
       type: basicBulletType
       width: 0
       drawsize: 0
