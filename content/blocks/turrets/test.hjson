@@ -1,6 +1,6 @@
 name: LiquidTurret
 description: "リキッドタレットと言ったな...アレは嘘だ！！！！"
-type: liquidTurret
+type: itemTurret
 #type: powerTurret
 category: turret
 size: 3
