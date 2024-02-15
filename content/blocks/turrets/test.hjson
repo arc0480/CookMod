@@ -26,7 +26,7 @@ targetAir: false
 targetGround: true
 consumes: {
   power: 10
-    liquid: {
+    liquids: {
       cryofluid/60
     }
 }
@@ -45,7 +45,7 @@ ammoTypes: {
     reloadMultiprier: 2
 
     lifetime: 2
-    speed: 450
+    speed: 225
     weaveMag: 0
     weaveScale: 0
 
@@ -77,7 +77,7 @@ ammoTypes: {
 
            speed: 0
            keepVelocity: false
-           lifetime: 600
+           lifetime: 60000
            homingRange: 0
            homingPower: 0
 
@@ -90,6 +90,10 @@ ammoTypes: {
 
           damage: 0
           status: sapped
+          /*status: [
+            sapped
+            melting
+          ]*/
           statusDuration: 300
           knockback: -75
           absorbable: false
