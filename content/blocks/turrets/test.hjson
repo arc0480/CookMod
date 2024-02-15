@@ -82,11 +82,9 @@ consumes: {
             collidesGround: false
 
             damage: 0
-            status: [
-            sapped
-            ]
+            status: sapped
             statusDuration: 300
-            knockback: 10
+            knockback: -75
             absorbable: false
             pierce: false
             pierceArmor: true
