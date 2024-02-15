@@ -10,6 +10,11 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
+hasPower: true
+powerCapacity: 60
+hasLiquid: true
+liquidCapacity: 180
+
 reload: 90
 range: 320
 recoil: 10
@@ -28,7 +33,7 @@ consumes: {
   power: 10
   liquid: {
     liquid: cryofluid
-    amount: 60
+    amount: 30
   }
 }
   
@@ -95,7 +100,7 @@ ammoTypes: {
             sapped
             melting
           ]*/
-          statusDuration: 300
+          statusDuration: 3600
           knockback: -75
           absorbable: false
           pierce: false
