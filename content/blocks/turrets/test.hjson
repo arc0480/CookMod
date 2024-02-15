@@ -15,16 +15,16 @@ powerCapacity: 60
 hasLiquid: true
 liquidCapacity: 180
 
-reload: 90
+reload: 1500
 range: 320
-recoil: 10
+recoil: 0
 restitution: 0
 rotatesspeed: 5
 inaccuracy: 0
 ammoPerShot: 10
 shoot:{
   shots: 4
-  shotDelay: 3
+  shotDelay: 2
 }
 xRand: 3
 targetAir: false 
@@ -47,7 +47,7 @@ ammoTypes: {
     frontColor: FFFFFF
     backColor: FFFFFF
 
-    ammoMultiPlier: 1
+    ammoMultiPlier: 2
     reloadMultiprier: 2
 
     lifetime: 2
@@ -77,34 +77,34 @@ ammoTypes: {
          width: 10
          drawsize: 40
          hitsize: 4
-           bulletSprite: shell
-           frontColor: 00FBCB
-           backColor: 00E7F9
+         bulletSprite: shell
+         frontColor: 00FBCB
+         backColor: 00E7F9
+         lightningLength: 2
 
-           speed: 0
-           keepVelocity: false
-           lifetime: 60000
-           homingRange: 0
-           homingPower: 0
+         speed: 0
+         keepVelocity: true
+         lifetime: 60000
+         homingRange: 0
+         homingPower: 0
 
-           hitEffect: hitFlameBeam
-           despawnEffect: hitBeam
+         hitEffect: hitFlameBeam
+         despawnEffect: hitBeam
 
-           collidesTeam: false
-           collidesAir: false
-           collidesGround: false
+         collidesTeam: false
+         collidesAir: false
 
-          damage: 0
-          status: sapped
-          /*status: [
-            sapped
-            melting
+         damage: 0
+         status: sapped
+       /*status: [
+           sapped
+           melting
           ]*/
-          statusDuration: 3600
-          knockback: -50
-          absorbable: false
-          pierce: false
-          pierceArmor: true
+         statusDuration: 3600
+         knockback: 6
+         absorbable: false
+         pierce: false
+         pierceArmor: true
        }
    }
 }
