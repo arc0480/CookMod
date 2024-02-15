@@ -10,22 +10,25 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
- reload: 30
- range: 960
+ reload: 90
+ range: 320
  recoil: 10
  restitution: 0
  rotatesspeed: 5
  inaccuracy: 0
  ammoPerShot: 10
  shoot:{
-    shots: 9
-    shotDelay: 4
+    shots: 5
+    shotDelay: 
   }
 xRand: 3
 targetAir: false 
 targetGround: true
 consumes: {
     power: 10
+    liquid: {
+      cryofluid/60
+   }
  }
   
   ammoTypes: {
@@ -41,7 +44,7 @@ consumes: {
       ammoMultiPlier: 1
       reloadMultiprier: 2
 
-      lifetime: 1
+      lifetime: 2
       speed: 450
       weaveMag: 0
       weaveScale: 0
@@ -53,7 +56,8 @@ consumes: {
       hitEffect: none
       despawnEffect: none
 
-      collide: false
+      collides: false
+
       absorbable: false
       pierce: false
       pierceArmor: false
@@ -76,6 +80,9 @@ consumes: {
             lifetime: 600
             homingRange: 0
             homingPower: 0
+
+            hitEffect: hitFlameBeam
+            despawnEffect: hitBeam
 
             collidesTeam: false
             collidesAir: false
