@@ -52,6 +52,7 @@ ammoTypes: {
 
     lifetime: 2
     speed: 112.5
+    velocityRand: 2
     weaveMag: 0
     weaveScale: 0
 
@@ -94,7 +95,7 @@ ammoTypes: {
          collidesTeam: true
          collidesAir: false
 
-         damage: 15
+         damage: 10
          status: freezing
        /*status: [
            sapped
@@ -105,9 +106,10 @@ ammoTypes: {
            electrified
           ]*/
          statusDuration: 3600
-         knockback: -100
+         knockback: -50
          absorbable: false
-         pierce: false
+         pierce: true
+         pierceCap: 10
          pierceArmor: true
        }
    }
