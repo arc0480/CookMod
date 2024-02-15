@@ -86,8 +86,8 @@ ammoTypes: {
          speed: 0
          keepVelocity: true
          lifetime: 60000
-         homingRange: 
-         homingPower: 
+         homingRange: 0
+         homingPower: 0
 
          hitEffect: hitFlameBeam
          despawnEffect: hitBeam
