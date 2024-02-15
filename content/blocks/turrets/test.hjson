@@ -92,7 +92,7 @@ ammoTypes: {
          hitEffect: hitFlameBeam
          despawnEffect: hitBeam
 
-         collidesTeam: false
+         collidesTeam: true
          collidesAir: false
 
          damage: 1
