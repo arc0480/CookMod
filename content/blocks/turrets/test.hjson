@@ -10,21 +10,23 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
-  reload: 30
-  range: 960
-  recoil: 10
-  restitution: 0
-  rotatesspeed: 5
-  inaccuracy: 0
-  ammoPerShot: 10
-  shoot:{
+ reload: 30
+ range: 960
+ recoil: 10
+ restitution: 0
+ rotatesspeed: 5
+ inaccuracy: 0
+ ammoPerShot: 10
+ shoot:{
     shots: 9
     shotDelay: 4
   }
- xRand: 3
-  consumes: {
+xRand: 3
+targetAir: false 
+targetGround: true
+consumes: {
     power: 10
-  }
+ }
   
   ammoTypes: {
     spore-pod: {
@@ -58,7 +60,7 @@ alwaysUnlocked: true
         
       fragOnHit: true
         fragOnAbsobable: true
-        fragBullets: 2
+        fragBullets: 1
         fragRandumSpread: 1
           fragBullet: {
             type: basicBulletType
@@ -75,8 +77,9 @@ alwaysUnlocked: true
             homingRange: 0
             homingPower: 0
 
-            collidesTeam: 
-            collidesAir: 
+            collidesTeam: false
+            collidesAir: false
+            collidesGround: false
 
             damage: 0
             status: [
@@ -85,7 +88,7 @@ alwaysUnlocked: true
             melting
             ]
             statusDuration: 300
-            knockback: -100
+            knockback: 10
             absorbable: false
             pierce: false
             pierceArmor: true
