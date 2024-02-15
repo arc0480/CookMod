@@ -10,94 +10,94 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
- reload: 90
- range: 320
- recoil: 10
- restitution: 0
- rotatesspeed: 5
- inaccuracy: 0
- ammoPerShot: 10
- shoot:{
-    shots: 5
-    shotDelay: 
-  }
+reload: 90
+range: 320
+recoil: 10
+restitution: 0
+rotatesspeed: 5
+inaccuracy: 0
+ammoPerShot: 10
+shoot:{
+  shots: 4
+  shotDelay: 3
+}
 xRand: 3
 targetAir: false 
 targetGround: true
 consumes: {
-    power: 10
+  power: 10
     liquid: {
       cryofluid/60
-   }
- }
-  
-  ammoTypes: {
-    spore-pod: {
-      type: basicBulletType
-      width: 0
-      drawsize: 0
-      hitsize: 0
-      bulletSprite: shell
-      frontColor: FFFFFF
-      backColor: FFFFFF
-
-      ammoMultiPlier: 1
-      reloadMultiprier: 2
-
-      lifetime: 2
-      speed: 450
-      weaveMag: 0
-      weaveScale: 0
-
-      damage: 0
-      status: none
-      statusDuration: 0
-
-      hitEffect: none
-      despawnEffect: none
-
-      collides: false
-
-      absorbable: false
-      pierce: false
-      pierceArmor: false
-        
-      fragOnHit: true
-        fragOnAbsobable: true
-        fragBullets: 1
-        fragRandumSpread: 1
-          fragBullet: {
-            type: basicBulletType
-            width: 10
-            drawsize: 40
-            hitsize: 4
-            bulletSprite: shell
-　　　　　　　　frontColor: 00CE7D
-            backColor: 00CE7D
-
-            speed: 0
-            keepVelocity: false
-            lifetime: 600
-            homingRange: 0
-            homingPower: 0
-
-            hitEffect: hitFlameBeam
-            despawnEffect: hitBeam
-
-            collidesTeam: false
-            collidesAir: false
-            collidesGround: false
-
-            damage: 0
-            status: sapped
-            statusDuration: 300
-            knockback: -75
-            absorbable: false
-            pierce: false
-            pierceArmor: true
-          }
     }
-  }
+}
+  
+ammoTypes: {
+  spore-pod: {
+    type: basicBulletType
+    width: 0
+    drawsize: 0
+    hitsize: 0
+    bulletSprite: shell
+    frontColor: FFFFFF
+    backColor: FFFFFF
+
+    ammoMultiPlier: 1
+    reloadMultiprier: 2
+
+    lifetime: 2
+    speed: 450
+    weaveMag: 0
+    weaveScale: 0
+
+    damage: 0
+    status: none
+    statusDuration: 0
+
+    hitEffect: none
+    despawnEffect: none
+
+    collides: false
+
+    absorbable: false
+    pierce: false
+    pierceArmor: false
+        
+   fragOnHit: true
+     fragOnAbsobable: true
+     fragBullets: 1
+     fragRandumSpread: 1
+       fragBullet: {
+         type: basicBulletType
+         width: 10
+         drawsize: 40
+         hitsize: 4
+           bulletSprite: shell
+           frontColor: 00CE7D
+           backColor: 00CE7D
+
+           speed: 0
+           keepVelocity: false
+           lifetime: 600
+           homingRange: 0
+           homingPower: 0
+
+           hitEffect: hitFlameBeam
+           despawnEffect: hitBeam
+
+           collidesTeam: false
+           collidesAir: false
+           collidesGround: false
+
+          damage: 0
+          status: sapped
+          statusDuration: 300
+          knockback: -75
+          absorbable: false
+          pierce: false
+          pierceArmor: true
+       }
+   }
+}
 requirements:[
 	copper/90
 	lead/50
