@@ -26,7 +26,7 @@ targetAir: false
 targetGround: true
 consumes: {
   power: 10
-  liquids: {
+  liquid: {
     liquid: cryofluid
     amount: 60
   }
