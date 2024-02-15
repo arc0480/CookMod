@@ -13,20 +13,21 @@ alwaysUnlocked: true
 hasPower: true
 powerCapacity: 60
 hasLiquid: true
-liquidCapacity: 180
+liquidCapacity: 6
 
-reload: 180
-range: 320
+reload: 90
+range: 800
 recoil: 0
 restitution: 0
 rotatesspeed: 15
 inaccuracy: 0
 ammoPerShot: 10
+xRand: 4
+shotWidth: 2
 shoot:{
   shots: 4
   shotDelay: 2
 }
-xRand: 2
 targetAir: false 
 targetGround: true
 consumes: {
@@ -50,7 +51,7 @@ ammoTypes: {
     ammoMultiPlier: 2
     reloadMultiprier: 2
 
-    lifetime: 2
+    lifetime: 1
     speed: 225
     weaveMag: 0
     weaveScale: 0
@@ -85,8 +86,8 @@ ammoTypes: {
          speed: 0
          keepVelocity: true
          lifetime: 60000
-         homingRange: 0
-         homingPower: 0
+         homingRange: 
+         homingPower: 
 
          hitEffect: hitFlameBeam
          despawnEffect: hitBeam
@@ -94,7 +95,7 @@ ammoTypes: {
          collidesTeam: false
          collidesAir: false
 
-         damage: 0
+         damage: 1
          status: freezing
        /*status: [
            sapped
@@ -105,7 +106,7 @@ ammoTypes: {
            electrified
           ]*/
          statusDuration: 3600
-         knockback: -75
+         knockback: -100
          absorbable: false
          pierce: false
          pierceArmor: true
