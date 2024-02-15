@@ -78,8 +78,8 @@ ammoTypes: {
          drawsize: 40
          hitsize: 4
            bulletSprite: shell
-           frontColor: 00CE7D
-           backColor: 00CE7D
+           frontColor: 00FBCB
+           backColor: 00E7F9
 
            speed: 0
            keepVelocity: false
@@ -101,7 +101,7 @@ ammoTypes: {
             melting
           ]*/
           statusDuration: 3600
-          knockback: -75
+          knockback: -50
           absorbable: false
           pierce: false
           pierceArmor: true
