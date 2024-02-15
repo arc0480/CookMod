@@ -1,6 +1,6 @@
 name: リキッドタレット
 description: "リキッドタレットと言ったな...アレは嘘だ！！！！"
-type: itemTurret
+type: doubleTurret
 #type: powerTurret
 category: turret
 size: 3
@@ -11,9 +11,8 @@ buildVisibillity: shown
 alwaysUnlocked: true
 
 hasPower: true
-powerCapacity: 60
 hasLiquid: true
-liquidCapacity: 6
+liquidCapacity: 60
 
 reload: 90
 range: 800
@@ -34,7 +33,7 @@ consumes: {
   power: 1
   liquid: {
     liquid: cryofluid
-    amount: 1
+    amount: 0.5
   }
 }
   
@@ -95,7 +94,7 @@ ammoTypes: {
          collidesTeam: true
          collidesAir: false
 
-         damage: 1
+         damage: 15
          status: freezing
        /*status: [
            sapped
