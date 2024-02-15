@@ -26,9 +26,7 @@ targetAir: false
 targetGround: true
 consumes: {
   power: 10
-    liquids: {
-      cryofluid/60
-    }
+  cryofluid/60
 }
   
 ammoTypes: {
