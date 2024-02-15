@@ -15,17 +15,20 @@ liquidCapacity: 60
 
 reload: 90
 range: 800
-recoil: 0
+recoil: 2
 restitution: 0
 rotatesspeed: 15
-inaccuracy: 2
+inaccuracy: 0
 ammoPerShot: 5
-xRand: 2
-shotWidth: 2
+
 shoot:{
   shots: 4
   shotDelay: 2
 }
+xRand: 0
+shotWidth: 2
+burstSpacing: 2
+
 targetAir: false 
 targetGround: true
 consumes: {
