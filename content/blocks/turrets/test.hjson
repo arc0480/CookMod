@@ -27,7 +27,7 @@ shoot:{
 }
 xRand: 0
 shotWidth: 2
-burstSpacing: 2
+burstSpacing: 5
 
 targetAir: false 
 targetGround: true
