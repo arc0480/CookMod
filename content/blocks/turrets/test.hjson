@@ -13,7 +13,7 @@ hasPower: true
 hasLiquid: true
 liquidCapacity: 60
 
-reload: 90
+reload: 150
 range: 800
 recoil: 2
 restitution: 0
@@ -23,7 +23,7 @@ ammoPerShot: 5
 
 shoot:{
   shots: 4
-  shotDelay: 2
+  shotDelay: 5
 }
 xRand: 0
 shotWidth: 2
@@ -54,6 +54,7 @@ ammoTypes: {
 
     lifetime: 2
     speed: 112.5
+    keepVelocity: true
   //velocityRand: 2
     weaveMag: 0
     weaveScale: 0
