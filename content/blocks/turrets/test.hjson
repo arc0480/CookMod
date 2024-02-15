@@ -1,4 +1,4 @@
-name: LiquidTurret
+name: リキッドタレット
 description: "リキッドタレットと言ったな...アレは嘘だ！！！！"
 type: itemTurret
 #type: powerTurret
@@ -84,8 +84,6 @@ consumes: {
             damage: 0
             status: [
             sapped
-            electrified
-            melting
             ]
             statusDuration: 300
             knockback: 10
