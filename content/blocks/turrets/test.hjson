@@ -18,9 +18,9 @@ range: 800
 recoil: 0
 restitution: 0
 rotatesspeed: 15
-inaccuracy: 0
+inaccuracy: 2
 ammoPerShot: 5
-xRand: 0
+xRand: 2
 shotWidth: 2
 shoot:{
   shots: 4
