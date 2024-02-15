@@ -15,25 +15,25 @@ powerCapacity: 60
 hasLiquid: true
 liquidCapacity: 180
 
-reload: 1500
+reload: 180
 range: 320
 recoil: 0
 restitution: 0
-rotatesspeed: 5
+rotatesspeed: 15
 inaccuracy: 0
 ammoPerShot: 10
 shoot:{
   shots: 4
   shotDelay: 2
 }
-xRand: 3
+xRand: 2
 targetAir: false 
 targetGround: true
 consumes: {
-  power: 10
+  power: 1
   liquid: {
     liquid: cryofluid
-    amount: 30
+    amount: 10
   }
 }
   
