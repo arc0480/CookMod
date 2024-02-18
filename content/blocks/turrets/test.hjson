@@ -112,7 +112,7 @@ ammoTypes: {
          knockback: -50
          absorbable: false
          pierce: true
-         pierceCap: 10
+         pierceCap: 5
          pierceArmor: true
        }
    }
