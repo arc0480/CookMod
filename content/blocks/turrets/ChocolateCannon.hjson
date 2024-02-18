@@ -1,0 +1,13 @@
+name: チョコレートキャノン
+description: "チョコレートを超高レートで発射できるタレット(激ウマギャグ)"
+type: chargeTurret
+category: turret
+
+size: 4
+health: 856
+
+reload: 4.28
+renge: 214
+recoil: 2.14
+inaccuracy: 21.4
+xRand: 0
