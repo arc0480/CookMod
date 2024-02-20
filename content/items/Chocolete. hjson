@@ -1,0 +1,10 @@
+name: チョコレート
+description: "ハート型に成形されたチョコレート"
+color: 492C1B
+type: material
+explosivence: 0.05
+flammability: 0
+radioactivity: 0
+hardness: 5
+cost: 1
+alwaysUnLocked: true
