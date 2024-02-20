@@ -8,9 +8,4 @@ radioactivity: 0
 hardness: 3
 cost: 1
 alwaysUnLocked: false
-reseach: {
-  parent: Chocolete
-  requirements: [
-    Chocolete/10
-  ]
-}
+reseach: Chocolete
