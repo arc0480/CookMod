@@ -1,6 +1,6 @@
 name: チョコレート
 description: "ハート型に成形されたチョコレート"
-color: 492C1B
+color: 9AE21B
 type: material
 explosivence: 0.05
 flammability: 0
