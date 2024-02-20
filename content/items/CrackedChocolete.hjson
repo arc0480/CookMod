@@ -1,0 +1,16 @@
+name: 割れたチョコレート
+description: "マイクラ風に言うならひび割れたチョコレート"
+color: 56320F
+type: material
+explosivence: 0
+flammability: 0
+radioactivity: 0
+hardness: 3
+cost: 1
+alwaysUnLocked: false
+reseach: {
+  parent: Chocolete
+  requirements: [
+    Chocolete/10
+  ]
+}
