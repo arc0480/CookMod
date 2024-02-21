@@ -1,5 +1,5 @@
 name: チョコレートキャノン
-description: "チョコレートを超高レートで発射できるタレット(激ウマギャグ)"
+description: "チョコレートを超高レートで発射する(激ウマギャグ)"
 type: powerTurret
 category: turret
 size: 4
@@ -21,5 +21,37 @@ xRand: 214
 
 shoot: {
   shots: 214
-  shotDelay: 215
+  shotDelay: 107
 }
+
+ammotypes: {
+  Chocolete: {
+    type: FlakBulletType
+    width: 10
+    drawsize: 100
+    hitSize: 10
+    bulletSprite: shell
+    frontColor: 653200
+    backColor: 653200
+
+    ammoMultiPlier: 2
+    reloadMultiPlier: 2.14
+
+    lifetime: 45
+    speed: 3
+    weaveMag: 1.07
+    weaveScale: 2.14
+
+    damage: 21.4
+    status: inspiration
+    statusDuration: 21.4
+    hitEffect: none
+    absorbable: true
+    pierce: false
+    pierceArmor: true
+
+    fragOnHit: true
+      fragOnAbsorbable: true
+      fragBullets: 2
+      fragRandumSpread: 21.4
+        fragbullet: {
