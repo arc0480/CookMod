@@ -1,3 +1,13 @@
 name: 傷心
-armorMultiplier: 0.1
-permanent: true
+armorMultiplier: 0.25
+speedMultiplier: 0.25
+damageMultiplier: 2
+reloadMultiplier: 0.75
+color: 013264
+damage: 30
+affinities: {
+  Inspiration/20
+}
+opposites: {
+  yukidaruma
+}
