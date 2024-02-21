@@ -5,6 +5,9 @@ damageMultiplier: 0.5
 reloadMultiplier: 0.75
 color: 013264
 damage: 30
-affinities: Inspiration/20
-opposites: yukidaruma
-
+affinities: (
+  Inspiration/20
+)
+opposites: (
+  yukidaruma
+)
