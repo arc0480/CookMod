@@ -10,10 +10,10 @@ squareSprites: false
 hasPower: true
 hasLiquid: true
 liquidCapacity: 2140
-itemCapacity: 1070
+itemCapacity: 1
 
 reload: 4.28
-chargeTime: 30
+chargeTime: 60
 renge: 214
 recoil: 2.14
 inaccuracy: 21.4
@@ -54,4 +54,14 @@ ammotypes: {
       fragOnAbsorbable: true
       fragBullets: 2
       fragRandumSpread: 21.4
-        fragbullet: {
+       fragbullet: {
+        type: LeaserBulletType
+        width: 20
+        drawsize: 30
+        hitSize: 3
+        bulletSprite: missile
+        frontColor: 65B2FF
+        color: 65B2FF
+        backColor: 65B2FF
+
+        
