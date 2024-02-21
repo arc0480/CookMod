@@ -1,0 +1,14 @@
+name: インスピレーション
+damageMultiplier: 1
+armorMultiplier: 1
+speedMultiplier: 1.25
+reloadMultiplier: 1.25
+color: FB3667
+damage: 0
+effect: 
+affinities: {
+  HaetBreak/21
+}
+opposites: {
+  yukidaruma
+}
