@@ -8,6 +8,6 @@ damage: 30
 affinities: (
   Inspiration/20
 )
-opposites: {
+/*opposites: (
   Yukidaruma
-}
+)*/
