@@ -10,7 +10,7 @@ squareSprites: false
 hasPower: true
 hasLiquid: true
 liquidCapacity: 2140
-itemCapacity: 1
+itemCapacity: 5
 
 reload: 4.28
 chargeTime: 60
@@ -20,9 +20,11 @@ inaccuracy: 21.4
 xRand: 214
 
 shoot: {
-  shots: 214
-  shotDelay: 107
+  shots: 5
+  shotDelay: 6
 }
+
+ammoPerShot: 2
 
 ammotypes: {
   Chocolete: {
@@ -43,7 +45,7 @@ ammotypes: {
     weaveScale: 2.14
 
     damage: 21.4
-    status: inspiration
+    status: Overclock
     statusDuration: 21.4
     hitEffect: none
     absorbable: true
@@ -59,9 +61,14 @@ ammotypes: {
         width: 20
         drawsize: 30
         hitSize: 3
-        bulletSprite: missile
+
+        bulletSprite: leaser
         frontColor: 65B2FF
         color: 65B2FF
         backColor: 65B2FF
 
-        
+        absorbable: false
+        pierce: true
+        pierceCap: 1
+        pierceArmor: true
+       }
