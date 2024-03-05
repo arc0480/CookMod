@@ -11,7 +11,7 @@ hasItem: true
   itemCapacity: 25
 hasLiquid: true
   liquidCpacity: 250.000
-craftTime: 2.14
+craftTime: 128.4
 
 consumes: {
   power: 214
@@ -22,7 +22,7 @@ consumes: {
   }
   liquids: {
     liquids: [
-      LiquidGunPowder/50
+      LiquidGunPowder/0.83333333333
     ]
   }
 }
