@@ -5,6 +5,7 @@ damageMultiplier: 0.5
 reloadMultiplier: 0.75
 color: 013264
 damage: 3
+transitionDamage: 0.3333333333
 affinities: [
   Inspiration
 ]
