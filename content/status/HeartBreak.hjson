@@ -1,11 +1,11 @@
 name: 傷心
-armorMultiplier: 0.25
+armorMultiplier: 0.75
 speedMultiplier: 0.25
-damageMultiplier: 0.5
-reloadMultiplier: 0.75
+damageMultiplier: 1.5
+reloadMultiplier: 0.5
 color: 013264
 damage: 3
-transitionDamage: 3.333333333
+transitionDamage: 20
 affinities: [
   Inspiration
 ]
