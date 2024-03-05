@@ -4,9 +4,10 @@ speedMultiplier: 0.25
 damageMultiplier: 0.5
 reloadMultiplier: 0.75
 color: 013264
-damage: 30
-/*affinities: {
-(Inspiration/20)
-opposite: {
-  (Yukidaruma)
-}*/
+damage: 3
+affinities: [
+  Inspiration
+]
+opposite: [
+  Yukidaruma
+]
