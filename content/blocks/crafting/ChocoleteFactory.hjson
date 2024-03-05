@@ -14,7 +14,7 @@ hasLiquid: true
 craftTime: 128.4
 
 consumes: {
-  power: 214
+  power: 12.84
   items: {
     items:[
       Cacao/5
