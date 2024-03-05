@@ -42,7 +42,7 @@ research:[
   ]
 
 requirements: [
-    coppor/30
+    copper/30
     metaglass/25
     titanium/50
   ]
