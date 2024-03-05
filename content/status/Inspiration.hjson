@@ -5,6 +5,4 @@ speedMultiplier: 1.25
 reloadMultiplier: 1.25
 color: FB3667
 damage: 0
-/*opposites: {
-  yukidaruma
-}*/
+opposites: (Yukidaruma)
