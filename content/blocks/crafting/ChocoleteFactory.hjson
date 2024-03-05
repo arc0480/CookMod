@@ -4,6 +4,7 @@ description:
   カカオをチョコレートに加工する工場。たまに割れた不良品が出てくる。
   もし製品の中に金色の紙切れを見つけた場合は、あなたを工場見学へご招待いたします...
   '''
+type: separator
 size: 3
 hasPower: true
 hasItem: true
@@ -14,16 +15,27 @@ craftTime: 2.14
 
 consumes: {
   power: 214
-  items: cacao/5
-  liquids: LiquidGunPowder/50
+  items: {
+    items:[
+      cacao/5
+    ]
+  }
+  liquids: {
+    liquids: [
+      LiquidGunPowder/50
+    ]
+  }
 }
 
 outPutItem: true
-outPutItems: [
+result: [
+  Chocolete/5
   Chocolete/4
+  CrackedChocolete/1
 ]
 
 research:[
+  parent: Greenahouse
   pranet: transmutation
   requirements: [
     Seed/30
