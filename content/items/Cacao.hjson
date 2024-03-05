@@ -1,0 +1,8 @@
+name: カカオ
+description: '''
+  なんの変哲もないカカオ豆。チョコレートに加工できる
+  '''
+color: 9AE21B
+research: {
+  parent: seed
+}
