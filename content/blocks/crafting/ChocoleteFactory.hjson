@@ -17,7 +17,7 @@ consumes: {
   power: 214
   items: {
     items:[
-      cacao/5
+      Cacao/5
     ]
   }
   liquids: {
