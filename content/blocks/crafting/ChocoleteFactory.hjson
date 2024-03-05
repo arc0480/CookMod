@@ -1,0 +1,38 @@
+name: チョコレート工場
+description: 
+  '''
+  カカオをチョコレートに加工する工場。たまに割れた不良品が出てくる。
+  もし製品の中に金色の紙切れを見つけた場合は、あなたを工場見学へご招待いたします...
+  '''
+size: 3
+hasPower: true
+hasItem: true
+  itemCapacity: 25
+hasLiquid: true
+  liquidCpacity: 250
+craftTime: 2.14
+
+consumes: {
+  power: 214
+  items: cacao/5
+  liquids: LiquidGunPowder/50
+}
+
+outPutItem: true
+outPutItems: [
+  Chocolete/4
+]
+
+research:[
+  pranet: transmutation
+  requirements: [
+    Seed/30
+  ]
+
+requirements: [
+    coppor/30
+    metaglass/25
+    titanium/50
+  ]
+
+  category: crafting
