@@ -1,7 +1,8 @@
-name: 重症
-  speedMultiplier: 0.3
+name: 回復
+  speedMultiplier: 0.95
   reloadMultiplier: 0
+  damageMultiprier:0.9
   helthMultiplier: 0
-  armerMultilier: 1
-  damage: -5
+  armerMultilier: 1.5
+  damage: -20
   permanent: true
