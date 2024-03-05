@@ -28,7 +28,7 @@ consumes: {
 }
 
 outPutItem: true
-result: [
+results: [
   Chocolete/5
   Chocolete/4
   CrackedChocolete/1
