@@ -12,9 +12,9 @@ hasLiquid: true
 liquidCapacity: 2140
 itemCapacity: 5
 
-reload: 4.28
+reload: 3.14
 chargeTime: 60
-renge: 214
+renge: 2140
 recoil: 2.14
 inaccuracy: 21.4
 xRand: 214
