@@ -47,30 +47,11 @@ ammotypes: {
     damage: 170
     status: Inspiration
     statusDuration: 3
-    hitEffect: none
+    hitEffect: hitlaser
     absorbable: true
-    pierce: false
-    pierceArmor: true
+    pierce: true
+    pierceArmor: false
 
-    fragOnHit: true
-      fragOnAbsorbable: true
-      fragBullets: 2
-       fragbullet: {
-        type: LeaserBulletType
-        width: 20
-        drawsize: 30
-        hitSize: 3
-
-        bulletSprite: leaser
-        frontColor: 65B2FF
-        color: 65B2FF
-        backColor: 65B2FF
-
-        absorbable: false
-        pierce: true
-        pierceCap: 1
-        pierceArmor: true
-       }
   CrackedChocolete:{
     type: FlakBulletType
     width: 10
@@ -102,13 +83,13 @@ ammotypes: {
 
     fragOnHit: true
       fragOnAbsorbable: true
-      fragBullets: 2
+      fragBullets: 3
        fragbullet: {
-        type: LeaserBulletType
+        type: LaserBulletType
         width: 20
         drawsize: 30
         hitSize: 3
-        bulletSprite: leaser
+        bulletSprite: laser
         frontColor: 65B2FF
         color: 65B2FF
         backColor: 65B2FF
@@ -119,7 +100,7 @@ ammotypes: {
         damage: 100
         status: HeartBreak
         statusDuration: 300
-        hitEffect: hitLeaser
+        hitEffect: hitLaser
         absorbable: false
         pierce: true
         pierceCap: 3
