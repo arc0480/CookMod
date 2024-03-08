@@ -51,7 +51,7 @@ ammotypes: {
     absorbable: true
     pierce: true
     pierceArmor: false
-
+  }
   CrackedChocolete:{
     type: FlakBulletType
     width: 10
@@ -104,8 +104,7 @@ ammotypes: {
         absorbable: false
         pierce: true
         pierceCap: 3
-        pierceArmor: true
-
-        
-       }
+        pierceArmor: true 
+      }
+    }
   }
