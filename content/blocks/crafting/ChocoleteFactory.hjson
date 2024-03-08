@@ -29,9 +29,8 @@ consumes: {
 
 outPutItem: true
 results: [
-  Chocolete/5
-  Chocolete/4
-  CrackedChocolete/1
+  Chocolete/8
+  CrackedChocolete/2
 ]
 
 research:[
