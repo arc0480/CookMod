@@ -1,6 +1,6 @@
 name: チョコレートキャノン
 description: "チョコレートを超高レートで発射する(激ウマギャグ)"
-type: powerTurret
+type: itemTurret
 category: turret
 size: 4
 health: 856
