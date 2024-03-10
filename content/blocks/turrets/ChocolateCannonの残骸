@@ -30,7 +30,7 @@ ammoPerShot: 2
 
 ammoTypes: {
   Chocolete: {
-    shootType: FlakBulletType
+    shootType: basicBulletType
     width: 10
     drawsize: 100
     hitSize: 10
@@ -49,13 +49,13 @@ ammoTypes: {
     damage: 170
     status: Inspiration
     statusDuration: 3
-    hitEffect: hitlaser
+    hitEffect: none
     absorbable: true
     pierce: true
     pierceArmor: false
   }
   CrackedChocolete:{
-    shootType: FlakBulletType
+    shootType: BsicBulletType
     width: 10
     drawsize: 100
     hitSize: 10
@@ -102,7 +102,7 @@ ammoTypes: {
         damage: 100
         status: HeartBreak
         statusDuration: 300
-        hitEffect: hitLaser
+        hitEffect: none
         absorbable: false
         pierce: true
         pierceCap: 3
