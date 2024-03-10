@@ -59,7 +59,7 @@ ammoTypes: {
     width: 10
     drawsize: 100
     hitSize: 10
-    bulletSprite: leaser
+    bulletSprite: laser
     frontColor: 653200
     backColor: 653200
 
