@@ -19,7 +19,7 @@ chargeTime: 60
 renge: 2140
 recoil: 2.14
 inaccuracy: 21.4
-xRand: 214
+xRand: 4
 
 shoot: {
   shots: 5
