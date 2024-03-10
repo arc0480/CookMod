@@ -30,7 +30,7 @@ ammoPerShot: 2
 
 ammoTypes: {
   Chocolete: {
-    type: FlakBulletType
+    shootType: FlakBulletType
     width: 10
     drawsize: 100
     hitSize: 10
@@ -55,7 +55,7 @@ ammoTypes: {
     pierceArmor: false
   }
   CrackedChocolete:{
-    type: FlakBulletType
+    shootType: FlakBulletType
     width: 10
     drawsize: 100
     hitSize: 10
