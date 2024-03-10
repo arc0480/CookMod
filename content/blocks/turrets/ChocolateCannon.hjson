@@ -1,6 +1,6 @@
 name: チョコレートキャノン
 description: "チョコレートを超高レートで発射する(激ウマギャグ)"
-type: laserTurret
+type: itemTurret
 category: turret
 size: 4
 health: 856
@@ -43,8 +43,8 @@ ammoTypes: {
 
     lifetime: 45
     speed: 3
-    weaveMag: 1.07
-    weaveScale: 2.14
+ /* weaveMag: 1.07
+    weaveScale: 2.14 */
 
     damage: 170
     status: Inspiration
@@ -112,25 +112,6 @@ ammoTypes: {
   }
 
 requirements: [
-//Seed/1
-  surge-alloy/ 2000
-  phase-fabric/ 900
-  plastanium/ 4000
-  titanium/ 1000
-  copper/ 800
-  silicon/ 1500
-]
-BuildVisibillity: shown
-buildTime: 1800
-
-research: {
-    parent: CoreSeeds
-    requirements: [
-        copper/30
-    ]
-}
-
-128.4requirements: [
 //Seed/1
   surge-alloy/ 2000
   phase-fabric/ 900
