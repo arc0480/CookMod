@@ -43,8 +43,9 @@ ammoTypes: {
 
     lifetime: 45
     speed: 3
- /* weaveMag: 1.07
-    weaveScale: 2.14 */
+    weaveMag: 1.07
+    weaveScale: 2.14 
+    shrink: 0
 
     damage: 170
     status: Inspiration
