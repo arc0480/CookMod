@@ -1,6 +1,6 @@
 name: チョコレートキャノン
 description: "チョコレートを超高レートで発射する(激ウマギャグ)"
-type: itemTurret
+type: laserTurret
 category: turret
 size: 4
 health: 856
@@ -11,6 +11,8 @@ hasPower: true
 hasLiquid: true
 liquidCapacity: 2140
 itemCapacity: 5
+hasItem: true
+itemCapacity: 200
 
 reload: 3.14
 chargeTime: 60
@@ -26,7 +28,7 @@ shoot: {
 
 ammoPerShot: 2
 
-ammotypes: {
+ammoTypes: {
   Chocolete: {
     type: FlakBulletType
     width: 10
