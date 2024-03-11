@@ -2,7 +2,7 @@ name: チョコレートキャノン
 description: "チョコレートを超高レートで発射するタッレト(激ウマギャグ)"
 type: itemTurret
 category: turret
-size: 4
+size: 3
 health: 856
 targetable: true
 squareSprites: false
@@ -19,14 +19,7 @@ chargeTime: 60
 renge: 21400
 recoil: 2.14
 inaccuracy: 21.4
-xRand: 4
-
-shoot: {
-  shots: 5
-  shotDelay: 6
-}
-
-ammoPerShot: 2
+xRand: 2
 
 ammoTypes: {
   Chocolete: {
@@ -39,7 +32,7 @@ ammoTypes: {
     backColor: 653200
 
     ammoMultiPlier: 2
-    reloadMultiPlier: 2.14
+    reloadMultiPlier: 1.2
 
     lifetime: 7013
     speed: 3
@@ -56,7 +49,7 @@ ammoTypes: {
     pierceArmor: false
   }
   CrackedChocolete:{
-    shootType: BasicBulletType
+    Type: basicBulletType
     width: 10
     drawsize: 100
     hitSize: 10
@@ -73,7 +66,7 @@ ammoTypes: {
     weaveScale: 2.14
 
     homingPower: 0.0214
-    homingDilay: 21
+    homingDilay: 20
     homingRange: 180
 
     damage: 170
@@ -109,43 +102,26 @@ ammoTypes: {
         pierceCap: 3
         pierceArmor: true 
       }
-    }
   }
-
-requirements: [
-//Seed/1
-  surge-alloy/ 2000
-  phase-fabric/ 900
-  plastanium/ 4000
-  titanium/ 1000
-  copper/ 800
-  silicon/ 1500
-]
-BuildVisibillity: shown
-buildTime: 1800
+}
 
 research: {
-    parent: CoreSeeds
+    parent: EffectTurret
     requirements: [
-        copper/30
+      copper/ 30
+      lead/ 40
+      titanium/ 25
     ]
 }
 
 requirements: [
 //Seed/1
-  surge-alloy/ 2000
-  phase-fabric/ 900
-  plastanium/ 4000
-  titanium/ 1000
-  copper/ 800
-  silicon/ 1500
+  lead/ 30
+  plastanium/ 40
+  titanium/ 100
+  copper/ 80
+  silicon/ 150
 ]
 BuildVisibillity: shown
 buildTime: 128.4
 
-research: {
-    parent: CoreSeeds
-    requirements: [
-        copper/80
-    ]
-}
