@@ -16,7 +16,7 @@ itemCapacity: 200
 
 reload: 280.37
 chargeTime: 60
-renge: 21400
+range: 214
 recoil: 2.14
 inaccuracy: 21.4
 xRand: 2
