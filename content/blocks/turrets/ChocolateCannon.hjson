@@ -1,5 +1,5 @@
 name: チョコレートキャノン
-description: "チョコレートを超高レートで発射する(激ウマギャグ)"
+description: "チョコレートを超高レートで発射するタッレト(激ウマギャグ)"
 type: itemTurret
 category: turret
 size: 4
@@ -9,14 +9,14 @@ squareSprites: false
 
 hasPower: true
 hasLiquid: true
-liquidCapacity: 2140
+liquidCapacity: 1256
 itemCapacity: 5
 hasItem: true
 itemCapacity: 200
 
-reload: 10
+reload: 28.037
 chargeTime: 60
-renge: 2140
+renge: 21400
 recoil: 2.14
 inaccuracy: 21.4
 xRand: 4
@@ -30,26 +30,26 @@ ammoPerShot: 2
 
 ammoTypes: {
   Chocolete: {
-    shootType: basicBulletType
+    type: flakBulletType
     width: 10
     drawsize: 100
     hitSize: 10
-    bulletSprite: shell
+    bulletSprite: 
     frontColor: 653200
     backColor: 653200
 
     ammoMultiPlier: 2
     reloadMultiPlier: 2.14
 
-    lifetime: 45
+    lifetime: 7013
     speed: 3
-    weaveMag: 1.07
-    weaveScale: 2.14 
-    shrink: 0
+    weaveMag: 0
+    weaveScale: 0 
+    bulletShrink: 0
 
     damage: 170
     status: Inspiration
-    statusDuration: 3
+    statusDuration: 180
     hitEffect: none
     absorbable: true
     pierce: true
@@ -78,7 +78,7 @@ ammoTypes: {
 
     damage: 170
     status: HeartBreak
-    statusDuration: 60
+    statusDuration: 360
     hitEffect: none
     absorbable: true
     pierce: false
@@ -88,7 +88,7 @@ ammoTypes: {
       fragOnAbsorbable: true
       fragBullets: 3
        fragbullet: {
-        type: LaserBulletType
+        type: basicBulletType
         width: 20
         drawsize: 30
         hitSize: 3
@@ -102,7 +102,7 @@ ammoTypes: {
 
         damage: 100
         status: HeartBreak
-        statusDuration: 300
+        statusDuration: 480
         hitEffect: none
         absorbable: false
         pierce: true
