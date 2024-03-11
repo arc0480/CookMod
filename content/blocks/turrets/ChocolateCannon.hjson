@@ -36,8 +36,8 @@ ammoTypes: {
 
     lifetime: 7013
     speed: 3
-    weaveMag: 0
-    weaveScale: 0 
+    weaveMag: 2
+    weaveScale: 5 
     bulletShrink: 0
 
     damage: 170
