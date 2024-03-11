@@ -34,7 +34,7 @@ ammoTypes: {
     ammoMultiPlier: 2
     reloadMultiPlier: 1.2
 
-    lifetime: 30
+    lifetime: 701.4
     speed: 3
     weaveMag: 2
     weaveScale: 5 
@@ -60,7 +60,7 @@ ammoTypes: {
     ammoMultiPlier: 2
     reloadMultiPlier: 2.14
 
-    lifetime: 27
+    lifetime: 428
     speed: 5
     weaveMag: 1.07
     weaveScale: 2.14
@@ -75,12 +75,15 @@ ammoTypes: {
     hitEffect: none
     absorbable: true
     pierce: false
-    pierceArmor: true
+    pierceArmor: false
 
     fragOnHit: true
-      fragOnAbsorbable: true
-      fragBullets: 3
-       fragbullet: {
+    fragOnAbsorbable: true
+    fragAngle: 1
+    fragSpread: 0
+    fragRandumSpread: 0
+    fragBullets: 3
+      fragbullet: {
         type: basicBulletType
         width: 20
         drawsize: 30
