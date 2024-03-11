@@ -14,7 +14,7 @@ itemCapacity: 5
 hasItem: true
 itemCapacity: 200
 
-reload: 280.37
+reload: 2.8037
 chargeTime: 60
 range: 214
 recoil: 2.14
