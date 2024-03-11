@@ -5,7 +5,6 @@ speedMultiplier: 1.25
 reloadMultiplier: 1.5
 color: FB3667
 damage: 0
-transitionDamage: 20
 affinities: [
   Inspiration
 ]
