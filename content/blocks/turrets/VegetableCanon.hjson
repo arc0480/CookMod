@@ -1,5 +1,5 @@
 name: VegetableCanon
-description: "It shoots vegitable,for example potatoes and carrots."
+description: "It fires Carrots, Potatoes, and other vegetable."
 type: ItemTurret
 category: turret
 size:2
