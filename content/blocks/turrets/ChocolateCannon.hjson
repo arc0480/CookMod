@@ -16,7 +16,7 @@ itemCapacity: 200
 
 reload: 2.8037
 chargeTime: 60
-range: 214
+range: 1712
 recoil: 2.14
 inaccuracy: 21.4
 xRand: 2
@@ -41,6 +41,8 @@ ammoTypes: {
     bulletShrink: 0
 
     damage: 170
+    splashDamage: 100
+    splashDamageRadius: 50
     status: Inspiration
     statusDuration: 180
     hitEffect: none
