@@ -31,7 +31,9 @@ ammoTypes:{
           fragOnAbsorbable: true
           keepVelocity: true
           fragBullets: 10
-          fragRandumSpread: 90
+          fragRandumSpread: 20
+          fragAngle: 10
+          fragSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
               speed: 5
@@ -80,6 +82,8 @@ ammoTypes:{
           fragAngle: 18
           fragSpread: 180
           fragRandumSpread: 0
+          fragLifeMin: 2.0
+          fragLifeMax: 2.0
             fragBullet: {
               type: BasicBulletType
               damage: 20 
