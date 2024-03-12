@@ -82,8 +82,8 @@ ammoTypes:{
           fragAngle: 18
           fragSpread: 180
           fragRandumSpread: 0
-          fragLifeMin: 2.0
-          fragLifeMax: 2.0
+          fragLifeMin: 1.5
+          fragLifeMax: 0.75
             fragBullet: {
               type: BasicBulletType
               damage: 20 
