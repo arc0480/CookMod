@@ -1,5 +1,5 @@
 name: チョコレートキャノン
-description: "チョコレートを超高レートで発射するタッレト(激ウマギャグ)"
+description: "チョコレートを超高レートで発射するタレット(激ウマギャグ)"
 type: itemTurret
 category: turret
 size: 3
@@ -40,8 +40,8 @@ ammoTypes: {
     weaveScale: 5 
     bulletShrink: 0
 
-    damage: 170
-    splashDamage: 100
+    damage: 214
+    splashDamage: 31.4
     splashDamageRadius: 50
     status: Inspiration
     statusDuration: 180
@@ -96,6 +96,8 @@ ammoTypes: {
         backColor: 65B2FF
 
         lifeTime: 25
+        fragVelocityMax: 
+        fragVelocityMin: 
         length: 214
 
         damage: 100
