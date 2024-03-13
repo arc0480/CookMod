@@ -32,7 +32,6 @@ ammoTypes:{
           keepVelocity: true
           fragBullets: 10
           fragRandumSpread: 20
-          fragAngle: 10
           fragSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
@@ -41,7 +40,8 @@ ammoTypes:{
               lifeTyme: 0.5
               damage: 10
               absorbable: false
-              pierce: false
+              pierce: true
+              pierceCap: 2
               pierceArmor: true
             }
         }
@@ -82,8 +82,8 @@ ammoTypes:{
           fragAngle: 18
           fragSpread: 180
           fragRandumSpread: 0
-          fragLifeMin: 2.25
-          fragLifeMax: 1.0
+          fragLifeMin: 0.5
+          fragLifeMax: 1.25
             fragBullet: {
               type: BasicBulletType
               damage: 20 
@@ -91,7 +91,7 @@ ammoTypes:{
 #splashDamageRadius=範囲ダメージ半径(n×0.1+1.2くらい)タイル
               splashDamageRadius:50
               speed: 2
-              lifetime: 50
+              lifetime: 25
               homingPower: 10
               homigRange: 10
               
