@@ -32,7 +32,6 @@ ammoTypes:{
           keepVelocity: true
           fragBullets: 10
           fragRandumSpread: 20
-          fragSpread: 0
             fragBullet: {
               bulletType: BasicBulletType
               speed: 5
@@ -83,7 +82,7 @@ ammoTypes:{
           fragSpread: 180
           fragRandumSpread: 0
           fragLifeMin: 0.5
-          fragLifeMax: 1.25
+          fragLifeMax: 1.5
             fragBullet: {
               type: BasicBulletType
               damage: 20 
