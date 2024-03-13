@@ -24,7 +24,7 @@ ammoTypes:{
           ammoMultiplier: 2
           reloadMultipler: 5.0
           absorbable: true
-          pierce: false 
+          pierce: true 
           pierceArmor: false
           
           fragOnHit: true
@@ -40,7 +40,7 @@ ammoTypes:{
               damage: 10
               absorbable: false
               pierce: true
-              pierceCap: 2
+              pierceCap: 1
               pierceArmor: true
             }
         }
@@ -58,8 +58,9 @@ ammoTypes:{
           ammoMultiplier: 1
           reloadMultipler: 4.0
           pierce: true
+          buildPierce: true
           homingPower: 10
-          homingRange: 10
+          homingRange: 20
         }
         GoldCarrot: {
           type: BasicBulletType
@@ -89,7 +90,7 @@ ammoTypes:{
               splashDamage: 75
 #splashDamageRadius=範囲ダメージ半径(n×0.1+1.2くらい)タイル
               splashDamageRadius:50
-              speed: 2
+              speed: 2.5
               lifetime: 25
               homingPower: 10
               homigRange: 10
@@ -102,11 +103,11 @@ ammoTypes:{
           type: healBulletType
           speed: 5
           lifetime: 56
-          damage: 5
+          damage: 15
           width: 10
           healPercent: 20
           inaccuracyMutiPlier: 2
-          reloadMultiplier: 2
+          reloadMultiplier: 3
           collidesTeam: true
           pierce: true
           pierceCap: 3
