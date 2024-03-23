@@ -1,0 +1,27 @@
+name: Eintagsfliege
+type: hoverunit
+health: 5
+hitsize: 1
+hitsizeTile: 1
+speed: 0.6
+range: 10
+attackLength: 150
+rotatespeed: 0.2
+baseRotateSpeed: 0.1
+shootCone: 
+mass: 1
+flying: true	 
+targetAir: false
+rotateWeapon: false
+drag: 1.0
+maxVelocity: 3
+retreatPercent: 0.3
+itemCapacity: 0
+buildPower: 0
+minePower: 0
+targetPriority: 1
+ability:
+weapon: 
+weaponOffsetY	 
+engineOffset	 
+engineSize	
