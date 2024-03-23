@@ -21,7 +21,4 @@ buildPower: 0
 minePower: 0
 targetPriority: 1
 ability:
-weapon: 
-weaponOffsetY	 
-engineOffset	 
-engineSize	
+weapon: 	
