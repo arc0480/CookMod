@@ -19,6 +19,4 @@ retreatPercent: 0.3
 itemCapacity: 0
 buildPower: 0
 minePower: 0
-targetPriority: 1
-ability:
-weapon: 	
+targetPriority: 1	
