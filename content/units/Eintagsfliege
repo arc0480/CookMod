@@ -1,9 +1,26 @@
-name: Eintagsfliege
 type: hoverunit
+reseach: {
+  pranet: 
+  requirement: [
+    Seed/ 10
+    coppor/ 10
+    lead/ 5
+    silicon/ 30
+  ]
+}
+
+lightRadius: 20
+speed: 0.7
+accel: 0.1
+srag: 0.03
+faceTarget: true
+flying: true
+
 health: 5
 hitsize: 1
 hitsizeTile: 1
 speed: 0.6
+accel: 0.01
 range: 10
 attackLength: 150
 rotatespeed: 0.2
