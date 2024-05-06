@@ -50,7 +50,7 @@ ammoTypes:{
           splashDamage: 15
           splashDamageRadius: 50
           exploderange: 45
-          speed: 12
+          speed: 10
           lifeTime: 24
           hitSize: 13
           drawSize: 130
@@ -59,6 +59,7 @@ ammoTypes:{
           bulletShrink: 0
           absorbable: true
           pierceArmor: false
+          knockBack: 7
           ammoMultiplier: 2
           reloadMultiplier: 8
           pierce: false
@@ -68,12 +69,12 @@ ammoTypes:{
           hitEffect: plasticExplosion
           deSpawnEffect: none
 
-       /* fragOnHit: true
+          fragOnHit: true
           fragOnAbsorbable: false
           fragBullets: 5
           fragAngle: 0
           fragSpread: 0
-          fragRandumSpread: 30
+          fragRandumSpread: 45
           fragLifeMin: 0.1
           fragLifeMax: 0.25
             fragBullet: {
@@ -86,10 +87,9 @@ ammoTypes:{
               drawSize: 0
               width: 0
               height: 0
-              knockBack: 7
               hitEffect: none
               despawnEffect: none
-            } */
+            }
           }
               
 	Carrot: {
