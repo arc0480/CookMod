@@ -56,7 +56,7 @@ ammoTypes:{
           drawSize: 130
           height: 13
           width: 13
-          bulletShrink: 0
+          bulletShrink: -1
           absorbable: true
           pierceArmor: false
           knockBack: 7
@@ -82,11 +82,11 @@ ammoTypes:{
               damage: 5
               speed: 5
               lifeTime: 1
-              drawSize: 0
+              drawSize: 100
               hitSize: 10
               drawSize: 0
-              width: 0
-              height: 0
+              width: 10
+              height: 10
               hitEffect: none
               despawnEffect: none
             }
