@@ -72,16 +72,16 @@ ammoTypes:{
           fragOnHit: true
           fragOnAbsorbable: false
           fragBullets: 5
-          fragAngle: 0
-          fragSpread: 0
-          fragRandumSpread: 45
+          fragAngle: 9
+          fragSpread: 45
+          fragRandumSpread: 0
+          fragVelocityMin: 0.5
+          fragVelocityMax: 1
           fragLifeMin: 0.1
-          fragLifeMax: 0.25
+          fragLifeMax: 1.25
             fragBullet: {
               type: BssicBulletType
               damage: 5
-              speed: 5
-              lifeTime: 1
               drawSize: 100
               hitSize: 10
               drawSize: 0
