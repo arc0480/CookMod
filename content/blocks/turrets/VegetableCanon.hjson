@@ -44,6 +44,51 @@ ammoTypes:{
               pierceArmor: true
             }
         }
+        Onion: {
+          type: BasicBulletType
+          damage: 10
+          splashDamage: 30
+          splashDamageRadius: 50
+          speed: 12
+          lifeTime: 24
+          hitSize: 17
+          drawSize: 13
+          height: 130
+          width: 130
+          bulletShrink: 0
+          absorbable: true
+          pierceArmor: false
+          ammoMultiplier: 2
+          reloadMultiplier: 4.25
+          pierce: false
+          buildPierce: false
+          homingPower: 30
+          homingRange: 5
+          hitEffect: plasticExplosion
+          deSpawnEffect: none
+
+          fragOnHit: true
+          fragOnAbsorbable: false
+          fragBullets: 5
+          fragAngle: 0
+          fragSpread: 0
+          fragRandumSpread: 30
+          fragLifeMin: 0.1
+          fragLifeMax: 0.25
+            fragBullet: {
+              type: BssicBulletType
+              damage: 5
+              speed: 5
+              lifeTime: 1
+              drawSize: 0
+              hitSize: 10
+              drawSize: 0
+              width: 0
+              height: 0
+              knockBack: 7
+              hitEffect: none
+              despawnEffect: none
+              
 	Carrot: {
           type: BasicBulletType
 	  damage: 40
@@ -52,7 +97,7 @@ ammoTypes:{
           hitSize: 15
           drawSize: 150
           width: 15
-          absorbable: false
+          absorbable: true
           pierceArmor: true
           height: 20
           ammoMultiplier: 1
