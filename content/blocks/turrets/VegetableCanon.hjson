@@ -9,6 +9,7 @@ reload:15
 range:280
 recoil:0.1
 inaccuracy:20
+spread: 10
 xRand:5
 
 squareSprites:false
@@ -36,7 +37,7 @@ ammoTypes:{
               bulletType: BasicBulletType
               speed: 5
               width: 1
-              lifeTyme: 0.5
+              lifeTime: 0.5
               damage: 10
               absorbable: false
               pierce: true
@@ -60,11 +61,11 @@ ammoTypes:{
           absorbable: true
           pierceArmor: false
           knockBack: 7
-          ammoMultiplier: 2
+          ammoMultiplier: 3
           reloadMultiplier: 8
           pierce: false
           buildPierce: false
-          homingPower: 30
+          homingPower: 1.0
           homingRange: 5
           hitEffect: plasticExplosion
           deSpawnEffect: none
