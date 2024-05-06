@@ -60,7 +60,7 @@ ammoTypes:{
           bulletShrink: -1
           absorbable: true
           pierceArmor: false
-          knockBack: 7
+          knockBack: 15
           ammoMultiplier: 3
           reloadMultiplier: 8
           pierce: false
