@@ -52,9 +52,9 @@ ammoTypes:{
           speed: 12
           lifeTime: 24
           hitSize: 17
-          drawSize: 13
-          height: 130
-          width: 130
+          drawSize: 130
+          height: 13
+          width: 13
           bulletShrink: 0
           absorbable: true
           pierceArmor: false
