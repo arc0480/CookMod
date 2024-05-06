@@ -88,6 +88,8 @@ ammoTypes:{
               knockBack: 7
               hitEffect: none
               despawnEffect: none
+            }
+          }
               
 	Carrot: {
           type: BasicBulletType
