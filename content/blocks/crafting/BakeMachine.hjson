@@ -9,7 +9,7 @@ description:
 recipes: {
   {
       input: { item: sand, amount: 1 }
-      output: { item: glass, amount: 1 }
+      output: { item: potato, amount: 1 }
     }
 }
 size: 2
