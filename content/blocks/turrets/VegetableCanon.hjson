@@ -47,29 +47,29 @@ ammoTypes:{
         }
         Onion: {
           type: BasicBulletType
-          damage: 0
+          damage: 10
           splashDamage: 15
           splashDamageRadius: 50
           explodeRange: 45
           speed: 10
           lifeTime: 24
-          inaccuracy: 30
-          hitSize: 13
+          inaccuracy: 45
+          hitSize: 15
           drawSize: 130
           height: 13
           width: 13
           bulletShrink: 0.0
           absorbable: true
           pierceArmor: false
-          knockBack: 15
+          knockback: 25
           ammoMultiplier: 3
           reloadMultiplier: 2
           pierce: false
           buildPierce: false
-          homingPower: 0.1
+          homingPower: 0.099
           homingRange: 5
           hitEffect: plasticExplosion
-          deSpawnEffect: none
+          despawnEffect: none
 
           fragOnHit: true
           fragOnAbsorbable: false
@@ -84,11 +84,10 @@ ammoTypes:{
             fragBullet: {
               type: BssicBulletType
               damage: 5
-              drawSize: 100
-              hitSize: 10
-              drawSize: 0
-              width: 10
-              height: 10
+              hitSize: 1
+              drawSize: 10
+              width: 1
+              height: 1
               hitEffect: none
               despawnEffect: none
             }
