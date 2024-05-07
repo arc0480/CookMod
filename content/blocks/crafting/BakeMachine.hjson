@@ -22,7 +22,7 @@ consumes: {
 	}
 }
 
-recipe: [
+recipes: {
   {
       input: { item: Seed, amount: 1 }
       output: { item: Seed, amount: 1 }
@@ -31,7 +31,7 @@ recipe: [
       input: { item: lead, amount: 1 }
       output: { item: Seed, amount: 1 }
   }
-]
+}
 
 
 requirements: [
