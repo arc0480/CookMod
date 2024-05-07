@@ -50,7 +50,7 @@ ammoTypes:{
           damage: 0
           splashDamage: 15
           splashDamageRadius: 50
-          exploderange: 45
+          explodeRange: 45
           speed: 10
           lifeTime: 24
           hitSize: 13
@@ -65,7 +65,7 @@ ammoTypes:{
           reloadMultiplier: 8
           pierce: false
           buildPierce: false
-          homingPower: 0.999
+          homingPower: 0.099
           homingRange: 5
           hitEffect: plasticExplosion
           deSpawnEffect: none
