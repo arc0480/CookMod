@@ -12,9 +12,7 @@ hasPower: true
 hasItems: true
 craftTime: 120
 updateEffect: smeltsmoke
-'''
-outputItems: [Seed/2]
-'''
+
 consumes: {
 	power: 105
 	items: {
