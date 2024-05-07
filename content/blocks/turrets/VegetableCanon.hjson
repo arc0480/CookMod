@@ -53,6 +53,7 @@ ammoTypes:{
           explodeRange: 45
           speed: 10
           lifeTime: 24
+          inaccuracy: 30
           hitSize: 13
           drawSize: 130
           height: 13
@@ -62,10 +63,10 @@ ammoTypes:{
           pierceArmor: false
           knockBack: 15
           ammoMultiplier: 3
-          reloadMultiplier: 8
+          reloadMultiplier: 2
           pierce: false
           buildPierce: false
-          homingPower: 0.099
+          homingPower: 0.1
           homingRange: 5
           hitEffect: plasticExplosion
           deSpawnEffect: none
