@@ -4,7 +4,12 @@ description:
 '''
 ベイクするやーつ
 '''
-outputItem: PotatoChips/1
+
+
+recipes:[
+	inputItem: seed
+	outputItem: PotatoChips/1
+]
 size: 2
 hasPower: true
 hasItems: true
