@@ -12,9 +12,9 @@ hasPower: true
 hasItems: true
 craftTime: 120
 updateEffect: smeltsmoke
-
+'''
 outputItems: [Seed/2]
-
+'''
 consumes: {
 	power: 105
 	items: {
@@ -31,7 +31,7 @@ recipes: [
   }
 	{
       input: { item: lead, amount: 1 }
-      output: { item: seed, amount: 1 }
+      output: { item: Seed, amount: 1 }
   }
 ]
 
