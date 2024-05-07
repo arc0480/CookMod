@@ -1,8 +1,0 @@
-name:test
-type:constructors
-
-category: crafting
-research: multi-press
-idleSound: respawning
-idleSoundVolume: 0.5
-alwaysUnlocked: true
