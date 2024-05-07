@@ -24,7 +24,11 @@ consumes: {
 
 recipes: [
   {
-      input: { item: sand, amount: 1 }
+      input: { item: seed, amount: 1 }
+      output: { item: potato, amount: 1 }
+  }
+	{
+      input: { item: lead, amount: 1 }
       output: { item: potato, amount: 1 }
   }
 ]
