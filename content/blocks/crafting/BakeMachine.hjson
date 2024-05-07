@@ -1,4 +1,4 @@
-type: SingleBlockProducer
+type: GenericCrafter
 name: ベイクマシン
 description:
 '''
@@ -22,11 +22,7 @@ consumes: {
 	}
 }
 
-recipes: [
-  
-      input: { item: Seed, amount: 1 }
-      output: { item: Seed, amount: 1 }
-]
+
 
 
 requirements: [
