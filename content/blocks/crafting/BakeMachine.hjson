@@ -13,9 +13,7 @@ hasItems: true
 craftTime: 120
 updateEffect: smeltsmoke
 
- outputItems: [
-    { item: potato, amount: 2 }
-  ]
+ outputItems: potato/2 
 
 consumes: {
 	power: 105
