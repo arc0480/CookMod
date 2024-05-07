@@ -7,8 +7,10 @@ description:
 
 
 recipes: {
-	inputItem: seed/1
-	outputItem: PotatoChips/1
+	[
+		input: seed/1
+		output: PotatoChips/1
+	]
 }
 size: 2
 hasPower: true
