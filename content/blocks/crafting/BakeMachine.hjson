@@ -22,16 +22,16 @@ consumes: {
 	}
 }
 
-recipes: {
-  {
+recipes: [
+  [
       input: { item: Seed, amount: 1 }
       output: { item: Seed, amount: 1 }
-  }
+  ]
 	{
       input: { item: lead, amount: 1 }
       output: { item: Seed, amount: 1 }
   }
-}
+]
 
 
 requirements: [
