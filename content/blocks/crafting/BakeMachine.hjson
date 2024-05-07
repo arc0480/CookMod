@@ -7,7 +7,7 @@ description:
 
 
 recipes:[
-	inputItem: seed
+	inputItem: seed/1
 	outputItem: PotatoChips/1
 ]
 size: 2
