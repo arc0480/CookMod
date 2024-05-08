@@ -1,6 +1,4 @@
-name:ガチャ
-
-//type: GenericCrafter
+name:第一農産施設
 type: Separator
 description: "野菜を錬成"
 itemCapacity: 100
