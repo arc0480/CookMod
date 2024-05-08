@@ -50,11 +50,10 @@ ammoTypes:{
           damage: 10
           splashDamage: 15
           splashDamageRadius: 50
-          explodeRange: 45
-          speed: 10
-          lifeTime: 24
+          speed: 7
+          lifeTime: 25
           inaccuracy: 45
-          hitSize: 15
+          hitSize: 17
           drawSize: 130
           height: 13
           width: 13
@@ -78,12 +77,12 @@ ammoTypes:{
           fragSpread: 45
           fragRandumSpread: 0
           fragVelocityMin: 0.5
-          fragVelocityMax: 1
+          fragVelocityMax: 1.0
           fragLifeMin: 0.1
-          fragLifeMax: 1.25
+          fragLifeMax: 1.5
             fragBullet: {
               type: BssicBulletType
-              damage: 5
+              damage: 30
               hitSize: 1
               drawSize: 10
               width: 1
