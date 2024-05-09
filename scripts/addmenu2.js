@@ -1,5 +1,5 @@
 
-Events.on(ClientLoadEvent, e => {
+Events.on(WorldLoadBeginEvent, e => {
 
 
   
