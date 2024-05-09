@@ -33,4 +33,3 @@ Events.on(EventType.ClientLoadEvent, () => {
     }
     size(100, 50);
     dialog.show();
-}
