@@ -7,7 +7,7 @@ health: 856
 targetable: true
 squareSprites: false
 
-hasPower: true
+hasPower: false
 hasLiquid: true
 liquidCapacity: 1256
 itemCapacity: 5
