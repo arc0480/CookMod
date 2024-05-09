@@ -1,35 +1,107 @@
-//jsで記載
+let cols = [Pal.lancerLaser, Pal.accent, Color.valueOf("cc6eaf")]; //Pink from BetaMindy
+let folded = false;
+let curSpeed = 0;
+let longPress = 30;
+let unfoldTimer = 0;
 
-//ダイアログを表示
-const myDialog = new BaseDialog("Dialog Title");
-// Add "go back" button
-myDialog.addCloseButton();
-// Add text to the main content
-myDialog.cont.add("Goodbye.");
-// Show dialog
-myDialog.show();
+let timeSlider = null;
+let foldedButton = null;
 
 function sliderTable(table){
     table.table(Tex.buttonEdge3, t => {
-    
-   table.visibility = () => !folded && visibility();
+        timeSlider = new Slider(-8, 8, 1, false);
+        timeSlider.setValue(0);
+        
+        let l = t.button("[accent]x1", () => {
+            curSpeed = Mathf.clamp(curSpeed, -2, 2) - 1;
+            foldedButton.fireClick();
+            folded = true;
+        }).grow().width(10.5 * 8).get();
+        l.margin(0);
+        let lStyle = l.getStyle();
+        lStyle.up = Tex.pane;
+        lStyle.over = Tex.flatDownBase;
+        lStyle.down = Tex.whitePane;
+        
+        let b = t.button(new TextureRegionDrawable(Icon.refresh), 24, () => timeSlider.setValue(0)).padLeft(6).get();
+        b.getStyle().imageUpColor = Pal.accent;
+        t.add(timeSlider).padLeft(6).minWidth(200);
+        timeSlider.moved(v => {
+            curSpeed = v;
+            let speed = Math.pow(2, v);
+            Time.setDeltaProvider(() => Math.min(Core.graphics.getDeltaTime() * 60 * speed, 3 * speed));
+            
+            Tmp.c1.lerp(cols, (timeSlider.getValue() + 8) / 16);
+            
+            l.setText(speedText(v));
+        });
+    });
+    table.visibility = () => !folded && visibility();
 }
 
-Events.on(EventType.ClientLoadEvent, () => {
-    const dialog = new BaseDialog("Info");
-    const creators = new BaseDialog("Creators");
-    creators.cont.add("Spriting: Exter").row();
-    creators.cont.add("Coding: Exter").row();
-    dialog.cont.add("This mod is WIP, so there can be bugs. ").row();
+function foldedButtonTable(table){
+    table.table(Tex.buttonEdge3, t => {
+        foldedButton = t.button("[accent]x1", () => {
+            curSpeed++;
+            if(curSpeed > 2) curSpeed = -2;
+            
+            let speed = Math.pow(2, curSpeed);
+            Time.setDeltaProvider(() => Math.min(Core.graphics.getDeltaTime() * 60 * speed, 3 * speed));
+            
+            foldedButton.setText(speedText(curSpeed));
+            timeSlider.setValue(curSpeed);
+        }).grow().width(10.5 * 8).get();
+        foldedButton.margin(0);
+        
+        foldedButton.update(() => {
+            if(foldedButton.isPressed()){
+                unfoldTimer += Core.graphics.getDeltaTime() * 60;
+                if(unfoldTimer > longPress && folded){
+                    folded = false;
+                    unfoldTimer = 0;
+                }
+            }else{
+                unfoldTimer = 0;
+            }
+        });
+    }).height(72);
+    table.visibility = () => folded && visibility();
+}
+
+function speedText(speed){
+    Tmp.c1.lerp(cols, (speed + 8) / 16);
+    let text = "[#" + Tmp.c1.toString() + "]";
+    if(speed >= 0){
+        text += "x" + Math.pow(2, speed);
+    }else{
+        text += "x1/" + Math.pow(2, Math.abs(speed));
     }
-   dialog.cont.button("OK", () => {
-        dialog.hide();
-    }
-    dialog.cont.button("Creators", () => {
-        creators.show();
-    }
-    creators.cont.button("OK", () => {
-        creators.hide();
-    }
-    size(100, 50);
-    dialog.show();
+    return text;
+}
+
+function visibility(){
+    if(!Vars.ui.hudfrag.shown || Vars.ui.minimapfrag.shown()) return false;
+    if(!Vars.mobile) return true;
+    
+    let input = Vars.control.input;
+    return input.lastSchematic == null || input.selectPlans.isEmpty();
+}    
+
+if(!Vars.headless){
+    Events.on(ClientLoadEvent, () => {
+        let ft = new Table();
+        ft.bottom().left();
+        foldedButtonTable(ft);
+        Vars.ui.hudGroup.addChild(ft);
+        
+        let st = new Table();
+        st.bottom().left();
+        sliderTable(st);
+        Vars.ui.hudGroup.addChild(st);
+        
+        if(Vars.mobile){
+            st.moveBy(0, Scl.scl(46));
+            ft.moveBy(0, Scl.scl(46));
+        }
+    });
+}
