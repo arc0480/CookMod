@@ -1,8 +1,8 @@
 
 Events.on(ClientLoadEvent, () => {
     //log
-    Log.error("err");
-    Log.warn("warn");
+    //Log.error("err");
+    //Log.warn("warn");
     
 
 
