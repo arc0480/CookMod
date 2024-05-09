@@ -4,6 +4,6 @@ Events.on(ClientLoadEvent, () => {
     wavesTable.table(Tex.buttonRight, t => {
         t.addButton("Hi", Icon.trash,  () => {
             // onclick
-        }).grow();
+        });
     }
 });
