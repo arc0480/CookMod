@@ -1,5 +1,5 @@
 const { ImageButtonStyle } = ImageButton;
-//Events.on(ClientLoadEvent, e => {
+Events.on(WorldRoadEvent, e => {
     const wavesTable = Vars.ui.hudGroup.find("waves");
     
     const [ statustable, infoTable ] = wavesTable.getChildren().items;
@@ -29,4 +29,4 @@ const { ImageButtonStyle } = ImageButton;
     wavesTable.row();
     
     wavesTable.add(infoTable).set(infoTableCell).growX();
-//});
+});
