@@ -1,4 +1,4 @@
-const cookdlg = new BaseDialog("cookdlg");
+const cookdlg = new ModsDialog("cookdlg");
 // Add "go back" button
 cookdlg.addCloseButton();
 // Add text to the main content
