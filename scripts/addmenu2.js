@@ -18,20 +18,20 @@
 //Vars.content.block("block").attrib
 //utes.set（Attribute.get（"attributes"), 1) ;
 //}) ;
-
+Events.on(ClientLoadEvent, () => {
 
 const myStyle = Object.assign(new TextButtonStyle(), {
     over: Tex.buttonRightOver, 
     down: Tex.buttonRightDown, 
     up: Tex.buttonRight, 
-    disabled:Tex.buttonRightDisabled, 
+    disabled: Tex.buttonRightDisabled, 
     font: Fonts.def, 
     fontColor: Color.white, 
     disabledFontColor: Color.gray,
 });
 
 
-Events.on(ClientLoadEvent, () => {
+
     wavesTable.button("Hi",myStyle,() => {
     // code
     }).grow();
