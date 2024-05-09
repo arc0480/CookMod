@@ -1,4 +1,4 @@
 
-//require("addmenu");
+require("addmenu");
 require("addmenu2");
 
