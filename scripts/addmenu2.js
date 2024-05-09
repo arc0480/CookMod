@@ -1,4 +1,4 @@
-Events.on(ClientLoadEvent, () => {
+
     //log
     //Log.error("err");
     //Log.warn("warn");
@@ -30,9 +30,11 @@ const myStyle = Object.assign(new TextButtonStyle(), {
     disabledFontColor: Color.gray,
 });
 
-wavesTable.button("Hi",myStyle,() => {
-// code
-}).grow();
+
+Events.on(ClientLoadEvent, () => {
+    wavesTable.button("Hi",myStyle,() => {
+    // code
+    }).grow();
 
 
 });
