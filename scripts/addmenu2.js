@@ -1,13 +1,4 @@
-const myStyle = Object.assign(new TextButtonStyle(), {
-  over: Tex.buttonRightOver,
-  down: Tex.buttonRightDown,
-  up: Tex.buttonRight,
-  disabled: Tex.buttonRightDisabled,
-  font: Fonts.def,
-  fontColor: Color.white,
-  disabledFontColor: Color.gray,
+ Vars.ui.consolefrag.addButton("buttonNameHere", Icon.trash, () =>  {
+   /* ボタンタップ時の処理を記載？ */
+    
 });
-
-wavesTable.button("Hi", myStyle, () => {
-  // code
-}).grow();
