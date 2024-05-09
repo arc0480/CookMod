@@ -20,17 +20,19 @@
 //}) ;
 
 
-const myStyle = Object.assign (new
-TextButtonStyle(), f
-over: Tex. buttonRightOver, down: Tex.buttonRightDown, up: Tex. buttonRight, disabled:
-Tex. buttonRightDisabled, font: Fonts.def, fontColor: Color. white, disabledFontColor: Color gray,
+const myStyle = Object.assign (new TextButtonStyle(), f
+over: Tex. buttonRightOver, 
+down: Tex.buttonRightDown, 
+up: Tex. buttonRight, 
+disabled:Tex. buttonRightDisabled, 
+font: Fonts.def, 
+fontColor: Color.white, 
+disabledFontColor: Color gray,
 }) ;
-wavesTable.button ("Hi"
-, myStyle,
-() => {
+wavesTable.button ("Hi",myStyle,() => {
 // code
-}) • grow();
-Im actually not sure if 
+})
+grow();
 
 
 
