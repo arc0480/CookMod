@@ -1,4 +1,5 @@
 name: 傷心
+type: StatusEffect
 armorMultiplier: 0.75
 speedMultiplier: 0.25
 damageMultiplier: 1.5
