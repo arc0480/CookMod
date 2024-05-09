@@ -1,5 +1,5 @@
 const { ImageButtonStyle } = ImageButton;
-Events.on(FileTreeInitEvent, e => {
+Events.on(ContentInitEvent, e => {
     const wavesTable = Vars.ui.hudGroup.find("waves");
     
     const [ statustable, infoTable ] = wavesTable.getChildren().items;
