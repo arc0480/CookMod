@@ -20,14 +20,14 @@
 //}) ;
 
 
-const myStyle = Object.assign (new TextButtonStyle(), {
-    over: Tex. buttonRightOver, 
+const myStyle = Object.assign(new TextButtonStyle(), {
+    over: Tex.buttonRightOver, 
     down: Tex.buttonRightDown, 
-    up: Tex. buttonRight, 
-    disabled:Tex. buttonRightDisabled, 
+    up: Tex.buttonRight, 
+    disabled:Tex.buttonRightDisabled, 
     font: Fonts.def, 
     fontColor: Color.white, 
-    disabledFontColor: Color gray,
+    disabledFontColor: Color.gray,
 });
 
 wavesTable.button("Hi",myStyle,() => {
