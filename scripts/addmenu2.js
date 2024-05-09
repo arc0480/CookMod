@@ -6,7 +6,7 @@ Events.on(ClientLoadEvent, () => {
     
 
 
-    Vars.ui.showCustomConfirm.addButton("buttonNameHere", Icon.trash, () =>  {
+    Vars.ui.consolefrag.addButton("buttonNameHere", Icon.trash, () =>  {
     /* code */
     
     }
