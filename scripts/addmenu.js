@@ -9,7 +9,7 @@ Events.on(ClientLoadEvent, () => {
 
 
     Vars.ui.menufrag.addButton("buttonNameHere", Icon.trash, () =>  {
-    /* code */
+    /* ボタンタップ時の処理を記載？ */
     
     });
 });
