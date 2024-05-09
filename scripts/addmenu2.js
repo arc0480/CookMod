@@ -1,4 +1,4 @@
-//Events.on(ClientLoadEvent, () => {
+Events.on(ClientLoadEvent, () => {
     //log
     //Log.error("err");
     //Log.warn("warn");
@@ -11,7 +11,7 @@
 //frag. build(Vars.ui.hudGroup);
     
 //    });
-//});
+
 
 //Attribute. add ("attribute");
 //Events.on(ContentInitEvent, e => {
@@ -35,5 +35,5 @@ wavesTable.button("Hi",myStyle,() => {
 }).grow();
 
 
-
+});
 
