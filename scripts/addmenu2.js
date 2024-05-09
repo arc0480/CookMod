@@ -1,41 +1,33 @@
+const { ImageButtonStyle } = ImageButton;
 
-    //log
-    //Log.error("err");
-    //Log.warn("warn");
-
+Events.on(ClientLoadEvent, e => {
+    const wavesTable = Vars.ui.hudGroup.find("waves");
     
-
-
-    //Vars.ui.hudGroup.addButton("buttonNameHere", Icon.trash, () =>  {
-    /* code */
-//frag. build(Vars.ui.hudGroup);
+    const [ statustable, infoTable ] = wavesTable.getChildren().items;
+    const [ statustableCell, infoTableCell ] = wavesTable.getCells().items;
     
-//    });
-
-
-//Attribute. add ("attribute");
-//Events.on(ContentInitEvent, e => {
-//Vars.content.block("block").attrib
-//utes.set（Attribute.get（"attributes"), 1) ;
-//}) ;
-Events.on(ClientLoadEvent, () => {
-
-const myStyle = Object.assign(new TextButtonStyle(), {
-    over: Tex.buttonRightOver, 
-    down: Tex.buttonRightDown, 
-    up: Tex.buttonRight, 
-    disabled: Tex.buttonRightDisabled, 
-    font: Fonts.def, 
-    fontColor: Color.white, 
-    disabledFontColor: Color.gray,
+    // To remove the edge style. Change the style of skip button.
+    const style = Object.assign(new ImageButtonStyle(Styles.squarei), {
+        down: Styles.flatDown,
+        disabled: Tex.pane2,
+        imageUp: Icon.play,
+        imageDisabledColor: Color.clear,
+        imageUpColor: Color.white,
+    });
+    const skipButton = statustable.find("skip");
+   skipButton.setStyle(style);
+    
+    wavesTable.clearChildren();
+    
+    wavesTable.add(statustable).set(statustableCell).growX();
+    
+    wavesTable.row();
+    
+    wavesTable.table(Tex.buttonRight, t => {
+        t.add("My custom table!");
+    }).growX();
+    
+    wavesTable.row();
+    
+    wavesTable.add(infoTable).set(infoTableCell).growX();
 });
-
-
-
-    wavesTable.button("Hi",myStyle,() => {
-    // code
-    }).grow();
-
-
-});
-
