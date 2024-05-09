@@ -14,9 +14,9 @@
 //});
 
 Attribute. add ("attribute");
-Events. on (ContentInitEvent, e => {
+Events.on(ContentInitEvent, e => {
 Vars.content.block("block").attrib
-utes.set （Attribute.get （"attributes"), 1) ;
+utes.set（Attribute.get（"attributes"), 1) ;
 }) ;
 
 
