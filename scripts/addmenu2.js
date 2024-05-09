@@ -31,8 +31,7 @@ disabledFontColor: Color gray,
 }) ;
 wavesTable.button ("Hi",myStyle,() => {
 // code
-})
-grow();
+}).grow();
 
 
 
