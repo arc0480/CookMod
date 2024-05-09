@@ -1,8 +1,8 @@
 
 
 
-Vars.ui.menufrag.addButton("buttonNameHere", Core.atlas.find("buttonIconHere"), () => 
-    {/* code */
+Vars.ui.menufrag.addButton("buttonNameHere", Icon.trash), () =>  {
+        /* code */
         
     });
 Events.on(ClientLoadEvent, () => {});
