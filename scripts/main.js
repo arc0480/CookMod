@@ -15,7 +15,7 @@ function sliderTable(table){
    table.visibility = () => !folded && visibility();
 }
 
-Events.on(EventType.ClientLoadEvent, () )=> {
+Events.on(EventType.ClientLoadEvent, () => {
     const dialog = new BaseDialog("Info");
     const creators = new BaseDialog("Creators");
     creators.cont.add("Spriting: Exter").row();
