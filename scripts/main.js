@@ -1,7 +1,2 @@
-const cookdlg = new ModsDialog("cookdlg");
-// Add "go back" button
-cookdlg.addCloseButton();
-// Add text to the main content
-cookdlg.cont.add("Goodbye.");
-// Show dialog
-cookdlg.show();
+// JavaScriptでのダイアログ生成例
+Vars.ui.showInfo("This is a dialog.");
