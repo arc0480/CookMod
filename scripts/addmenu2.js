@@ -1,4 +1,4 @@
-
+Events.on(ClientLoadEvent, () => {
 // JavaScriptでのメニュー作成例
 Vars.ui.showCustomConfirm(
     "Choose an option",  // ダイアログのメッセージ
@@ -13,3 +13,4 @@ Vars.ui.showCustomConfirm(
         Vars.ui.showInfo("Option 2 selected.");
     }
 );
+};
