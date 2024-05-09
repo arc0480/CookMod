@@ -1,4 +1,4 @@
-
+Events.on(worldloadevent, () => {
 const myStyle = Object.assign(new TextButtonStyle(), {
   over: Tex.buttonRightOver,
   down: Tex.buttonRightDown,
@@ -12,3 +12,4 @@ const myStyle = Object.assign(new TextButtonStyle(), {
 wavesTable.button("Hi", myStyle, () => {
   // code
 }).grow();
+});
