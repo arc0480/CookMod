@@ -1,7 +1,18 @@
+
 Events.on(ClientLoadEvent, () => {
-    // JavaScriptでのメニュー作成例
+    //log
+    //Log.error("err");
+    //Log.warn("warn");
+    
+
+
     Vars.ui.showCustomConfirm.addButton("buttonNameHere", Icon.trash, () =>  {
+    /* code */
+    
     }
     );
 
 });
+
+
+
