@@ -21,7 +21,8 @@ Events.on(EventType.ClientLoadEvent, () => {
     creators.cont.add("Spriting: Exter").row();
     creators.cont.add("Coding: Exter").row();
     dialog.cont.add("This mod is WIP, so there can be bugs. ").row();
-    dialog.cont.button("OK ", () => {
+    }
+   dialog.cont.button("OK ", () => {
         dialog.hide();
     }
     dialog.cont.button("Creators ", () => {
