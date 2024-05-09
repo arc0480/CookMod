@@ -20,8 +20,8 @@
 //}) ;
 
 
-const myStyle = Object.assign (new TextButtonStyle(), f
-over: Tex. buttonRightOver, 
+const myStyle = Object.assign (new TextButtonStyle(), 
+fover: Tex. buttonRightOver, 
 down: Tex.buttonRightDown, 
 up: Tex. buttonRight, 
 disabled:Tex. buttonRightDisabled, 
