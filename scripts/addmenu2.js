@@ -6,8 +6,9 @@ Events.on(ClientLoadEvent, () => {
     
 
 
-    Vars.ui.hudGroup.addButton("buttonNameHere", Icon.trash, () =>  {
+    //Vars.ui.hudGroup.addButton("buttonNameHere", Icon.trash, () =>  {
     /* code */
+frag. build(Vars.ui.hudGroup);
     
     });
 });
