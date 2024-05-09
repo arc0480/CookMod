@@ -6,7 +6,7 @@ Events.on(ClientLoadEvent, () => {
     
 
 
-    Vars.ui.WidgetGroup.addButton("buttonNameHere", Icon.trash, () =>  {
+    Vars.ui.hudGroup.addButton("buttonNameHere", Icon.trash, () =>  {
     /* code */
     
     });
