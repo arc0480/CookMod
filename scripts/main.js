@@ -1,7 +1,7 @@
 
 Events.on(ClientLoadEvent, () => {
 
-Vars.ui.menufrag.addButton("buttonNameHere", Icon.trash), () =>  {
+Vars.ui.menufrag.addButton("buttonNameHere", Icon.trash, () =>  {
 /* code */
     
 });
