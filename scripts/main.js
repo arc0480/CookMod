@@ -8,3 +8,9 @@ myDialog.addCloseButton();
 myDialog.cont.add("Goodbye.");
 // Show dialog
 myDialog.show();
+
+function sliderTable(table){
+    table.table(Tex.buttonEdge3, t => {
+    
+   table.visibility = () => !folded && visibility();
+}
