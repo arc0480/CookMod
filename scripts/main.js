@@ -1,4 +1,4 @@
-
+require("ShowDig");
 Events.on(ClientLoadEvent, () => {
     //log
     //Log.error("err");
