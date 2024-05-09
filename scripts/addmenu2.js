@@ -1,4 +1,4 @@
-Events.on(WorldLoadBeginEvent, () => {
+Events.on(WorldLoadEvent, () => {
 const myStyle = Object.assign(new TextButtonStyle(), {
   over: Tex.buttonRightOver,
   down: Tex.buttonRightDown,
