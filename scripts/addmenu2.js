@@ -1,5 +1,4 @@
-Events.on(ClientLoadEvent, () => {
-    const myStyle = Object.assign(new TextButtonStyle(), {
+  const myStyle = Object.assign(new TextButtonStyle(), {
   over: Tex.buttonRightOver,
   down: Tex.buttonRightDown,
   up: Tex.buttonRight,
@@ -9,7 +8,11 @@ Events.on(ClientLoadEvent, () => {
   disabledFontColor: Color.gray,
 });
 
-wavesTable.button("Hi", myStyle, () => {
+
+
+Events.on(ClientLoadEvent, () => {
+    const wavesTable = Vars.ui.hudGroup.find("waves");
+    wavesTable.button("Hi", myStyle, () => {
   // code
-}).grow();
+    }).grow();
 });
