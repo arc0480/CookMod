@@ -1,3 +1,7 @@
+//ANDROIDでは確認ずみ
+//IOSでは動作せず。
+
+
 const { ImageButtonStyle } = ImageButton;
 
 Events.on(WorldLoadEvent, e => {
