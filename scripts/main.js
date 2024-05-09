@@ -1,5 +1,5 @@
 
-Events.on(ClientLoadEvent, () => {});
+Events.on(ClientLoadEvent, () => {
 
 Vars.ui.menufrag.addButton("buttonNameHere", Icon.trash), () =>  {
 /* code */
@@ -17,4 +17,6 @@ Vars.ui.menufrag.addButton("buttonNameHere", Icon.trash), () =>  {
         Vars.ui.showInfo("Option 2 selected.");
     }
     }
+});
+
 });
