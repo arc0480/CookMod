@@ -4,7 +4,7 @@ description:
 範囲内の敵性物体にデバフを与え続ける
 '''
 variants: 0
-type: ForceProjector
+type: ShieldArcAbility
 health: 3200
 size: 2
 buildCostMultiplier: 0.75
