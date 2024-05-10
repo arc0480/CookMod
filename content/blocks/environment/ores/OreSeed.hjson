@@ -2,3 +2,6 @@ type: OreBlock
 variants: 2
 itemDrop: Seed
 cacheLayer: darksand
+atrributes: {
+  OreSeed: 2
+}
