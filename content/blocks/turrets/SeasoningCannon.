@@ -1,2 +1,18 @@
 name: "調味料キャノン"
-  type: 
+discriprion: 粉末調味料を噴射し、デバフを撒き散らすタレット
+type: ItemTurret
+category: turret
+size: 2
+health: 1250
+buildVisibillity: shown
+buildTime: 270
+requirements: [
+  copper/90
+  lead/60
+  graphite/60
+  titanium/50
+]
+
+
+
+  
