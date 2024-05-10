@@ -8,6 +8,5 @@ research: {
     requirements: [
         copper/30
     ]
-    #requireUnlock:true
+    unlockedOnLand: true
 }
-unlockedOnLand: true
