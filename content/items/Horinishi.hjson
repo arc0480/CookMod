@@ -9,4 +9,9 @@ research: {
     requirements: [
         copper/30
     ]
+		objectives: [
+    {
+      Seed
+    }
+  ]
 }
