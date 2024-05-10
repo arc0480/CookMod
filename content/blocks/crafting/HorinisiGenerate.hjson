@@ -15,8 +15,6 @@ consumes: {
 	items: {
     items: [
       GoldCarrot/1
-    ]
-    items: [
       Potato/1
     ]
 
