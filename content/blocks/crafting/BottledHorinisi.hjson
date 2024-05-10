@@ -19,7 +19,7 @@ consumes: {
 	items: {
     items: [
       metaglass/1
-      Horinishi/5
+      HorinishiPowder/5
     ]
 
 	}
