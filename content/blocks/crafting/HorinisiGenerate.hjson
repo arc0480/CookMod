@@ -1,1 +1,44 @@
-#
+name:第一農産施設
+type: Separator
+description: "野菜を錬成"
+itemCapacity: 100
+
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 300
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	items: {
+    items: [
+      GoldCarrot/1
+    ]
+    items: [
+      potato/1
+    ]
+
+	}
+}
+requirements: [
+	titanium/80 
+	silicon/50 
+	copper/50
+]
+
+category: crafting
+alwaysUnlocked: true
+
+//搬出アイテム？
+results: [
+    Horinishi/1
+]
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
