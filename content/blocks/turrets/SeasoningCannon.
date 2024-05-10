@@ -4,13 +4,21 @@ type: ItemTurret
 category: turret
 size: 2
 health: 1250
+
 buildVisibillity: shown
 buildTime: 270
 requirements: [
-  copper/90
-  lead/60
-  graphite/60
-  titanium/50
+  copper/ 90
+  lead/ 60
+  graphite/ 60
+  titanium/ 50
+]
+research: [
+  Horinishi/ 50
+  copper/ 180
+  lead/ 120
+  graphite/ 90
+  titanium/ 75
 ]
 
 
