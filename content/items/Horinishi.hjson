@@ -6,6 +6,6 @@ color: 9AE21B
 research: {
     parent: Seed
     requirements: [
-        material-Seed/30
+        item-Seed/30
     ]
 }
