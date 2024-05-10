@@ -6,7 +6,7 @@ color: 9AE21B
 #research: {
 #    parent: Seed
 #    requirements: [
-#        Seed/30
+#        material-Seed/30
 #    ]
 #}
 research:Seed
