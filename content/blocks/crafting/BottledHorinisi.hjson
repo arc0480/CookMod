@@ -1,1 +1,45 @@
-#
+name:ほりにし生産施設
+type: Separator
+description: 
+"
+ほりにしを瓶詰めする。
+この瓶づめ、タレットに使えそうだが…
+"
+itemCapacity: 100
+
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 300
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	items: {
+    items: [
+      Horinishi/1
+    ]
+
+	}
+}
+requirements: [
+	titanium/80 
+	silicon/50 
+	copper/50
+]
+
+category: crafting
+alwaysUnlocked: true
+
+//搬出アイテム？
+results: [
+    Horinishi/1
+]
+
+research: {
+    parent: SaltMaker
+    requirements: [
+        copper/30
+    ]
+}
