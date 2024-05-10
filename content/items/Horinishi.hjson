@@ -10,4 +10,4 @@ research: {
     ]
     #requireUnlock:true
 }
-alwaysUnlocked: false
+alwaysUnlocked: true
