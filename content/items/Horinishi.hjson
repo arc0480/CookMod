@@ -7,10 +7,10 @@ research: {
     parent: Seed
     requiresUnlock: true
     requirements: [
-        copper/30
+		copper/30
     ]
 		objectives: [
-      Seed
+		Seed
 		]
   ]
 }
