@@ -8,5 +8,5 @@ research: {
     requirements: [
         Seed/30
     ]
-    requireUnlock:true
+    #requireUnlock:true
 }
