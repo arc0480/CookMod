@@ -21,8 +21,8 @@ research: [
   titanium/ 75
 ]
 
-reload: 90
-range: 480
+reload: 60
+range: 116.0
 rotateSpeed: 1.5
 
 
