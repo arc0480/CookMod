@@ -18,7 +18,8 @@ updateEffect: smeltsmoke
 consumes: {
 	items: {
     items: [
-      Horinishi/1
+      metaglass/1
+      Horinishi/5
     ]
 
 	}
