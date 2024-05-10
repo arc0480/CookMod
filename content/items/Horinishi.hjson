@@ -10,4 +10,4 @@ research: {
     ]
     #requireUnlock:true
 }
-unlockesOnLand: true
+unlockedOnLand: true
