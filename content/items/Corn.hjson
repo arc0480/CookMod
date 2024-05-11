@@ -3,7 +3,7 @@ name: corn
 description: delicious Corn!!!
 color: 9AE21B
 research: {
-    parent: Seed
+    parent: Greenhouse
     requirements: [
         copper/30
     ]
