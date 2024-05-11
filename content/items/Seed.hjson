@@ -2,6 +2,7 @@ type: material
 name: 種
 color: 9AE21B
 description: A rare Seed.
+#seedを手に入れたら解放
 research: CoreSeeds
     
 
