@@ -27,13 +27,11 @@ consumes: {
 }
 }
 requirements: [
-	titanium/80 
-	silicon/50 
+	Seed/50
 	copper/50
 ]
 
 category: crafting
-alwaysUnlocked: true
 
 //搬出アイテム？
 results: [
@@ -45,7 +43,7 @@ results: [
 ]
 
 research: {
-    parent: SaltMaker
+    parent: Seed
     requirements: [
         copper/30
     ]
