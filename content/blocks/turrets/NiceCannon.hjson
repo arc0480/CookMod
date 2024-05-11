@@ -68,4 +68,9 @@ requirements: [
   Seed/1
 ]
 buildVisibillity: shown
-alwaysUnlocked: true
+research: {
+    parent: VegetableCanon
+    requirements: [
+        copper/30
+    ]
+}
