@@ -11,7 +11,7 @@ buildVisibillity:shown
 alwaysUnlocked:true
 
 research: {
-    parent: CoreSeeds
+    parent: Carrot
     requirements: [
         copper/30
     ]
