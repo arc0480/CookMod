@@ -10,7 +10,7 @@ category: defense
 buildVisibillity:shown
 
 research: {
-    parent: CoreSeeds
+    parent: GoldCarrot
     requirements: [
         copper/30
     ]
