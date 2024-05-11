@@ -8,7 +8,6 @@ requirements: [
 ]
 category: defense
 buildVisibillity:shown
-alwaysUnlocked:true
 
 research: {
     parent: CoreSeeds
