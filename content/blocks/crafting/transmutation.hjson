@@ -1,6 +1,6 @@
 
 type: GenericCrafter
-name: transmutation
+name: 人参強化工場
 description: "きんのにんじんさいこう！！！"
 itemCapacity: 50
 outputItem: GoldCarrot/1
@@ -29,7 +29,7 @@ research: Salt-Maker
 alwaysUnlocked: true
 
 research: {
-    parent: carrot
+    parent: Carrot
     requirements: [
         copper/30
     ]
