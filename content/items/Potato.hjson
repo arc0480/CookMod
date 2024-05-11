@@ -3,7 +3,7 @@ name: Potato
 color: 9AE21B
 description: A rare Potato
 research: {
-    parent: Seed
+    parent: Greenhouse
     requirements: [
         copper/30
     ]
