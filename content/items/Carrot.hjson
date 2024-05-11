@@ -7,5 +7,5 @@ research: {
     requirements: [
         copper/30
     ]
-		alwaysUnlocked:false
+		#alwaysUnlocked:false
 }
