@@ -12,7 +12,6 @@ requirements: [
 	lead/100 
 ]
 category: production
-alwaysUnlocked:true
 research: {
     parent: CoreSeeds
     requirements: [
