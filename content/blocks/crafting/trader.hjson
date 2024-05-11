@@ -35,7 +35,7 @@ results: [
 ]
 
 research: {
-    parent: Greenhouse.hjson
+    parent: Greenhouse
     requirements: [
         copper/30
     ]
