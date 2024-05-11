@@ -1,7 +1,7 @@
 #name: cookplanets
 
 //planetの表示名
-localizedName: Themelight
+localizedName: cookplanets_nomal
 
 parent: sun
 
