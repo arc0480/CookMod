@@ -4,8 +4,8 @@ name: 粉末ほりにし
 description: キャンプで使ううまいやつ！
 color: 9AE21B
 research: {
-    #parent: Seed
- parent: 種
+    parent: Seed
+ #parent: 種
     requirements: [
         copper/30
     ]
