@@ -57,6 +57,6 @@ mesh: {
 #]
 
 # Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
-hiddenItems: [
-  serpuloItems,erekieItems
-]
+##hiddenItems: [
+#  serpuloItems,erekieItems
+#]
