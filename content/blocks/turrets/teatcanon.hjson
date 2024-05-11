@@ -24,7 +24,13 @@ ammoTypes: {
   }
 }
 category: turret
-research: twin 
+research: {
+    parent: VegetableCanon
+    requirements: [
+        copper/30
+    ]
+}
 requirements: [
   copper/125
 ]
+
