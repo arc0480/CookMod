@@ -1,10 +1,13 @@
 #name: cookplanets
 
+parent: sun
+
 icon: cookplanets
+iconColor: 30d5c8
 
 generator: SerpuloPlanetGenerator
-parent: sun
-iconColor: 30d5c8
+
+
 orbitRadius: 35
 hasAtmosphere: true
 updateLighting: false
