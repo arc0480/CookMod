@@ -3,7 +3,7 @@ name: 人参
 description: delicious carrots!!!
 color: 9AE21B
 research: {
-    parent: Seed
+    parent: Greenhouse
     requirements: [
         copper/30
     ]
