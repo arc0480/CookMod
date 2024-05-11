@@ -3,6 +3,7 @@ type: material
 name: 粉末ほりにし
 description: キャンプで使ううまいやつ！
 color: 9AE21B
+alwaysUnlocked:true
 research: {
     parent: Seed
     requirements: [
