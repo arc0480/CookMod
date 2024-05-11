@@ -23,7 +23,7 @@ consumes: {
 	items: {
 		items: [
 			sand/1
-			Seed/1
+			#Seed/1
 		]
 	}
 }
