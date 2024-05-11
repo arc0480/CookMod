@@ -1,6 +1,8 @@
 #name: cookplanets
 
+//planetの表示名
 localizedName: Themelight
+
 parent: sun
 
 icon: cookplanets
