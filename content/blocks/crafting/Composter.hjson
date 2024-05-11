@@ -32,5 +32,10 @@ requirements: [
 	Seed/80
 ]
 category: crafting
-research: CoreSeeds
-alwaysUnlocked: true
+research: {
+parent:CoreSeeds
+requirements: [
+	sand/50
+	Seed/80
+]
+}
