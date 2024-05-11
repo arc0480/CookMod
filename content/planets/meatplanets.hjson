@@ -50,3 +50,8 @@ mesh: {
     scl: 0.75
     mag: 1.2
 }
+
+# Only items available in this planet. Recommended over hiddenItems.
+itemWhitelist: [
+  copper, lead, beryllium, graphite, titanium
+]
