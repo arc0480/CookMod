@@ -56,6 +56,6 @@ mesh: {
   copper, lead, beryllium, graphite, titanium
 ]
 # Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
-hiddenItems: [
+hiddenItems: {
   copper, lead, beryllium, graphite, titanium
-]
+}
