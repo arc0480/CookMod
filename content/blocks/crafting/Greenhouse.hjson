@@ -28,7 +28,6 @@ consumes: {
 }
 requirements: [
 	Seed/50
-	copper/50
 ]
 
 category: crafting
@@ -45,6 +44,6 @@ results: [
 research: {
     parent: Seed
     requirements: [
-        copper/30
+        Seed/50
     ]
 }
