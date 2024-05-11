@@ -33,7 +33,7 @@ requirements: [
 category: effect
 
 research: {
-    parent: CoreSeeds
+    parent: Well
     requirements: [
         copper/30
     ]
