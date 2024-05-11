@@ -7,6 +7,5 @@ research: {
     requirements: [
         Seed/30
     ]
-alwaysUnlocked:false
 }
 
