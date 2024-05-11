@@ -10,8 +10,8 @@ category: defense
 buildVisibillity:shown
 
 research: {
-    parent: CoreSeeds
+    parent: Potato
     requirements: [
-        copper/30
+        Potato/30
     ]
 }
