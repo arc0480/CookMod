@@ -42,7 +42,7 @@ results: [
 ]
 
 research: {
-    parent: Seed
+    parent: Composter
     requirements: [
         Seed/50
     ]
