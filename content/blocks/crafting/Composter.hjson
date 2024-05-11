@@ -15,11 +15,11 @@ liquidCapacity:30
 
 consumes: {
 	#power: 10
-        liquids: {
-                  liquids: [
-                            water/0.1
-                  ]
-        }
+	liquids: {
+		liquids: [
+			water/0.1
+		]
+	}
 	items: {
 		items: [
 			sand/1
