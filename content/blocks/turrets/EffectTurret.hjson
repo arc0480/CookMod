@@ -82,5 +82,10 @@ name: DebufferTurret
 requirements:[
   Seed/ 1
 ]
+research: {
+    parent: VegetableCanon
+    requirements: [
+        copper/30
+    ]
+}
 buildVisibillity: shown
-research:VegetableCanon
