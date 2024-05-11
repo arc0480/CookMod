@@ -5,5 +5,5 @@ description: '''
 type: material
 color: 9AE21B
 research: {
-  parent: seed
+  parent: Greenhouse
 }
