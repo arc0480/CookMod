@@ -1,6 +1,6 @@
 {
 	"type": "GenericCrafter",
-	"name": "Seed-Maker",
+	"name": "SeedMaker",
 	"description": "Making a Seed of potate.",
 	"itemCapacity": 50,
 	"outputItem": {
@@ -40,6 +40,6 @@
 	],
 
 	"category": "crafting",
-	"research": "Salt-Maker",
+	"research": "CoreSeeds",
     "alwaysUnlocked": true
 }
