@@ -31,7 +31,7 @@ alwaysUnlocked: true
 
 //搬出アイテム？
 results: [
-    Horinishi/1
+    HorinishiPowder/1
 ]
 
 research: {
