@@ -1,0 +1,36 @@
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 300
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	items: {
+    items: [
+	    Carrot/1
+	    Potato/1
+	    Corn/1
+    ]
+	}
+}
+requirements: [
+	Seed/80
+]
+
+category: crafting
+
+//搬出アイテム？
+results: [
+    GoldCarrot/1
+    #GoldPotato/1
+    #GoldCorn/1
+]
+
+research: {
+    parent: Greenhouse
+    requirements: [
+        copper/30
+    ]
+}
