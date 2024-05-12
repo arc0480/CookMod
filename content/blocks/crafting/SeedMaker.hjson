@@ -1,0 +1,35 @@
+name: SeedMaker
+type: GenericCrafter
+description: 
+"
+Making a Seed of potate.
+"
+itemCapacity: 50
+
+outputItem: Seed/1
+size: 2
+#hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 120
+updateEffect: smeltsmoke
+liquidCapacity:30
+
+consumes: {
+	items: {
+		items: [
+			cooper/1
+			#Seed/1
+		]
+	}
+}
+requirements: [
+	cooper/50
+]
+category: drill
+research: {
+	parent:Seed
+	requirements: [
+		Seed/80
+	]
+}
