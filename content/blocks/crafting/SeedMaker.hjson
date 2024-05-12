@@ -30,6 +30,6 @@ category: production
 research: {
 	parent:Seed
 	requirements: [
-		Seed/80
+		copper/80
 	]
 }
