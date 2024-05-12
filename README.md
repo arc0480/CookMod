@@ -1,2 +1,2 @@
 ## Author
-ひかりたけ<br>,ジュニャン<br>,ark<br>
+ひかりたけ<br>ジュニャン<br>ark<br>
