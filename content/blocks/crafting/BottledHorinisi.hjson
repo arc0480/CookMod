@@ -25,9 +25,9 @@ consumes: {
 	}
 }
 requirements: [
-	titanium/80 
-	silicon/50 
-	copper/50
+	Carrot/80 
+	Potato/50 
+	Seed/50
 ]
 
 category: crafting
