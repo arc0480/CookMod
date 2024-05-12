@@ -1,4 +1,4 @@
-name: "調味料キャノン"
+name: "調味料噴射タレット"
 discriprion: 粉末調味料を噴射し、デバフを撒き散らすタレット
 type: ItemTurret
 category: turret
@@ -23,7 +23,10 @@ research: [
 
 reload: 60
 range: 116.0
+innacurracy: 
 rotateSpeed: 1.5
 
-
-  
+hasItems: true
+itemCapacity: 100
+ammoParShot: 10
+ammoEjectBack: 1
