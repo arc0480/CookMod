@@ -30,10 +30,9 @@ outputItems: [
 
 
 requirements: [
-	lead/50
-	metaglass/80
-	silicon/60
-	copper/50
+	Carrot/80 
+	Potato/50 
+	Seed/50
 ]
 category: crafting
 research: Salt-Makera
