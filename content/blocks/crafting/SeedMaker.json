@@ -22,15 +22,7 @@
 		}
 	},
 	"requirements": [{
-			"item": "lead",
-			"amount": 40
-		},
-		{
-			"item": "titanium",
-			"amount": 40
-		},
-		{
-			"item": "silicon",
+			"item": "Seed",
 			"amount": 40
 		},
 		{
@@ -41,5 +33,5 @@
 
 	"category": "crafting",
 	"research": "CoreSeeds",
-    "alwaysUnlocked": true
+    
 }
