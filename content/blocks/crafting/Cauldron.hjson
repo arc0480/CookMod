@@ -28,8 +28,9 @@ name: Cauldron
   }
 
 requirements: [
-  copper/30
-  titanium/50
+	Carrot/80 
+	Potato/50 
+	Seed/50
 ]
 research: LiquidPropellantMachine
       alwaysunlocked: true
