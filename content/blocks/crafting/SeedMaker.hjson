@@ -18,13 +18,13 @@ liquidCapacity:30
 consumes: {
 	items: {
 		items: [
-			cooper/1
+			copper/1
 			#Seed/1
 		]
 	}
 }
 requirements: [
-	cooper/50
+	copper/50
 ]
 category: drill
 research: {
