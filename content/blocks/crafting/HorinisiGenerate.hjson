@@ -27,7 +27,7 @@ requirements: [
 ]
 
 category: crafting
-alwaysUnlocked: true
+#alwaysUnlocked: true
 
 //搬出アイテム？
 results: [
