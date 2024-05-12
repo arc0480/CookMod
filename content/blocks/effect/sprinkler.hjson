@@ -27,14 +27,15 @@ consumes: {
   }
 }
 requirements: [
-  silicon/100
-  titanium/100
+	Carrot/80 
+	Potato/50 
+	Seed/50
 ]
 category: effect
 
 research: {
     parent: Well
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
