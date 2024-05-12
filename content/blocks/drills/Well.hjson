@@ -4,7 +4,8 @@ description:
 地下水を汲み上げる井戸
 ウォーターポンプより性能がいい。
 '''
-type:Pump
+#type:Pump
+type:Drill
 size: 3
  hasPower: true
   hasLiquids: true
