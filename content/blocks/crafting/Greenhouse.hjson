@@ -21,7 +21,7 @@ consumes: {
 }
 	items: {
     items: [
-      #Soil/5
+      Soil/1
       Seed/1
     ]
 }
