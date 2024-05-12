@@ -32,7 +32,6 @@ category: crafting
 research: {
 parent:Seed
 requirements: [
-	sand/50
 	Seed/80
 ]
 }
