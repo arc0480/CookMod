@@ -1,4 +1,2 @@
 ## Author
-hikaritake
-jyunyan
-ark
+ひかりたけ,ジュニャン,ark
