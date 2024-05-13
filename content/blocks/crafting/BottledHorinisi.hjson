@@ -38,7 +38,7 @@ results: [
 ]
 
 research: {
-    parent: HorinisiGenerate
+    parent: HorinishiPowder
     requirements: [
         copper/30
     ]
