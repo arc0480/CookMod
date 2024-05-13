@@ -69,27 +69,12 @@ mesh: {
 #工場作成資源を指定
 itemWhitelist: [
 	#vanilla
-	copper,
-	sand,
+	copper,lead,sand,
 	
-
 	#cookmod
 	Seed,
-	Cacao,
-	Carrot,
-	Chocolete,
-	Corn,
-	CrackedChocolete,
-	GoldCarrot,
-	GoldPotato,
-	Horinishi,
-	HorinishiPowder,
-	Onion,
-	Potato,
-	PotatoChips,
-	Salt,
-	Seed,
-	Soil,
-	WhiteRadish,
-	coal
+	Soil,Cacao,Carrot,Chocolete,Corn,CrackedChocolete,
+	GoldCarrot,GoldPotato,
+	Horinishi,HorinishiPowder,
+	Onion,Potato,PotatoChips,Salt,WhiteRadish,coal
 ]
