@@ -14,15 +14,15 @@ consumes: {
 	power: 10
 	items: {
 		items: [
-			Carrot/1
-			surge-alloy/5
+			Carrot/10
+			#surge-alloy/5
 		]
 }
 }
 requirements: [
-	copper/2300
-	silicon/275
-	metaglass/750
+	Seed/230
+	#silicon/275
+	#metaglass/750
 ]
 category: crafting
 research: Salt-Maker
