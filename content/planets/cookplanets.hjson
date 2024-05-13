@@ -69,6 +69,7 @@ mesh: {
 #工場作成資源を指定
 itemWhitelist: [
 	#vanilla
+	copper,
 	sand,
 	
 
