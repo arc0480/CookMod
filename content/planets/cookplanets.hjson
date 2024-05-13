@@ -78,3 +78,7 @@ itemWhitelist: [
 	Horinishi,HorinishiPowder,
 	Onion,Potato,PotatoChips,Salt,WhiteRadish,coal
 ]
+
+hiddenItems: [
+"titanium"
+]
