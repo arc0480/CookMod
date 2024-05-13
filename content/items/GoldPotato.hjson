@@ -1,0 +1,10 @@
+type: material
+name: GoldPotato
+description: delicious Potato!!!
+color: 9AE21B
+research: {
+    parent: Potato
+    requirements: [
+        copper/30
+    ]
+}
