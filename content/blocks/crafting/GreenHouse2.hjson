@@ -16,9 +16,9 @@ updateEffect: smeltsmoke
 consumes: {
 	items: {
     items: [
-	    Carrot/1
-	    Potato/1
-	    Corn/1
+	    Carrot/10
+	    Potato/10
+	    Corn/10
     ]
 	}
 }
