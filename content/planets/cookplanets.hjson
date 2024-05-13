@@ -68,5 +68,5 @@ mesh: {
 
 itemWhitelist: [
   #copper, lead, beryllium, graphite, titanium
-　Seed,sand
+　Seed
 ]
