@@ -68,7 +68,12 @@ mesh: {
 
 #工場作成資源を指定
 itemWhitelist: [
-	Seed
+	#vanilla
+	sand,
+	
+
+	#cookmod
+	Seed,
 	Cacao,
 	Carrot,
 	Chocolete,
