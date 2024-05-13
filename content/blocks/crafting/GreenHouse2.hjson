@@ -3,6 +3,7 @@ hasPower: true
 hasItems: true
 hasLiquids: true
 liquidCapacity: 300
+itemCapacity: 300
 craftTime: 60
 updateEffect: smeltsmoke
 
