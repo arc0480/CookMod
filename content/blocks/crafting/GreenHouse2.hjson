@@ -31,7 +31,7 @@ category: crafting
 //搬出アイテム？
 results: [
     GoldCarrot/1
-    #GoldPotato/1
+    GoldPotato/1
     #GoldCorn/1
 ]
 
