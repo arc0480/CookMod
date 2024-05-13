@@ -11,7 +11,7 @@ craftTime: 120
 updateEffect: smeltsmoke
 
 consumes: {
-	power: 10
+	#power: 10
 	items: {
 		items: [
 			Carrot/10
