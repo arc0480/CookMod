@@ -1,4 +1,9 @@
-name:温室2
+name:温室
+
+//type: GenericCrafter
+type: Separator
+description: "野菜を圧縮してティアを上げる"
+
 size: 2
 hasPower: true
 hasItems: true
