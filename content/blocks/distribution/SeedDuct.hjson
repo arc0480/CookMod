@@ -5,5 +5,11 @@ range: 5
 transportTime: 2
 itemCapacity: 20 
 requirements: [
-  sand/6
+  Seed/6
 ]
+research: {
+    parent: Seed
+    requirements: [
+        Seed/50
+    ]
+}
