@@ -1,1 +1,8 @@
-#
+type: Duct
+name: SeedDuctConv
+requirements: [
+  Seed/1
+]
+#bridgeReplacement: 0b02-01-tube-bridge
+category: distribution
+speed: 7.5
