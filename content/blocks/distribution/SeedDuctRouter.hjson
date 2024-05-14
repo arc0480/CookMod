@@ -4,5 +4,5 @@ health: 40
 speed: 3
 category: distribution
 requirements: [
-  Sead/1
+  Seed/1
 ]
