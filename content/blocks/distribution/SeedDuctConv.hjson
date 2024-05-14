@@ -6,3 +6,9 @@ requirements: [
 #bridgeReplacement: 0b02-01-tube-bridge
 category: distribution
 speed: 7.5
+research: {
+    parent: Seed
+    requirements: [
+        Seed/50
+    ]
+}
