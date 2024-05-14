@@ -5,7 +5,7 @@ parent: serpulo
 //planetの表示名
 localizedName: hardcook
 
-defaultCore: "CoreSeeds"
+defaultCore: core-Seeds
 
 
 allowSectorInvasion: true
