@@ -1,6 +1,6 @@
-type: DirectionBridge
+type: DuctBridge
 #type: ItemBridge
-name:SeedBridge
+name:DuctBridge
 range: 5
 transportTime: 2
 itemCapacity: 20 
