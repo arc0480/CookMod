@@ -7,7 +7,7 @@ requirements: [
   Seed/1
 ]
 research: {
-    parent: Seed
+    parent: SeedDuctConv
     requirements: [
         Seed/50
     ]
