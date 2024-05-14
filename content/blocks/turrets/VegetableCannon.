@@ -1,0 +1,75 @@
+name: "ベジタブルキャノン"
+  discription: "食べ物を粗末にしてはいけません！！！"
+  type: ItemTurret
+  category: Turret
+  size: 2
+  health: 450
+
+requirement: [
+    seed/1
+]
+research: {
+  parent: CoreSeeds
+  requirement: [
+    seed/1
+  ]
+}
+
+relosd: 27
+range: 270
+inaccuracy: 10
+xRand: 3
+shots: 3
+burstSpacing: 3
+  
+ammoUseEffect: casing1
+shootEffect: shootBig2
+smokeEffect: shootBigSmoke2
+shootSound: shoot
+
+
+ammoType: {
+  Potato: {
+    bulletType: BasicBulletType
+    lifetime: 9
+    speed: 30	
+    damage: 15 
+    splashDamage: 0
+    splashDamageRadius: 0
+    incendAmount: 0
+    hitSize: 5
+    drawSize: 50
+    pierce: false
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletSmall
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitSound: splush
+    inaccuracy: 0
+    ammoMultiplier: 5
+    reloadMultiplier: 2
+    recoil: 0
+    killShooter: false
+    knockback: 0.25
+    hitTiles: true
+    statusEffect: blasted
+    statusDuration: 80
+    collidesTiles: true
+    collidesTeam: false
+    collidesAir: true
+    collides: true
+    keepVelocity:	true
+    homingPower: 0
+    homingRange: 0
+    lightining: 10
+    lightningLength: 10
+    hitShake: 0
+      fragOnHit: true
+      fragOnAbsobable: false
+      fragBullet: 3
+      fragRandumSpread: 15
+      fragVelocityMin: 5
+      fragVelocityMax: 2
+        fragBullet: { 
+          bulletType: BasicBulletType
+            damage: 
