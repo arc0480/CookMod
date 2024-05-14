@@ -8,8 +8,8 @@ parent: sun
 icon: cookplanets
 iconColor: 30d5c8
 
-generator: SerpuloPlanetGenerator
-
+#generator: SerpuloPlanetGenerator
+generator: tantPlanetGenerator
 
 orbitRadius: 35
 hasAtmosphere: true
