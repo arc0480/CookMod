@@ -2,3 +2,4 @@ sector: 10
 planet: cookplanets
 #loadout: "BasicHusk"
 difficulty: 0
+overrideLaunchDefaults: true
