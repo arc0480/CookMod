@@ -1,6 +1,7 @@
-type: DirectionBridge
-name:duct
-range: 2
+#type: DirectionBridge
+type: ItemBridge
+name:ItemBridge
+range: 5
 transportTime: 2
 itemCapacity: 20 
 requirements: [
