@@ -40,7 +40,7 @@ drawOrbit: true
 
 accessible: true
 alwaysUnlocked: true
-defaultCore: "CoreSeeds"
+defaultCore: core-Seeds
 sectorSeed: -1
 startSector: 3
 sectorSize: 2
