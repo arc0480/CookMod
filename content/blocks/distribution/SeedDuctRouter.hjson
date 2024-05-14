@@ -6,3 +6,9 @@ category: distribution
 requirements: [
   Seed/1
 ]
+research: {
+    parent: Seed
+    requirements: [
+        Seed/50
+    ]
+}
