@@ -2,4 +2,5 @@ sector: 10
 planet: cookplanets
 #loadout: "BasicHusk"
 difficulty: 0
+#資源のランダム生成
 overrideLaunchDefaults: true
