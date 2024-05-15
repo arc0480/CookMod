@@ -17,7 +17,7 @@ research: {
 
 squareSprites: false
 buildVisibillity: shown
-alwaysUnlocked: false
+#alwaysUnlocked: false
 
 reload: 6
 range: 270
