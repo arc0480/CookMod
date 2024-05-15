@@ -2,8 +2,9 @@ name:玉ねぎ
 description: 飴色にするあれ
 color: 9AE21B
 research: {
-    parent: Seed
+    parent: Greenhouse
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
+ 
