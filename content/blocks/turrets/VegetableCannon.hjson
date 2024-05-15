@@ -45,9 +45,9 @@ ammoTypes: {
     height: 10
     width: 10
     bulletShrink: 0
-  /*bulletSprite: 
-    backColor: 
-    frontColor: */
+  #bulletSprite: 
+  #backColor: 
+  #frontColor: 
     hitEffect: hitBulletBig
     despawnEffect: hitBulletBig
     shootEffect: shootSmall
