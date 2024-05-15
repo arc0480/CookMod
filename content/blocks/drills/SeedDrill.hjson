@@ -13,7 +13,7 @@ requirements: [
 ]
 category: production
 research: {
-    parent: CoreSeeds
+    parent: Seed
     requirements: [
         Seed/30
     ]
