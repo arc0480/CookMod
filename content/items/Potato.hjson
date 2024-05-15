@@ -5,7 +5,7 @@ description: A rare Potato
 research: {
     parent: Greenhouse
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
  
