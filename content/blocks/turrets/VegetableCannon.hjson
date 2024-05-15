@@ -61,7 +61,7 @@ ammoType: {
     collidesTeam: false
     collidesAir: true
     collides: true
-    keepVelocity:	true
+    keepVelocity: true
     homingPower: 0
     homingRange: 0
     pierce: false
