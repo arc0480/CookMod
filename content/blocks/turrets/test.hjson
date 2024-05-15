@@ -1,15 +1,20 @@
 name: リキッドタレット
-description: "リキッドタレットと言ったな...アレは嘘だ！！！！"
+description:
+'''
+着弾点にタキノコ地雷を設置するタレット。
+きのこの胞子によって敵ユニットを感知し、たけのこの成長速度でもって敵ユニットを貫通・撃破する
+時限信管付きなので撤去の心配はしなくて良い
+'''
 type: itemTurret
 category: turret
 size: 3
-health: 10000000
+health: 1000
 targetable: false
 squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
-hasPower: true
+hasPower: false
 hasLiquid: true
 liquidCapacity: 60
 
@@ -34,7 +39,7 @@ targetGround: true
 consumes: {
   power: 1
   liquid: {
-    liquid: cryofluid
+    liquid: warter
     amount: 0.5
   }
 }
@@ -52,10 +57,9 @@ ammoTypes: {
     ammoMultiPlier: 2
     reloadMultiprier: 2
 
-    lifetime: 2
-    speed: 112.5
+    lifetime: 9
+    speed: 3
     keepVelocity: true
-  //velocityRand: 2
     weaveMag: 0
     weaveScale: 0
 
