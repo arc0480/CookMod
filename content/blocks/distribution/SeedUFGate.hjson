@@ -6,8 +6,8 @@ requirements: [
 Seed/4
 ］
 research: {
-parent: CoreSeeds
-requirements: [
-Seed/40
-］
+    parent: Seed
+    requirements: [
+        Seed/50
+    ]
 }
