@@ -27,10 +27,10 @@ category: turret
 research: {
     parent: VegetableCanon
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
 requirements: [
-  copper/125
+  Seed/125
 ]
 
