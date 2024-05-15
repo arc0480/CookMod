@@ -28,7 +28,7 @@ consumes: {
 
 
 research: {
-    parent: Seed
+    parent: SeedDuctConv
     requirements: [
         Seed/50
     ]
