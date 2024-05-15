@@ -88,7 +88,8 @@ mesh: {
 #工場作成用の資源を限定する
 itemWhitelist: [
 	#vanilla
-	copper,lead,sand,
+	#copper,lead,
+	sand,
 	
 	#cookmod
 	Seed,
