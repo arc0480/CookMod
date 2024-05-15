@@ -44,10 +44,10 @@ ammoTypes: {
     drawSize: 50
     bulletHeight: 10
     bulletWidth: 10
-    bulletSprite: shell
     bulletShrink: 0
+  /*bulletSprite: 
     backColor: 
-    frontColor: 
+    frontColor: */
     hitEffect: hitBulletBig
     despawnEffect: hitBulletBig
     shootEffect: shootSmall
