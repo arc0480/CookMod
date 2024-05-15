@@ -16,6 +16,8 @@ research: {
 }
 
 squareSprite: false
+buildVisibillity: true
+alwaysUnlocked: false
 
 relosd: 27
 range: 270
