@@ -19,7 +19,7 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: false
 
-relosd: 6
+reload: 6
 range: 270
 inaccuracy: 10
 xRand: 3
