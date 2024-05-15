@@ -1,9 +1,9 @@
 name: VegetableCannon
-  discription: "食べ物を粗末にしてはいけません！！！"
-  type: ItemTurret
-  category: turret
-  size: 2
-  health: 450
+discription: "食べ物を粗末にしてはいけません！！！"
+type: ItemTurret
+category: turret
+size: 2
+health: 450
 
 requirement: [
     Seed/1
