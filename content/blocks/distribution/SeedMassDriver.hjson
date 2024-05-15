@@ -1,6 +1,6 @@
 type: MassDriver
 
-size:2
+size:1
 range: 1000
 
 reloadTime:	100
