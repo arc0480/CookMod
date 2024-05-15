@@ -11,7 +11,7 @@ health: 40
         Seed/50
     ]
 research: {
-    parent: Seed
+    parent: SeedOFGate
     requirements: [
         Seed/50
     ]
