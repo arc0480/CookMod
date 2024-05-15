@@ -16,7 +16,7 @@ research: {
 }
 
 squareSprite: false
-buildVisibillity: true
+buildVisibillity: shown
 alwaysUnlocked: false
 
 relosd: 27
