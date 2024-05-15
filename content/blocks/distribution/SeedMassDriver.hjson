@@ -14,7 +14,7 @@ requirements: [
 
 knockback:0
 consumes: {
-    power: 1.6 
+    power: 8.33 
 }
 
 
