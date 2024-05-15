@@ -15,7 +15,7 @@ research: {
   ]
 }
 
-squareSprite: false
+squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: false
 
