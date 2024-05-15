@@ -1,4 +1,6 @@
 type: MassDriver
+
+size:2
 range: 100
 
 name:SeedMassDriver
