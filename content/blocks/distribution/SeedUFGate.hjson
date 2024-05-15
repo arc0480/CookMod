@@ -1,7 +1,11 @@
 name:SeedUFGate
-type: underflowGate
+type: overflowGate
 category: distribution
 size: 1
+
+#falseでover
+invert:true
+
 health: 40
     requirements: [
         Seed/50
