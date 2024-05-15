@@ -1,0 +1,13 @@
+type: overflowGate 
+category: distribution 
+size: 1
+health: 40
+requirements: [
+Seed/4
+］
+research: {
+parent: CoreSeeds
+requirements: [
+Seed/40
+］
+}
