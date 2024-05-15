@@ -31,7 +31,6 @@ shootEffect: shootBig2
 smokeEffect: shootBigSmoke2
 shootSound: shoot
 
-
 ammoType: {
   Potato: {
     bulletType: BasicBulletType
@@ -65,15 +64,15 @@ ammoType: {
     keepVelocity:	true
     homingPower: 0
     homingRange: 0
-    pirece: false
-    pireceCap: 0
+    pierce: false
+    pierceCap: 0
     pireceArmor: false
     lightining: 10
     lightningLength: 10
     hitShake: 0
       fragOnHit: true
       fragOnAbsobable: false
-      fragBullet: 3
+      fragBullets: 3
       fragRandumSpread: 15
       fragLifeMin: 6
       fragLifeMax: 24
