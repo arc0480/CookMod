@@ -3,11 +3,11 @@ category: distribution
 size: 1
 health: 40
 requirements: [
-Seed/4
+	Seed/4
 ］
 research: {
-parent: CoreSeeds
-requirements: [
-Seed/40
-］
+	parent: CoreSeeds
+	requirements: [
+		Seed/40
+	］
 }
