@@ -2,9 +2,9 @@ type: overflowGate
 category: distribution 
 size: 1
 health: 40
-requirements: [
-	Seed/4
-］
+    requirements: [
+        Seed/50
+    ]
 research: {
     parent: Seed
     requirements: [
