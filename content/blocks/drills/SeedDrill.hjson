@@ -1,1 +1,20 @@
-#
+name: タネドリル
+description:
+'''
+種で作るドリル
+古代文明のおかげか、性能がとてもいい。
+'''
+type:Drill
+size: 3
+tier: 2
+drillTime: 450
+requirements: [
+	Seed/100 
+]
+category: production
+research: {
+    parent: CoreSeeds
+    requirements: [
+        Seed/30
+    ]
+}
