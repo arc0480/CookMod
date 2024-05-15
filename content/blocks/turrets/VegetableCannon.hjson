@@ -19,7 +19,7 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: false
 
-relosd: 27
+relosd: 6
 range: 270
 inaccuracy: 10
 xRand: 3
@@ -34,8 +34,8 @@ shootSound: shoot
 ammoTypes: {
   Potato: {
     bulletType: BasicBulletType
-    lifetime:54
-    speed: 30	
+    lifetime: 54
+    speed: 5
     damage: 15 
     splashDamage: 0
     splashDamageRadius: 0
