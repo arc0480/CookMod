@@ -10,7 +10,7 @@ health: 40
         Seed/50
     ]
 research: {
-    parent: Seed
+    parent: SeedDuctConv
     requirements: [
         Seed/50
     ]
