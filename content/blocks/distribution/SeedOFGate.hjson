@@ -1,6 +1,9 @@
 name:SeedOFGate
 type: overflowGate
 category: distribution
+
+#falseでover
+invert:false
 size: 1
 health: 40
     requirements: [
