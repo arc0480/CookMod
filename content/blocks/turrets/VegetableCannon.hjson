@@ -1,7 +1,7 @@
 name: "ベジタブルキャノン"
   discription: "食べ物を粗末にしてはいけません！！！"
   type: ItemTurret
-  category: Turret
+  category: turret
   size: 2
   health: 450
 
