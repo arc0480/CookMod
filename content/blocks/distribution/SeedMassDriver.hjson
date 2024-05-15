@@ -9,6 +9,12 @@ name:SeedMassDriver
 transportTime: 1
 itemCapacity: 1000 
 
+
+#エフェクト設定
+shootEffect: none
+smokeEffect: none
+recieveEffect: none
+
 category: distribution
 
 requirements: [
