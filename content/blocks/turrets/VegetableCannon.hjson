@@ -31,7 +31,7 @@ shootEffect: shootBig2
 smokeEffect: shootBigSmoke2
 shootSound: shoot
 
-ammoType: {
+ammoTypes: {
   Potato: {
     bulletType: BasicBulletType
     lifetime:54
@@ -42,7 +42,12 @@ ammoType: {
     incendAmount: 0
     hitSize: 5
     drawSize: 50
+    bulletHeight: 10
+    bulletWidth: 10
+    bulletSprite: shell
     bulletShrink: 0
+    backColor: 
+    frontColor: 
     hitEffect: hitBulletBig
     despawnEffect: hitBulletBig
     shootEffect: shootSmall
