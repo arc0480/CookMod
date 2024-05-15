@@ -6,12 +6,12 @@ name: VegetableCannon
   health: 450
 
 requirement: [
-    seed/1
+    Seed/1
 ]
 research: {
   parent: CoreSeeds
   requirement: [
-    seed/1
+    Seed/1
   ]
 }
 
@@ -72,9 +72,9 @@ ammoTypes: {
     pierce: false
     pierceCap: 0
     pireceArmor: false
-    lightining: 10
+    lightining: 5
     lightningLength: 10
-    hitShake: 0
+    hitShake: 0.0
       fragOnHit: true
       fragOnAbsobable: false
       fragBullets: 3
@@ -88,7 +88,7 @@ ammoTypes: {
             damage: 5
             drawSize: 20
             hitSize: 2
-            bulletShrink: 0.5
+            bulletShrink: 0.0
         }
     }
 }
