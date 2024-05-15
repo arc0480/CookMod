@@ -20,7 +20,7 @@ category: distribution
 requirements: [
   Seed/5000
 ]
-buildTime:50
+buildTime:100
 
 knockback:0
 consumes: {
