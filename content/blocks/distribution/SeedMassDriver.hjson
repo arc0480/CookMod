@@ -12,7 +12,7 @@ itemCapacity: 1000
 category: distribution
 
 requirements: [
-  Seed/6
+  Seed/5000
 ]
 
 knockback:0
