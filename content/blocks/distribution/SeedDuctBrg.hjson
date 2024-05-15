@@ -2,6 +2,7 @@ type: DuctBridge
 #type: ItemBridge
 name:SeedDuctBridge
 range: 5
+solid:3
 transportTime: 2
 itemCapacity: 20 
 requirements: [
