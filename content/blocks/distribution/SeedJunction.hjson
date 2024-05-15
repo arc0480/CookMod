@@ -1,1 +1,13 @@
-type:Junction
+name: SeedJunction
+description: you
+type: junction
+health: 100
+speed: 5
+capacity: 10
+size: 1
+blockGroup: transportation
+requirements: [
+   Seed/3 
+]
+category: distribution
+research: CoreSeeds
