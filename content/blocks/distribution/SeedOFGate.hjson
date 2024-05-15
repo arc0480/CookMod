@@ -1,5 +1,5 @@
-type: overflowGate 
-category: distribution 
+type: overflowGate
+category: distribution
 size: 1
 health: 40
     requirements: [
