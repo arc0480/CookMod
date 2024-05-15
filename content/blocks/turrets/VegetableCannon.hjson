@@ -31,7 +31,7 @@ shootSound: shoot
 ammoType: {
   Potato: {
     bulletType: BasicBulletType
-    lifetime: 9
+    lifetime:54
     speed: 30	
     damage: 15 
     splashDamage: 0
@@ -39,9 +39,9 @@ ammoType: {
     incendAmount: 0
     hitSize: 5
     drawSize: 50
-    pierce: false
+    bulletShrink: 0
     hitEffect: hitBulletBig
-    despawnEffect: hitBulletSmall
+    despawnEffect: hitBulletBig
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitSound: splush
@@ -50,7 +50,7 @@ ammoType: {
     reloadMultiplier: 2
     recoil: 0
     killShooter: false
-    knockback: 0.25
+    knockback: 1.0
     hitTiles: true
     statusEffect: blasted
     statusDuration: 80
@@ -61,6 +61,9 @@ ammoType: {
     keepVelocity:	true
     homingPower: 0
     homingRange: 0
+    pirece: false
+    pireceCap: 0
+    pireceArmor: false
     lightining: 10
     lightningLength: 10
     hitShake: 0
@@ -68,8 +71,14 @@ ammoType: {
       fragOnAbsobable: false
       fragBullet: 3
       fragRandumSpread: 15
+      fragLifeMin: 6
+      fragLifeMax: 24
       fragVelocityMin: 5
       fragVelocityMax: 2
         fragBullet: { 
           bulletType: BasicBulletType
-            damage: 
+            damage: 5
+            drawSize: 20
+            hitSize: 2
+            bulletShrink: 0.5
+            
