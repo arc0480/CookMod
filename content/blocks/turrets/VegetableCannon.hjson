@@ -42,8 +42,8 @@ ammoTypes: {
     incendAmount: 0
     hitSize: 5
     drawSize: 50
-    bulletHeight: 10
-    bulletWidth: 10
+    height: 10
+    width: 10
     bulletShrink: 0
   /*bulletSprite: 
     backColor: 
