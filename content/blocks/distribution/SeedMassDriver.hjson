@@ -3,10 +3,10 @@ type: MassDriver
 size:1
 range: 1000
 
-reloadTime:	100
+reloadTime:	0
 name:SeedMassDriver
 
-transportTime: 2
+transportTime: 1
 itemCapacity: 1000 
 
 category: distribution
