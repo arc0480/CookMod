@@ -12,6 +12,12 @@ requirements: [
   Seed/6
 ]
 
+knockback:0
+consumes: {
+    power: 1.6 
+}
+
+
 research: {
     parent: Seed
     requirements: [
