@@ -39,7 +39,7 @@ targetGround: true
 consumes: {
   power: 1
   liquid: {
-    liquid: warter
+    liquid: water
     amount: 0.5
   }
 }
