@@ -5,7 +5,7 @@ type: Separator
 description: "土壌と種から農作物を作成する"
 itemCapacity: 100
 
-size: 2
+size: 3
 hasPower: true
 hasItems: true
 hasLiquids: true
