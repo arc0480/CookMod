@@ -12,7 +12,7 @@ allowLaunchSchematics: false
 
 addStartingItems: true
 
-baselaunchCost:[
+baseLaunchCost:[
 Seed/100
 ]
 
