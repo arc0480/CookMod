@@ -1,0 +1,12 @@
+name: SeedVault
+description: 古代文明の種ボールト
+type: StorageBlock
+size: 3
+health: 2000
+hasItems: true
+itemCapacity: 1000
+category: effect
+#buildVisibility: campaingOnly
+requirements: [
+    Seed/400
+]
