@@ -6,7 +6,7 @@ alwaysUnlocked: true
 
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 
 
 
