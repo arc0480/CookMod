@@ -8,15 +8,15 @@ description:
 type:SolidPump
 #type:Drill
 size: 3
- hasPower: true
-  hasLiquids: true
-  liquidCapacity: 500
+hasPower: true
+hasLiquids: true
+liquidCapacity: 500
 
 
- #consumes: {
-    #power: 1.6 
-  #}
-  pumpAmount: 0.1
+#consumes: {
+	#power: 1.6 
+#}
+pumpAmount: 0.1
   
 
 requirements: [
