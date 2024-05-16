@@ -25,6 +25,7 @@ consumes: {
 //搬出
 outputItems: [
 	Salt/30
+  Seed/1
 ]
 //建築コスト
 requirements: [
