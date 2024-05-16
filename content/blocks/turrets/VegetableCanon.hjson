@@ -31,7 +31,7 @@ ammoTypes:{
           fragOnHit: true
           fragOnAbsorbable: true
           keepVelocity: true
-          fragBullets: 10
+          fragBullets: 5
           fragRandumSpread: 20
             fragBullet: {
               bulletType: BasicBulletType
