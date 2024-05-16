@@ -100,11 +100,7 @@ ammoTypes: {
          collidesAir: false
 
          damage: 20
-         status: {
-           unmoving
-           melting
-           sapped
-         }
+         status: sapped
          statusDuration: 3600
          knockback: 0
          absorbable: false
