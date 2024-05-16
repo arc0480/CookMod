@@ -20,7 +20,7 @@ pumpAmount: 0.1
   
 
 requirements: [
-	lead/100 
+	Seed/100 
 ]
 category: production
 research: {
