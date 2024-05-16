@@ -12,9 +12,9 @@ allowLaunchSchematics: false
 
 addStartingItems: true
 
-launchCost:{
+launchCost:[
 Seed/100
-}
+]
 
 
 '''
