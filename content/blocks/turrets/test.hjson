@@ -14,7 +14,6 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
-hasPower: false
 hasLiquid: true
 liquidCapacity: 60
 
@@ -37,7 +36,6 @@ burstSpacing: 20
 targetAir: false 
 targetGround: true
 consumes: {
-  power: 1
   liquid: {
     liquid: water
     amount: 0.5
