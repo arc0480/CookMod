@@ -104,7 +104,11 @@ ammoTypes: {
          collidesAir: false
 
          damage: 20
-         status: unmoving
+         status: [
+           unmoving
+           melting
+           sapped
+         ]
        /*status: [
            sapped
            spore-slowed
