@@ -28,6 +28,7 @@ generator: {
   fper: 0.4
 }
 
+defaultCore:CoreSeeds
 
 
 orbitRadius: 35
