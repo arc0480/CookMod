@@ -26,6 +26,6 @@ category: production
 research: {
     parent: CoreSeeds
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
