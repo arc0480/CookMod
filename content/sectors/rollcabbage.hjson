@@ -3,3 +3,8 @@ planet: cookplanets
 captureWave: 50
 difficulty: 0
 alwaysUnlocked: true
+
+
+allowLaunchLoadout: true
+allowLaunchSchematics: false
+addStartingItems: true
