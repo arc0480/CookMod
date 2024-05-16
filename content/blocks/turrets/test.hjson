@@ -86,10 +86,6 @@ ammoTypes: {
          width: 10
          drawsize: 40
          hitsize: 4
-       /*bulletSprite: shell
-         frontColor: 00FBCB
-         backColor: 00E7F9
-         lightningLength: 2*/
 
          speed: 0
          keepVelocity: true
@@ -104,19 +100,11 @@ ammoTypes: {
          collidesAir: false
 
          damage: 20
-         status: [
+         status: {
            unmoving
            melting
            sapped
-         ]
-       /*status: [
-           sapped
-           spore-slowed
-           freezing
-           wet
-           tarred
-           electrified
-          ]*/
+         }
          statusDuration: 3600
          knockback: 0
          absorbable: false
