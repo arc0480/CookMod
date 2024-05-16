@@ -1,0 +1,19 @@
+name: SeedUnloader
+
+type:Unloader
+
+category: effect
+health: 900
+
+speed:1
+
+requirements: [
+  Seed/600
+]
+
+research: {
+    parent: CoreSeeds
+    requirements: [
+        copper/30
+    ]
+}
