@@ -18,7 +18,6 @@ Seed/100
 
 
 '''
-```
 {
     "name": "The Rivers",
     "description": "A zone with large amount of scrap between two rivers",
@@ -58,4 +57,4 @@ Seed/100
     ],
     "resources": ["copper", "lead", "titanium",  "thorium", "scrap"]
 }
-```
+'''
