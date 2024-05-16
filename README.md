@@ -11,3 +11,7 @@ ark<br>
 ひかりたけ<br>
 ark<br>
 かわうそ<br>
+
+## discode
+ご自由にご参加ください
+https://discord.gg/VkpweAwDtQ
