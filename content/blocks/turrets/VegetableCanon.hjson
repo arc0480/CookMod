@@ -178,8 +178,8 @@ requirements:[
 research: {
     parent: HyperBallista
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
 buildVisibillity: shown
-alwaysUnlocked:true
+#alwaysUnlocked:true
