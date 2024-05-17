@@ -28,8 +28,8 @@ generator: {
   fper: 0.4
 }
 
-defaultCore:CoreSeeds
-
+#defaultCore:CoreSeeds
+defaultCore:種つきコア
 
 orbitRadius: 35
 hasAtmosphere: true
