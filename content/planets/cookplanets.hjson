@@ -47,7 +47,8 @@ startSector: 3
 sectorSize: 2
 
 clearSectorOnLose: true
-allowSectorInvasion: false
+allowSectorInvasion: true
+
 allowLaunchToNumbered: true
 
 #設計図を使ってセクターへ出発
