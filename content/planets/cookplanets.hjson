@@ -50,7 +50,7 @@ clearSectorOnLose: true
 allowSectorInvasion: true
 
 allowLaunchToNumbered: true
-
+#資源持ち込み設定
 allowLaunchLoadout: true
 
 #設計図を使ってセクターへ出発
