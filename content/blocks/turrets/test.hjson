@@ -72,7 +72,7 @@ ammoTypes: {
     hitEffect: none
     despawnEffect: none
 
-    collides: false
+    collides: true
     collidesTiles: false
 
     absorbable: false
