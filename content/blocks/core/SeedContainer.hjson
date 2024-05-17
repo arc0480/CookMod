@@ -1,0 +1,12 @@
+name: SeedContainer 
+description: 古代文明の種コンテナ
+type: StorageBlock
+size: 2
+health: 1500
+hasItems: true
+itemCapacity: 700
+category: effect
+#buildVisibility: campaingOnly
+requirements: [
+    Seed/300
+]
