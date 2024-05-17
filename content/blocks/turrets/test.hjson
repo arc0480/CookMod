@@ -45,7 +45,7 @@ consumes: {
   
 ammoTypes: {
   spore-pod: {
-    type: basicBulletType
+    type: artilleryBulletType
     width: 5
     drawsize: 50
     hitsize: 5
@@ -71,9 +71,6 @@ ammoTypes: {
 
     hitEffect: none
     despawnEffect: none
-
-    collides: true
-    collidesTiles: false
 
     absorbable: false
     pierce: false
