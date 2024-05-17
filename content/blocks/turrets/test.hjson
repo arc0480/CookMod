@@ -2,8 +2,9 @@ name: リキッドタレット
 description:
 '''
 着弾点にきのこの胞子によって敵ユニットを感知し、たけのこの成長速度でもって敵ユニットを貫通・撃破するタキノコ地雷を設置するタレット。
-タキノコ地雷は、時限信管付きなので撤去の心配はしなくて良い。
-地雷の収縮度で信管の残り時間がわかる。
+内蔵された胞子とたけのこは地雷が反応するたびに消費され、三度目の反応で地雷としての機能を失う。
+胞子とたけのこの消費を抑えるため個体識別機能が付いており、同じ個体には反応しないスマート地雷。
+時限信管が搭載されているので撤去の心配はしなくて良い。
 '''
 type: itemTurret
 category: turret
@@ -22,7 +23,7 @@ range: 800
 recoil: 2
 restitution: 0
 rotatesspeed: 15
-inaccuracy: 0
+inaccuracy: 15
 ammoPerShot: 5
 
 shoot:{
@@ -38,7 +39,7 @@ targetGround: true
 consumes: {
   liquid: {
     liquid: water
-    amount: 0.5
+    amount: 5
   }
 }
   
@@ -57,7 +58,9 @@ ammoTypes: {
 
     lifetime: 90
     speed: 3
+    drag: 0.05
     keepVelocity: true
+    inaccuracy: 3
     weaveMag: 0
     weaveScale: 0
     bulletShrink: 0.5
@@ -70,6 +73,7 @@ ammoTypes: {
     despawnEffect: none
 
     collides: false
+    collidesTiles: false
 
     absorbable: false
     pierce: false
@@ -91,11 +95,12 @@ ammoTypes: {
          homingRange: 0
          homingPower: 0
 
-         hitEffect: hitFlameBeam
-         despawnEffect: hitBeam
+         hitEffect: shockWave
+         despawnEffect: none
 
          collidesTeam: true
          collidesAir: false
+         
 
          damage: 20
          status: sapped
@@ -103,7 +108,7 @@ ammoTypes: {
          knockback: 0
          absorbable: false
          pierce: true
-         pierceCap: 5
+         pierceCap: 3
          pierceArmor: true
        }
    }
