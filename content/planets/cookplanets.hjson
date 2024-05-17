@@ -49,6 +49,7 @@ sectorSize: 2
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: true
+allowLaunchSchematics: true
 
 //他セクターへ同時侵攻の設定
 allowWaveSimulation: true
