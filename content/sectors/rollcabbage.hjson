@@ -4,6 +4,10 @@ captureWave: 50
 difficulty: 0
 alwaysUnlocked: true
 
+defaultcore:coreSeeds
+
+
+
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
 allowLaunchSchematics: true
