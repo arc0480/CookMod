@@ -51,6 +51,8 @@ allowSectorInvasion: true
 
 allowLaunchToNumbered: true
 
+allowLaunchLoadout: true
+
 #設計図を使ってセクターへ出発
 allowLaunchSchematics: true
 
