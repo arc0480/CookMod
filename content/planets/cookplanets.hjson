@@ -49,6 +49,8 @@ sectorSize: 2
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: true
+
+#設計図を使ってセクターへ出発
 allowLaunchSchematics: true
 
 //他セクターへ同時侵攻の設定
