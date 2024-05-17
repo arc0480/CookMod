@@ -95,7 +95,7 @@ ammoTypes: {
          homingRange: 0
          homingPower: 0
 
-         hitEffect: shockWave
+         hitEffect: hitBulletBig
          despawnEffect: none
 
          collidesTeam: true
