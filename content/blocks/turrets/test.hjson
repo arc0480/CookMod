@@ -45,7 +45,7 @@ consumes: {
   
 ammoTypes: {
   spore-pod: {
-    type: artilleryBulletType
+    type: pointBulletType
     width: 5
     drawsize: 50
     hitsize: 5
