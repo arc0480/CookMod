@@ -101,5 +101,5 @@ itemWhitelist: [
 ]
 
 hiddenItems: [
-"titanium"
+titanium
 ]
