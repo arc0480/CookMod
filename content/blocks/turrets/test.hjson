@@ -41,7 +41,7 @@ consumes: {
     #liquid: water
     #amount: 5
 		#ammount:5
-		water/1
+		#water/1
   #}
       liquids: {
     liquids: [
