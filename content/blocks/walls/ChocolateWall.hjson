@@ -1,2 +1,24 @@
 type:wall
 size:2
+
+health: 4000
+
+requirements: [
+	Chocolate/100
+]
+category: defense
+buildVisibillity:shown
+
+#攻撃した相手に低確率で反撃
+lightningChance: 1
+lightningDamage: 1
+lightningLength: 17
+
+
+
+research: {
+    parent: Seed
+    requirements: [
+        Seed/30
+    ]
+}
