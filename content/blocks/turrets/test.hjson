@@ -47,6 +47,7 @@ consumes: {
 		liquids: [
 			water/0.1
 		]
+	}
 }
   
 ammoTypes: {
