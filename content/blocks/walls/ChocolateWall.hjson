@@ -23,7 +23,7 @@ buildVisibillity:shown
 
 #1で100%
 lightningChance: 0.3
-lightningDamage: 1
+lightningDamage: 10
 lightningLength: 17
 
 
