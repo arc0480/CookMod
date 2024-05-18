@@ -5,7 +5,7 @@ name: SeedliquidTank
 #ルーターとつくが、タンクとしても利用できる。
 type: LiquidRouter
 
-size: 4
+size: 3
 health: 900
   
 liquidCapacity: 4000
