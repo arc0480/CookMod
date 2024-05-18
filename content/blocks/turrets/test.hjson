@@ -43,11 +43,11 @@ consumes: {
 		#ammount:5
 		water/1
   #}
-	liquids: {
-		liquids: [
-			water/0.1
-		]
-	}
+      liquids: {
+    liquids: [
+      water/0.1
+    ]
+}
 }
   
 ammoTypes: {
