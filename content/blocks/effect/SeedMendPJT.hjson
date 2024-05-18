@@ -2,6 +2,7 @@ name: SeedMendPJT
 type:MendProjector
 size: 4
 
+range: 10
 requirements: [
   Seed/600
 ]
