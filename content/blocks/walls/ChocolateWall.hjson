@@ -4,7 +4,7 @@ size:2
 health: 4000
 
 requirements: [
-	Chocolate/100
+	Chocolete/100
 ]
 category: defense
 buildVisibillity:shown
