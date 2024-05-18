@@ -1,5 +1,8 @@
 name: SeedliquidTank
-type: LiquidTank
+#おそらく存在しない
+#type: LiquidTank
+
+type: LiquidRouter
 
 size: 4
 health: 900
