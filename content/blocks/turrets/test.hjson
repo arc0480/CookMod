@@ -46,6 +46,7 @@ consumes: {
 ammoTypes: {
   spore-pod: {
     type: artillaryBulletType
+  }
 }
 requirements:[
 	Seed/　1
