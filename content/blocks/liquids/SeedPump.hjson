@@ -1,0 +1,19 @@
+name: SeedliquidTank
+type: pump
+
+size: 4
+health: 900
+
+liquidCapacity: 4000
+
+  requirements: [
+    Seed/600
+]
+  
+category: liquid
+research: {
+  parent: CoreSeeds
+  requirements: [
+      Seed/30
+  ]
+}
