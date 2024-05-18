@@ -1,0 +1,14 @@
+name: SeedMendPJT
+type:MendProjector
+size: 4
+
+requirements: [
+  Seed/600
+]
+
+category: effect
+research: {
+  parent: CoreSeeds
+  requirements: [
+      Seed/30
+]
