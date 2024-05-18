@@ -45,79 +45,15 @@ consumes: {
   
 ammoTypes: {
   spore-pod: {
-    type: pointBulletType
-    width: 5
-    drawsize: 50
-    hitsize: 5
-  /*bulletSprite: shell
-    frontColor: FFFFFF
-    backColor: FFFFFF*/
-
-    ammoMultiPlier: 2
-    reloadMultiprier: 2
-
-    lifetime: 90
-    speed: 3
-    drag: 0.05
-    keepVelocity: true
-    inaccuracy: 3
-    weaveMag: 0
-    weaveScale: 0
-    bulletShrink: 0.5
-
-    damage: 0
-    status: none
-    statusDuration: 0
-
-    hitEffect: none
-    despawnEffect: none
-
-    absorbable: false
-    pierce: false
-    pierceArmor: false
-        
-   fragOnHit: true
-     fragOnAbsobable: true
-     fragBullets: 1
-     fragRandumSpread: 1
-       fragBullet: {
-         type: basicBulletType
-         width: 10
-         drawsize: 40
-         hitsize: 4
-
-         speed: 0
-         keepVelocity: true
-         lifetime: 1800
-         homingRange: 0
-         homingPower: 0
-
-         hitEffect: hitBulletBig
-         despawnEffect: none
-
-         collidesTeam: true
-         collidesAir: false
-         
-
-         damage: 20
-         status: sapped
-         statusDuration: 3600
-         knockback: 0
-         absorbable: false
-         pierce: true
-         pierceCap: 3
-         pierceArmor: true
-       }
-   }
+    type: artillaryBulletType
 }
 requirements:[
-	copper/90
-	lead/50
+	Seed/　1
 ]
 
 research: {
     parent: HyperBallista
     requirements: [
-        copper/30
+        Seed/ 1
     ]
 }
