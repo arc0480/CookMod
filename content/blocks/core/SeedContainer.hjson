@@ -10,3 +10,9 @@ category: effect
 requirements: [
     Seed/300
 ]
+research: {
+    parent: CoreSeeds
+    requirements: [
+        Seed/30
+    ]
+}
