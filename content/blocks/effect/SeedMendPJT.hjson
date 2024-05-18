@@ -1,6 +1,6 @@
 name: SeedMendPJT
 type:MendProjector
-size: 4
+size: 2
 #範囲15=120、範囲1=8
 range: 120
 requirements: [
