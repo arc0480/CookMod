@@ -10,3 +10,10 @@ category: effect
 requirements: [
     Seed/400
 ]
+
+research: {
+    parent: SeedContainer
+    requirements: [
+        Seed/30
+    ]
+}
