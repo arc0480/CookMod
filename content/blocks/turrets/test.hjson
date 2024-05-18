@@ -37,10 +37,9 @@ burstSpacing: 20
 targetAir: false 
 targetGround: true
 consumes: {
-	consumes: {
   liquid: {
     liquid: water
-    amount: 5
+    amount: 5.0
   }
 }
 ammoTypes: {
