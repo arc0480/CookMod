@@ -45,6 +45,12 @@ consumes: {
 ammoTypes: {
   spore-pod: {
     type: artillaryBulletType
+    scaleLife: true
+    lifeTiime: 9
+    speed: 4
+      fragOnHit: false
+      fragOnabsorbable: false
+      
   }
 }
 requirements:[
