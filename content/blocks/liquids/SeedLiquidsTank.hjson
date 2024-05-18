@@ -1,7 +1,8 @@
 name: SeedliquidTank
+
 #おそらく存在しない
 #type: LiquidTank
-
+#ルーターとつくが、タンクとしても利用できる。
 type: LiquidRouter
 
 size: 4
