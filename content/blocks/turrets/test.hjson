@@ -37,11 +37,11 @@ burstSpacing: 20
 
 targetAir: false 
 targetGround: true
-consumes: [
-  liquid: {
+consumes: {
+  liquid: [
     water: 5.0
-  }
-]
+  ]
+}
 ammoTypes: {
   spore-pod: {
     type: artillaryBulletType
