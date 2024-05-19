@@ -1,3 +1,6 @@
 name:種ノード
 type:PowerNode
 size:1
+
+laserRange:6
+maxNodes:4
