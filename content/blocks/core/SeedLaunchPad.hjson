@@ -1,0 +1,19 @@
+name: launchpad
+description:launchpad
+type: launchpad
+size: 3
+health: 2000
+hasItems: true
+itemCapacity: 1000
+category: effect
+#buildVisibility: campaingOnly
+requirements: [
+    Seed/400
+]
+
+research: {
+    parent: SeedContainer
+    requirements: [
+        Seed/30
+    ]
+}
