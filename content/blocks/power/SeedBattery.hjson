@@ -12,7 +12,7 @@ requirements: [
 ]
 category: power
 research: {
-	parent: CoreSeeds
+	parent: SeedReactorWater
 	requirements: [
 		Seed/30
 	]
