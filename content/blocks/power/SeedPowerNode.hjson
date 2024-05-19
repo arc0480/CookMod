@@ -10,7 +10,7 @@ requirements: [
 ]
 category: power
 research: {
-	parent: CoreSeeds
+	parent: SeedReactorWater
 	requirements: [
 		Carrot/30
 	]
