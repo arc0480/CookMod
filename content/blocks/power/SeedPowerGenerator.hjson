@@ -8,17 +8,18 @@ outputsPower: true
 consumesPower: true
 	
 plasmas: 4
-	lwarmupSpeed: 0.01
-	itemDuration: 135
-	itemCapacity: 50
-	powerProduction: 7.0
-	consumes: {
-  power: 0.1
-  items:{
-    items:[
-      carrot/ 5
-    ]
-  }
+lwarmupSpeed: 0.01
+itemDuration: 135
+itemCapacity: 50
+powerProduction: 7.0
+consumes: {
+	power: 0.1
+	items:{
+		items:[
+			carrot/ 5
+		]
+	}
+}
 requirements: [
 		carrot/10
 	]
