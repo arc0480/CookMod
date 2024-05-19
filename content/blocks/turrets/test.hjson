@@ -39,9 +39,7 @@ targetAir: false
 targetGround: true
 consumes: {
   liquid: {
-    liquid: [
       water/ 5.0
-    ]
   }
 }
 ammoTypes: {
