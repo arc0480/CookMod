@@ -12,10 +12,13 @@ plasmas: 4,
 	"itemDuration": 135,
 	"itemCapacity": 50,
 	"powerProduction": 7.0,
-	"consumes": {
-		"power": 1.0,
-		"liquid": {"liquid": "water", "amount": 0.5 }	
-	},
+	consumes: {
+  power: 0.1
+  items:{
+    items:[
+      carrot/ 5
+    ]
+  }
 requirements: [
 		carrot/10
 	]
