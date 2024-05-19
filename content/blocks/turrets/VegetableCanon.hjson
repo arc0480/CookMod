@@ -176,7 +176,7 @@ requirements:[
 ]
 
 research: {
-    parent: HyperBallista
+    parent: CoreSeeds
     requirements: [
         Seed/30
     ]
