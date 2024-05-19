@@ -46,6 +46,7 @@ ammoTypes: {
     type: artillaryBulletType
     scaleLife: true
     speed: 4
+    lifeTime: 9
     damage: 0
     hitSize: 5
     drawSize: 50
@@ -68,6 +69,7 @@ ammoTypes: {
             melting
           }
           statusDuration: 18
+        }
   }
 }
 requirements:[
