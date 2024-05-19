@@ -43,6 +43,6 @@ powerProduction: 50.1
 requirements:[
   Seed/1
 ]
-alwaysUnlocked: true
+#alwaysUnlocked: true
 buildVisibillity: shown
 category: power
