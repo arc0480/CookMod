@@ -7,6 +7,11 @@ health: 220
 category: liquid
 leakResistance:10
 
+liquidPressure: 0.6
+liquidCapacity: 0.5
+
+
+
 research: {
   parent: CoreSeeds
   #objectives: []
