@@ -9,7 +9,8 @@ size: 2
 #hasPower: true
 hasItems: true
 hasLiquid: true
-craftTime: 120
+#60で1秒
+craftTime: 60
 updateEffect: smeltsmoke
 liquidCapacity:30
 
