@@ -4,10 +4,10 @@ type: LaunchPad
 size: 3
 health: 2000
 hasItems: true
-itemCapacity: 1000
+itemCapacity: 500
 category: effect
 
-launchTime: 10.0
+launchTime: 100
 
 
 #buildVisibility: campaingOnly
