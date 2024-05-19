@@ -1,0 +1,14 @@
+type: Conduit
+liquidCapacity: 250
+leaks: true
+health: 220
+#underBullets: false
+#botColor: ffffff
+category: liquid
+research: {
+  parent: CoreSeeds
+  objectives: []
+}
+requirements: [
+  Seed/12
+]
