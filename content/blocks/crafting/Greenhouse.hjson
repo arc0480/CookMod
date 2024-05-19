@@ -10,7 +10,7 @@ hasPower: true
 hasItems: true
 hasLiquids: true
 liquidCapacity: 300
-craftTime: 60
+craftTime: 45
 updateEffect: smeltsmoke
 
 consumes: {
@@ -34,9 +34,9 @@ category: crafting
 
 //搬出アイテム？
 results: [
-    Carrot/10
-    Potato/10
-    Corn/10
+    Carrot/15
+    Potato/15
+    Corn/15
     Cacao/5
     Seed/1
 		WhiteRadish/1
