@@ -1,2 +1,53 @@
 name:光合成発電機
 type:SolarGenerator
+
+//施設のサイズ
+size: 4
+
+//このブロックを構築するためのコスト。
+requirements: [
+		carrot/10
+	]
+//どこのカテゴリに配置するか　電気、ドリル、壁、etc、、、
+category: power
+
+//研究をするか否か　trueでアンロック
+//alwaysUnlocked:true
+
+//テックツリーのどこにぶら下げるか
+research: CoreSeeds
+
+//体力
+health: 1000
+
+//発電量 0.1で1倍で発電
+//発電量6のソーラーパネルの場合120発電
+//ソーラー専用？
+powerProduction: 2
+
+//trueの場合、建物にはPowerModuleがあります。
+//hasPower: true
+//outputsPower: true
+//consumesPower: true
+
+//trueの場合、建物にはItemModuleがあります。
+//hasItems: false
+
+//trueの場合、建物にはLiquidModuleがあります。
+//hasLiquids: false
+
+//作成時間?
+craftTime: 60
+
+//破壊可能か
+//destructible: true
+
+//ドリル中にランダムに再生される効果。
+//updateEffect: smeltsmoke
+
+//consumesはよくわからん
+//consumes: {
+//	power: 1.0
+//	  }
+
+
