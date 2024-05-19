@@ -1,0 +1,32 @@
+
+type: ImpactReactor
+name: Reactor-Water
+description: electronic make by water.
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: true
+outputsPower: true
+consumesPower: true
+plasmas: 4
+warmupSpeed: 0.01
+itemDuration: 135
+itemCapacity: 50
+powerProduction: 7.0
+consumes: {
+	power: 0.1
+	liquid:{
+		liquid:[water/ 5]
+	}
+}
+requirements: [
+	Carrot/10
+]
+
+category: power
+research: {
+	parent: CoreSeeds
+	requirements: [
+		Carrot/30
+	]
+}
