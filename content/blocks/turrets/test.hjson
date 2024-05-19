@@ -40,7 +40,7 @@ targetGround: true
 consumes: {
   liquids: {
     liquids: [
-      water/5.0
+      water/5
     ]
   }
 }
