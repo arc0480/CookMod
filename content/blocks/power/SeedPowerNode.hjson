@@ -4,3 +4,14 @@ size:1
 
 laserRange:6
 maxNodes:4
+
+requirements: [
+	Carrot/10
+]
+category: power
+research: {
+	parent: CoreSeeds
+	requirements: [
+		Carrot/30
+	]
+}
