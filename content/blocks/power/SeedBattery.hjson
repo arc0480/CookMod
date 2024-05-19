@@ -1,7 +1,11 @@
 name:種バッテリー
 type:Battery
 
-
+#power出力設定？
+conductivePower: true
+consumes: {
+  powerBuffered: 600
+}
 
 requirements: [
 	Carrot/10
