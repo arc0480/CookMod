@@ -40,7 +40,7 @@ targetGround: true
 consumes: {
   liquid: {
     liquid: water
-    amount: 6,0
+    amount: 6.0
   }
 }
 ammoTypes: {
