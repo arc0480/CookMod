@@ -1,6 +1,6 @@
 
 type: ImpactReactor
-name: Reactor-Water
+name: SeedReactorWater
 description: electronic make by water.
 size: 4
 hasPower: true
