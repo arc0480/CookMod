@@ -1,7 +1,7 @@
 name: リキッドタレット
 description:
 '''
-着弾点にきのこの胞子によって敵ユニットを感知し、たけのこの成長速度でもって敵ユニットを貫通・撃破するタキノコ地雷を設置するタレット。
+着弾点にきのこの胞子によって敵ユニットを感知し、たけのこの成長速度でもって敵ユニットを貫通・撃破する｢タキノコ地雷｣を設置するタレット。
 内蔵された胞子とたけのこは地雷が反応するたびに消費され、三度目の反応で地雷としての機能を失う。
 胞子とたけのこの消費を抑えるため個体識別機能が付いており、同じ個体には反応しないスマート地雷。
 時限信管が搭載されているので撤去の心配はしなくて良い。
@@ -38,19 +38,36 @@ targetAir: false
 targetGround: true
 consumes: {
   liquid: {
-    liquid: water
-    amount: 5.0
+    water: 5.0
   }
 }
 ammoTypes: {
   spore-pod: {
     type: artillaryBulletType
     scaleLife: true
-    lifeTiime: 9
     speed: 4
+    damage: 0
+    hitSize: 5
+    drawSize: 50
+    height: 5
+    width: 5
+    bulletSprite: 
       fragOnHit: false
       fragOnabsorbable: false
-      
+        fragbullet: {
+          bulletType: basicBulletType
+          lifeTime: 1800
+          speed: 0
+          damage: 60
+          hitSize: 5
+          drawSize: 50
+          height: 5
+          width: 5
+          status: {
+            sapped
+            melting
+          }
+          statusDuration: 18
   }
 }
 requirements:[
