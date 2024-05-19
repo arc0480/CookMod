@@ -16,7 +16,7 @@ consumes: {
 	power: 0.1
 	items:{
 		items:[
-			carrot/ 5
+			Carrot/ 5
 		]
 	}
 }
