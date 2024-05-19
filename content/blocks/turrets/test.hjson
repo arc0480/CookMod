@@ -25,10 +25,11 @@ restitution: 0
 rotatesspeed: 15
 inaccuracy: 15
 ammoPerShot: 5
+targetAir: false
 
 shoot:{
-  shots: 4
-  shotDelay: 5
+  shots: 5
+  shotDelay: 6
 }
 xRand: 0
 shotWidth: 2
@@ -66,6 +67,7 @@ ammoTypes: {
           width: 5
           status: sapped
           statusDuration: 18
+          colideAir: false
         }
   }
 }
