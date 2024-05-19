@@ -15,7 +15,12 @@ category: power
 //alwaysUnlocked:true
 
 //テックツリーのどこにぶら下げるか
-research: CoreSeeds
+research: {
+    parent: CoreSeeds
+    requirements: [
+        carrot/30
+    ]
+}
 
 //体力
 health: 1000
