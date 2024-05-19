@@ -15,7 +15,7 @@ squareSprites: false
 buildVisibillity: shown
 alwaysUnlocked: true
 
-hasLiquid: true
+hasLiquids: true
 liquidCapacity: 60
 
 reload: 150
