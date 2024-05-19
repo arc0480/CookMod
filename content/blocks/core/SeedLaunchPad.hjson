@@ -6,6 +6,10 @@ health: 2000
 hasItems: true
 itemCapacity: 1000
 category: effect
+
+launchTime	10.0
+
+
 #buildVisibility: campaingOnly
 requirements: [
     Seed/400
