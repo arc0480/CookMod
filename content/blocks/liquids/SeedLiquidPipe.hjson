@@ -8,10 +8,10 @@ health: 220
 category: liquid
 
 
-leakResistance:100
+#leakResistance:100
 
-liquidPressure: 0.6
-liquidCapacity: 0.5
+liquidPressure: 1.0
+liquidCapacity: 1.5
 
 
 
