@@ -22,7 +22,5 @@ plasmas: 4,
 requirements: [
 		carrot/10
 	]
-	"category": "power",
-	"research": "impact-reactor",
-	"alwaysUnlocked":true
-}
+	category: power
+	research: impact-reactor
