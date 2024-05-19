@@ -5,9 +5,11 @@ health: 220
 #underBullets: false
 #botColor: ffffff
 category: liquid
+leakResistance:10
+
 research: {
   parent: CoreSeeds
-  objectives: []
+  #objectives: []
 }
 requirements: [
   Seed/12
