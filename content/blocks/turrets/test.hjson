@@ -1,3 +1,12 @@
+/* debug memo
+reload:float
+recoil:float
+restitution:float
+rotatespeed:float
+inaccuracy:float
+shotDelay:float
+*/
+
 name: リキッドタレット
 description:
 '''
@@ -18,13 +27,6 @@ alwaysUnlocked: true
 hasLiquids: true
 liquidCapacity: 60
 
-/*
-reload:float
-recoil:float
-restitution:float
-rotatespeed:float
-inaccuracy:float
-*/
 
 reload: 150.0
 range: 800
@@ -38,11 +40,11 @@ targetAir: false
 
 shoot:{
   shots: 5
-  shotDelay: 6
+  shotDelay: 6.0
 }
-xRand: 0
-shotWidth: 2
-burstSpacing: 20
+xRand: 0.0
+shotWidth: 2.0
+burstSpacing: 20.0
 
 targetAir: false
 targetGround: true
@@ -50,8 +52,7 @@ consumes: {
 	liquid: {
 		#liquid: Water
 		liquid: water
-		#amount: 6.0
-		amount: 6
+		amount: 6.0
 	}
 }
 
@@ -61,13 +62,13 @@ ammoTypes: {
   spore-pod: {
     type: artillaryBulletType
     scaleLife: true
-    speed: 4
+    speed: 4.0
     lifeTime: 9
     damage: 0
-    hitSize: 5
-    drawSize: 50
-    height: 5
-    width: 5
+    hitSize: 5.0
+    drawSize: 50.0
+    height: 5.0
+    width: 5.0
     bulletSprite: 
       fragOnHit: false
       fragOnabsorbable: false
@@ -87,12 +88,12 @@ ammoTypes: {
   }
 }
 requirements:[
-	Seed/　1
+	Seed/1
 ]
 
 research: {
     parent: HyperBallista
     requirements: [
-        Seed/ 1
+        Seed/1
     ]
 }
