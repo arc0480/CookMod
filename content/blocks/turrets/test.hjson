@@ -64,10 +64,7 @@ ammoTypes: {
           drawSize: 50
           height: 5
           width: 5
-          status: {
-            sapped
-            melting
-          }
+          status: sapped
           statusDuration: 18
         }
   }
