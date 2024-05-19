@@ -47,7 +47,7 @@ startSector: 3
 sectorSize: 2
 
 clearSectorOnLose: true
-allowSectorInvasion: true
+allowSectorInvasion: false
 
 allowLaunchToNumbered: true
 #資源持ち込み設定
