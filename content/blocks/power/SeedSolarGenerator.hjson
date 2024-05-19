@@ -6,7 +6,7 @@ size: 4
 
 //このブロックを構築するためのコスト。
 requirements: [
-		carrot/10
+		Carrot/10
 	]
 //どこのカテゴリに配置するか　電気、ドリル、壁、etc、、、
 category: power
@@ -18,7 +18,7 @@ category: power
 research: {
     parent: CoreSeeds
     requirements: [
-        carrot/30
+        Carrot/30
     ]
 }
 
