@@ -38,9 +38,9 @@ burstSpacing: 20
 targetAir: false
 targetGround: true
 consumes: {
-  liquid: {
+  liquid: [
     water/ 5.0
-  }
+  ]
 }
 ammoTypes: {
   spore-pod: {
