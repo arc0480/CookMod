@@ -1,4 +1,5 @@
 type: Conduit
+size:1
 liquidCapacity: 250
 leaks: true
 health: 220
