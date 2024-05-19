@@ -21,12 +21,12 @@ consumes: {
 	}
 }
 requirements: [
-		carrot/10
+	Carrot/10
+]
+category: power
+research: {
+	parent: CoreSeeds
+	requirements: [
+		Carrot/30
 	]
-	category: power
-	research: {
-    parent: CoreSeeds
-    requirements: [
-        carrot/30
-    ]
 }
