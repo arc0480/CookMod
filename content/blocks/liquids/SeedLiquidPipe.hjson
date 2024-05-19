@@ -6,7 +6,9 @@ health: 220
 #underBullets: false
 #botColor: ffffff
 category: liquid
-leakResistance:10
+
+
+leakResistance:100
 
 liquidPressure: 0.6
 liquidCapacity: 0.5
