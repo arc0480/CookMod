@@ -7,7 +7,7 @@ hasItems: true
 itemCapacity: 1000
 category: effect
 
-launchTime	10.0
+launchTime: 10.0
 
 
 #buildVisibility: campaingOnly
