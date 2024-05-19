@@ -38,7 +38,7 @@ burstSpacing: 20
 targetAir: false 
 targetGround: true
 consumes: {
-  liquid: [
+  liquids: [
     water: 5.0
   ]
 }
