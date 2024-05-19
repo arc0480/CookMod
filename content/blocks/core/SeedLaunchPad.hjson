@@ -1,6 +1,6 @@
 name: launchpad
 description:launchpad
-type: launchpad
+type: LaunchPad
 size: 3
 health: 2000
 hasItems: true
