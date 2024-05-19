@@ -39,7 +39,7 @@ targetAir: false
 targetGround: true
 consumes: {
   liquid: {
-    liquids: [
+    liquid: [
       water/ 5.0
     ]
   }
