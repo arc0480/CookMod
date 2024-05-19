@@ -16,7 +16,9 @@ powerProduction: 7.0
 consumes: {
 	power: 0.1
 	liquid:{
-		liquids:[water/ 5]
+		liquid:[
+			water/ 5
+		]
 	}
 }
 requirements: [
