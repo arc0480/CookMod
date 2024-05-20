@@ -1,17 +1,14 @@
-#空軍
+#空軍詳細設定
 type: flying
-
-speed: 3
-lowAltitude: true
-mineSpeed: 6
-buildSpeed: 2.5
-
-mineTier: 2
-itemCapacity: 110
-accel: 0.05
-drag: 0.04
 flying: true
 health: 900
+itemCapacity: 110
+speed: 3
+lowAltitude: true
+
+#不明
+accel: 0.05
+drag: 0.04
 hitSize: 24
 armor: 3
 engineSize: 3
@@ -19,6 +16,16 @@ engineOffset: 12.5
 engineColor: F3E979FF
 range: 140
 faceTarget: true
+
+
+#空軍採掘設定
+mineSpeed: 6
+mineTier: 2
+
+
+#空軍建築設定？
+buildSpeed: 2.5
+
 
 research: {
   parent: CoreStrongSeeds
