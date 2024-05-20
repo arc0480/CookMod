@@ -1,9 +1,12 @@
+#空軍
 type: flying
+
 speed: 3
 lowAltitude: true
 mineSpeed: 6
 buildSpeed: 2.5
-mineTier: 4
+
+mineTier: 1
 itemCapacity: 110
 accel: 0.05
 drag: 0.04
