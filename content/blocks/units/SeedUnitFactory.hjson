@@ -1,23 +1,23 @@
 name: SeedUnitFactory
-  type: UnitFactory
-  --researchCostMultiplier: 0.3
-  size: 3
-  consumes: {
-    power: 5
-  }
-  plans: [
-    {
-      unit: washer
-      requirements: [
-      Seed/15
-     ]
-      time: 400
-    }
+type: UnitFactory
+--researchCostMultiplier: 0.3
+size: 3
+consumes: {
+  power: 5
+}
+plans: [
+{
+  unit: washer
+  requirements: [
+    Seed/15
   ]
-  category: units
+  time: 400
+}
+]
+category: units
 research: {
-    parent: CoreStrongSeeds
-    requirements: [
-        Seed/30
-    ]
+  parent: CoreStrongSeeds
+  requirements: [
+    Seed/30
+  ]
 }
