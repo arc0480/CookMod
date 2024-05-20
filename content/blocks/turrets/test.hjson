@@ -49,11 +49,10 @@ burstSpacing: 20.0
 targetAir: false
 targetGround: true
 consumes: {
-	liquid: {
-		#liquid: Water
-		liquid: water
-		amount: 6.0
-	}
+  liquid: {
+    liquid: water
+    amount: 6.0
+  }
 }
 
 
@@ -70,9 +69,10 @@ ammoTypes: {
     height: 5.0
     width: 5.0
     bulletSprite: 
-      fragOnHit: false
+      fragOnHit: true
       fragOnabsorbable: false
-        fragbullet: {
+      fragBUllets: 1
+        fragBullet: {
           bulletType: basicBulletType
           lifeTime: 1800
           speed: 0
