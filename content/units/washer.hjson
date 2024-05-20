@@ -17,7 +17,12 @@ engineColor: F3E979FF
 range: 140
 faceTarget: true
 
-
+research: {
+  parent: CoreStrongSeeds
+  requirements: [
+    Seed/30
+  ]
+}
 
 
 #weapons: [
