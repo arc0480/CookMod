@@ -6,6 +6,7 @@ health: 900
 itemCapacity: 110
 speed: 3
 lowAltitude: true
+defaultController:MinerAI
 
 #不明
 accel: 0.05
