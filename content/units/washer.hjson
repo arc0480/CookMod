@@ -1,4 +1,4 @@
-#空軍詳細設定
+####空軍詳細設定####
 unittype:poly
 type: flying
 flying: true
@@ -6,9 +6,11 @@ health: 900
 itemCapacity: 110
 speed: 3
 lowAltitude: true
-defaultController:MinerAI
+#defaultController:MinerAI
+hovering: true
 
-#不明
+
+####不明####
 accel: 0.05
 drag: 0.04
 hitSize: 24
@@ -20,13 +22,13 @@ range: 140
 faceTarget: true
 
 
-#空軍採掘設定
+####空軍採掘設定####
 mineTier: 2
 mineSpeed: 3.5f
 minePower: 1
 mineHardnessScaling: true
 
-#空軍建築設定？
+####空軍建築設定？####
 buildSpeed: 2.5
 
 
