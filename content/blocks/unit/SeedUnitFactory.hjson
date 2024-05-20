@@ -22,3 +22,6 @@ research: {
     Seed/30
   ]
 }
+requirements: [
+Seed/60
+]
