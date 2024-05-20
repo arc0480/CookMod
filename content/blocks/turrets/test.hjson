@@ -68,10 +68,11 @@ ammoTypes: {
     drawSize: 50.0
     height: 5.0
     width: 5.0
+    collideAir: false
     bulletSprite: 
       fragOnHit: true
       fragOnabsorbable: false
-      fragBUllets: 1
+      fragBullets: 1
         fragBullet: {
           bulletType: basicBulletType
           lifeTime: 1800
@@ -82,7 +83,7 @@ ammoTypes: {
           height: 5
           width: 5
           status: sapped
-          statusDuration: 18
+          statusDuration: 180
           colideAir: false
         }
   }
