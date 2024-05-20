@@ -8,9 +8,9 @@ consumes: {
 plans: [
 {
   unit: washer
-  requirements:{
+  requirements:[
     Seed/15
-  }
+  ]
   time: 400
 }
 ]
