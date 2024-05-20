@@ -1,9 +1,8 @@
 type: hoverunit
-reseach: {
-  pranet: 
-  requirement: [
-    Seed/ 10
-  ]
+reseach:{
+	requirement: [
+		Seed/ 10
+	]
 }
 
 flying:true
