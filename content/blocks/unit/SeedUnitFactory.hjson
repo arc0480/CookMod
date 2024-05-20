@@ -1,7 +1,7 @@
 name: SeedUnitFactory
 
-#type: UnitFactory
-type: flying
+type: UnitFactory
+x
 
 researchCostMultiplier: 0.3
 
@@ -13,6 +13,7 @@ consumes: {
 }
 plans: [
 {
+  type:flying
   unit: washer
   requirements: [
     Seed/15
