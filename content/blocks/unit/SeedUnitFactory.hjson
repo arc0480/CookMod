@@ -1,7 +1,6 @@
 name: SeedUnitFactory
 
 type: UnitFactory
-x
 
 researchCostMultiplier: 0.3
 
