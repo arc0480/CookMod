@@ -20,8 +20,8 @@ faceTarget: true
 
 
 #空軍採掘設定
-mineSpeed: 6
 mineTier: 2
+mineSpeed: 3.5f
 minePower: 1
 
 
