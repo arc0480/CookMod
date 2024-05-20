@@ -1,9 +1,9 @@
 type: hoverunit
-reseach:{
-	requirement: [
-		Seed/ 10
-	]
-}
+#reseach:{
+#	requirement: [
+#		Seed/ 10
+#	]
+#}
 
 flying:true
 speed:	1.1	
