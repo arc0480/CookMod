@@ -1,3 +1,11 @@
+type: hoverunit
+reseach: {
+  pranet: 
+  requirement: [
+    Seed/ 10
+  ]
+}
+
 flying:true
 speed:	1.1	
 mineSpeed	:1	
