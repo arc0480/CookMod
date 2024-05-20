@@ -1,31 +1,33 @@
-type: flying
-flying: true
-lowAltitude: true
-#researchCostMultiplier: .25
-#outlineColor: 2f3734
-drag: .2
-defaultCommand: assist
-hitSize: 4
-buildSpeed: .2
+
 speed: 3
-rotateSpeed: 15
-engineSize: 0
-localizedName: pico
+lowAltitude: true
+mineSpeed: 6
+buildSpeed: 2.5
+mineTier: 4
+itemCapacity: 110
+accel: 0.05
+drag: 0.04
+flying: true
+health: 900
+hitSize: 24
+armor: 3
+engineSize: 3
+engineOffset: 12.5
+engineColor: F3E979FF
+range: 140
+faceTarget: true
 
 
-requirements: {
-  #block: utility-factory
-  time: 700
-  requirements: [
-	Seed/20
-#metaglass/30
-  ]
-}
-alwaysunlock:true
-#research: {
-#planet: tantros
-#parent: utility-factory
+
+
+#weapons: [
+#]
+#abilities: [
+#{
+#type: "mindustry.entities.abilities.ForceFieldAbility",
+#"radius": 40,
+#"regen": 3,
+#"max": 230,
+#"cooldown": 60
 #}
-isEnemy: false
-health: 120
-envEnabled: 4
+#]
