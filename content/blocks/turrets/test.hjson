@@ -39,7 +39,7 @@ targetAir: false
 
 shoot:{
   shots: 5
-  shotDelay: 6.0
+  shotDelay: 10.0
 }
 xRand: 0.0
 shotWidth: 2.0
