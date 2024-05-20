@@ -1,5 +1,6 @@
 name: SeedUnitFactory
 type: UnitFactory
+category: units
 size: 3
 consumes: {
   power: 5
