@@ -6,7 +6,7 @@ type: UnitFactory
 researchCostMultiplier: 0.3
 
 category: units
-capacities: 5
+#capacities: 5
 size: 3
 consumes: {
   power: 5
