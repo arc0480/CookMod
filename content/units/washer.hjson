@@ -22,6 +22,7 @@ faceTarget: true
 #空軍採掘設定
 mineSpeed: 6
 mineTier: 2
+minePower: 1
 
 
 #空軍建築設定？
