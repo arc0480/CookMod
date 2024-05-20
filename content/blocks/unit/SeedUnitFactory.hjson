@@ -1,6 +1,5 @@
 name: SeedUnitFactory
 type: UnitFactory
---researchCostMultiplier: 0.3
 size: 3
 consumes: {
   power: 5
@@ -8,7 +7,7 @@ consumes: {
 plans: [
 {
   unit: washer
-  requirements:[
+  requirements: [
     Seed/15
   ]
   time: 400
