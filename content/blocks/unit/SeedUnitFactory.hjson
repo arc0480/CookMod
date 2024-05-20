@@ -1,7 +1,7 @@
 name: SeedUnitFactory
 
-type: UnitFactory
-
+#type: UnitFactory
+type: flying
 
 researchCostMultiplier: 0.3
 
