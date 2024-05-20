@@ -1,6 +1,6 @@
 name: SeedUnitFactory
   type: UnitFactory
-  researchCostMultiplier: 0.3
+  --researchCostMultiplier: 0.3
   size: 3
   consumes: {
     power: 5
@@ -18,6 +18,6 @@ name: SeedUnitFactory
 research: {
     parent: CoreStrongSeeds
     requirements: [
-        copper/30
+        Seed/30
     ]
 }
