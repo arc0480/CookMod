@@ -1,5 +1,6 @@
 #空軍詳細設定
-type: flying
+#type: flying
+type:poly
 flying: true
 health: 900
 itemCapacity: 110
