@@ -11,7 +11,7 @@ category: liquid
 #leakResistance:100
 
 liquidPressure: 1.0
-liquidCapacity: 1.5
+liquidCapacity: 10
 
 
 
