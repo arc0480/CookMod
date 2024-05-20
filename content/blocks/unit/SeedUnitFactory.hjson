@@ -1,6 +1,7 @@
 name: SeedUnitFactory
 type: UnitFactory
 category: units
+capacities: 5
 size: 3
 consumes: {
   power: 5
@@ -14,7 +15,6 @@ plans: [
   time: 400
 }
 ]
-category: units
 research: {
   parent: CoreStrongSeeds
   requirements: [
