@@ -1,11 +1,10 @@
-type: hoverunit
+/*
+type: flying
+name: アインタークスフリーゲ
 reseach: {
   pranet: 
   requirement: [
     Seed/ 10
-    coppor/ 10
-    lead/ 5
-    silicon/ 30
   ]
 }
 
@@ -37,3 +36,4 @@ itemCapacity: 0
 buildPower: 0
 minePower: 0
 targetPriority: 1	
+*/
