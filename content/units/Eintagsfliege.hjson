@@ -46,21 +46,21 @@ name:アインタークスフリーゲ
 type: flying
 #type:mono
 flying: true
-health: 900
-itemCapacity: 110
+health: 10
+itemCapacity: 30
 speed: 3
 lowAltitude: true
-#defaultController: suicideAI
+defaultController: suicideAI
 hovering: true
 
 
 ####不明####
-accel: 0.75
-drag: 0.4
-hitSize: 5
-armor: 30
+accel: 1.0
+drag: 0.5
+hitSize: 1
+armor: 45
 engineSize: 1
-engineOffset: 10
+engineOffset: 1
 engineColor: F3E979FF
 range: 150
 faceTarget: true
