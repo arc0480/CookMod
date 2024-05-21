@@ -11,9 +11,9 @@ plans: [
   type: flying
   unit: washer
   requirements: [
-    Seed/15
+    Seed/100
   ]
-  time: 400
+  time: 1000
 }
 ]
 research: {
