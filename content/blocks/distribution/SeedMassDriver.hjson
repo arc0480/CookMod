@@ -6,7 +6,7 @@ range: 1000
 reloadTime:	0
 name:SeedMassDriver
 
-transportTime: 1
+transportTime: 10
 itemCapacity: 1000 
 
 
