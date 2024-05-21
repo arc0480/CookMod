@@ -22,7 +22,7 @@ plans: [
   requirements: [
     Seed/100
   ]
-　　#10000=166.6s
+  #10000=166.6s
   time: 10000
 }
 ]
