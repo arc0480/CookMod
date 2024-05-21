@@ -29,6 +29,12 @@ mineSpeed: 3.5f
 minePower: 1
 mineHardnessScaling: true
 
+mineItems: [
+  Seed
+]
+
+
+
 ####空軍建築設定？####
 buildSpeed: 2.5
 
