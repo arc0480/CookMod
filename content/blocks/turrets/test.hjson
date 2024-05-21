@@ -60,29 +60,29 @@ ammoTypes: {
   spore-pod: {
     type: basicBulletType
     scaleLife: true
-    speed: 3.0
+    speed: 1
     damage: 0
-    inaccuracy: 10.0
-    hitSize: 5.0
-    drawSize: 50.0
-    bulletHeight: 10.0
-    bulletWidth: 10.0
+    hitSize: 5
+    drawSize: 50
+    height: 10
+    width: 10
     collideAir: false
+    bulletShrink: 0.1
     bulletSprite: shell
       fragOnHit: true
       fragOnabsorbable: false
       fragBullets: 1
         fragBullet: {
           bulletType: basicBulletType
-          lifeTime: 1800.0
-          speed: 0.0
-          damage: 60.0
-          hitSize: 10.0
-          drawSize: 100.0
-          bulletHeight: 10.0
-          bulletWidth: 10.0
+          lifeTime: 1800
+          speed: 0
+          damage: 60
+          hitSize: 10
+          drawSize: 100
+          height: 10
+          width: 10
           status: sapped
-          statusDuration: 180.0
+          statusDuration: 180
           colideAir: false
         }
   }
