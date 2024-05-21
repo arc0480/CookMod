@@ -14,30 +14,32 @@ liquidCpacity: 250.000
 craftTime: 128.4
 
 consumes: {
-power: 12.84
-items: {
-  items:[
-    Cacao/5
-  ]
+  power: 12.84
+  items: {
+    items:[
+      Cacao/5
+    ]
+  liquids: {
+    liquids: [
+      LiquidGunPowder/0.83333333333
+    ]
+  }
+
 }
-liquids: {
-  liquids: [
-    LiquidGunPowder/0.83333333333
-  ]
-}
+
 
 outPutItem: true
 results: [
-Chocolete/8
-CrackedChocolete/2
+  Chocolete/8
+  CrackedChocolete/2
 ]
 
 research:{
-parent: Greenahouse
-#pranet: transmutation
-requirements: [
-  Seed/30
-]
+  parent: Greenahouse
+  #pranet: transmutation
+  requirements: [
+    Seed/30
+  ]
 }
 
 requirements: [
