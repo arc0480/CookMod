@@ -51,6 +51,7 @@ itemCapacity: 30
 speed: 3
 lowAltitude: true
 defaultController: suicideAI
+targetPriority: 1.0
 hovering: true
 
 
