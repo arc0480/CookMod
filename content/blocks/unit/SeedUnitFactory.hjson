@@ -13,7 +13,7 @@ plans: [
   requirements: [
     Seed/100
   ]
-  time: 1000
+  time: 10000
 }
 ]
 research: {
