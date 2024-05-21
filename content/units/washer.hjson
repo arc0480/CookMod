@@ -1,6 +1,7 @@
 ####空軍詳細設定####
-unittype:poly
-type: flying
+#unittype:poly
+#type: flying
+type:mono
 flying: true
 health: 900
 itemCapacity: 110
