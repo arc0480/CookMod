@@ -33,13 +33,13 @@ results: [
   CrackedChocolete/2
 ]
 
-research:[
+research:{
   parent: Greenahouse
   #pranet: transmutation
   requirements: [
     Seed/30
   ]
-]
+}
 
 requirements: [
     Seed/30
