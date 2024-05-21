@@ -1,3 +1,10 @@
 type: OreBlock
 variants: 2
 itemDrop: Carrot
+
+/*
+***光る設定？***
+emitLight: true
+lightRadius: 12
+lightColor: ffffff
+*/
