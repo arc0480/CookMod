@@ -37,3 +37,68 @@ buildPower: 0
 minePower: 0
 targetPriority: 1	
 */
+
+
+name:アインタークスフリーゲ
+
+####空軍詳細設定####
+#unittype:poly
+type: flying
+#type:mono
+flying: true
+health: 900
+itemCapacity: 110
+speed: 3
+lowAltitude: true
+#defaultController: suicideAI
+hovering: true
+
+
+####不明####
+accel: 0.75
+drag: 0.4
+hitSize: 5
+armor: 30
+engineSize: 1
+engineOffset: 10
+engineColor: F3E979FF
+range: 150
+faceTarget: true
+
+
+####空軍採掘設定####
+/*
+mineTier: 2
+mineSpeed: 3.5f
+minePower: 1
+mineHardnessScaling: true
+
+mineItems: [
+  Seed
+]
+*/
+
+
+####空軍建築設定？####
+# buildSpeed: 2.5
+
+
+research: {
+  parent: CoreStrongSeeds
+  requirements: [
+    Seed/30
+  ]
+}
+
+
+#weapons: [
+#]
+#abilities: [
+#{
+#type: "mindustry.entities.abilities.ForceFieldAbility",
+#"radius": 40,
+#"regen": 3,
+#"max": 230,
+#"cooldown": 60
+#}
+#]
