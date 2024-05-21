@@ -1,6 +1,7 @@
 type: OreBlock
 variants: 2
 itemDrop: Carrot
+oreThreshold: 3
 
 /*
 ***光る設定？***
