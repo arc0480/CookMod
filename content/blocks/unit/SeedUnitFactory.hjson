@@ -1,11 +1,20 @@
 name: SeedUnitFactory
+
+description:
+'''
+全てを水に流す
+'''
+
 type: UnitFactory
 researchCostMultiplier: 0.3
 category: units
 size: 3
 consumes: {
+	#5=300
 	power: 5
 }
+
+#ユニット生産設定
 plans: [
 {
   type: flying
@@ -13,6 +22,7 @@ plans: [
   requirements: [
     Seed/100
   ]
+　　#10000=166.6s
   time: 10000
 }
 ]
