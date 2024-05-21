@@ -8,3 +8,14 @@ emitLight: true
 lightRadius: 12
 lightColor: ffffff
 */
+
+/*
+sample
+{
+"type": "OreBlock",
+"oreDefault": true,    
+"oreScale":  number,
+"oreThreshold":  number,
+"itemDrop": "name"
+}
+*/
