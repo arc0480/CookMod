@@ -1,50 +1,49 @@
 name: チョコレート工場
 description: 
-  '''
-  カカオをチョコレートに加工する工場。たまに割れた不良品が出てくる。
-  もし製品の中に金色の紙切れを見つけた場合は、あなたを工場見学へご招待いたします...
-  '''
+'''
+カカオをチョコレートに加工する工場。たまに割れた不良品が出てくる。
+もし製品の中に金色の紙切れを見つけた場合は、あなたを工場見学へご招待いたします...
+'''
 type: separator
 size: 3
 hasPower: true
 hasItem: true
-  itemCapacity: 25
+itemCapacity: 25
 hasLiquid: true
-  liquidCpacity: 250.000
+liquidCpacity: 250.000
 craftTime: 128.4
 
 consumes: {
-  power: 12.84
-  items: {
-    items:[
-      Cacao/5
-    ]
-  }
-  liquids: {
-    liquids: [
-      LiquidGunPowder/0.83333333333
-    ]
-  }
+power: 12.84
+items: {
+  items:[
+    Cacao/5
+  ]
+}
+liquids: {
+  liquids: [
+    LiquidGunPowder/0.83333333333
+  ]
 }
 
 outPutItem: true
 results: [
-  Chocolete/8
-  CrackedChocolete/2
+Chocolete/8
+CrackedChocolete/2
 ]
 
 research:{
-  parent: Greenahouse
-  #pranet: transmutation
-  requirements: [
-    Seed/30
-  ]
+parent: Greenahouse
+#pranet: transmutation
+requirements: [
+  Seed/30
+]
 }
 
 requirements: [
-    Seed/30
-    #metaglass/25
-    #titanium/50
-  ]
+  Seed/30
+  #metaglass/25
+  #titanium/50
+]
 
-  category: crafting
+category: crafting
