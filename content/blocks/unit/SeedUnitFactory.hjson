@@ -25,6 +25,17 @@ plans: [
   #10000=166.6s
   time: 10000
 }
+{
+  type: flying
+  unit: Eintagsfliege
+  requirements: [
+    Seed/100
+  ]
+  #10000=166.6s
+  time: 10000
+}
+
+
 ]
 research: {
   parent: CoreStrongSeeds
