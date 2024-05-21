@@ -3,7 +3,7 @@ type: MassDriver
 size:1
 range: 1000
 
-reloadTime:	0
+reloadTime:	17
 name:SeedMassDriver
 
 transportTime: 10
