@@ -50,17 +50,17 @@ health: 10
 itemCapacity: 30
 speed: 3
 lowAltitude: true
-defaultController: suicideAI
+defaultController: FlyingAI
 targetPriority: 1.0
 hovering: true
 
 
 ####不明####
-accel: 1.0
+accel: 2.0
 drag: 0.5
 hitSize: 1
-armor: 45
-engineSize: 1
+armor: 5
+engineSize: 2
 engineOffset: 1
 engineColor: F3E979FF
 range: 150
