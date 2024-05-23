@@ -11,7 +11,7 @@ reseach: {
 lightRadius: 20
 speed: 0.7
 accel: 0.1
-srag: 0.03
+drag: 0.03
 faceTarget: true
 flying: true
 
@@ -56,8 +56,9 @@ hovering: true
 
 
 ####不明####
-accel: 2.0
-drag: 0.5
+accel: 0.1
+drag: 10.0
+speed: 2.5
 hitSize: 1
 armor: 5
 engineSize: 2
