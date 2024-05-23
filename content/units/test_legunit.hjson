@@ -21,13 +21,20 @@ targetAir: true
 
 ### 足の設定？　###
   maxStretch: 0.5
-  legCount: 8
-  legBaseOffset: 10
-  legLengthScl: 0.001
+
+legCount: 8
+
+legBaseOffset: 10
+
+
+legLengthScl: 0.001
+legLength: 50
+
+
   legPairOffset: 3
   legMoveSpace: 0.8
  legExtension: -10
-  legLength: 122
+  
   rippleScale: 7
   landShake: 3
   legSplashDamage: 320
