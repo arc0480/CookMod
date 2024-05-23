@@ -50,7 +50,7 @@ health: 10
 itemCapacity: 30
 speed: 3
 lowAltitude: true
-defaultController: FlyingAI
+#defaultController: FlyingAI
 targetPriority: 1.0
 hovering: true
 
