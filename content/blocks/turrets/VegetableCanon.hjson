@@ -94,7 +94,7 @@ ammoTypes:{
               
 	Carrot: {
           type: BasicBulletType
-	  damage: 40
+	  damage: 15
 	  speed: 9
 	  lifetime: 62.2
           hitSize: 15
@@ -112,13 +112,14 @@ ammoTypes:{
         }
         GoldCarrot: {
           type: BasicBulletType
-          damage: 100
+          damage: 20
+          buildingDamageMultiplier: 1.25
           speed: 5
           lifetime: 56
           width: 5
           height: 10
           ammoMultiplier: 1
-          reloadMultiPlier: 1
+          reloadMultiPlier: 1.5
           absobable: false
           pierceArmor: false
           pierce: true
@@ -127,17 +128,18 @@ ammoTypes:{
           fragOnHit: true
           fragOnAbsobable: false
           fragBullets: 10
-          fragAngle: 18
-          fragSpread: 180
-          fragRandumSpread: 0
+          fragAngle: 10
+          fragRandumSpread: 30
           fragLifeMin: 0.5
           fragLifeMax: 1.5
             fragBullet: {
               type: BasicBulletType
               damage: 20 
               splashDamage: 75
-#splashDamageRadius=範囲ダメージ半径(n×0.1+1.2くらい)タイル
+#splashDamageRadius=範囲ダメージ半径
               splashDamageRadius:50
+#scaledSplashDamage=trueの場合はダメージ量が当たった物体の大きさに比例するようになる
+              scaledSplashDamage: true
               speed: 2.5
               lifetime: 25
               homingPower: 10
