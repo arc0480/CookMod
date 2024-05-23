@@ -5,3 +5,13 @@ type:sorter
 size: 1
 
 invert: false
+
+requirements: [
+  Seed/6
+]
+research: {
+    parent: Seed
+    requirements: [
+        Seed/50
+    ]
+}
