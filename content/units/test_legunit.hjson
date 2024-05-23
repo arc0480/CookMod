@@ -23,7 +23,7 @@ targetAir: true
   maxStretch: 1.6
   legCount: 8
   legBaseOffset: 10
-  legLengthScl: 0.98
+  legLengthScl: 0.05
   legPairOffset: 3
   legMoveSpace: 0.8
  legExtension: -10
