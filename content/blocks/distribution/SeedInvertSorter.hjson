@@ -2,3 +2,13 @@ name: SeedInvertSorter
 type: sorter
 size: 1
 invert: true
+
+requirements: [
+  Seed/6
+]
+research: {
+    parent: Seed
+    requirements: [
+        Seed/50
+    ]
+}
