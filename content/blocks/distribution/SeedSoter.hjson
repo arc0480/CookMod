@@ -1,0 +1,7 @@
+name: SeedSorter
+
+type:sorter
+
+size: 1
+
+invert: false
