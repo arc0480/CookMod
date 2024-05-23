@@ -21,7 +21,7 @@ targetAir: true
 
 ### 足の設定？　###
 maxStretch: 0.5
-legCount: 8
+legCount: 3
 legBaseOffset: 10
 legLengthScl: 0.001
 legLength: 30
