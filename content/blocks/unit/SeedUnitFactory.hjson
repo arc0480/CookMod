@@ -29,10 +29,10 @@ plans: [
   type: flying
   unit: Eintagsfliege
   requirements: [
-    Seed/100
+    Seed/1
   ]
   #10000=166.6s
-  time: 10000
+  time: 3
 }
 
 
