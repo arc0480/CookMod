@@ -1,3 +1,4 @@
 name: SeedInvertSorter
+type: sorter
 size: 1
 invert: true
