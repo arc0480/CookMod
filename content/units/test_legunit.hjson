@@ -28,7 +28,7 @@ legBaseOffset: 10
 
 
 legLengthScl: 0.001
-legLength: 50
+legLength: 30
 
 
   legPairOffset: 3
