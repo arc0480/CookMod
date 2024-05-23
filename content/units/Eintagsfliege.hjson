@@ -56,12 +56,11 @@ hovering: true
 
 
 ####不明####
-accel: 0.1
-drag: 10.0
-speed: 2.5
-hitSize: 1
+accel: 2.5
+drag: 20.0
+hitSize: 0.1
 armor: 5
-engineSize: 2
+engineSize: 1
 engineOffset: 1
 engineColor: F3E979FF
 range: 150
