@@ -1,4 +1,4 @@
-name: Build Mod
+name: Build CookMod
 
 on: [push, pull_request]
 
