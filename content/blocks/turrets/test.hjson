@@ -71,11 +71,12 @@ ammoTypes: {
     bulletSprite: shell
       fragOnHit: true
       fragOnabsorbable: false
+     #fragLifeMin: 1800
+     #fragLifeMax: 1800
       fragBullets: 1
         fragBullet: {
           bulletType: basicBulletType
-          scaleLife: false
-          lifeTime: 1800
+          lifetime: 1800
           speed: 0
           damage: 60
           hitSize: 10
