@@ -38,8 +38,8 @@ ammoPerShot: 5
 targetAir: false
 
 shoot:{
-  shots: 5
-  shotDelay: 20.0
+  shots: 3
+  shotDelay: 21.0
 }
 xRand: 0.0
 shotWidth: 2.0
@@ -71,19 +71,19 @@ ammoTypes: {
     bulletSprite: shell
       fragOnHit: true
       fragOnabsorbable: false
-     #fragLifeMin: 1800
-     #fragLifeMax: 1800
       fragBullets: 1
         fragBullet: {
           bulletType: basicBulletType
           lifetime: 1800
           speed: 0
-          damage: 60
+          damage: 65
+          buildingDamageMultiplier: 0.0
           hitSize: 10
           drawSize: 100
           height: 10
           width: 10
-          status: sapped
+          bulletSprite: shell
+          status: weakness
           statusDuration: 180
           colideAir: false
         }
