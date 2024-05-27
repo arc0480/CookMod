@@ -71,19 +71,20 @@ ammoTypes: {
     bulletSprite: shell
       fragOnHit: true
       fragOnabsorbable: false
+      fragRandomSpread: 5
       fragBullets: 1
         fragBullet: {
           bulletType: basicBulletType
           lifetime: 1800
-          speed: 0.1
+          speed: 0.01
           damage: 65
           buildingDamageMultiplier: 0.0
           homingRange: 10
           homingPower: 1
           hitSize: 10
           drawSize: 100
-          height: 10
-          width: 10
+          bulletHeight: 10
+          bulletWidth: 10
           bulletSprite: shell
           status: weakness
           statusDuration: 300
