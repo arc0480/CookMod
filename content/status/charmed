@@ -1,2 +1,6 @@
-name: charmed
-  reloadMultiplier: 0
+name: weakness
+speedMultiplier: 0.0
+armerMultiplier: 0.5
+healthMultiplier: 0.75
+reactive: true
+disArm: ture
