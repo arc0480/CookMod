@@ -1,5 +1,5 @@
 name: weakness
-speedMultiplier: 0.0
+speedMultiplier: 0
 armerMultiplier: 0.5
 healthMultiplier: 0.75
 reactive: true
