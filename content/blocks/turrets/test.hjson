@@ -76,11 +76,9 @@ ammoTypes: {
         fragBullet: {
           bulletType: basicBulletType
           lifetime: 1800
-          speed: 0.01
+          speed: 0.0
           damage: 65
           buildingDamageMultiplier: 0.0
-          homingRange: 10
-          homingPower: 1
           hitSize: 10
           drawSize: 100
           bulletHeight: 10
