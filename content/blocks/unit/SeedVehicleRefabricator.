@@ -1,0 +1,39 @@
+name: SeedVehicleRefabricator
+  description:
+  '''
+  El Psy Kongaree ...
+  '''
+size: 3
+type: refabricator
+category: units
+consumes: {
+  power: 5
+/*items:{
+    itmes:[
+      Seeed/10
+    ]
+  }*/
+}
+constructTime: 15
+requirements: [
+  {
+  seed/ 10
+  }
+]
+upgrades: [
+  [
+  Eintagsfiege
+  Libelle
+  ]
+]
+
+reseach: {
+   parent: SeedUnitFactory
+  requirements: [
+    Seed/60
+  ]
+}
+
+requirements: [
+Seed/120
+]
