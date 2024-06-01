@@ -1,0 +1,10 @@
+name: Libelle
+  type: flying
+
+  health: 300
+  armor: 25
+  weight: 5
+  speed: 2.4
+  hitSize: 5
+  itemcapacity: 50
+  
