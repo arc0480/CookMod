@@ -58,8 +58,8 @@ hovering: true
 ####不明####
 accel: 2.5
 drag: 20.0
-hitSize: 0.1
-armor: 5
+hitSize: 3
+armor: 50
 engineSize: 1
 engineOffset: 1
 engineColor: F3E979FF
