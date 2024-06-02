@@ -64,8 +64,10 @@ engineSize: 1
 engineOffset: 1
 engineColor: F3E979FF
 range: 150
-faceTarget: true
-
+#照準を正面に向けるのか否か。フレア(:true)は正面の敵に攻撃するが、ホライゾン(:false)は真下を攻撃する
+faceTarget: false
+#よくわからない。デフォルトはfalse、ホライゾンはtrue
+circleTarget: true
 
 ####空軍採掘設定####
 /*
