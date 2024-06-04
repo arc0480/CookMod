@@ -1,10 +1,21 @@
-name: Libelle
-  type: flying
+type: flying
+flying: true
+health: 10
+itemCapacity: 30
+speed: 3
+lowAltitude: true
+targetPriority: 0.5
 
-  health: 300
-  armor: 25
-  weight: 5
-  speed: 2.4
-  hitSize: 5
-  itemcapacity: 50
+accel: 2.0
+drag: 10.0
+hitSize: 6
+armor: 60
+engineSize: 3
+engineOffset: 3
+engineColor: F3E979FF
+range: 150
+faceTarget: true
+circleTarget: false
+
+weapons: [
   
