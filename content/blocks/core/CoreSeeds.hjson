@@ -4,6 +4,8 @@ category: effect
 health: 900
 size: 3
 
+canPlaceOn:true
+
 //砂や石炭の搬入を許可
 #incinerateNonBuildable: false
 
