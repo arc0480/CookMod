@@ -1,12 +1,12 @@
 name: ズモーるドリル
 description: 
 '''
-  ｽﾞﾓﾓもモノもｽﾞﾓのうち
+  ズモモもモノもズモのうち
 '''
 type: drill
 size: 1
 tier: 3
-drillTime: 120
+drillTime: 80
 requirements: [
   Carrot/ 6
   WhiteRadish/ 4
