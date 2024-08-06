@@ -8,16 +8,16 @@ size: 1
 tier: 3
 drillTime: 120
 reqirements: [
-  Carrot/ 6
-  WhiteRadish/ 4
+##  Carrot/ 6
+##  WhiteRadish/ 4
   Seed/ 10
 ]
 category: production
 reseach:{
   parent: SpeedDrill
   requirements: [
-    WhiteRadish/ 15
-    Carrot/ 20
+##    WhiteRadish/ 15
+##    Carrot/ 20
     Seed/ 50
   ]
 }
