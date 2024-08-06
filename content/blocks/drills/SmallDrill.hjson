@@ -14,7 +14,7 @@ size: 1
   }
 category: production
 reseach:{
-  parent: DrillLead
+  parent: SpeedDrill
   requirements: [
     WhiteRadish/ 15
     Carrot/ 20
