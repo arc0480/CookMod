@@ -2,16 +2,16 @@ name: ズモーるドリル
 description: 
 '''
   ｽﾞﾓﾓもモノもｽﾞﾓのうち
-  '''
-  type: drill
+'''
+type: drill
 size: 1
-  tier: 3
-  drillTime: 2.15
-  reqirements: [
-    Carrot/ 6
-    WhiteRadish/ 4
-    Seed/ 10
-  ]
+tier: 3
+drillTime: 120
+reqirements: [
+  Carrot/ 6
+  WhiteRadish/ 4
+  Seed/ 10
+]
 category: production
 reseach:{
   parent: SpeedDrill
