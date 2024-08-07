@@ -8,6 +8,6 @@ author:
 displayName: "cookmod"
 description: "With this MOD you can make potatoes."
 version: "2.0"
-minGameVersion: 145.1
+minGameVersion: "145"
 hidden: false
 hideBrowser: false
