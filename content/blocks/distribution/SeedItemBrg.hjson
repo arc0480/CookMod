@@ -1,1 +1,16 @@
-a
+#type: DuctBridge
+type: ItemBridge
+name:SeedDuctBridge
+range: 5
+solid:3
+transportTime: 2
+itemCapacity: 20 
+requirements: [
+  Seed/6
+]
+research: {
+    parent: SeedDuctConv
+    requirements: [
+        Seed/50
+    ]
+}
