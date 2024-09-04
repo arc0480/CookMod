@@ -1,6 +1,6 @@
 #type: DuctBridge
 type: ItemBridge
-name:SeedDuctBridge
+name:SeedItemBridge
 range: 5
 solid:3
 transportTime: 2
