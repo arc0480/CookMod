@@ -3,5 +3,23 @@ description:
 '''
 野菜のチカラで敵を消し去るレーザー兵器
 '''
+
+size: 3
+health: 3000
 range: 60
+reload: 30
+recoil: 0.7
+
 category: raserTurrret
+tipe: turret
+
+lotateSpeed: 2
+hasItems: true
+itemCapacity: 10
+hasLiquids: true
+liquidCapacity: 300
+
+consume: {
+  liquid: YasaiJuice/ 5.00
+}
+
