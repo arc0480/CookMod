@@ -14,6 +14,8 @@ category: raserTurrret
 tipe: turret
 
 lotateSpeed: 2
+firingMoveFract: 0.25
+shootDuration: 100
 hasItems: true
 itemCapacity: 10
 hasLiquids: true
@@ -24,11 +26,12 @@ consume: {
 }
 
 ammoType: {
-  Callot: {
-   bulletType: raserbullettype
-   speed: 3
+  Onion: {
+   bulletType: ContinuousLaserBulletType
    damage: 30
    pierce: true
    pierceCap: 3
    pierceDamageFactor: 0.2 
-   
+  }
+  Carrot: {
+   bullettype: 
