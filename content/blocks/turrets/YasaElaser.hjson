@@ -28,10 +28,22 @@ consume: {
 ammoType: {
   Onion: {
    bulletType: ContinuousLaserBulletType
-   damage: 30
-   pierce: true
-   pierceCap: 3
-   pierceDamageFactor: 0.2 
+   damage: 3
+   pierceArmer: true
+   timeScaleDamage: true
+   length: 200
+   width: 10
+   fadeTime: 32.0
   }
-  Carrot: {
-   bullettype: 
+
+/*  Carrot: {
+   bullettype: laserBulletType
+   damage: 45
+   pierce: true
+   pierce
+  }
+*/
+}
+
+buildVisibility: SandboxOnly
+alwaysUnlocked: true
