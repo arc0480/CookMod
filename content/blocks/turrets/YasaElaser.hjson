@@ -10,7 +10,7 @@ range: 60
 reload: 30
 recoil: 0.7
 
-category: turrret
+category: turret
 tipe: turret
 
 lotateSpeed: 2
