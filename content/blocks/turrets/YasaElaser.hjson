@@ -35,15 +35,15 @@ ammoType: {
    width: 10
    fadeTime: 32.0
   }
+}
 
-/*  Carrot: {
+/*  
+Carrot: {
    bullettype: laserBulletType
    damage: 45
    largeHit: true
    
-  }
-*/
 }
-
+*/
 buildVisibility: SandboxOnly
 alwaysUnlocked: true
