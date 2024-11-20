@@ -45,5 +45,5 @@ Carrot: {
    
 }
 */
-buildVisibility: SandboxOnly
+#buildVisibility: SandboxOnly
 alwaysUnlocked: true
