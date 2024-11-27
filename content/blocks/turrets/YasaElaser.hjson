@@ -35,6 +35,15 @@ ammoType: {
    width: 10
    fadeTime: 32.0
   }
+/*
+  Callot: {
+    bulletType: LaserBulletType
+    damage: 10
+    pierceArmer: false
+    pierceCap: 4
+    length: 125
+    width: 7
+*/
 }
 
 /*  
