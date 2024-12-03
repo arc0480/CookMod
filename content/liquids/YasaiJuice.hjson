@@ -1,0 +1,14 @@
+name: YasaiJuice
+  description: 
+'''
+  みらくるやさいぱわー
+  '''
+  color: ff6d32
+berColor: ff4c00
+# lightColor: 
+
+flammability: 0.0
+temperature: 0.35
+heatCapacity: 0.75
+viscosity: 0.7
+explosiveness: 0.0
