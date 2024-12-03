@@ -35,24 +35,26 @@ ammoType: {
    width: 10
    fadeTime: 32.0
   }
-/*
-  Callot: {
+/*Callot: {
     bulletType: LaserBulletType
     damage: 10
     pierceArmer: false
     pierceCap: 4
     length: 125
     width: 7
-*/
+  }*/
 }
 
-/*  
-Carrot: {
-   bullettype: laserBulletType
-   damage: 45
-   largeHit: true
-   
+requirement: [
+seed/ 1
+]
+research:{
+  parent: NiceCannon
+  requirement: [
+    seed/ 1
+  ]
 }
-*/
+
 #buildVisibility: SandboxOnly
+buildTime: 10
 alwaysUnlocked: true
