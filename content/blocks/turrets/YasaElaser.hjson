@@ -11,9 +11,9 @@ reload: 30
 recoil: 0.7
 
 category: turret
-type: turret
+type: itemTurret
 
-lotateSpeed: 2
+lotateSpeed: 1.0
 firingMoveFract: 0.25
 shootDuration: 100
 hasItems: true
@@ -55,7 +55,7 @@ research:{
   ]
 }
 
-buildVisibility: SandboxOnly
+buildVisibillity: shown
 buildTime: 10
 squareSprites: false
 alwaysUnlocked: true
