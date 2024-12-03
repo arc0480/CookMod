@@ -19,10 +19,12 @@ shootDuration: 100
 hasItems: true
 itemCapacity: 10
 hasLiquids: true
-liquidCapacity: 300
+liquidCapacity: 30
+hasPower: true
 
 consume: {
   liquid: YasaiJuice/ 5.00
+  power/ 20
 }
 
 ammoType: {
