@@ -1,11 +1,6 @@
 name: "cookmod"
-repo: "arc0480/CookMod"
 minGameVersion: 145
 version: "v1.0"
 displayName: "cookmod"
 author:  "open chat"
-description:
-'''
-cook MOD is FUN
-'''
-hideBrowser: false
+description:"cook MOD is FUN"
