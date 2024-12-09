@@ -8,10 +8,8 @@ parent: sun
 icon: cookplanets
 iconColor: 30d5c8
 
-#generator: SerpuloPlanetGenerator
-#generator: tantPlanetGenerator
-
 #わからんけど載せとけ精神
+/** Generator that will make the planet. Can be null for planets that don't need to be landed on. */
 generator: {
   berylChance: 0.45
   iceChance: 0.15
@@ -29,27 +27,40 @@ generator: {
 }
 
 defaultCore:CoreSeeds
-#defaultCore:種つきコア
 
+/** Orbital radius around the sun. Do not change unless you know exactly what you are doing.*/
 orbitRadius: 35
+
+/** Whether to draw the orbital circle. */
+drawOrbit: true
+
 hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: cc4e5c
-drawOrbit: true
 
 accessible: true
 alwaysUnlocked: true
 defaultCore: CoreSeeds
-sectorSeed: 15
+
+/** Seed for sector base generation on this planet. -1 to use a random one based on ID. */
+sectorSeed: 1
+
+/** The default starting sector displayed to the map dialog. */
 startSector: 3
+
 sectorSize: 2
 
+/** If true, sectors saves are cleared when lost. */
 clearSectorOnLose: true
+
+/** Whether to simulate sector invasions from enemy bases. */
 allowSectorInvasion: false
 
+/** If false, players are unable to land on this planet's numbered sectors. */
 allowLaunchToNumbered: true
+
 #資源持ち込み設定
 allowLaunchLoadout: true
 
