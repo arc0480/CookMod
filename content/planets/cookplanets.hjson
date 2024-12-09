@@ -31,7 +31,10 @@ generator: {
 
 defaultCore:CoreSeeds
 
-/** Orbital radius around the sun. Do not change unless you know exactly what you are doing.*/
+/** 
+	Orbital radius around the sun. 
+	Do not change unless you know exactly what you are doing.
+*/
 orbitRadius: 35
 
 /** Whether to draw the orbital circle. */
@@ -39,8 +42,13 @@ drawOrbit: true
 
 hasAtmosphere: true
 updateLighting: false
+
+/** Atmosphere radius adjustment parameters. */
 atmosphereRadIn: 0
+
+/** Atmosphere radius adjustment parameters. */
 atmosphereRadOut: 0.3
+
 atmosphereColor: cc4e5c
 
 accessible: true
