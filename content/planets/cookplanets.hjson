@@ -9,7 +9,10 @@ icon: cookplanets
 iconColor: 30d5c8
 
 #わからんけど載せとけ精神
-/** Generator that will make the planet. Can be null for planets that don't need to be landed on. */
+/** 
+	Generator that will make the planet. 
+	Can be null for planets that don't need to be landed on. 
+*/
 generator: {
   berylChance: 0.45
   iceChance: 0.15
