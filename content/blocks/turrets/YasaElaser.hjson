@@ -24,7 +24,7 @@ hasPower: true
 
 consume: {
   liquid: YasaiJuice/ 5.00
-  power/ 20
+  power: 20
 }
 
 ammoType: {
