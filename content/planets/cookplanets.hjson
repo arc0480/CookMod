@@ -41,6 +41,8 @@ orbitRadius: 35
 drawOrbit: true
 
 hasAtmosphere: true
+
+/** If true, a day/night cycle is simulated. */
 updateLighting: false
 
 /** Atmosphere radius adjustment parameters. */
