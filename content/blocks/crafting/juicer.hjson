@@ -1,0 +1,47 @@
+name: 野菜ジューサー
+description: 
+'''
+Produces mellow and creamy pale blue juice from any vegetables.
+Price of it is just 200 yen.
+'''
+size: 2
+haspower: true
+hasliquids: true
+liquidcapacity: 600
+hasitems: true
+itemcapacity: 10
+
+category: crafting
+type: genericcrafter
+
+outputsliquid: true
+outputliquids: [
+  YasaiJuice/ 30
+]
+consume: {
+  power: 9
+  items: [
+    Carrot/ 5
+  # GoldCarrot/ 1
+    Corn/ 4
+    Potato/ 3
+    Onion/ 2
+    WhitRadish/ 1
+  # Salt/ 1
+  ]
+}
+crafttime: 60
+
+research: {
+  parent: trancemutation
+  recuirements: [
+    seed/ 1
+  ]
+}
+
+recurements: [
+  seed/ 1
+]
+
+alwaysunlocked: true
+buildvisibillity: shown
