@@ -1,0 +1,137 @@
+/** intersect() メソッド用の一時変数。 */
+private static final Vec3 intersectResult = new Vec3();
+/** drawSectors() メソッド用の一時マトリクス。 */
+private static final Mat3D mat = new Mat3D();
+/** drawArc() メソッド用の一時曲線ポイント。 */
+private static final Seq<Vec3> points = new Seq<>();
+
+/** レンダリングに使用されるメッシュ。load() メソッドで生成される - サーバーでは null になる。 */
+@Nullable GenericMesh mesh;
+/** 惑星の雲をレンダリングするためのメッシュ。雲がない場合は null。 */
+@Nullable GenericMesh cloudMesh;
+/** 惑星のグリッドアウトラインをレンダリングするためのメッシュ。サーバー上または {@link #grid} が null の場合は null。 */
+@Nullable Mesh gridMesh;
+/** グローバル座標での位置。Universe が更新するまでは (0,0,0)。 */
+Vec3 position = new Vec3();
+/** 惑星のセクターグリッド。着陸できない惑星では null。 */
+@Nullable PlanetGrid grid;
+/** 惑星を生成するジェネレーター。着陸不要な惑星では null。 */
+@Nullable PlanetGenerator generator;
+/** グリッド上のタイルに対応するセクターの配列。 */
+Seq<Sector> sectors = new Seq<>();
+/** 惑星軌道間のデフォルトの間隔（ワールド単位）。親ごとに定義される。 */
+float orbitSpacing = 12f;
+/** この惑星の球体の半径。衛星は考慮されない。 */
+float radius;
+/** カメラ半径のオフセット。 */
+float camRadius;
+/** カメラの最小ズーム値。 */
+float minZoom = 0.5f;
+/** 軌道円を描画するかどうか。 */
+boolean drawOrbit = true;
+/** 大気の半径調整パラメータ。 */
+float atmosphereRadIn = 0, atmosphereRadOut = 0.3f;
+/** 視錐体のスフィアクリップ半径。 */
+float clipRadius = -1f;
+/** 太陽の周りの軌道半径。正確な理解がない場合は変更しないこと。 */
+float orbitRadius;
+/** この惑星およびそのすべての子の総半径。 */
+float totalRadius;
+/** 惑星が太陽を一周するのにかかる時間（秒）。1年分。 */
+float orbitTime;
+/** 惑星が完全に回転するのにかかる時間（秒）。1日分。 */
+float rotateTime = 24f * 60f;
+/** 惑星が直線で開始しないようにするランダム軌道角オフセット。 */
+float orbitOffset;
+/** 1セクターのおおよその半径。 */
+float sectorApproxRadius;
+/** この惑星が親に対して潮汐ロックされているかどうか。 */
+boolean tidalLock = false;
+/** 惑星アクセスUIにリストされるかどうか。 */
+boolean accessible = true;
+/** この惑星のセクターの環境フラグ。 */
+int defaultEnv = Env.terrestrial | Env.spores | Env.groundOil | Env.groundWater | Env.oxygen;
+/** 環境属性。 */
+Attributes defaultAttributes = new Attributes();
+/** true の場合、昼夜サイクルがシミュレートされる。 */
+boolean updateLighting = true;
+/** 昼夜サイクルのパラメータ。 */
+float lightSrcFrom = 0f, lightSrcTo = 0.8f, lightDstFrom = 0.2f, lightDstTo = 1f;
+/** マップダイアログで表示されるデフォルトの開始セクター。 */
+int startSector = 0;
+/** この惑星のセクター生成用のシード。-1の場合、IDに基づいてランダム生成される。 */
+int sectorSeed = -1;
+/** コアアイテム容量の発射時倍率。 */
+float launchCapacityMultiplier = 0.25f;
+/** ブルームレンダー効果が有効かどうか。 */
+boolean bloom = false;
+/** この惑星が表示されるかどうか。 */
+boolean visible = true;
+/** 着陸時に表示される雲の色合い。 */
+Color landCloudColor = new Color(1f, 1f, 1f, 0.5f);
+/** 太陽の場合、他の惑星に光を照らす色。子惑星には影響しない。 */
+Color lightColor = Color.white.cpy();
+/** 着陸可能な惑星の大気の色合い。 */
+Color atmosphereColor = new Color(0.3f, 0.7f, 1.0f);
+/** 惑星リストに表示されるアイコンの色。 */
+Color iconColor = Color.white.cpy();
+/** この惑星に大気が存在するかどうか。 */
+boolean hasAtmosphere = true;
+/** ユーザーがこのマップのカスタム発射スキーマを指定できるかどうか。 */
+boolean allowLaunchSchematics = false;
+/** ユーザーがこのマップに持ち込む資源を指定できるかどうか。 */
+boolean allowLaunchLoadout = false;
+/** セクターがバックグラウンドで波をシミュレートできるかどうか。 */
+boolean allowWaveSimulation = false;
+/** 敵基地からのセクター侵略をシミュレートするかどうか。 */
+boolean allowSectorInvasion = false;
+/** true の場合、セクターが失われたときにセーブがクリアされる。 */
+boolean clearSectorOnLose = false;
+/** 敵の再建速度の倍率（キャンペーンでのみ適用）。 */
+float enemyBuildSpeedMultiplier = 1f;
+/** 敵のコアが侵略時にスポーンポイントに置き換えられるかどうか。 */
+boolean enemyCoreSpawnReplace = false;
+/** true の場合、コアの半径内のブロックが削除され、着陸時にショックウェーブで構築される。 */
+boolean prebuildBase = true;
+/** true の場合、波がセクター喪失時に作成される（TODO: 削除予定）。 */
+boolean allowWaves = false;
+/** false の場合、この惑星の番号付きセクターに着陸できない。 */
+boolean allowLaunchToNumbered = true;
+/** true の場合、惑星UIで難易度やルールを変更できる。 */
+boolean allowCampaignRules = false;
+/** 惑星選択ダイアログで表示されるアイコン。Drawable はロード時に null であるため、文字列として扱う。 */
+String icon = "planet";
+/** この惑星が選択されたとき、惑星ダイアログで再生される音楽。 */
+Music launchMusic = Musics.launch;
+/** 発射時のデフォルトコアブロック。 */
+Block defaultCore = Blocks.coreShard;
+/** この惑星が周回する親天体。null の場合、太陽系の中心と見なされる。 */
+@Nullable Planet parent;
+/** この惑星が属する太陽系のルート親天体。 */
+Planet solarSystem;
+/** この惑星を周回するすべての惑星（半径の昇順）。 */
+Seq<Planet> children = new Seq<>();
+/** この惑星で技術ツリーが開かれたときに表示されるデフォルトのルートノード。 */
+@Nullable TechNode techTree;
+/** TODO: 削除予定？この惑星から発射可能な惑星。init() 内で相互に設定される。 */
+Seq<Planet> launchCandidates = new Seq<>();
+/** true の場合、この惑星の技術ツリー内のすべてのコンテンツがこの惑星に割り当てられる。 */
+boolean autoAssignPlanet = true;
+/** この惑星に着陸した際に解放されるコンテンツ（通常は惑星固有）。 */
+Seq<UnlockableContent> unlockedOnLand = new Seq<>();
+/** メッシュをロードする。クライアントサイドのみ。デフォルトは単純な球形メッシュ。 */
+Prov<GenericMesh> meshLoader = () -> new ShaderSphereMesh(this, Shaders.unlit, 2),
+                    cloudMeshLoader = () -> null;
+/** 惑星グリッドアウトラインメッシュをロードする。クライアントサイドのみ。 */
+Prov<Mesh> gridMeshLoader = () -> MeshBuilder.buildPlanetGrid(grid, outlineColor, outlineRad * radius);
+
+/** この惑星のキャンペーンのグローバル難易度/修正設定。 */
+CampaignRules campaignRules = new CampaignRules();
+/** ルールに適用されるデフォルト設定。 */
+CampaignRules campaignRuleDefaults = new CampaignRules();
+/** ゲームロード時にこの惑星のセクターに適用されるルールを設定する。 */
+Cons<Rules> ruleSetter = r -> {};
+
+/** @deprecated 使用禁止。 */
+@Deprecated
+Seq<Item> itemWhitelist = new Seq<>(), hiddenItems = new Seq<>();
