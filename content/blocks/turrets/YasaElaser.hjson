@@ -5,46 +5,45 @@ description:
 '''
 
 size: 3
-health: 3000
+health: 8310
 range: 60
 reload: 30
 recoil: 0.7
 
 category: turret
-type: itemTurret
+type: laserTurret
 
 lotateSpeed: 1.0
 firingMoveFract: 0.25
 shootDuration: 100
-hasItems: true
-itemCapacity: 10
+hasItems: false
 hasLiquids: true
 liquidCapacity: 30
 hasPower: true
 
 consume: {
-  liquid: YasaiJuice/ 5.00
   power: 20
 }
+coolantMultiprier: 3.0
+coolant: YasaiJuice
 
-ammoType: {
-  Onion: {
-   bulletType: ContinuousLaserBulletType
-   damage: 3
-   pierceArmer: true
-   timeScaleDamage: true
-   length: 200
-   width: 10
-   fadeTime: 32.0
-  }
-/*Callot: {
-    bulletType: LaserBulletType
-    damage: 10
-    pierceArmer: false
-    pierceCap: 4
-    length: 125
-    width: 7
-  }*/
+shootType: {
+# YasaiJuice:{
+  type: ContinuousLaserBulletType
+  drawSize: 288
+  width: 8
+  colors: [37EE84, 7FE978, ffffffff]
+  damage: 4
+  timescaleDamage: true
+  length: 60
+  pierce: true
+  pierceBuilding: false
+  pireceArmor: true
+  incendAmount: 5
+  incendChance: 0.5
+# status: freezing
+# statusDuration: 400
+# }
 }
 
 requirement: [
