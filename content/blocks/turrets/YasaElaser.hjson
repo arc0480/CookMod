@@ -23,9 +23,12 @@ hasPower: true
 
 consume: {
   power: 20
+  liquids:[YasaiJuice/ 10.0]
 }
+/*
 coolantMultiprier: 3.0
 coolant: YasaiJuice
+*/
 
 shootType: {
 # YasaiJuice:{
