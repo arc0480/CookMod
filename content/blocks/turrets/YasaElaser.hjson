@@ -23,11 +23,11 @@ hasPower: true
 
 consumes: {
   power: 20
-  liquid: [
-    YasaiJuice / 10.0
-  ]
+# liquid: [YasaiJuice / 10.0]
 }
 
+consumesCoolant: 0.5
+coolantMultiplier: 1.0
 
 shootType: {
   type: ContinuousLaserBulletType
