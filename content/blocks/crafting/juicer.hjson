@@ -7,7 +7,7 @@ Price of it is just 200 yen.
 size: 2
 haspower: true
 hasliquids: true
-liquidcapacity: 600
+liquidcapacity: 60
 hasitems: true
 itemcapacity: 10
 
@@ -33,8 +33,8 @@ consume: {
 crafttime: 60
 
 research: {
-  parent: trancemutation
-  recuirements: [
+  parent: transmutation
+  requirements: [
     seed/ 1
   ]
 }
