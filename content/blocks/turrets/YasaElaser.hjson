@@ -23,7 +23,6 @@ hasPower: true
 
 consumes: {
   power: 20
-  liquid: [YasaiJuice/ 10.0]
 }
 
 coolant: YasaiJuice
