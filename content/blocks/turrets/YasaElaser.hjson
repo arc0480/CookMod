@@ -4,7 +4,7 @@ description:
 野菜のチカラで敵を消し去るレーザー兵器
 '''
 
-size: 3
+size: 4
 health: 8310
 range: 60
 reload: 30
@@ -25,13 +25,8 @@ consumes: {
   power: 20
   liquids:[YasaiJuice/ 10.0]
 }
-/*
-coolantMultiprier: 3.0
-coolant: YasaiJuice
-*/
 
 shootType: {
-# YasaiJuice:{
   type: ContinuousLaserBulletType
   drawSize: 288
   width: 8
