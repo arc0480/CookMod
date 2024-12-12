@@ -23,7 +23,12 @@ hasPower: true
 
 consumes: {
   power: 20
-  liquids:[YasaiJuice/ 10.0]
+# liquids:[YasaiJuice/ 10.0]
+}
+
+coolant: {
+  type: ConsumeLiquid
+  liquid: YasaiJuice/ 10.0
 }
 
 shootType: {
