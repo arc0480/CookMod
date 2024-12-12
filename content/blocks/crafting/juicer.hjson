@@ -16,9 +16,9 @@ type: GenericCrafter
 
 outputLiquids: true
 outputLiquids: [
-  YasaiJuice/ 30.00
+  YasaiJuice/ 0.5
 ]
-consume: {
+consumes: {
   power: 9
   items: [
     Carrot/ 5
@@ -30,7 +30,7 @@ consume: {
   # Salt/ 1
   ]
 }
-craftTime: 60
+craftTime: 120
 
 research: {
   parent: GreenHouse2
