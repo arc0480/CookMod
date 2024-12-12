@@ -25,7 +25,7 @@ consumes: {
   power: 20
 }
 
-coolant: YasaiJuice
+coolant: null
 consumecoolant: 10.0
 
 shootType: {
