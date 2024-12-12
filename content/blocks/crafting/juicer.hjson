@@ -35,12 +35,12 @@ crafttime: 60
 research: {
   parent: GreenHouse2
   requirements: [
-    seed/ 1
+    Seed/ 1
   ]
 }
 
 requirements: [
-  seed/ 1
+  Seed/ 1
 ]
 
 alwaysunlocked: true
