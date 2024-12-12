@@ -16,7 +16,7 @@ type: genericcrafter
 
 outputsliquid: true
 outputliquids: [
-  YasaiJuice/ 30
+  YasaiJuice/ 30.00
 ]
 consume: {
   power: 9
@@ -26,20 +26,20 @@ consume: {
     Corn/ 4
     Potato/ 3
     Onion/ 2
-    WhitRadish/ 1
+    WhiteRadish/ 1
   # Salt/ 1
   ]
 }
 crafttime: 60
 
 research: {
-  parent: transmutation
+  parent: GreenHouse2
   requirements: [
     seed/ 1
   ]
 }
 
-recurements: [
+requirements: [
   seed/ 1
 ]
 
