@@ -5,17 +5,17 @@ Produces mellow and creamy pale blue juice from any vegetables.
 Price of it is just 200 yen.
 '''
 size: 2
-haspower: true
-hasliquids: true
-liquidcapacity: 60
-hasitems: true
-itemcapacity: 10
+hasPower: true
+hasLiquids: true
+liquidCapacity: 60
+hasItems: true
+itemCapacity: 10
 
 category: crafting
 type: GenericCrafter
 
-outputsliquid: true
-outputliquid: [
+outputLiquids: true
+outputLiquids: [
   YasaiJuice/ 30.00
 ]
 consume: {
@@ -30,7 +30,7 @@ consume: {
   # Salt/ 1
   ]
 }
-crafttime: 60
+craftTime: 60
 
 research: {
   parent: GreenHouse2
@@ -43,5 +43,5 @@ requirements: [
   Seed/ 1
 ]
 
-alwaysunlocked: true
+alwaysUnlocked: true
 buildvisibillity: shown
