@@ -28,7 +28,7 @@ consumes: {
 
 coolant: {
   type: ConsumeLiquid
-  liquid: YasaiJuice/ 10.0
+  liquid: [YasaiJuice/ 10.0]
 }
 
 shootType: {
