@@ -5,7 +5,7 @@ description:
 '''
 
 size: 4
-health: 8310
+health: 2000
 range: 60
 reload: 30
 recoil: 0.7
@@ -13,9 +13,9 @@ recoil: 0.7
 category: turret
 type: laserTurret
 
-lotateSpeed: 1.0
+lotateSpeed: 0.4
 firingMoveFract: 0.25
-shootDuration: 100
+shootDuration: 180
 hasItems: false
 hasLiquids: true
 liquidCapacity: 30
@@ -23,9 +23,11 @@ hasPower: true
 
 consumes: {
   power: 20
+  liquid: [
+    YasaiJuice / 10.0
+  ]
 }
 
-consumecoolant: 10.0
 
 shootType: {
   type: ContinuousLaserBulletType
