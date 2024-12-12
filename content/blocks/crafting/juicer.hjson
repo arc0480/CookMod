@@ -12,10 +12,10 @@ hasitems: true
 itemcapacity: 10
 
 category: crafting
-type: genericcrafter
+type: GenericCrafter
 
 outputsliquid: true
-outputliquids: [
+outputliquid: [
   YasaiJuice/ 30.00
 ]
 consume: {
