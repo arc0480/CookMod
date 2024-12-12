@@ -21,7 +21,7 @@ hasLiquids: true
 liquidCapacity: 30
 hasPower: true
 
-consume: {
+consumes: {
   power: 20
   liquids:[YasaiJuice/ 10.0]
 }
@@ -49,13 +49,13 @@ shootType: {
 # }
 }
 
-requirement: [
-seed/ 1
+requirements: [
+Seed/ 1
 ]
 research:{
   parent: NiceCannon
-  requirement: [
-    seed/ 1
+  requirements: [
+    Seed/ 1
   ]
 }
 
