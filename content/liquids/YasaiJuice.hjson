@@ -3,8 +3,8 @@ name: YasaiJuice
 '''
   みらくるやさいぱわー
   '''
-  color: ff6d32
-berColor: ff4c00
+  color: 5DE050
+berColor: 00E050
 # lightColor: 
 
 flammability: 0.0
