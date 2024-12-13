@@ -1,8 +1,7 @@
 name: 野菜ジューサー
 description: 
 '''
-Produces mellow and creamy pale blue juice from any vegetables.
-Price of it is just 200 yen.
+Produces mellow and creamy vegetable juice from any produce.
 '''
 size: 2
 hasPower: true
