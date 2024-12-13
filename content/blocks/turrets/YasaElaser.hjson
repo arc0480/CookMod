@@ -1,0 +1,59 @@
+name: ヤサイレイザー
+description: "野菜のチカラで敵を消し去るレーザー兵器"
+
+  health: 3000
+  type: laserTurret
+  category: turret
+  size: 5
+  hasPower: true
+  hasLiquids: true
+  liquidCapacity: 60
+  hasItems: false
+  
+  range: 540
+  reload: 120
+  inaccuracy: 0.0
+  shots: 1
+  recoil: 0.25
+  recoilTime: 0.5
+  restitution: 1.0
+  
+  rotatespeed: 4
+  firingMoveFract: 0.75
+  shootCone: 15
+  shootShake: 0.1
+  shootDuration: 150
+  shootY: 8
+  xRand: 0.0
+
+  consumesPower: 30
+  consumesCoolant: 1.0
+  coolantMultiplier: 1.0
+# coolant: YasaiJuice 
+
+  shootType: {
+    type: ContinuousLaserBulletType
+    drawSize: 288
+    width: 8
+    colors: [37EE84, 7FE978, ffffffff]
+    damage: 4
+    length: 200
+    pierce: true
+    pireceArmor: true
+    pierceBuilding: false
+    incendAmount: 5
+    incendChance: 0.5
+#  status: freezing
+#   statusDuration: 400
+  }
+
+research: {
+  parent: NiceCannon
+  requirements: [
+    Seed/ 1
+  ]
+}
+
+requirements: [
+  Seed/ 1
+]
