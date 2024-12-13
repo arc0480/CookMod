@@ -1,8 +1,9 @@
 name: YasaiJuice
   description: 
 '''
-  みらくるやさいぱわー
-  '''
+Mellow and Creamy pale green juice.
+It costs just 2 dollars.
+'''
   color: 5DE050
 berColor: 00E050
 # lightColor: 
