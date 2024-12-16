@@ -1,0 +1,11 @@
+name: Osakana
+  description: 
+'''
+  この惑星唯一の水性生物。
+  惑星に広く分布しており、あらゆる水域で生息が確認されている。
+  他の水域に接続していない小さな水たまりにも生息している。
+  '''
+  research: {
+    parent: Cacao
+      }
+  color: 9AE21B
