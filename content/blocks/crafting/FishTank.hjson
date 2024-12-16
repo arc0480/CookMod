@@ -19,4 +19,11 @@ description: "おさかなわーい"
     Osakana/ 5
   ]
 
-  
+  outPutLiquids: false
+  floting: true
+  research: {
+    parent: Composter
+      requirements: [
+        Seed/ 1
+      ]
+      }
