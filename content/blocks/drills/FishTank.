@@ -1,0 +1,33 @@
+name: 生簀
+description: "おさかなわーい"
+
+  size: 2
+  type: attributeCrafter
+  category: production
+
+  hasLiquids: false
+  hasPower: true
+  hasItems: true
+  itemCapacity: 10
+
+  consumePower: 6
+
+  craftTime: 60
+  outPutItems: [
+    Osakana/ 2
+  ]
+
+  outPutLiquids: false
+  floting: true
+  research: {
+    parent: Composter
+      requirements: [
+        Seed/ 1
+      ]
+  }
+
+envRequirement: water
+
+buildVisibillity: shown
+squerSprites: false
+buildTime: 6
