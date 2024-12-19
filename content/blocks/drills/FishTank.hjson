@@ -2,7 +2,7 @@ name: いけす
 description: "おさかなわーい"
 
   size: 2
-  type: genericCrafter
+  type: attribueCrafter
   category: production
 
   hasLiquids: false
