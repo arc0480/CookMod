@@ -1,4 +1,4 @@
-name: 生簀
+name: いけす
 description: "おさかなわーい"
 
   size: 2
@@ -26,7 +26,7 @@ description: "おさかなわーい"
       ]
   }
 
-envRequirement: water
+envRequired: water
 
 buildVisibillity: shown
 squerSprites: false
