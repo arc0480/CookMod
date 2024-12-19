@@ -2,7 +2,7 @@ name: 生簀
 description: "おさかなわーい"
 
   size: 2
-  type: attributeCrafter
+  type: genericCrafter
   category: production
 
   hasLiquids: false
