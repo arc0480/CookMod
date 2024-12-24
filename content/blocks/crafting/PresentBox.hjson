@@ -7,11 +7,7 @@ category: crafting
 hasLiquids: false
 hasItems: true
 itemCapacity: 2000
-hasPower: true
-
-consumes: [
-  power/ 1
-]
+hasPower: false
 
 results:[
   Cacao/ 4
