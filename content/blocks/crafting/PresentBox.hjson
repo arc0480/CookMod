@@ -4,6 +4,7 @@ size: 2
 type: separator
 category: crafting
 
+hasLiquids: false
 hasItems: true
 itemCapacity: 2000
 hasPower: true
