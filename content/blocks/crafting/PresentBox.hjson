@@ -5,7 +5,7 @@ type: separater
 category: crafting
 
 hasItems: true
-itemCapacity: 20
+itemCapacity: 2000
 hasPower: true
 
 consumes: [
@@ -31,6 +31,7 @@ results:[
   Soil/ 10
   WhiteRadish/ 9
 ]
+
 craftTime: 240
 
 requirements: [
