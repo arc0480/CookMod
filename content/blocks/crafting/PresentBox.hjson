@@ -2,7 +2,7 @@ name: プレゼントボックス
 description: "Merry Chritmas !!"
 size: 2
 type: separater
-categry: crafting
+category: crafting
 
 hasItems: true
 itemCapacity: 20
