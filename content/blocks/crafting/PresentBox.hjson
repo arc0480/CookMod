@@ -1,0 +1,45 @@
+name: プレゼントボックス
+description: "Merry Chritmas !!"
+size: 2
+type: separater
+categry: crafting
+
+hasItems: true
+itemCapacity: 20
+hasPower: true
+
+consumes: [
+  power/ 1
+]
+
+results:[
+  Cacao/ 4
+  Carrot/ 3
+  Chocolate/ 2
+  Corn/ 7
+  CrackedChocolate/ 1
+  GoldCarrot/ 1
+  GoldPotato/ 1
+  Horinishi/ 1
+  HorinishiPowder/ 2
+  Onion/ 8
+  Osakana/ 5
+  Potato/ 6
+  PotatoChips/ 3
+  Salt/ 10
+  Seed/ 10
+  Soil/ 10
+  WhiteRadish/ 9
+]
+craftTime: 240
+
+requirements: [
+  Seed/ 1
+]
+research: {
+  alwaysUnlocked: true
+  parent: CoreSeeds
+  requirements: [
+    Seed/ 1
+  ]
+}
