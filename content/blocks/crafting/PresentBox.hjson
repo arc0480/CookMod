@@ -1,7 +1,7 @@
 name: プレゼントボックス
 description: "Merry Chritmas !!"
 size: 2
-type: separater
+type: separator
 category: crafting
 
 hasItems: true
