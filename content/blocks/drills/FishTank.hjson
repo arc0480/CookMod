@@ -26,7 +26,7 @@ description: "おさかなわーい"
       ]
   }
 
-envRequired: groundWater
+envRequired: Env.groundWater
 
 buildVisibillity: shown
 squerSprites: false
