@@ -15,8 +15,9 @@ consumes: {
   power/ 120
   item: [
     prastanium/ 5
-    blastCompound/ 2
+    pyratite/ 4
     silicon/ 3
+    blastCompound/ 2
     phaseFabric/1
   ]
 }
