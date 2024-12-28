@@ -18,7 +18,7 @@ consumes: {
       plastanium/ 5
       pyratite/ 4
       silicon/ 3
-      blast-Compound/ 2
+      blast-compound/ 2
       phaseFabric/1
     ]
   }
