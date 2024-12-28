@@ -19,7 +19,7 @@ consumes: {
       pyratite/ 4
       silicon/ 3
       blast-compound/ 2
-      phaseFabric/1
+      phase-Fabric/1
     ]
   }
 }
