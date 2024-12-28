@@ -12,7 +12,7 @@ itemCapacity: 50
 hasPower: true
 
 consumes: {
-  power: 120
+  power: 12
   items: {
     items: [
       plastanium/ 5
@@ -29,7 +29,7 @@ craftTime: 300
 outPutItems: true
 outPutItems: [
   ChritmasCake/ 1
-  scrap/ 2
+# scrap/ 2
 ]
 
 research: {
