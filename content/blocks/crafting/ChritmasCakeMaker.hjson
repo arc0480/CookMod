@@ -12,7 +12,7 @@ itemCapacity: 50
 hasPower: true
 
 consumes: {
-  power/ 120
+  power: 120
   items: {
     items: [
       plastanium/ 5
