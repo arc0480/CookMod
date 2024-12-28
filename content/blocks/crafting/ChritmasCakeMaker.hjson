@@ -27,7 +27,7 @@ consumes: {
 craftTime: 300
 
 outPutItems: true
-outPutItems: [
+outPutItem: [
   ChritmasCake/ 1
 # scrap/ 2
 ]
