@@ -1,5 +1,6 @@
 name: ChritmasCake
 description: "Kabbooooon!"
+type: material
 
   explosiveness: 2.0
   flammability: 1.5
