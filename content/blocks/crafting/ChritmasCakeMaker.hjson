@@ -13,13 +13,15 @@ hasPower: true
 
 consumes: {
   power/ 120
-  items: [
-    plastanium/ 5
-    pyratite/ 4
-    silicon/ 3
-    blastCompound/ 2
-    phaseFabric/1
-  ]
+  items: {
+    items: [
+      plastanium/ 5
+      pyratite/ 4
+      silicon/ 3
+      blastCompound/ 2
+      phaseFabric/1
+    ]
+  }
 }
 
 craftTime: 300
