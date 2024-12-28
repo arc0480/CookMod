@@ -14,7 +14,7 @@ hasPower: true
 consumes: {
   power/ 120
   items: [
-    prastanium/ 5
+    plastanium/ 5
     pyratite/ 4
     silicon/ 3
     blastCompound/ 2
