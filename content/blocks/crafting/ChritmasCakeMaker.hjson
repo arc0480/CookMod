@@ -25,9 +25,7 @@ consumes: {
 }
 
 craftTime: 300
-
-outPutItems: true
-outPutItem: ChritmasCake/ 1
+outputItem: ChritmasCake/ 1
 
 research: {
   parent: PresentBox
