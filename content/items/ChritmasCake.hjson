@@ -2,7 +2,7 @@ name: ChritmasCake
 description: "Kabbooooon!"
 
   explosiveness: 2.0
-  frammability: 1.5
+  flammability: 1.5
   radioactivity: 0.3
   cost: 1.8
   hardness: 0.5
