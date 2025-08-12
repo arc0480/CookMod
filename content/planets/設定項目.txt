@@ -1,3 +1,163 @@
+/**
+参考:
+Anuken/Mindustry
+core/src/mindustry/type/Planet.java
+**/
+
+// 惑星の表示名（ゲーム内で表示される名称。多言語化はbundlesで設定可能）
+localizedName: boil
+
+// 惑星の親天体（"sun"の周りを回る惑星として表示）
+parent: sun
+
+// 惑星アイコンの名前（sprites内のatlasに登録されているテクスチャ名）
+icon: cookplanets
+
+// 惑星アイコンの色（UI表示用、hex RGB）
+iconColor: 30d5c8
+
+# わからんけど載せとけ精神 → 実際は惑星の地形生成パラメータ群
+/** 
+	Generator that will make the planet. 
+	地形生成を行うジェネレーター設定。
+	この例ではバイオーム・鉱石分布・ノイズ生成パラメータを直接指定している。
+	通常はカスタムのJavaScriptジェネレーターや既存generatorを参照するが、
+	ここではパラメータだけで制御している。
+*/
+generator: {
+  berylChance: 0.45      // ベリリウム生成確率（バイオーム生成比）
+  iceChance: 0.15        // 氷バイオーム生成確率
+  ferricChance: 0.55     // 鉄系地形生成確率
+  stoneChance: 2         // 石地形生成比（数値大きいと多くなる）
+  radMin: 1500           // 放射線量の最小値（ジェネレーター内部用途）
+  radMax: 1500           // 放射線量の最大値
+  berylliumScale: 4      // ベリリウム鉱床のスケール
+  copperScale: 0.6       // 銅鉱床のスケール
+  scale: 25              // 地形ノイズの基本スケール
+  mag: 0.5               // ノイズの強さ（振幅）
+  thresh: 0.9            // 地形のしきい値
+  fscl: 30               // 二次ノイズのスケール
+  fper: 0.4              // 二次ノイズの周期
+}
+
+// デフォルトのコアブロック（惑星に降り立ったときに配置される拠点）
+defaultCore: CoreSeeds
+
+/** 
+	Orbit radius: 惑星の公転半径（太陽からの距離）
+	UI表示や軌道アニメーションに影響する。数値は抽象単位。
+*/
+orbitRadius: 35
+
+/** 公転軌道をUI上に描画するかどうか */
+drawOrbit: true
+
+// 大気の有無（trueで大気レンダリングを有効化）
+hasAtmosphere: true
+
+/** 日照サイクル（昼夜変化）を有効化するか */
+updateLighting: false
+
+/** 大気の内半径補正（惑星半径に対してどれだけ内側から描画するか） */
+atmosphereRadIn: 0
+
+/** 大気の外半径補正（惑星半径に対してどれだけ外側まで描画するか） */
+atmosphereRadOut: 0.3
+
+// 大気の色（UIや3D描画に使用）
+atmosphereColor: cc4e5c
+
+// プレイヤーがアクセス可能か
+accessible: true
+
+// 最初から解放されているか（falseだと条件達成で解放）
+alwaysUnlocked: true
+
+// デフォルトのコア（重複指定、実際は1つで十分）
+defaultCore: CoreSeeds
+
+/** セクター生成用シード（-1で惑星IDに基づくランダム値） */
+sectorSeed: 1
+
+/** マップ画面で最初に選択されるセクターID */
+startSector: 3
+
+// 惑星のセクター1辺あたりのマス数（小さいとセクターが少ない）
+sectorSize: 2
+
+/** セクター敗北時にセーブデータを消すか */
+clearSectorOnLose: true
+
+/** 敵の侵攻イベントを許可するか */
+allowSectorInvasion: false
+
+/** 番号付きセクターへの着陸を許可するか */
+allowLaunchToNumbered: true
+
+# 資源持ち込みを許可するか（trueなら別惑星やセクターからの資源輸送可）
+allowLaunchLoadout: true
+
+# 設計図を使って出発できるか（建築スキーマを出発前に組める）
+allowLaunchSchematics: true
+
+// 複数のセクター侵攻を同時にシミュレーションするか
+allowWaveSimulation: true
+
+// 雲のレンダリング設定（HexSkyMeshは六角形パターンの動く雲）
+cloudMesh: {
+    type: HexSkyMesh        // 雲のメッシュタイプ
+    planet: cookplanets     // この雲が属する惑星アイコン
+    seed: 1                 // ノイズ生成用シード
+    speed: 7                // 雲の動きの速さ
+    radius: 0.15            // 雲の広がり半径（惑星半径比）
+    divisions: 2            // メッシュ分割数
+    color: b3fe58           // 雲の色
+    octaves: 0              // ノイズのオクターブ数（層数）
+    persistence: 1          // ノイズの減衰率
+    scl: 2                  // ノイズのスケール
+    thresh: 0.1             // 雲のしきい値
+}
+	
+// 惑星表面のレンダリング設定（NoiseMeshはノイズベースの色パターン）
+mesh: {
+    type: NoiseMesh
+    planet: cookplanets
+    seed: 562697
+    color1: DA70D6           // 色1（ノイズの低い部分）
+    color2: d4fea1           // 色2（ノイズの高い部分）
+    divisions: 5             // メッシュ分割数
+    radius: 0.9              // 惑星モデルの半径（相対値）
+    octaves: 7               // ノイズの層数
+    persistence: 1           // ノイズの減衰率
+    scl: 0.75                 // ノイズスケール
+    mag: 1.2                  // ノイズの強さ
+}
+
+# itemBlacklist: 特定のアイテムを完全に除外（コメントアウト中）
+# itemWhitelistの方が推奨される（利用可能アイテムを限定する方式）
+
+# この惑星で利用可能なアイテム一覧（これ以外は使用不可）
+itemWhitelist: [
+	# vanilla素材
+	#copper,lead,
+	sand,
+	
+	# cookmodオリジナル素材
+	Seed,Soil,Cacao,Carrot,Chocolete,Corn,CrackedChocolete,
+	GoldCarrot,GoldPotato,
+	Horinishi,HorinishiPowder,
+	Onion,Potato,PotatoChips,Salt,WhiteRadish,coal
+]
+
+// 非表示にするアイテム（UIやレシピから見えなくする）
+hiddenItems: [
+	titanium
+]
+
+
+
+*****************************************************************************
+
 /** intersect() メソッド用の一時変数。 */
 private static final Vec3 intersectResult = new Vec3();
 /** drawSectors() メソッド用の一時マトリクス。 */
