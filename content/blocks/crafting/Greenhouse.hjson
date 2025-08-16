@@ -1,49 +1,79 @@
-name:温室
+// 名前: このブロックの名前
+name: 温室
 
-//type: GenericCrafter
+// タイプ: ブロックの基本的な種類
 type: Separator
+
+// 概要: ブロックの機能を説明
 description: "土壌と種から農作物を作成する"
+
+// アイテム容量: ブロックが保持できるアイテムの最大容量
 itemCapacity: 100
 
+// サイズ: ブロックのサイズ（グリッド単位）
 size: 3
+
+// 電力の有無: 電力を必要とするか
 hasPower: true
+
+// アイテムの有無: アイテムを取り扱うか
 hasItems: true
+
+// 液体の有無: 液体を取り扱うか
 hasLiquids: true
+
+// 液体容量: ブロックが保持できる液体の最大容量
 liquidCapacity: 300
+
+// クラフト時間: 1回のクラフトにかかる時間（秒単位）
 craftTime: 45
+
+// アップデートエフェクト: 更新時の視覚エフェクト
 updateEffect: smeltsmoke
 
+// 消費リソース: クラフトに必要なリソース
 consumes: {
-        liquids: {
-    liquids: [
-      water/0.1
-    ]
+    // 液体: クラフトに必要な液体
+    liquids: {
+        liquids: [
+            // 必要な液体とその消費量
+            water/0.1
+        ]
+    }
+    // アイテム: クラフトに必要なアイテム
+    items: {
+        items: [
+            // 必要なアイテムとその消費量
+            Soil/1
+            Seed/1
+        ]
+    }
 }
-	items: {
-    items: [
-      Soil/1
-      Seed/1
-    ]
-}
-}
+
+// 建設要件: このブロックを建設するために必要なリソース
 requirements: [
-	Seed/50
+    // 必要なアイテムとその個数
+    Seed/50
 ]
 
+// カテゴリ: このブロックのカテゴリ
 category: crafting
 
-//搬出アイテム？
+// 結果アイテム: クラフトで生成されるアイテム
 results: [
     Carrot/15
     Potato/15
     Corn/15
     Cacao/5
     Seed/1
-		WhiteRadish/1
+    WhiteRadish/1
 ]
 
+// 研究: このブロックをアンロックするための研究条件
 research: {
+    // 親研究: この研究をアンロックするために必要な親研究
     parent: Composter
+    // 研究要件: この研究を行うために必要なリソース
     requirements: [
         Seed/50
     ]
