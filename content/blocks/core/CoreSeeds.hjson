@@ -1,33 +1,58 @@
-#name: CoreSeeds
+# CoreSeeds（コアシーズ）ブロックの定義
+#--------------------------------------
+
+# ブロック名
+name: CoreSeeds
+
+# ブロックタイプ（コアブロック）
 type: CoreBlock
+
+# カテゴリ（効果系ブロック）
 category: effect
+
+# ブロックの耐久値（HP）
 health: 900
+
+# ブロックの大きさ（3x3）
 size: 3
 
-canPlaceOn:true
+# どの地形にも設置可能
+canPlaceOn: true
 
-//砂や石炭の搬入を許可
+# 砂や石炭などの非建築物アイテムの焼却を無効化（コメントアウト）
 #incinerateNonBuildable: false
 
+# アイテムの最大格納数
 itemCapacity: 2000
-unitCapModifier: 10
-unitType: alpha
-#incinerateNonBuildable: false
 
+# このコアが増やすユニット上限
+unitCapModifier: 10
+
+# 初期ユニットタイプ
+unitType: alpha
+
+#incinerateNonBuildable: false  # 同上（コメントアウト）
+
+# 最初のティアのコアであるか
 isFirstTier: true
 
+# スプライトを四角形にするか
 squareSprite: false
 
+# 建造に必要なアイテム（ここではSeedを600個）
 requirements: [
-    Seed/600
+  Seed/600
 ]
-//テックツリーを追加
+
+# テックツリーの設定
 research: {
-    //一番最初の基準ブロックにする:true
-    root: true
-    //テックツリーの名前
-    name: @cookplanets
-    //テックツリーと対応する惑星
-    planet:cookplanets
+  # テックツリーのルートにするか
+  root: true
+  # テックツリー名（多言語対応）
+  name: @cookplanets
+  # 対応する惑星名
+  planet: cookplanets
 }
+
+# 最初からアンロックされているか
 alwaysUnlocked: true
