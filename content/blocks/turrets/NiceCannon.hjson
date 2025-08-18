@@ -27,7 +27,7 @@ shootCone: 8
 shootShake: 0
 xRand: 0
 
-targetAire: true
+targetAir: true
 targetGround: true
 
 ammoTypes:{
