@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: test
+description:
+'''
+ベイクするやーつ
+'''
+
+
+
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 105
+	items: {
+		items: [
+			Potato/1
+		]
+	}
+}
+
+outputItems: [
+	Salt/30
+]
+
+
+
+
+requirements: [
+	Carrot/80 
+	Potato/50 
+	Seed/50
+]
+category: crafting
+research: Salt-Makera
+alwaysUnlocked: true
