@@ -20,21 +20,21 @@ weapons: {
 	shootY:8
 	reload:10
 	recoil:0.2
-	parts: [
-	{
-		type: RegionPart
-		suffix: -barrel
-		under: true
-		moves: 
-		[
-		{
-			type: PartMove
-			progress: recoil
-			y: -1.5
-		}
-		]
-	}
-	]
+	#parts: [
+	#{
+	#	type: RegionPart
+	#	suffix: -barrel
+	#	under: true
+	#	moves: 
+	#	[
+	#	{
+	#		type: PartMove
+	#		progress: recoil
+	#		y: -1.5
+	#	}
+	#	]
+	#}
+	#]
 	bullet: {
 		type:basicBulletType
 		#sprite:missile-large
