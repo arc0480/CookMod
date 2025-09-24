@@ -10,6 +10,15 @@ hitSize: 12
 #faceTargetに設定されている場合、自動照準は行われません
 faceTarget: false
 
+singleTarget:false
+omniMovement:false
+rotateMoveFirst:true
+rotateSpeed:1.8
+speed:1
+flying:false
+health:950
+range:160
+
 squareShape: true
 research: {
 	parent:lava
