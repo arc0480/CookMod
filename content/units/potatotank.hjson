@@ -1,6 +1,8 @@
 type:tank
 template:ErekirUnitType
-faceTarget: true
+
+#faceTargetに設定されている場合、自動照準は行われません
+faceTarget: false
 squareShape: true
 research: {
 	parent:lava
