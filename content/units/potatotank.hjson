@@ -1,6 +1,6 @@
 type:tank
 template:ErekirUnitType
-faceTarget: TRUE
+faceTarget: true
 squareShape: true
 research: {
 	parent:lava
