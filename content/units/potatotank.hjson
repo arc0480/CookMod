@@ -1,8 +1,16 @@
 type:tank
 template:ErekirUnitType
 
+'''
+hitSizeはユニットのヒットボックスサイズを定義します。
+hitSizeを求めるには、ユニットのスプライトのキャンバスサイズを8で割ります
+（例：キャンバスが80x80の場合、hitSizeは10）。
+'''
+hitSize: 12
+
 #faceTargetに設定されている場合、自動照準は行われません
 faceTarget: false
+
 squareShape: true
 research: {
 	parent:lava
