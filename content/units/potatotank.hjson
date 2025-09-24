@@ -7,7 +7,7 @@ research: {
 	requirements:[SEED/100]
 }
 weapons: {
-  name:heat-weapon
+  name:potatotank-weapon
   mirror:false
   top:true
   x:0
@@ -22,9 +22,9 @@ weapons: {
   recoil:0.2
   bullet: {
   	type:basicBulletType
-  	sprite:missile-large
-  	shootEffect:shootBig2
-  	hitEffect:hitBulletSmall
+  	#sprite:missile-large
+  	#shootEffect:shootBig2
+  	#hitEffect:hitBulletSmall
   	despawnHit: true
   	lifetime: 22.85714286
   	damage: 15
