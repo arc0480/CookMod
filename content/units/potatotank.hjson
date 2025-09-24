@@ -52,6 +52,18 @@ weapons: {
 		}
 		]
 	}
+	{
+	  type: RegionPart
+	  suffix: -glow
+	  layer: -1
+	  mirror: true
+	  blending: additive
+	  color: ff2302
+	  colorTo: ff2302
+	  outline: false
+	  progress: warmup
+	}
+	
 	]
 	bullet: {
 		type:basicBulletType
