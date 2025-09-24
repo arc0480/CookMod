@@ -4,7 +4,7 @@ faceTarget: false
 squareShape: true
 research: {
 	parent:lava
-	requirements:[SEED/100]
+	requirements:[Seed/100]
 }
 weapons: {
   name:potatotank-weapon
