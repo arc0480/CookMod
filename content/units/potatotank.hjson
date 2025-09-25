@@ -34,10 +34,12 @@ speed: 1
 flying: false
 health: 950
 range: 160
+
+#おそらく耐性
 immunities: [
-melting
-burning
-blasted
+  melting
+  burning
+  blasted
 ]
 weapons: [
 {
