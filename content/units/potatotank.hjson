@@ -43,7 +43,7 @@ immunities: [
 ]
 weapons: [
 {
-  name: heat-weapon
+  name: potatotank-weapon
   mirror: false
   top: true
   x: 0
