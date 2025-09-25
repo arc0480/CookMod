@@ -70,12 +70,22 @@ weapons: [
     }
     {
       type: RegionPart
+      
+      #spriteにもサフィックスを付けることでパーツとしてspriteを指定
+      # 例) potatotank-weapon-barrel.png
       suffix: -barrel
+
+      #レイヤの高さ？
       under: true
       moves: [
         {
+          #パーツの動き？
           type: PartMove
+
+          #動き方？
           progress: recoil
+
+          #Y軸にどれだけ
           y: -1.5
         }
       ]
