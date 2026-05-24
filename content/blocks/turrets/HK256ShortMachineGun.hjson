@@ -1,0 +1,62 @@
+name: HK256短機関銃
+description: "歩兵に効果的な機関銃。戦車に使うのはいい案ではありません。"
+type: itemTurret
+category: turret
+size: 1
+health: 80
+targetable: true
+squareSprites: false
+targetAir: false
+hasPower: false
+hasLiquid: true
+liquidCapacity: 50
+itemCapacity: 50
+hasItem: true
+itemCapacity: 30
+
+reload: 5
+chargeTime: 0
+range: 160
+recoil: 0.5
+inaccuracy: 2
+xRand: 1
+
+ammoTypes: {
+  tarretAmmo: {
+    type: basicBulletType
+    width: 5
+    drawsize: 3
+    hitSize: 3
+    bulletSprite: 
+    frontColor: 653200
+    backColor: 653200
+
+    ammoMultiPlier: 1
+    reloadMultiPlier: 1
+
+    lifetime: 80
+    speed: 2
+    weaveMag: 1
+    weaveScale: 7 
+    bulletShrink: 0
+    damage: 30
+    hitEffect: none
+    absorbable: true
+    pierceArmor: false
+  }
+}
+BuildVisibillity: shown
+buildTime: 80
+    
+research:{
+planet: Earth
+objectives: [
+  tarretAmmo
+] 
+parent:Corealpua
+name: MilitaryMod
+requiments:[
+IronIngot/100
+copper/100
+           ]
+        }
