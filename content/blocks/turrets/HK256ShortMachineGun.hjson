@@ -22,7 +22,7 @@ inaccuracy: 2
 xRand: 1
 
 ammoTypes: {
-  tarretAmmo: {
+  Seed: {
     type: basicBulletType
     width: 5
     drawsize: 3
