@@ -1,1 +1,6 @@
 type: material
+shownPlanets: [serpulo,cookplanets]
+research: {
+planet: cookplanets
+  parent: seed
+}
